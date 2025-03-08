@@ -1,6 +1,37 @@
-{
-  "title": "Desarrollar un sistema de monitoreo de la biodiversidad marina",
-  "description": "Utilizando el volumen de desembarque para identificar especies en riesgo y áreas de alta concentración, con el fin de proteger el medio ambiente y los recursos naturales.",
-  "technique": "Análisis de series temporales, geo-referenciación y machine learning para identificar patrones de comportamiento de las especies y simular escenarios futuros.",
-  "columns": "ESPECIE (para identificar las especies), VOLUMEN (para el volumen de desembarque por especie), FECHA_MUESTRA (para análisis temporal), UBIGEO (para la ubicación geográfica) y PUNTO_DESEMBARQUE (para refinar la ubicación)."
-}
+[
+  {
+    "title": "Desarrollar un sistema de monitoreo de la biodiversidad marina",
+    "description": "Utilizando el volumen de desembarque para identificar especies en riesgo y áreas de alta concentración, con el fin de proteger el medio ambiente y los recursos naturales.",
+    "technique": "Análisis de series temporales, geo-referenciación y machine learning para identificar patrones de comportamiento de las especies y simular escenarios futuros.",
+    "columns": "ESPECIE (para identificar las especies), VOLUMEN (para el volumen de desembarque por especie), FECHA_MUESTRA (para análisis temporal), UBIGEO (para la ubicación geográfica) y PUNTO_DESEMBARQUE (para refinar la ubicación).",
+    "type": "fa-mobile-screen"
+  },
+  {
+    "title": "Desarrollar un sistema de monitoreo de la biodiversidad marina",
+    "description": "Utilizando el volumen de desembarque para identificar especies en riesgo y áreas de alta concentración, con el fin de proteger el medio ambiente y los recursos naturales.",
+    "technique": "Análisis de series temporales, geo-referenciación y machine learning para identificar patrones de comportamiento de las especies y simular escenarios futuros.",
+    "columns": "ESPECIE (para identificar las especies), VOLUMEN (para el volumen de desembarque por especie), FECHA_MUESTRA (para análisis temporal), UBIGEO (para la ubicación geográfica) y PUNTO_DESEMBARQUE (para refinar la ubicación).",
+    "type": "fa-brain"
+  },
+  {
+    "title": "Desarrollar un sistema de monitoreo de la biodiversidad marina",
+    "description": "Utilizando el volumen de desembarque para identificar especies en riesgo y áreas de alta concentración, con el fin de proteger el medio ambiente y los recursos naturales.",
+    "technique": "Análisis de series temporales, geo-referenciación y machine learning para identificar patrones de comportamiento de las especies y simular escenarios futuros.",
+    "columns": "ESPECIE (para identificar las especies), VOLUMEN (para el volumen de desembarque por especie), FECHA_MUESTRA (para análisis temporal), UBIGEO (para la ubicación geográfica) y PUNTO_DESEMBARQUE (para refinar la ubicación).",
+    "type": "fa-chart-line"
+  },
+  {
+    "title": "Desarrollar un sistema de monitoreo de la biodiversidad marina",
+    "description": "Utilizando el volumen de desembarque para identificar especies en riesgo y áreas de alta concentración, con el fin de proteger el medio ambiente y los recursos naturales.",
+    "technique": "Análisis de series temporales, geo-referenciación y machine learning para identificar patrones de comportamiento de las especies y simular escenarios futuros.",
+    "columns": "ESPECIE (para identificar las especies), VOLUMEN (para el volumen de desembarque por especie), FECHA_MUESTRA (para análisis temporal), UBIGEO (para la ubicación geográfica) y PUNTO_DESEMBARQUE (para refinar la ubicación).",
+    "type": "fa-gauge"
+  },
+  {
+    "title": "Desarrollar un sistema de monitoreo de la biodiversidad marina",
+    "description": "Utilizando el volumen de desembarque para identificar especies en riesgo y áreas de alta concentración, con el fin de proteger el medio ambiente y los recursos naturales.",
+    "technique": "Análisis de series temporales, geo-referenciación y machine learning para identificar patrones de comportamiento de las especies y simular escenarios futuros.",
+    "columns": "ESPECIE (para identificar las especies), VOLUMEN (para el volumen de desembarque por especie), FECHA_MUESTRA (para análisis temporal), UBIGEO (para la ubicación geográfica) y PUNTO_DESEMBARQUE (para refinar la ubicación).",
+    "type": "fa-mobile-screen"
+  }
+]
