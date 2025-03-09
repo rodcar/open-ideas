@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Distribuci\u00f3n y Densidad de la Descarga de Anchoveta",
+        "description": "Este mapa mostrar\u00e1 la ubicaci\u00f3n geogr\u00e1fica de los puertos donde se realiza el desembarque de anchoveta, visualizando la densidad de descarga por zona. Permite identificar zonas de mayor actividad pesquera.",
+        "technique": "Geo-referenciaci\u00f3n, an\u00e1lisis espacial, mapas de calor",
+        "columns": "PUERTO (para geolocalizar los puntos de descarga), LOCALIDAD (para contextualizar el puerto), TMDESCARGADA (para determinar la densidad de descarga por puerto), ZONA (para analizar patrones regionales)",
+        "type": "fa-map-marker"
+    },
+    {
+        "title": "An\u00e1lisis Temporal de la Descarga de Anchoveta",
+        "description": "Este an\u00e1lisis mostrar\u00e1 la evoluci\u00f3n de la descarga de anchoveta a trav\u00e9s del tiempo, por trimestre y temporada. Permite identificar tendencias y patrones estacionales.",
+        "technique": "An\u00e1lisis de series de tiempo, gr\u00e1ficos de l\u00ednea",
+        "columns": "ANIO (para agrupar datos por a\u00f1o), TRIMESTRE (para analizar patrones trimestrales), TEMPORADA (para identificar variaciones por temporada), TMDESCARGADA (variable principal para el an\u00e1lisis temporal)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Identificaci\u00f3n de Zonas de Mayor Riesgo de Sobreexplotaci\u00f3n",
+        "description": "Utilizando t\u00e9cnicas de machine learning, se pueden identificar zonas donde la descarga de anchoveta sea excesiva, lo que puede indicar un riesgo de sobreexplotaci\u00f3n.",
+        "technique": "Machine Learning (regresi\u00f3n lineal o modelos de series de tiempo), an\u00e1lisis espacial",
+        "columns": "ZONA (para analizar patrones regionales), TMDESCARGADA (variable clave para determinar la intensidad de la descarga), FECHA_DESCARGA (para identificar periodos cr\u00edticos), LOCALIDAD (para contextualizar las zonas)",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Comparaci\u00f3n del Rendimiento de Embarcaciones por Tipo de Casco",
+        "description": "Analizar la eficiencia de descarga seg\u00fan el tipo de casco de la embarcaci\u00f3n (madera, acero naval o no especificado). Esto puede ayudar a optimizar las pr\u00e1cticas de pesca.",
+        "technique": "An\u00e1lisis estad\u00edstico descriptivo, gr\u00e1ficos de barras",
+        "columns": "CASCO (variable categ\u00f3rica para clasificar las embarcaciones), TMDESCARGADA (variable cuantitativa para comparar la eficiencia), REGIMEN (opcional, para analizar posibles diferencias por tipo de permiso)",
+        "type": "fa-ship"
+    },
+    {
+        "title": "Dashboard Interactivo de Monitoreo de la Pesquer\u00eda de Anchoveta",
+        "description": "Crear un dashboard interactivo que permita visualizar los datos clave de la descarga de anchoveta. Esto facilita el acceso a la informaci\u00f3n y permite realizar an\u00e1lisis exploratorios.",
+        "technique": "Desarrollo web, herramientas de visualizaci\u00f3n de datos (Tableau, Power BI)",
+        "columns": "Todas las columnas del dataset son relevantes para alimentar un dashboard interactivo que permita explorar los datos desde diferentes perspectivas",
+        "type": "fa-dashboard"
+    }
+]
