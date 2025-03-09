@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Desembarques",
+        "description": "Crear un mapa interactivo que muestre la ubicaci\u00f3n y volumen de desembarque de cada especie en diferentes puntos a lo largo del tiempo. Esto permitir\u00e1 visualizar patrones espaciales y temporales de pesca.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos con mapas interactivos (Leaflet, Google Maps)",
+        "columns": "UBIGEO (localizaci\u00f3n geogr\u00e1fica para la representaci\u00f3n en el mapa), FECHA_MUESTRA (filtrar desembarques por fecha), PUNTO_DESEMBARQUE (nombre del punto de desembarco para identificar las zonas de pesca), ESPECIE (categorizar los datos por especie), VOLUMEN (representar la cantidad de cada especie desembarcada con tama\u00f1o o color)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n del Volumen de Desembarque",
+        "description": "Utilizar modelos de machine learning para predecir el volumen futuro de desembarque de diferentes especies en funci\u00f3n de factores hist\u00f3ricos como fecha, ubicaci\u00f3n y volumen anterior.",
+        "technique": "Machine Learning (Regresi\u00f3n lineal, Random Forest), an\u00e1lisis temporal de series",
+        "columns": "FECHA_MUESTRA (variable temporal para entrenar el modelo), VOLUMEN (variable objetivo a predecir), ESPECIE (categorizar modelos por especie), PUNTO_DESEMBARQUE (considerar la ubicaci\u00f3n en el entrenamiento del modelo)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "An\u00e1lisis de Tendencias por Especie",
+        "description": "Analizar las tendencias a lo largo del tiempo en el volumen de desembarque de cada especie para identificar especies con mayor crecimiento o disminuci\u00f3n.",
+        "technique": "An\u00e1lisis estad\u00edstico descriptivo, visualizaci\u00f3n de datos con gr\u00e1ficos de l\u00ednea (ggplot2)",
+        "columns": "FECHA_MUESTRA (variable temporal), ESPECIE (categorizar los datos por especie), VOLUMEN (variable a analizar para identificar tendencias)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Identificaci\u00f3n de Zonas con Mayor Presi\u00f3n Pesquera",
+        "description": "Analizar el volumen de desembarque en cada punto de desembarque para identificar zonas con mayor presi\u00f3n pesquera y evaluar la sostenibilidad de las pr\u00e1cticas de pesca.",
+        "technique": "An\u00e1lisis espacial, visualizaci\u00f3n de mapas de calor",
+        "columns": "UBIGEO (localizaci\u00f3n geogr\u00e1fica para la representaci\u00f3n), PUNTO_DESEMBARQUE (identificar puntos espec\u00edficos de desembarque), VOLUMEN (variable a utilizar para generar mapas de calor)",
+        "type": "fa-fire"
+    },
+    {
+        "title": "Dashboard Interactivo de Pesca",
+        "description": "Crear un dashboard interactivo que permita explorar los datos de pesca, filtrarlos por especie, fecha, ubicaci\u00f3n y visualizar gr\u00e1ficas y mapas para identificar patrones.",
+        "technique": "Desarrollo web (Shiny, Dash), visualizaci\u00f3n de datos interactivas",
+        "columns": "Todas las columnas del dataset ser\u00e1n utilizadas. La selecci\u00f3n de variables depender\u00e1 de la opci\u00f3n seleccionada en el dashboard.",
+        "type": "fa-dashboard"
+    }
+]
