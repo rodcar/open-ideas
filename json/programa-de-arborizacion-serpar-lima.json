@@ -1,37 +1,37 @@
 [
     {
-        "title": "Mapa interactivo de arborizaci\u00f3n en Lima Metropolitana",
-        "description": "Visualizar la distribuci\u00f3n espacial de los \u00e1rboles plantados por el Servicio de Parques de Lima. Permite identificar zonas con mayor o menor cobertura vegetal y \u00e1reas prioritarias para futuras intervenciones.",
-        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos en mapas interactivos (Leaflet, Google Maps)",
-        "columns": "ITEM (Identificador \u00fanico de cada registro), METAS (Meta de \u00e1rboles a plantar), CANTIDAD DE ARBOLES SEMBRADOS (Cantidad real de \u00e1rboles plantados), MESES (Mes de plantaci\u00f3n), TOTAL (Total de \u00e1rboles plantados en el a\u00f1o), CUMPLIMIENTO (Porcentaje de cumplimiento de la meta) (Utilizar las coordenadas geogr\u00e1ficas de los distritos de Lima Metropolitana para ubicar los puntos de plantaci\u00f3n en un mapa)",
-        "type": "fa-map-marker-alt"
+        "title": "Mapa interactivo de arborizaci\u00f3n en Lima",
+        "description": "Visualizar la cantidad de \u00e1rboles sembrados por distrito y mes en un mapa interactivo de Lima. Permite a los usuarios explorar patrones de plantaci\u00f3n y comparar el progreso del programa de arborizaci\u00f3n entre distritos.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, mapas interactivos",
+        "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
+        "type": "fa-map"
     },
     {
-        "title": "Predicci\u00f3n del cumplimiento de metas de arborizaci\u00f3n",
-        "description": "Utilizar t\u00e9cnicas de machine learning para predecir el porcentaje de cumplimiento de las metas de arborizaci\u00f3n en base a factores hist\u00f3ricos como la cantidad de \u00e1rboles plantados en a\u00f1os anteriores, las condiciones clim\u00e1ticas y el presupuesto asignado.",
-        "technique": "Machine Learning (Regresi\u00f3n lineal, Random Forest), an\u00e1lisis temporal de series",
-        "columns": "ITEM (Identificador \u00fanico de cada registro), METAS (Meta de \u00e1rboles a plantar), CANTIDAD DE ARBOLES SEMBRADOS (Cantidad real de \u00e1rboles plantados), MESES (Mes de plantaci\u00f3n), TOTAL (Total de \u00e1rboles plantados en el a\u00f1o), CUMPLIMIENTO (Porcentaje de cumplimiento de la meta) (Utilizar los datos hist\u00f3ricos para entrenar un modelo que pueda predecir el cumplimiento futuro)",
+        "title": "Predicci\u00f3n del cumplimiento de metas",
+        "description": "Utilizar un modelo de aprendizaje autom\u00e1tico para predecir el porcentaje de cumplimiento de las metas de arborizaci\u00f3n en funci\u00f3n de variables como el mes, el distrito y la cantidad de \u00e1rboles sembrados previamente.",
+        "technique": "Aprendizaje autom\u00e1tico, an\u00e1lisis de series temporales, regresi\u00f3n",
+        "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
         "type": "fa-chart-line"
     },
     {
-        "title": "Dashboard de monitoreo del Programa de Arborizaci\u00f3n",
-        "description": "Crear un dashboard interactivo que permita visualizar el progreso del programa de arborizaci\u00f3n en tiempo real. Mostrar informaci\u00f3n como la cantidad de \u00e1rboles plantados, el porcentaje de cumplimiento de las metas y la distribuci\u00f3n geogr\u00e1fica de las plantaciones.",
-        "technique": "Desarrollo web con librer\u00edas de visualizaci\u00f3n (Dash, Plotly), conexi\u00f3n a base de datos",
-        "columns": "ITEM (Identificador \u00fanico de cada registro), METAS (Meta de \u00e1rboles a plantar), CANTIDAD DE ARBOLES SEMBRADOS (Cantidad real de \u00e1rboles plantados), MESES (Mes de plantaci\u00f3n), TOTAL (Total de \u00e1rboles plantados en el a\u00f1o), CUMPLIMIENTO (Porcentaje de cumplimiento de la meta) (Utilizar los datos para generar gr\u00e1ficos y tablas interactivos)",
-        "type": "fa-dashboard"
+        "title": "Comparaci\u00f3n interdistrital de la arborizaci\u00f3n",
+        "description": "Generar un dashboard interactivo que permita comparar la cantidad de \u00e1rboles plantados, el cumplimiento de metas y otras m\u00e9tricas clave entre los diferentes distritos de Lima.",
+        "technique": "An\u00e1lisis exploratorio de datos, visualizaci\u00f3n de datos, dashboards interactivos",
+        "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
+        "type": "fa-chart-bar"
     },
     {
-        "title": "An\u00e1lisis del impacto ambiental de la arborizaci\u00f3n",
-        "description": "Evaluar el impacto positivo que tiene la plantaci\u00f3n de \u00e1rboles en la calidad del aire, la reducci\u00f3n de la temperatura urbana y la biodiversidad. ",
-        "technique": "Modelado ambiental (software GIS), an\u00e1lisis estad\u00edstico",
-        "columns": "ITEM (Identificador \u00fanico de cada registro), METAS (Meta de \u00e1rboles a plantar), CANTIDAD DE ARBOLES SEMBRADOS (Cantidad real de \u00e1rboles plantados), MESES (Mes de plantaci\u00f3n), TOTAL (Total de \u00e1rboles plantados en el a\u00f1o), CUMPLIMIENTO (Porcentaje de cumplimiento de la meta) (Utilizar los datos sobre la ubicaci\u00f3n y cantidad de \u00e1rboles para simular su impacto ambiental)",
+        "title": "Identificaci\u00f3n de \u00e1reas con menor arborizaci\u00f3n",
+        "description": "Analizar los datos espaciales para identificar los distritos o zonas dentro de Lima que presentan menor cantidad de \u00e1rboles plantados y un bajo porcentaje de cumplimiento. Esto permite enfocar esfuerzos de plantaci\u00f3n en \u00e1reas prioritarias.",
+        "technique": "An\u00e1lisis espacial, mapas de calor, visualizaci\u00f3n de datos",
+        "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Monitoreo del impacto ambiental de la arborizaci\u00f3n",
+        "description": "Integrar los datos de plantaci\u00f3n con otras fuentes de informaci\u00f3n ambiental, como datos clim\u00e1ticos o de calidad del aire, para evaluar el impacto positivo de la arborizaci\u00f3n en el medio ambiente.",
+        "technique": "An\u00e1lisis multivariado, modelado estad\u00edstico, visualizaci\u00f3n de datos",
+        "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
         "type": "fa-tree"
-    },
-    {
-        "title": "Identificaci\u00f3n de \u00e1reas prioritarias para futuras plantaciones",
-        "description": "Determinar las zonas de Lima Metropolitana que presentan mayor necesidad de arborizaci\u00f3n, considerando factores como la densidad poblacional, la falta de \u00e1reas verdes y la contaminaci\u00f3n del aire.",
-        "technique": "An\u00e1lisis espacial (GIS), superposici\u00f3n de capas cartogr\u00e1ficas",
-        "columns": "ITEM (Identificador \u00fanico de cada registro), METAS (Meta de \u00e1rboles a plantar), CANTIDAD DE ARBOLES SEMBRADOS (Cantidad real de \u00e1rboles plantados), MESES (Mes de plantaci\u00f3n), TOTAL (Total de \u00e1rboles plantados en el a\u00f1o), CUMPLIMIENTO (Porcentaje de cumplimiento de la meta) (Utilizar los datos sobre la ubicaci\u00f3n de las plantaciones existentes para identificar \u00e1reas con menor cobertura)",
-        "type": "fa-location-arrow"
     }
 ]

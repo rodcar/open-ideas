@@ -1,37 +1,37 @@
 [
     {
-        "title": "Mapa de Densidad de \u00c1rboles por Distrito",
-        "description": "Visualizar la cantidad de \u00e1rboles plantados por distrito en un mapa interactivo. Esto permitir\u00e1 identificar \u00e1reas con mayor y menor cobertura forestal.",
-        "technique": "An\u00e1lisis geoespacial, cartograf\u00eda.",
-        "columns": "DISTRITO (se utilizar\u00e1 para ubicar los distritos en el mapa), TOTAL (se emplear\u00e1 para determinar el tama\u00f1o o color de los puntos que representar\u00e1n la cantidad de \u00e1rboles en cada distrito).",
-        "type": "fa-map"
+        "title": "Monitoreo del avance en arborizaci\u00f3n por distrito",
+        "description": "Este dashboard permitir\u00e1 visualizar la cantidad de \u00e1rboles plantados en cada distrito a trav\u00e9s del tiempo. Permite identificar \u00e1reas con mayor o menor densidad de plantaci\u00f3n y evaluar el progreso de las iniciativas de arborizaci\u00f3n.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, dashboards interactivos",
+        "columns": "DISTRITO (Se usar\u00e1 para agrupar los datos por distrito), A\u00d1O (Se utilizar\u00e1 para filtrar los datos por a\u00f1o), MES (Permitir\u00e1 analizar la plantaci\u00f3n mes a mes), TOTAL (Mostrar el total de \u00e1rboles plantados en cada distrito y per\u00edodo)",
+        "type": "fa-tree"
     },
     {
-        "title": "An\u00e1lisis de Tendencias de Siembra Temporal",
-        "description": "Analizar c\u00f3mo la cantidad de \u00e1rboles plantados ha variado a lo largo del tiempo (a\u00f1os y meses) para identificar patrones estacionales o tendencias de aumento/disminuci\u00f3n.",
-        "technique": "An\u00e1lisis de series de tiempo, visualizaci\u00f3n de datos.",
-        "columns": "A\u00d1O (para agrupar los datos por a\u00f1o), MES (para analizar la variaci\u00f3n mensual dentro de cada a\u00f1o), TOTAL (para cuantificar la cantidad de \u00e1rboles plantados en cada periodo).",
+        "title": "Predicci\u00f3n del crecimiento futuro de la cobertura vegetal",
+        "description": "Utilizando modelos de aprendizaje autom\u00e1tico, se analizar\u00e1n las tendencias hist\u00f3ricas de plantaci\u00f3n para predecir la cantidad futura de \u00e1rboles en cada distrito. Esto ayudar\u00e1 a planificar estrategias a largo plazo de arborizaci\u00f3n.",
+        "technique": "An\u00e1lisis predictivo con machine learning, visualizaci\u00f3n de datos",
+        "columns": "DISTRITO (Variable independiente), A\u00d1O (Variable independiente), MES (Variable independiente), TOTAL (Variable dependiente para entrenar el modelo de predicci\u00f3n)",
         "type": "fa-chart-line"
     },
     {
-        "title": "Identificaci\u00f3n de Distritos con Mayor Necesidad",
-        "description": "Determinar qu\u00e9 distritos presentan menor cantidad de \u00e1rboles plantados y podr\u00edan requerir mayor atenci\u00f3n para proyectos de reforestaci\u00f3n.",
-        "technique": "An\u00e1lisis estad\u00edstico, clasificaci\u00f3n.",
-        "columns": "DISTRITO (para identificar los distritos), TOTAL (para comparar la cantidad de \u00e1rboles plantados en cada distrito).",
-        "type": "fa-exclamation"
+        "title": "Mapa interactivo de la densidad de \u00e1rboles en Lima",
+        "description": "Se crear\u00e1 un mapa interactivo que muestre la ubicaci\u00f3n de los \u00e1rboles plantados por SERPAR LIMA. Los usuarios podr\u00e1n filtrar por distrito, a\u00f1o y mes para visualizar la distribuci\u00f3n espacial de la arborizaci\u00f3n.",
+        "technique": "Geolocalizaci\u00f3n, visualizaci\u00f3n de mapas interactivos",
+        "columns": "DISTRITO (Para identificar la ubicaci\u00f3n geogr\u00e1fica de los \u00e1rboles plantados), TOTAL (Indicar\u00e1 la densidad de \u00e1rboles en cada zona)",
+        "type": "fa-map-marked"
     },
     {
-        "title": "Predicci\u00f3n de Futuro Siembra con Machine Learning",
-        "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir la cantidad de \u00e1rboles que se podr\u00edan plantar en los pr\u00f3ximos a\u00f1os, considerando factores hist\u00f3ricos y tendencias.",
-        "technique": "Machine learning (regresi\u00f3n), an\u00e1lisis predictivo.",
-        "columns": "A\u00d1O (variable independiente), MES (variable independiente), TOTAL (variable dependiente a predecir).",
-        "type": "fa-robot"
+        "title": "Comparaci\u00f3n del impacto de SERPAR LIMA con otros programas de arborizaci\u00f3n",
+        "description": "Se analizar\u00e1n los datos de SERPAR LIMA junto con informaci\u00f3n sobre otros programas de plantaci\u00f3n de \u00e1rboles en Lima. Esto permitir\u00e1 evaluar la efectividad relativa de las diferentes iniciativas y identificar mejores pr\u00e1cticas.",
+        "technique": "An\u00e1lisis comparativo, visualizaci\u00f3n de datos",
+        "columns": "ITEM (Para identificar cada programa), DISTRITO (Para comparar el impacto en diferentes zonas), A\u00d1O (Para analizar la evoluci\u00f3n a trav\u00e9s del tiempo), TOTAL (Para medir la cantidad de \u00e1rboles plantados por cada programa)",
+        "type": "fa-chart-bar"
     },
     {
-        "title": "Dashboard Interactivo de Seguimiento",
-        "description": "Crear un panel de control interactivo que permita visualizar los datos de siembra, mapas, tendencias y predicciones de forma din\u00e1mica y accesible.",
-        "technique": "Desarrollo web, visualizaci\u00f3n de datos.",
-        "columns": "Todas las columnas (ITEM, A\u00d1O, MES, DISTRITO, TOTAL) para alimentar el dashboard con informaci\u00f3n completa.",
-        "type": "fa-dashboard"
+        "title": "Identificaci\u00f3n de patrones estacionales en la plantaci\u00f3n de \u00e1rboles",
+        "description": "Se analizar\u00e1n los datos hist\u00f3ricos para identificar si existen patrones recurrentes en la plantaci\u00f3n de \u00e1rboles a lo largo del a\u00f1o. Esto puede ayudar a optimizar el calendario de plantaciones y aprovechar las mejores condiciones clim\u00e1ticas.",
+        "technique": "An\u00e1lisis de series temporales, visualizaci\u00f3n de gr\u00e1ficos",
+        "columns": "A\u00d1O (Variable para analizar tendencias a largo plazo), MES (Para identificar patrones estacionales), TOTAL (Mostrar la cantidad de \u00e1rboles plantados en cada mes)",
+        "type": "fa-calendar-alt"
     }
 ]

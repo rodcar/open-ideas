@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa interactivo de calidad del aire en Lima",
+        "description": "Desarrollar un mapa web interactivo que muestre la concentraci\u00f3n de PM10, PM2.5 y NO2 en tiempo real en diferentes puntos de Lima. Los usuarios podr\u00e1n consultar la calidad del aire en su ubicaci\u00f3n o barrio.",
+        "technique": "An\u00e1lisis espacial, Geovisualizaci\u00f3n, desarrollo web",
+        "columns": "ESTACION (para ubicar la estaci\u00f3n en el mapa), LONGITUD (coordenada X para ubicar la estaci\u00f3n), LATITUD (coordenada Y para ubicar la estaci\u00f3n), FECHA (para filtrar datos por fecha), HORA (para filtrar datos por hora), PM10 (valor de concentraci\u00f3n a mostrar en el mapa), PM2_5 (valor de concentraci\u00f3n a mostrar en el mapa), NO2 (valor de concentraci\u00f3n a mostrar en el mapa),",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de niveles de contaminaci\u00f3n",
+        "description": "Utilizar modelos de machine learning para predecir los niveles futuros de PM10, PM2.5 y NO2 en base a datos hist\u00f3ricos de calidad del aire, condiciones meteorol\u00f3gicas y otros factores relevantes.",
+        "technique": "Machine Learning, Regresi\u00f3n, an\u00e1lisis de series temporales",
+        "columns": "FECHA (para el entrenamiento del modelo), HORA (para el entrenamiento del modelo), PM10 (variable objetivo para predecir), PM2_5 (variable objetivo para predecir), NO2 (variable objetivo para predecir), TEMPERATURA (variable predictora, se puede obtener de otras fuentes), HUMEDAD (variable predictora, se puede obtener de otras fuentes), VIENTO (variable predictora, se puede obtener de otras fuentes),",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Identificaci\u00f3n de zonas con mayor riesgo de contaminaci\u00f3n",
+        "description": "Analizar los datos hist\u00f3ricos de calidad del aire para identificar las zonas de Lima que presentan mayores niveles de contaminaci\u00f3n. Esta informaci\u00f3n puede ser \u00fatil para tomar medidas de mitigaci\u00f3n.",
+        "technique": "An\u00e1lisis espacial, Clustering, estad\u00edstica descriptiva",
+        "columns": "ESTACION (para identificar la ubicaci\u00f3n de cada punto de medici\u00f3n), LATITUD (coordenada Y para ubicar la estaci\u00f3n), LONGITUD (coordenada X para ubicar la estaci\u00f3n), PM10 (variable a analizar para identificar zonas de mayor contaminaci\u00f3n), PM2_5 (variable a analizar para identificar zonas de mayor contaminaci\u00f3n), NO2 (variable a analizar para identificar zonas de mayor contaminaci\u00f3n),",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Relaci\u00f3n entre calidad del aire y salud p\u00fablica",
+        "description": "Investigar la posible relaci\u00f3n entre los niveles de contaminaci\u00f3n en Lima y las tasas de enfermedades respiratorias. Se puede utilizar informaci\u00f3n adicional de fuentes de datos p\u00fablicas sobre casos de enfermedades.",
+        "technique": "An\u00e1lisis de correlaci\u00f3n, Regresi\u00f3n lineal, visualizaci\u00f3n de datos",
+        "columns": "FECHA (para emparejar datos de calidad del aire con datos de salud), ESTACION (para ubicar la fuente de contaminaci\u00f3n potencial), PM10 (posible factor de riesgo para enfermedades respiratorias), PM2_5 (posible factor de riesgo para enfermedades respiratorias), NO2 (posible factor de riesgo para enfermedades respiratorias), TASAS_ENFERMEDADES_RESPIRATORIAS (datos de fuentes de salud p\u00fablica, a agregar al dataset),",
+        "type": "fa-heartbeat"
+    },
+    {
+        "title": "Comparaci\u00f3n de calidad del aire en diferentes distritos de Lima",
+        "description": "Generar un reporte que compare los niveles de contaminaci\u00f3n en diferentes distritos de Lima. Esta informaci\u00f3n puede ser \u00fatil para evaluar la efectividad de las pol\u00edticas ambientales.",
+        "technique": "An\u00e1lisis de datos, visualizaci\u00f3n de datos, gr\u00e1ficos de barras y mapas de calor",
+        "columns": "DISTRITO (para agrupar los datos por distrito), PM10 (variable a comparar entre distritos), PM2_5 (variable a comparar entre distritos), NO2 (variable a comparar entre distritos), FECHA (para filtrar datos por periodo de tiempo),",
+        "type": "fa-chart-bar"
+    }
+]

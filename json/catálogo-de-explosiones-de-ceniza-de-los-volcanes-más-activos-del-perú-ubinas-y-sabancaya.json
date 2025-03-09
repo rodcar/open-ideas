@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Calor de Explosiones Volcanicas",
+        "description": "Visualizar la frecuencia y ubicaci\u00f3n de las explosiones volc\u00e1nicas en un mapa interactivo. Esto permite identificar zonas de mayor riesgo y patrones en la actividad volc\u00e1nica.",
+        "technique": "An\u00e1lisis geoespacial, mapas de calor, visualizaci\u00f3n de datos.",
+        "columns": "UBIGEO (para geolocalizaci\u00f3n), FECHA_UTC (para analizar patrones temporales), VOLCAN (para diferenciar explosiones por volc\u00e1n).",
+        "type": "fa-map-marked"
+    },
+    {
+        "title": "Predicci\u00f3n de la Altura de Columnas Eruptivas",
+        "description": "Desarrollar un modelo de aprendizaje autom\u00e1tico que prediga la altura de las columnas eruptivas futuras con base en datos hist\u00f3ricos de explosiones. Esto puede ayudar a evaluar el impacto potencial de futuras erupciones.",
+        "technique": "Aprendizaje autom\u00e1tico (regresi\u00f3n), an\u00e1lisis de series temporales.",
+        "columns": "FECHA_UTC (para patrones temporales), HORA_UTC (para patrones horarios), ALTURA (variable objetivo para predecir), VOLCAN (posible factor influyente).",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Sistema de Alertas Tempranas para Zonas Vulnerables",
+        "description": "Crear un sistema que emita alertas basadas en la direcci\u00f3n y altura de las columnas de ceniza, notificando a las comunidades potencialmente afectadas. ",
+        "technique": "An\u00e1lisis de datos en tiempo real, sistemas de alerta temprana, geolocalizaci\u00f3n.",
+        "columns": "FECHA_UTC (para determinar el momento del evento), HORA_UTC (para precisi\u00f3n temporal), ALTURA (para evaluar la magnitud de la erupci\u00f3n), DIRECCION (para predecir \u00e1reas afectadas).",
+        "type": "fa-bell"
+    },
+    {
+        "title": "An\u00e1lisis de Patrones en la Actividad Volc\u00e1nica",
+        "description": "Identificar patrones y tendencias en la actividad volc\u00e1nica a trav\u00e9s del an\u00e1lisis estad\u00edstico de los datos hist\u00f3ricos. Esto puede ayudar a comprender mejor el comportamiento de los volcanes y predecir futuras erupciones.",
+        "technique": "An\u00e1lisis estad\u00edstico, series temporales, visualizaci\u00f3n de datos.",
+        "columns": "FECHA_UTC (para identificar patrones temporales), HORA_UTC (para analizar la hora del d\u00eda de las explosiones), ALTURA (para evaluar la intensidad de las erupciones), VOLCAN (para comparar el comportamiento de diferentes volcanes).",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Simulaci\u00f3n de la Dispersi\u00f3n de Ceniza",
+        "description": "Utilizar modelos de dispersi\u00f3n atmosf\u00e9rica para simular c\u00f3mo se propagar\u00e1 la ceniza volc\u00e1nica en funci\u00f3n de las condiciones meteorol\u00f3gicas. Esto puede ayudar a evaluar el impacto potencial en infraestructuras y salud p\u00fablica.",
+        "technique": "Modelado matem\u00e1tico, simulaci\u00f3n num\u00e9rica.",
+        "columns": "FECHA_UTC (para contexto temporal), HORA_UTC (para precisi\u00f3n horaria), ALTURA (para determinar la altura inicial de la pluma), DIRECCION (para definir la direcci\u00f3n inicial de la pluma).",
+        "type": "fa-cloud"
+    }
+]

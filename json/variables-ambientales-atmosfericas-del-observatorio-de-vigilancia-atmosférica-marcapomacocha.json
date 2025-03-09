@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de calidad del aire en tiempo real",
+        "description": "Crear un mapa interactivo que muestre la concentraci\u00f3n de ozono (O3) en el tiempo. Esto permitir\u00e1 a los usuarios visualizar c\u00f3mo var\u00eda la calidad del aire en diferentes ubicaciones y momentos.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n con mapas interactivos",
+        "columns": "FECHA (para filtrar por fecha), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), O3 (concentraci\u00f3n de ozono)",
+        "type": "fa-map"
+    },
+    {
+        "title": "Predicci\u00f3n del \u00edndice UV m\u00e1ximo",
+        "description": "Desarrollar un modelo de machine learning que prediga el \u00edndice UV m\u00e1ximo diario en funci\u00f3n de factores como la fecha, hora y ubicaci\u00f3n geogr\u00e1fica. Esto permitir\u00e1 a las personas tomar medidas para protegerse de la radiaci\u00f3n solar.",
+        "technique": "Machine Learning (Regresi\u00f3n), an\u00e1lisis temporal",
+        "columns": "FECHA (para entrenar el modelo), HORA (variable importante para predecir UV), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), UV_MAX (valor objetivo para el entrenamiento)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "An\u00e1lisis de patrones de precipitaci\u00f3n",
+        "description": "Analizar los datos hist\u00f3ricos de precipitaci\u00f3n para identificar patrones y tendencias. Esto puede ayudar a comprender mejor los patrones clim\u00e1ticos locales y predecir posibles eventos de sequ\u00eda o inundaciones.",
+        "technique": "An\u00e1lisis temporal, detecci\u00f3n de patrones",
+        "columns": "FECHA (para an\u00e1lisis temporal), PP (precipitaci\u00f3n diaria), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica)",
+        "type": "fa-cloud-rain"
+    },
+    {
+        "title": "Comparaci\u00f3n de la calidad del aire entre \u00e1reas",
+        "description": "Crear un tablero interactivo que compare los niveles de ozono y otros indicadores de calidad del aire entre diferentes departamentos, provincias o distritos. Esto permitir\u00e1 identificar zonas con mayor riesgo de contaminaci\u00f3n.",
+        "technique": "An\u00e1lisis comparativo, visualizaci\u00f3n de datos con dashboards",
+        "columns": "DEPARTAMENTO (para agrupar), PROVINCIA (para agrupar), DISTRITO (para agrupar), FECHA (para filtrar por fecha), O3 (concentraci\u00f3n de ozono), UV_MAX (\u00edndice UV m\u00e1ximo)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Sistema de alerta temprana para eventos clim\u00e1ticos extremos",
+        "description": "Desarrollar un sistema que utilice datos hist\u00f3ricos de precipitaci\u00f3n y otros indicadores meteorol\u00f3gicos para predecir eventos clim\u00e1ticos extremos, como inundaciones o sequ\u00edas. El sistema podr\u00eda enviar alertas a la poblaci\u00f3n afectada.",
+        "technique": "Machine learning (clasificaci\u00f3n), an\u00e1lisis predictivo, sistemas de alerta",
+        "columns": "FECHA (para entrenar el modelo), PP (precipitaci\u00f3n diaria), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), O3 (indicador potencial de patrones clim\u00e1ticos)",
+        "type": "fa-bell"
+    }
+]

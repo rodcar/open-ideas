@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Proyectos con Certificaci\u00f3n Ambiental",
+        "description": "Visualizar la ubicaci\u00f3n geogr\u00e1fica de proyectos con certificaci\u00f3n ambiental evaluada por el SENACE. Permite filtrar por tipo de proyecto, estado de evaluaci\u00f3n y departamento.",
+        "technique": "Geo-referenciaci\u00f3n, an\u00e1lisis espacial, mapas interactivos (Leaflet o Google Maps API)",
+        "columns": "UBIGEO (Para geolocalizar los proyectos), DEPARTAMENTO (Filtrar por departamento), NOM_PROYECTO (Mostrar informaci\u00f3n al hacer clic en un punto), ESTADO (Filtrar por estado de evaluaci\u00f3n), TIPO_IGA (Categorizar tipos de proyectos)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Dashboard de Monitoreo de Inversiones",
+        "description": "Analizar las tendencias de inversi\u00f3n en proyectos con certificaci\u00f3n ambiental. Mostrar el monto total invertido por departamento, tipo de proyecto y estado de evaluaci\u00f3n.",
+        "technique": "An\u00e1lisis de datos, visualizaci\u00f3n de dashboards (Power BI o Tableau)",
+        "columns": "DEPARTAMENTO (Agrupar inversiones por departamento), NOM_PROYECTO (Identificar proyectos individuales), TIPO_IGA (Categorizar tipos de proyectos), ESTADO (Analizar inversiones seg\u00fan el estado de evaluaci\u00f3n), MONTO_INV, MONEDA_INV (Calcular monto total invertido)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Identificaci\u00f3n de \u00c1reas con Mayor Actividad Ambiental",
+        "description": "Utilizar machine learning para identificar \u00e1reas geogr\u00e1ficas con mayor concentraci\u00f3n de proyectos con certificaci\u00f3n ambiental. Esto puede ayudar a guiar pol\u00edticas de desarrollo sostenible.",
+        "technique": "Machine Learning (Clustering), Geo-referenciaci\u00f3n, an\u00e1lisis espacial",
+        "columns": "LONGITUD, LATITUD (Para ubicar los proyectos geogr\u00e1ficamente), TIPO_IGA (Categorizar tipos de proyectos para an\u00e1lisis m\u00e1s detallado)",
+        "type": "fa-globe"
+    },
+    {
+        "title": "An\u00e1lisis del Tiempo de Evaluaci\u00f3n",
+        "description": "Analizar el tiempo promedio que toma la evaluaci\u00f3n de los proyectos por tipo, departamento y consultora. Identificar posibles cuellos de botella en el proceso.",
+        "technique": "An\u00e1lisis de datos, visualizaci\u00f3n temporal (gr\u00e1ficos de l\u00edneas)",
+        "columns": "FECHA_ING (Fecha de inicio del proceso), FECHA_RD (Fecha de resoluci\u00f3n), TIPO_IGA (Categorizar por tipo de proyecto), DEPARTAMENTO (Analizar tiempos por departamento), CONSULTORA (Identificar consultoras con tiempos de respuesta m\u00e1s largos)",
+        "type": "fa-calendar-alt"
+    },
+    {
+        "title": "Predicci\u00f3n del Estado de Evaluaci\u00f3n",
+        "description": "Utilizar machine learning para predecir el estado final de evaluaci\u00f3n de un proyecto basado en caracter\u00edsticas como tipo, ubicaci\u00f3n, consultora y monto de inversi\u00f3n. ",
+        "technique": "Machine Learning (clasificaci\u00f3n), an\u00e1lisis predictivo",
+        "columns": "TIPO_IGA, DEPARTAMENTO, RUC_CONSULTORA, MONTO_INV, ESTADO (variable objetivo para predecir)",
+        "type": "fa-chart-bar"
+    }
+]

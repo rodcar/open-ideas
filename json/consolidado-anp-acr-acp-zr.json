@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo de Acceso a Servicios de Salud en Zonas Rurales",
+        "description": "Este aplicativo utilizar\u00e1 datos georreferenciados de \u00e1reas naturales protegidas y centros de salud para identificar zonas rurales con acceso limitado. Luego, mediante machine learning, se analizar\u00e1n patrones de movilidad para optimizar rutas de atenci\u00f3n m\u00f3vil.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, machine learning para identificar patrones de movilidad, visualizaci\u00f3n en dashboards interactivos",
+        "columns": " latitud_centro_salud (ubicaci\u00f3n geogr\u00e1fica del centro de salud), longitud_centro_salud (ubicaci\u00f3n geogr\u00e1fica del centro de salud), tipo_area_natural (categor\u00eda de \u00e1rea natural protegida), poblacion_rural (cantidad de habitantes en zonas rurales cercanas), distancia_a_centro_salud (distancia en kil\u00f3metros a la ubicaci\u00f3n m\u00e1s cercana de un centro de salud).",
+        "type": "fa-hospital"
+    },
+    {
+        "title": "Optimizaci\u00f3n del Transporte P\u00fablico Urbano Inteligente",
+        "description": "Se utilizar\u00e1n datos de geolocalizaci\u00f3n de paradas, patrones de viaje y tiempo real de transporte p\u00fablico para optimizar rutas, frecuencias y asignaci\u00f3n de veh\u00edculos. Un sistema de alertas en tiempo real informar\u00e1 a los usuarios sobre retrasos o cambios en las rutas.",
+        "technique": "An\u00e1lisis de big data, machine learning predictivo para optimizar rutas y frecuencias, desarrollo de una aplicaci\u00f3n m\u00f3vil con alertas en tiempo real",
+        "columns": "id_parada (identificador \u00fanico de cada parada), latitud_parada (ubicaci\u00f3n geogr\u00e1fica de la parada), longitud_parada (ubicaci\u00f3n geogr\u00e1fica de la parada), hora_llegada (hora estimada de llegada del transporte p\u00fablico a la parada), linea_transporte (identificador de la l\u00ednea de transporte p\u00fablico).",
+        "type": "fa-bus"
+    },
+    {
+        "title": "Plataforma de Educaci\u00f3n Digital Inclusiva",
+        "description": "Esta plataforma facilitar\u00e1 el acceso a recursos educativos digitales para comunidades rurales. Se usar\u00e1n datos demogr\u00e1ficos y de conectividad para identificar \u00e1reas con mayor necesidad y ofrecer cursos adaptados a diferentes niveles educativos.",
+        "technique": "Desarrollo web, aprendizaje adaptativo basado en machine learning, mapas interactivos para visualizar la cobertura de internet",
+        "columns": "codigo_postal (c\u00f3digo postal del \u00e1rea geogr\u00e1fica), porcentaje_conectividad (porcentaje de hogares con acceso a internet), nivel_educativo (nivel educativo predominante en el \u00e1rea), tipo_recurso (categor\u00eda del recurso educativo, por ejemplo, videos, textos, ejercicios).",
+        "type": "fa-graduation-cap"
+    },
+    {
+        "title": "Sistema de Vigilancia Ambiental para \u00c1reas Protegidas",
+        "description": "Se implementar\u00e1 un sistema de monitoreo remoto que utiliza datos satelitales y sensores IoT para detectar cambios en la cobertura vegetal, presencia de incendios forestales o actividades ilegales dentro de las \u00e1reas protegidas.",
+        "technique": "Procesamiento de im\u00e1genes satelitales, machine learning para identificar patrones an\u00f3malos, alerta temprana mediante notificaciones m\u00f3viles",
+        "columns": "fecha_imagen (fecha de captura de la imagen satelital), latitud (coordenadas geogr\u00e1ficas del \u00e1rea analizada), longitud (coordenadas geogr\u00e1ficas del \u00e1rea analizada), tipo_cambio (categor\u00eda del cambio detectado, por ejemplo, deforestaci\u00f3n, incendio), severidad_cambio (nivel de impacto del cambio).",
+        "type": "fa-tree"
+    },
+    {
+        "title": "Plataforma de Gesti\u00f3n de Recursos Naturales Sostenibles",
+        "description": "Se desarrollar\u00e1 una plataforma que utiliza datos georreferenciados sobre \u00e1reas protegidas, recursos h\u00eddricos y patrones clim\u00e1ticos para optimizar la gesti\u00f3n sostenible de los recursos naturales. Se incorporar\u00e1n modelos predictivos para evaluar el impacto de diferentes estrategias de manejo.",
+        "technique": "An\u00e1lisis espacial, machine learning para modelar escenarios futuros, visualizaci\u00f3n en dashboards interactivos",
+        "columns": "id_area_natural (identificador \u00fanico del \u00e1rea protegida), tipo_recurso (categor\u00eda del recurso natural, por ejemplo, agua, suelo, biodiversidad), disponibilidad_recurso (cantidad disponible del recurso), demanda_recurso (cantidad demandada del recurso), proyecci\u00f3n_cambio_clim\u00e1tico (predicci\u00f3n sobre el impacto del cambio clim\u00e1tico en el recurso).",
+        "type": "fa-globe"
+    }
+]

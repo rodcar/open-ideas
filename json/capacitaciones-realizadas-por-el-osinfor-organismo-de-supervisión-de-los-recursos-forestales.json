@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de acceso a capacitaciones del OSINFOR",
+        "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de las capacitaciones realizadas por el OSINFOR, identificando zonas con mayor y menor cobertura. Esto permitir\u00e1 optimizar la planificaci\u00f3n de futuras capacitaciones.",
+        "technique": "An\u00e1lisis geoespacial, mapas interactivos",
+        "columns": "UBIGEO (para geolocalizaci\u00f3n), DEPARTAMENTO (para an\u00e1lisis regional), PROVINCIA (para an\u00e1lisis provincial), DISTRITO (para an\u00e1lisis local), TIPO_CAPACITACION (para categorizar las capacitaciones), NRO_PARTICIPANTES (para visualizar la intensidad de la cobertura)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de tendencias en tem\u00e1ticas de capacitaci\u00f3n",
+        "description": "Identificar las tem\u00e1ticas de capacitaci\u00f3n m\u00e1s demandadas por regi\u00f3n y grupo poblacional, utilizando machine learning para detectar patrones. Esto permitir\u00e1 al OSINFOR adaptar sus programas a las necesidades reales.",
+        "technique": "An\u00e1lisis de texto, machine learning, visualizaci\u00f3n de datos",
+        "columns": "TEMAS_TRATADOS_CAPACITACION (para el an\u00e1lisis textual), DEPARTAMENTO (para analizar tendencias regionales), GRUPO_PUBLICO (para identificar patrones por grupo poblacional)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Evaluaci\u00f3n del impacto de las capacitaciones",
+        "description": "Medir el impacto de las capacitaciones en los participantes, utilizando encuestas y an\u00e1lisis de datos. Esto permitir\u00e1 al OSINFOR evaluar la efectividad de sus programas.",
+        "technique": "An\u00e1lisis de encuestas, estad\u00edstica descriptiva",
+        "columns": "CODIGO_CAPACITACION (para identificar las capacitaciones a evaluar), PARTICIPANTES (para obtener datos individuales), GRUPO_PUBLICO (para segmentar el an\u00e1lisis), TITULO_HABILITANTE (para analizar el progreso profesional)",
+        "type": "fa-check-square"
+    },
+    {
+        "title": "Plataforma de acceso a informaci\u00f3n sobre capacitaciones",
+        "description": "Desarrollar una plataforma web donde se publique informaci\u00f3n detallada sobre las capacitaciones del OSINFOR, incluyendo calendarios, temarios y materiales de apoyo. Esto facilitar\u00e1 el acceso a la informaci\u00f3n para los interesados.",
+        "technique": "Desarrollo web, bases de datos relacionales",
+        "columns": "TODO (todas las columnas son relevantes para construir una base de datos completa)",
+        "type": "fa-globe"
+    },
+    {
+        "title": "Identificaci\u00f3n de patrones en la participaci\u00f3n",
+        "description": "Analizar los datos demogr\u00e1ficos de los participantes para identificar patrones en la participaci\u00f3n en las capacitaciones. Esto permitir\u00e1 al OSINFOR desarrollar estrategias para llegar a grupos con menor acceso.",
+        "technique": "An\u00e1lisis estad\u00edstico, machine learning para clusterizaci\u00f3n",
+        "columns": "DEPARTAMENTO (para analizar patrones regionales), PROVINCIA (para an\u00e1lisis provincial), DISTRITO (para an\u00e1lisis local), GENERO (para identificar brechas de g\u00e9nero), GRUPO_PUBLICO (para identificar patrones por grupo poblacional), EDAD (para analizar la distribuci\u00f3n etaria)",
+        "type": "fa-users"
+    }
+]

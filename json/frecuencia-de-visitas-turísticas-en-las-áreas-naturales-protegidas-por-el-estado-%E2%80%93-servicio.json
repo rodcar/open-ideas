@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapeo de Flujo Tur\u00edstico",
+        "description": "Visualizar patrones de visita a las \u00c1reas Naturales Protegidas. Identificar los sectores tur\u00edsticos m\u00e1s populares y analizar la distribuci\u00f3n de visitantes seg\u00fan procedencia, edad y duraci\u00f3n de estad\u00eda.",
+        "technique": "An\u00e1lisis geoespacial, mapas interactivos",
+        "columns": "ANP (Identificar la ubicaci\u00f3n geogr\u00e1fica del ANP), SECTOR (Determinar los sectores de mayor inter\u00e9s tur\u00edstico), DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (Geolocalizar y agrupar visitantes por regi\u00f3n), PROCEDENCIA (Analizar el origen de los turistas: nacional, internacional o local), EDAD (Identificar grupos demogr\u00e1ficos espec\u00edficos), FECHA (Identificar tendencias temporales en la visitation) , VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Cuantificar el flujo tur\u00edstico por duraci\u00f3n de estad\u00eda)",
+        "type": "fa-map"
+    },
+    {
+        "title": "Predicci\u00f3n de Demanda Tur\u00edstica",
+        "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir la demanda tur\u00edstica futura en diferentes \u00c1reas Naturales Protegidas, seg\u00fan variables como fecha, procedencia y duraci\u00f3n de estad\u00eda.",
+        "technique": "An\u00e1lisis predictivo, machine learning (regresi\u00f3n, series de tiempo)",
+        "columns": "ANP (Identificar el \u00e1rea natural protegida), SECTOR (Considerar la popularidad del sector tur\u00edstico), DEPARTAMENTO, PROVINCIA, DISTRITO (Analizar patrones regionales), FECHA (Factor temporal clave para la predicci\u00f3n), PROCEDENCIA, EDAD (Variables demogr\u00e1ficas que pueden influir en la demanda), VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Datos hist\u00f3ricos de visitas para entrenar el modelo)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Segmentaci\u00f3n de Visitantes",
+        "description": "Agrupar a los visitantes en diferentes segmentos seg\u00fan sus preferencias y patrones de viaje, permitiendo estrategias de marketing personalizadas.",
+        "technique": "An\u00e1lisis de cluster, machine learning",
+        "columns": "ANP (Contexto geogr\u00e1fico de la visita), SECTOR (Intereses del visitante), PROCEDENCIA (Origen del turista), EDAD (Grupo demogr\u00e1fico), VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Duraci\u00f3n de estad\u00eda como indicador de preferencias)",
+        "type": "fa-users"
+    },
+    {
+        "title": "Impacto Econ\u00f3mico del Turismo",
+        "description": "Estimar el impacto econ\u00f3mico generado por el turismo en las diferentes regiones, considerando la cantidad de visitantes, duraci\u00f3n de estancia y gastos promedio.",
+        "technique": "An\u00e1lisis econ\u00f3mico, modelado financiero",
+        "columns": "ANP (Ubicaci\u00f3n geogr\u00e1fica para analizar impactos regionales), DEPARTAMENTO, PROVINCIA, DISTRITO (Niveles geogr\u00e1ficos para an\u00e1lisis detallados), VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Cantidad de visitantes por duraci\u00f3n de estad\u00eda)",
+        "type": "fa-money-bill"
+    },
+    {
+        "title": "Dashboard Interactivo de Turismo",
+        "description": "Crear un dashboard interactivo que permita visualizar informaci\u00f3n clave sobre el turismo en las \u00c1reas Naturales Protegidas, incluyendo mapas, gr\u00e1ficos y tablas din\u00e1micas.",
+        "technique": "Desarrollo de dashboards (Power BI, Tableau), visualizaci\u00f3n de datos",
+        "columns": "Todas las columnas del dataset (ANP, SECTOR, DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO, PROCEDENCIA, EDAD, FECHA, VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30) para una visualizaci\u00f3n completa",
+        "type": "fa-desktop"
+    }
+]

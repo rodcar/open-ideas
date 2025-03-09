@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Sistema de monitoreo para \u00e1reas protegidas",
+        "description": "Este sistema utilizar\u00e1 datos de las \u00c1reas Naturales Protegidas (ANP) para identificar zonas con mayor riesgo de degradaci\u00f3n ambiental. Permite a los guardaparques priorizar sus esfuerzos y tomar medidas preventivas.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, machine learning para identificar patrones de deforestaci\u00f3n o actividad humana inusual, Dashboards interactivos",
+        "columns": "ID_ANP (identificador \u00fanico del \u00e1rea protegida), Coordenadas geogr\u00e1ficas (ubicaci\u00f3n precisa), Tipo de ecosistema (clasificaci\u00f3n del h\u00e1bitat), \u00cdndice de biodiversidad (medida de riqueza de especies), Actividad humana detectada (presencia de tala ilegal, miner\u00eda, etc.), Fecha (momento en que se registr\u00f3 la actividad).",
+        "type": "fa-leaf"
+    },
+    {
+        "title": "Plataforma de acceso a servicios de salud m\u00f3viles",
+        "description": "Una plataforma m\u00f3vil que conecta a las personas en zonas rurales con profesionales de salud a trav\u00e9s de videoconferencias y permite el seguimiento remoto de pacientes.",
+        "technique": "Desarrollo web/app m\u00f3vil, telemedicina, integraci\u00f3n con sistemas de informaci\u00f3n de salud, geolocalizaci\u00f3n para identificar \u00e1reas con mayor necesidad.",
+        "columns": "ID_Paciente (identificador \u00fanico), Ubicaci\u00f3n geogr\u00e1fica (coordenadas del paciente), Historial m\u00e9dico (informaci\u00f3n relevante sobre la salud del paciente), Especialidad m\u00e9dica requerida (tipo de consulta necesaria), Fecha y hora de la consulta (programaci\u00f3n de la teleconsulta).",
+        "type": "fa-stethoscope"
+    },
+    {
+        "title": "Optimizaci\u00f3n de rutas de transporte p\u00fablico inteligente",
+        "description": "Un sistema que analiza datos de tr\u00e1fico en tiempo real para optimizar las rutas de los autobuses y reducir tiempos de espera, mejorando la eficiencia y accesibilidad del transporte p\u00fablico.",
+        "technique": "An\u00e1lisis de big data, machine learning para predecir patrones de flujo de pasajeros, geolocalizaci\u00f3n de buses en tiempo real, mapas interactivos.",
+        "columns": "ID_Ruta (identificador \u00fanico de la ruta), Hora de partida (momento en que sale el bus), Ubicaci\u00f3n actual del bus (coordenadas GPS), Cantidad de pasajeros a bordo (datos en tiempo real), Demanda prevista (estimaci\u00f3n basada en patrones hist\u00f3ricos).",
+        "type": "fa-bus"
+    },
+    {
+        "title": "Programa de alfabetizaci\u00f3n digital para comunidades rurales",
+        "description": "Un programa que utiliza plataformas online y recursos educativos digitales para ense\u00f1ar habilidades tecnol\u00f3gicas b\u00e1sicas a personas en \u00e1reas rurales, promoviendo la inclusi\u00f3n digital.",
+        "technique": "Desarrollo web/app m\u00f3vil, dise\u00f1o instruccional basado en el aprendizaje activo, creaci\u00f3n de contenido educativo adaptado a diferentes niveles, seguimiento del progreso.",
+        "columns": "ID_Usuario (identificador \u00fanico), Nivel educativo (formaci\u00f3n previa del usuario), Habilidades digitales (conocimientos previos en tecnolog\u00eda), M\u00f3dulos completados (progreso en el programa), Calificaci\u00f3n obtenida (evaluaci\u00f3n del aprendizaje).",
+        "type": "fa-computer"
+    },
+    {
+        "title": "Sistema de monitoreo ambiental con IA",
+        "description": "Un sistema que utiliza sensores, im\u00e1genes satelitales y machine learning para monitorear la calidad del aire, el agua y la biodiversidad en tiempo real, detectando posibles amenazas ambientales.",
+        "technique": "Internet de las cosas (IoT), procesamiento de im\u00e1genes, an\u00e1lisis predictivo con machine learning, mapas interactivos para visualizar datos ambientales.",
+        "columns": "Ubicaci\u00f3n geogr\u00e1fica (coordenadas del sensor/\u00e1rea monitoreada), Tipo de dato (calidad del aire, temperatura del agua, presencia de especies), Valor medido (lectura obtenida por el sensor/an\u00e1lisis de imagen), Fecha y hora de la medici\u00f3n (momento en que se registr\u00f3 el dato).",
+        "type": "fa-globe"
+    }
+]

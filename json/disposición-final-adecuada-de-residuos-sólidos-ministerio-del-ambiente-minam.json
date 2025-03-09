@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Acceso a Disposici\u00f3n Final Adecuada",
+        "description": "Este proyecto crear\u00e1 un mapa interactivo que muestre la cobertura de disposici\u00f3n final adecuada de residuos s\u00f3lidos en diferentes distritos. Los usuarios podr\u00e1n visualizar \u00e1reas con mayor y menor acceso, identificar zonas prioritarias para mejorar la gesti\u00f3n de residuos y tomar decisiones informadas.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos",
+        "columns": "UBIGEO (para ubicar los distritos en el mapa), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para identificar qui\u00e9n gestiona la disposici\u00f3n final en cada zona), COBERTURA_DISPOSICION_FINAL_ADECUADA (para mostrar la cantidad de habitantes con acceso a la disposici\u00f3n final adecuada en cada distrito), RESIDUOS_MUNICIPALES_DISPUESTOS (opcional para mostrar la cantidad de residuos tratados en cada zona)",
+        "type": "fa-map"
+    },
+    {
+        "title": "An\u00e1lisis de Tendencias en Disposici\u00f3n Final",
+        "description": "Este an\u00e1lisis explorar\u00e1 las tendencias hist\u00f3ricas en la disposici\u00f3n final de residuos s\u00f3lidos, utilizando datos de varios a\u00f1os. Se buscar\u00e1n patrones en la cantidad de residuos tratados, la cobertura de servicios y los tipos de sitios de disposici\u00f3n utilizados.",
+        "technique": "An\u00e1lisis de series de tiempo, visualizaci\u00f3n de datos",
+        "columns": "FECHA (para identificar el per\u00edodo de tiempo), RESIDUOS_MUNICIPALES_DISPUESTOS (para analizar las tendencias en la cantidad de residuos tratados), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para analizar la evoluci\u00f3n del tipo de gesti\u00f3n de residuos), COBERTURA_DISPOSICION_FINAL_ADECUADA (para identificar las tendencias en el acceso a la disposici\u00f3n final)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Predicci\u00f3n de Necesidades de Disposici\u00f3n Final",
+        "description": "Utilizando modelos de aprendizaje autom\u00e1tico, este proyecto predecir\u00e1 las necesidades futuras de capacidad de disposici\u00f3n final de residuos en diferentes \u00e1reas. Esto permitir\u00e1 a los responsables tomar decisiones proactivas sobre inversiones y planificaci\u00f3n.",
+        "technique": "Machine learning, regresi\u00f3n",
+        "columns": "UBIGEO (para identificar la ubicaci\u00f3n), RESIDUOS_MUNICIPALES_DISPUESTOS (variable dependiente para predecir), POBLACION (factor que influye en la generaci\u00f3n de residuos), PBI (indicador socioecon\u00f3mico que puede influir en la producci\u00f3n de residuos), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para analizar si el tipo de gesti\u00f3n afecta la necesidad de capacidad)",
+        "type": "fa-flask"
+    },
+    {
+        "title": "Evaluaci\u00f3n del Impacto Ambiental de Diferentes Sitios de Disposici\u00f3n",
+        "description": "Se realizar\u00e1 un an\u00e1lisis comparativo del impacto ambiental de diferentes tipos de sitios de disposici\u00f3n final (rellenos sanitarios, vertederos controlados, etc.). Se evaluar\u00e1n factores como emisiones, contaminaci\u00f3n del agua y suelo.",
+        "technique": "An\u00e1lisis multicriterio, modelado ambiental",
+        "columns": "NOMBRE_SITIO_DISPOSICION_FINAL_ADECUADA (para identificar el sitio), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para clasificar por tipo de sitio), EMISIONES (datos sobre emisiones generadas por cada sitio), CONTAMINACION_AGUA (datos sobre contaminaci\u00f3n del agua relacionada con cada sitio), CONTAMINACION_SUELO (datos sobre contaminaci\u00f3n del suelo)",
+        "type": "fa-leaf"
+    },
+    {
+        "title": "Plataforma de Monitoreo y Gesti\u00f3n de Residuos",
+        "description": "Se desarrollar\u00e1 una plataforma web para monitorear en tiempo real la gesti\u00f3n de residuos s\u00f3lidos. Esta plataforma permitir\u00e1 a los usuarios visualizar informaci\u00f3n sobre la cantidad de residuos recolectados, transportados y dispuestos, as\u00ed como identificar \u00e1reas problem\u00e1ticas.",
+        "technique": "Desarrollo web, bases de datos, APIs",
+        "columns": "FECHA (para registrar la informaci\u00f3n en tiempo real), UBIGEO (para ubicar las actividades de gesti\u00f3n de residuos), TIPO_RESIDUO (clasificaci\u00f3n del tipo de residuo recolectado), CANTIDAD (cantidad de residuos procesados), ESTADO (estado actual del proceso de gesti\u00f3n)",
+        "type": "fa-database"
+    }
+]

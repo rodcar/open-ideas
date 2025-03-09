@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Intensidad de Precipitaciones",
+        "description": "Este mapa visualizar\u00e1 la distribuci\u00f3n espacial de las precipitaciones en la quebrada Umasbamba. El usuario podr\u00e1 interactuar con el mapa para ver informaci\u00f3n detallada sobre la intensidad de las lluvias en diferentes puntos y fechas.",
+        "technique": "Geo-referenciaci\u00f3n, an\u00e1lisis espacial, visualizaci\u00f3n en mapas",
+        "columns": "FECHA_REGISTRO (filtrar por fecha), HORA_REGISTRO (filtrar por hora), PRECIPITACION (valor a mostrar en el mapa), LATITUD (obtener de UBIGEO o datos geogr\u00e1ficos adicionales), LONGITUD (obtener de UBIGEO o datos geogr\u00e1ficos adicionales).",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de Patrones de Precipitaci\u00f3n",
+        "description": "Se aplicar\u00e1 machine learning para identificar patrones y tendencias en las precipitaciones. Esto permitir\u00e1 predecir posibles eventos extremos como sequ\u00edas o inundaciones.",
+        "technique": "Machine Learning (modelos de series temporales), an\u00e1lisis estad\u00edstico",
+        "columns": "FECHA_REGISTRO (variable temporal), HORA_REGISTRO (variable temporal), PRECIPITACION (variable a predecir)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Dashboard de Monitoreo Hidrol\u00f3gico",
+        "description": "Se desarrollar\u00e1 un dashboard interactivo que muestre informaci\u00f3n en tiempo real sobre las condiciones hidrol\u00f3gicas de la quebrada. Esto ser\u00e1 \u00fatil para la gesti\u00f3n de recursos h\u00eddricos y la prevenci\u00f3n de desastres.",
+        "technique": "Desarrollo web, visualizaci\u00f3n de datos (Dashboards)",
+        "columns": "FECHA_REGISTRO (filtrar por fecha), HORA_REGISTRO (filtrar por hora), PRECIPITACION (mostrar en gr\u00e1ficos), DEPARTAMENTO (filtrar por ubicaci\u00f3n), PROVINCIA (filtrar por ubicaci\u00f3n), DISTRITO (filtrar por ubicaci\u00f3n)",
+        "type": "fa-dashboard"
+    },
+    {
+        "title": "Comparaci\u00f3n Hist\u00f3rica de Precipitaciones",
+        "description": "Se analizar\u00e1n los datos hist\u00f3ricos de precipitaci\u00f3n para comparar patrones y tendencias a lo largo del tiempo. Esto permitir\u00e1 entender c\u00f3mo han cambiado las condiciones clim\u00e1ticas en la regi\u00f3n.",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos (gr\u00e1ficos de l\u00ednea)",
+        "columns": "FECHA_REGISTRO (variable temporal), PRECIPITACION (variable a comparar)",
+        "type": "fa-history"
+    },
+    {
+        "title": "Identificaci\u00f3n de Zonas Vulnerables",
+        "description": "Se utilizar\u00e1 informaci\u00f3n geogr\u00e1fica y datos meteorol\u00f3gicos para identificar \u00e1reas con mayor riesgo de sufrir los efectos de eventos extremos relacionados con la precipitaci\u00f3n.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, superposici\u00f3n de capas",
+        "columns": "UBIGEO (ubicaci\u00f3n geogr\u00e1fica), PRECIPITACION (intensidad de la lluvia), ALTITUD (obtener de datos geogr\u00e1ficos adicionales)",
+        "type": "fa-shield-alt"
+    }
+]

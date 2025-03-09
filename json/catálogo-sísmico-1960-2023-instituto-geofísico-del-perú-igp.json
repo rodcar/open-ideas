@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Sismos",
+        "description": "Este mapa mostrar\u00e1 la ubicaci\u00f3n y magnitud de los sismos registrados en Per\u00fa desde 1960 hasta la actualidad. Permite a los usuarios visualizar patrones de actividad s\u00edsmica y explorar informaci\u00f3n detallada de cada evento.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
+        "columns": "FECHA_UTC (para el ordenamiento temporal de los sismos), HORA_UTC (para la visualizaci\u00f3n precisa del momento del evento), LATITUD (para la ubicaci\u00f3n geogr\u00e1fica en el mapa), LONGITUD (para la ubicaci\u00f3n geogr\u00e1fica en el mapa), MAGNITUD (para el tama\u00f1o del marcador en el mapa, indicando la intensidad del sismo).",
+        "type": "fa-map-marker"
+    },
+    {
+        "title": "Predicci\u00f3n de Probabilidad S\u00edsmica",
+        "description": "Utilizando datos hist\u00f3ricos de sismos y machine learning, se puede desarrollar un modelo que prediga la probabilidad de ocurrencia de sismos en diferentes regiones de Per\u00fa.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
+        "columns": "FECHA_UTC (para analizar tendencias temporales), LATITUD (para delimitar zonas geogr\u00e1ficas), LONGITUD (para delimitar zonas geogr\u00e1ficas), MAGNITUD (para evaluar la intensidad de eventos previos y ajustar el modelo). ",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Alerta S\u00edsmica Temprana",
+        "description": "Un sistema que analiza en tiempo real los datos s\u00edsmicos para detectar se\u00f1ales previas a un terremoto y emitir alertas tempranas a la poblaci\u00f3n.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
+        "columns": "FECHA_UTC (para el an\u00e1lisis temporal de eventos), HORA_UTC (para la precisi\u00f3n en las alertas), LATITUD (para identificar la ubicaci\u00f3n del epicentro), LONGITUD (para identificar la ubicaci\u00f3n del epicentro).",
+        "type": "fa-bell"
+    },
+    {
+        "title": "An\u00e1lisis de Impacto de Sismos",
+        "description": "Evaluar los impactos sociales y econ\u00f3micos de los sismos en Per\u00fa. Se puede analizar la relaci\u00f3n entre la magnitud del sismo, la ubicaci\u00f3n y los da\u00f1os causados.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
+        "columns": "FECHA_UTC (para el an\u00e1lisis temporal de eventos), LATITUD (para identificar zonas afectadas), LONGITUD (para identificar zonas afectadas), MAGNITUD (para correlacionar la intensidad del sismo con los da\u00f1os). ",
+        "type": "fa-building-crash"
+    },
+    {
+        "title": "Plataforma de Informaci\u00f3n S\u00edsmica",
+        "description": "Una plataforma web centralizada que proporciona acceso a informaci\u00f3n detallada sobre sismos en Per\u00fa, incluyendo mapas interactivos, datos hist\u00f3ricos, an\u00e1lisis estad\u00edsticos y alertas.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones, Dashboards",
+        "columns": "FECHA_UTC (para el ordenamiento temporal de los datos), HORA_UTC (para la visualizaci\u00f3n precisa del momento del evento), LATITUD (para la ubicaci\u00f3n geogr\u00e1fica), LONGITUD (para la ubicaci\u00f3n geogr\u00e1fica), MAGNITUD (para clasificar la intensidad de los sismos), PROFUNDIDAD (para informaci\u00f3n adicional sobre el evento).",
+        "type": "fa-database"
+    }
+]

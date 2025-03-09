@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Precipitaciones",
+        "description": "Este dashboard permitir\u00e1 visualizar la distribuci\u00f3n espacial y temporal de las precipitaciones en la regi\u00f3n. Se utilizar\u00e1n mapas interactivos para mostrar la intensidad de las precipitaciones en diferentes ubicaciones y momentos.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, visualizaci\u00f3n con mapas interactivos (Leaflet, Folium)",
+        "columns": "LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), FECHA_UTC (momento de la medici\u00f3n), HORA_UTC (momento de la medici\u00f3n), REFLECTIVITY (intensidad de la precipitaci\u00f3n)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de Eventos Meteorol\u00f3gicos",
+        "description": "Utilizando datos hist\u00f3ricos de precipitaci\u00f3n y machine learning, se puede desarrollar un modelo para predecir eventos meteorol\u00f3gicos futuros como tormentas o sequ\u00edas.",
+        "technique": "An\u00e1lisis, machine learning (regresi\u00f3n, redes neuronales), visualizaci\u00f3n con gr\u00e1ficos de series de tiempo",
+        "columns": "FECHA_UTC (fecha de la medici\u00f3n), HORA_UTC (hora de la medici\u00f3n), REFLECTIVITY (intensidad de la precipitaci\u00f3n), VELOCITY (velocidad del viento), SPECTRAL_WIDTH (ancho espectral)",
+        "type": "fa-cloud-rain"
+    },
+    {
+        "title": "An\u00e1lisis de Patrones de Precipitaciones",
+        "description": "Se puede analizar los patrones de precipitaci\u00f3n a lo largo del tiempo para identificar tendencias, variaciones estacionales y posibles efectos del cambio clim\u00e1tico.",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n con gr\u00e1ficos de l\u00edneas y barras",
+        "columns": "FECHA_UTC (fecha de la medici\u00f3n), FECHA_CORTE (d\u00eda de generaci\u00f3n del dataset), ANIO (a\u00f1o de la medici\u00f3n), REFLECTIVITY (intensidad de la precipitaci\u00f3n), DISTRITO (localizaci\u00f3n)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Sistema de Alerta Temprana",
+        "description": "Se puede desarrollar un sistema que env\u00ede alertas a la poblaci\u00f3n en caso de eventos meteorol\u00f3gicos severos, como fuertes lluvias o inundaciones.",
+        "technique": "An\u00e1lisis, machine learning para detecci\u00f3n de patrones an\u00f3malos, integraci\u00f3n con sistemas de mensajer\u00eda",
+        "columns": "REFLECTIVITY (intensidad de precipitaci\u00f3n), VELOCITY (velocidad del viento), FECHA_UTC (fecha de la medici\u00f3n), HORA_UTC (hora de la medici\u00f3n), UBIGEO (c\u00f3digo de ubicaci\u00f3n)",
+        "type": "fa-bell"
+    },
+    {
+        "title": "Estudio Hidrol\u00f3gico",
+        "description": "Los datos de precipitaci\u00f3n pueden utilizarse para modelar el flujo de agua en r\u00edos y quebradas, lo que es \u00fatil para la gesti\u00f3n de recursos h\u00eddricos.",
+        "technique": "Modelado hidrol\u00f3gico, an\u00e1lisis espacial",
+        "columns": "REFLECTIVITY (intensidad de la precipitaci\u00f3n), FECHA_UTC (fecha de la medici\u00f3n), HORA_UTC (hora de la medici\u00f3n), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica)",
+        "type": "fa-water"
+    }
+]

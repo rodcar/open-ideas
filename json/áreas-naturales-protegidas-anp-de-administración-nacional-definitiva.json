@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Plataforma de Monitoreo de Acceso a Salud",
+        "description": "Esta plataforma utilizar\u00e1 datos georreferenciados de las \u00e1reas naturales protegidas, informaci\u00f3n sobre la ubicaci\u00f3n de los centros de salud y datos socioecon\u00f3micos para identificar zonas con mayor necesidad de acceso a servicios de salud. La plataforma generar\u00e1 mapas interactivos que mostrar\u00e1n \u00e1reas con deficiencias en cobertura de salud, permitiendo a las autoridades dirigir recursos y esfuerzos de manera m\u00e1s eficiente.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, machine learning para identificar patrones, Dashboards",
+        "columns": "ID_ANP (identificador \u00fanico del \u00c1rea Natural Protegida), COORDENADAS_ANP (coordenadas geogr\u00e1ficas del ANP), TIPO_ANP (categor\u00eda del ANP), DISTANCIA_CENTRO_SALUD (distancia al centro de salud m\u00e1s cercano), POBLACION_CERCA (poblaci\u00f3n residente en un radio de X km alrededor del ANP), INDICE_POVERDAD (\u00edndice de desarrollo humano o similar para la zona).",
+        "type": "fa-hospital-o"
+    },
+    {
+        "title": "Optimizador de Rutas de Transporte P\u00fablico",
+        "description": "Este sistema utilizar\u00e1 datos de ubicaci\u00f3n de paradas, horarios de buses, patrones de movilidad (obtenidos de celulares o GPS), informaci\u00f3n sobre la infraestructura vial y datos socioecon\u00f3micos para optimizar las rutas de transporte p\u00fablico. Se podr\u00e1 identificar zonas con mayor demanda, ajustar frecuencias de buses, crear nuevas rutas eficientes y reducir tiempos de viaje.",
+        "technique": "An\u00e1lisis de redes, algoritmos de optimizaci\u00f3n de rutas, machine learning para predecir patrones de movilidad, Visualizaciones en mapas",
+        "columns": "ID_PARADA (identificador \u00fanico de la parada), COORDENADAS_PARADA (coordenadas geogr\u00e1ficas de la parada), LINEA_BUS (l\u00ednea de transporte p\u00fablico que pasa por la parada), HORARIO (horario de llegada y salida de los buses), CANTIDAD_PASAJEROS (n\u00famero promedio de pasajeros que suben/bajan en la parada), TIPO_VIA (tipo de v\u00eda donde se encuentra la parada).",
+        "type": "fa-bus"
+    },
+    {
+        "title": "Mapa Interactivo de Acceso a Internet",
+        "description": "Este mapa mostrar\u00e1 la cobertura de internet en las \u00e1reas naturales protegidas y comunidades cercanas. Se utilizar\u00e1n datos de proveedores de internet, informaci\u00f3n sobre infraestructura de telecomunicaciones y datos socioecon\u00f3micos para identificar zonas con menor acceso a internet. Esto permitir\u00e1 a las autoridades planificar estrategias para extender la conectividad.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, visualizaci\u00f3n en mapas interactivos",
+        "columns": "ID_ANP (identificador \u00fanico del \u00c1rea Natural Protegida), COORDENADAS_ANP (coordenadas geogr\u00e1ficas del ANP), TIPO_CONEXION (tipo de conexi\u00f3n disponible - fibra \u00f3ptica, ADSL, sat\u00e9lite, etc.), VELOCIDAD_INTERNET (velocidad promedio de internet en la zona), POBLACION_SIN_ACCESO (n\u00famero estimado de personas sin acceso a internet).",
+        "type": "fa-wifi"
+    },
+    {
+        "title": "Sistema de Monitoreo de Recursos Naturales",
+        "description": "Esta plataforma utilizar\u00e1 datos de sensores remotos, informaci\u00f3n sobre las \u00e1reas naturales protegidas, patrones clim\u00e1ticos y datos socioecon\u00f3micos para monitorear el estado de los ecosistemas. Se podr\u00e1n identificar zonas con mayor riesgo de deforestaci\u00f3n, degradaci\u00f3n del suelo o p\u00e9rdida de biodiversidad. Esto permitir\u00e1 tomar medidas preventivas y de conservaci\u00f3n.",
+        "technique": "An\u00e1lisis de im\u00e1genes satelitales, machine learning para detectar patrones, mapas interactivos",
+        "columns": "ID_ANP (identificador \u00fanico del \u00c1rea Natural Protegida), COORDENADAS_ANP (coordenadas geogr\u00e1ficas del ANP), TIPO_ECOSISTEMA (tipo de ecosistema presente en el ANP), \u00cdNDICE_VEGETACI\u00d3N (\u00edndice de salud vegetal obtenido de im\u00e1genes satelitales), TEMPERATURA_PROMEDIO (temperatura promedio en la zona), PRECIPITACION (precipitaci\u00f3n anual en la zona).",
+        "type": "fa-tree"
+    },
+    {
+        "title": "Plataforma de Educaci\u00f3n Ambiental Online",
+        "description": "Esta plataforma ofrecer\u00e1 cursos y recursos educativos sobre el valor de las \u00e1reas naturales protegidas, la biodiversidad y la conservaci\u00f3n ambiental. Se utilizar\u00e1n datos sobre la ubicaci\u00f3n de las escuelas, la conectividad a internet en las comunidades cercanas a los ANP y los intereses de los estudiantes para adaptar el contenido educativo a las necesidades locales.",
+        "technique": "Aprendizaje electr\u00f3nico, plataformas online adaptativas, an\u00e1lisis de datos",
+        "columns": "ID_ESCUELA (identificador \u00fanico de la escuela), COORDENADAS_ESCUELA (coordenadas geogr\u00e1ficas de la escuela), NIVEL_EDUCATIVO (nivel educativo de la escuela - primaria, secundaria, etc.), TIPO_CONEXION (tipo de conexi\u00f3n a internet disponible en la escuela), INTERESES_ESTUDIANTES (datos sobre los temas que m\u00e1s interesan a los estudiantes).",
+        "type": "fa-book"
+    }
+]

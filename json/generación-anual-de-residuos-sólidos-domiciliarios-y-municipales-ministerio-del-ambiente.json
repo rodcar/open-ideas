@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa interactivo de generaci\u00f3n de residuos",
+        "description": "Visualizar la cantidad de residuos generados por municipio en un mapa interactivo. Permite identificar zonas con mayor acumulaci\u00f3n de basura y focalizar esfuerzos de recolecci\u00f3n y reciclaje.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos con mapas interactivos",
+        "columns": "UBIGEO (para ubicar el municipio en el mapa), GENERACION_MUN_TDIA (mostrar la cantidad de residuos generados por d\u00eda), GENERACION_PER_CAPITA_MUNICIPAL (comparar la generaci\u00f3n de residuos entre municipios)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de generaci\u00f3n de residuos",
+        "description": "Utilizar machine learning para predecir la cantidad de residuos que se generar\u00e1n en un futuro determinado, considerando variables como poblaci\u00f3n, tipo de vivienda y h\u00e1bitos de consumo.",
+        "technique": "Modelado predictivo con algoritmos de machine learning",
+        "columns": "UBIGEO (para identificar la ubicaci\u00f3n), POBLACION (variable para el modelo), GENERACION_MUN_TDIA (variable objetivo a predecir), TIPO_VIVIENDA (categor\u00eda para mejorar la precisi\u00f3n del modelo), REGION (considerar factores regionales)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Comparaci\u00f3n de gesti\u00f3n de residuos entre municipios",
+        "description": "Crear un dashboard interactivo que permita comparar indicadores clave de gesti\u00f3n de residuos (por ejemplo, tasa de reciclaje, cantidad de vertederos) entre diferentes municipios. Facilita la identificaci\u00f3n de mejores pr\u00e1cticas y \u00e1reas de mejora.",
+        "technique": "An\u00e1lisis comparativo, visualizaci\u00f3n en dashboards interactivos",
+        "columns": "UBIGEO (para identificar el municipio), GENERACION_MUN_TDIA (comparar la cantidad de residuos generados), TASA_RECICLAJE (indicador de eficiencia), CANTIDAD_VERTEDEROS (evaluar impacto ambiental)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "An\u00e1lisis de patrones de consumo seg\u00fan tipo de vivienda",
+        "description": "Investigar si existe una relaci\u00f3n entre el tipo de vivienda y la cantidad de residuos generados por habitante. Permite identificar \u00e1reas donde se necesitan campa\u00f1as de concientizaci\u00f3n sobre reciclaje o reducci\u00f3n de consumo.",
+        "technique": "An\u00e1lisis estad\u00edstico, segmentaci\u00f3n por tipo de vivienda",
+        "columns": "UBIGEO (para contextualizar la informaci\u00f3n), TIPO_VIVIENDA (categorizar las viviendas), GENERACION_PER_CAPITA_MUNICIPAL (comparar la generaci\u00f3n de residuos por tipo de vivienda)",
+        "type": "fa-home"
+    },
+    {
+        "title": "Identificaci\u00f3n de zonas con mayor potencial para compostaje",
+        "description": "Utilizar informaci\u00f3n geogr\u00e1fica y demogr\u00e1fica para identificar \u00e1reas donde el compostaje domiciliario podr\u00eda ser m\u00e1s viable, considerando factores como la densidad poblacional, acceso a espacios verdes y h\u00e1bitos de consumo.",
+        "technique": "An\u00e1lisis geoespacial, superposici\u00f3n de capas de datos",
+        "columns": "UBIGEO (para ubicar las zonas), DENSIDAD_POBLACIONAL (evaluar la viabilidad del compostaje a nivel local), ACCESO_ESPACIOS_VERDES (considerar la disponibilidad de espacios para compostaje)",
+        "type": "fa-leaf"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Intensidad S\u00edsmica",
+        "description": "Crear un mapa interactivo que muestre la intensidad de los sismos en diferentes ubicaciones. Esto permitir\u00e1 visualizar las zonas m\u00e1s propensas a terremotos y ayudar a tomar medidas preventivas.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, visualizaci\u00f3n de mapas",
+        "columns": "FECHA_EVENTO (Para filtrar por eventos), HORA_EVENTO (Para filtrar por eventos), UBIGEO (Para ubicar la estaci\u00f3n en el mapa), LAT_ESTACION (Coordenada geogr\u00e1fica para ubicaci\u00f3n en el mapa), LON_ESTACION (Coordenada geogr\u00e1fica para ubicaci\u00f3n en el mapa), ACEL_MAX_VERTICAL (Para determinar la intensidad del sismo en cada punto), ",
+        "type": "fa-map-location"
+    },
+    {
+        "title": "Predicci\u00f3n de Sismos",
+        "description": "Utilizar modelos de machine learning para analizar patrones hist\u00f3ricos en los datos de aceleraci\u00f3n y intentar predecir la ocurrencia y magnitud de futuros sismos.",
+        "technique": "Machine Learning, an\u00e1lisis predictivo, visualizaci\u00f3n temporal",
+        "columns": "FECHA_EVENTO (Variable temporal), HORA_EVENTO (Variable temporal), ACEL_MAX_VERTICAL (Valor a predecir), ACEL_MAX_NORTE-SUR (Dato relevante para el modelo), ACEL_MAX_ESTE-OESTE (Dato relevante para el modelo), UBIGEO (Para contextualizar la predicci\u00f3n)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Sistema de Alerta Temprana",
+        "description": "Desarrollar un sistema que, al detectar patrones de alta aceleraci\u00f3n, emita alertas tempranas a la poblaci\u00f3n en las zonas de riesgo.",
+        "technique": "An\u00e1lisis en tiempo real, procesamiento de datos, integraci\u00f3n con sistemas de alerta",
+        "columns": "FECHA_EVENTO (Para identificar eventos recientes), HORA_EVENTO (Para identificar eventos recientes), ACEL_MAX_VERTICAL (Para determinar si se supera un umbral cr\u00edtico), UBIGEO (Para determinar la zona afectada)",
+        "type": "fa-bell"
+    },
+    {
+        "title": "An\u00e1lisis de Riesgo S\u00edsmico",
+        "description": "Evaluar el riesgo s\u00edsmico en diferentes zonas, considerando la frecuencia e intensidad de los sismos hist\u00f3ricos. Esta informaci\u00f3n puede ser utilizada para planificar infraestructuras m\u00e1s resistentes.",
+        "technique": "Geoestad\u00edstica, an\u00e1lisis espacial, visualizaci\u00f3n de mapas de calor",
+        "columns": "UBIGEO (Para ubicar las estaciones), ACEL_MAX_VERTICAL (Para cuantificar la intensidad), LAT_ESTACION (Coordenada geogr\u00e1fica), LON_ESTACION (Coordenada geogr\u00e1fica)",
+        "type": "fa-chart-area"
+    },
+    {
+        "title": "Base de Datos Abierta",
+        "description": "Crear una plataforma online accesible al p\u00fablico que permita consultar y descargar los datos de aceleraci\u00f3n. Esto fomentar\u00e1 la investigaci\u00f3n cient\u00edfica y el desarrollo de nuevas aplicaciones.",
+        "technique": "Dise\u00f1o de base de datos, API REST, visualizaci\u00f3n de datos",
+        "columns": "Todas las columnas (Para proporcionar acceso completo a los datos)",
+        "type": "fa-database"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "An\u00e1lisis de Gasto por \u00c1rea Natural Protegida",
+        "description": "Esta idea busca analizar c\u00f3mo se distribuyen los gastos entre las diferentes \u00c1reas Naturales Protegidas (ANP).  Esto permitir\u00e1 identificar ANP con mayor o menor inversi\u00f3n y comprender las prioridades en la conservaci\u00f3n.",
+        "technique": "An\u00e1lisis de datos, visualizaci\u00f3n",
+        "columns": "DEPENDENCIA (Filtrar por \u00e1rea natural protegida), ACTIVIDAD (Agrupar por tipo de actividad), TIPO_GASTO (Categorizar los gastos), RUBRO (Detallar subcategor\u00edas de gasto), PARTIDA_GASTO (Identificar partidas espec\u00edficas), EJECUCION (Valor del gasto ejecutado)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Identificaci\u00f3n de Patrones en Gastos por Tipo de Ingreso",
+        "description": "Analizar c\u00f3mo var\u00edan los gastos seg\u00fan la fuente de financiamiento (Recursos Ordinarios vs. Financieros No Reembolsables). Esto puede revelar tendencias en la inversi\u00f3n p\u00fablica vs. privada en la conservaci\u00f3n.",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n",
+        "columns": "TIPO_INGRESO (Categorizar por fuente de financiamiento), TIPO_GASTO (Agrupar gastos por categor\u00edas), EJECUCION (Valor del gasto ejecutado por tipo de ingreso)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Mapeo Geogr\u00e1fico de Gastos en Conservaci\u00f3n",
+        "description": "Geolocalizar las ANP y visualizar los gastos asociados a cada una. Esto permite identificar \u00e1reas con mayor inversi\u00f3n y potenciales desequilibrios geogr\u00e1ficos.",
+        "technique": "Geo-referenciaci\u00f3n, cartograf\u00eda, visualizaci\u00f3n",
+        "columns": "DEPENDENCIA (Nombre de la ANP), EJECUCION (Valor del gasto ejecutado), Coordenadas geogr\u00e1ficas de las ANP (necesaria informaci\u00f3n adicional)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de Gastos Futuros",
+        "description": "Utilizar machine learning para predecir futuros gastos en conservaci\u00f3n bas\u00e1ndose en datos hist\u00f3ricos. Esto puede ayudar a planificar mejor la asignaci\u00f3n de recursos.",
+        "technique": "Machine Learning, an\u00e1lisis predictivo",
+        "columns": "FECHA_CORTE (Fecha), TIPO_GASTO (Categor\u00eda de gasto), EJECUCION (Valor del gasto ejecutado)",
+        "type": "fa-chart-pie"
+    },
+    {
+        "title": "Dashboard Interactivo para la Transparencia en Gastos",
+        "description": "Crear un dashboard interactivo que permita a los usuarios explorar los datos de gastos en conservaci\u00f3n. Esto promueve la transparencia y la participaci\u00f3n ciudadana.",
+        "technique": "Desarrollo web, visualizaci\u00f3n interactiva",
+        "columns": "Todas las columnas (para permitir an\u00e1lisis multifac\u00e9ticos)",
+        "type": "fa-laptop"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Proyectos por Sector",
+        "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de proyectos de acuerdo a su sector, permitiendo identificar \u00e1reas con mayor o menor inversi\u00f3n en salud, educaci\u00f3n, transporte, etc. Esto facilita la evaluaci\u00f3n de la equidad en la asignaci\u00f3n de recursos.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, filtrado por sector, visualizaci\u00f3n en mapa interactivo",
+        "columns": "geom (geolocalizaci\u00f3n del proyecto), sect_proy (sector al que pertenece el proyecto), nombdist (nombre del distrito), nombprov (nombre de la provincia), nombdep (nombre del departamento)",
+        "type": "fa-map-marked"
+    },
+    {
+        "title": "Identificaci\u00f3n de Zonas con Menor Acceso a Servicios",
+        "description": "Analizar la ubicaci\u00f3n de proyectos en relaci\u00f3n a indicadores socioecon\u00f3micos como pobreza, analfabestismo, acceso a agua potable y saneamiento. Esto permite identificar zonas con mayor necesidad de inversi\u00f3n en servicios b\u00e1sicos.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, cruce de datos con informaci\u00f3n socioecon\u00f3mica, agrupamiento por zonas",
+        "columns": "geom (geolocalizaci\u00f3n del proyecto), ubicho (ubicaci\u00f3n geogr\u00e1fica), func_proy (funci\u00f3n del proyecto), nivel_gob (nivel de gobierno), monto_ref (monto de referencia)",
+        "type": "fa-crosshairs"
+    },
+    {
+        "title": "Priorizaci\u00f3n de Proyectos seg\u00fan Impacto Social",
+        "description": "Desarrollar un modelo de machine learning que prediga el impacto social de cada proyecto en funci\u00f3n de su sector, ubicaci\u00f3n y monto. Esto permite priorizar proyectos con mayor potencial de mejorar la calidad de vida de la poblaci\u00f3n.",
+        "technique": "Machine Learning, an\u00e1lisis predictivo, cruce de datos con indicadores de desarrollo social",
+        "columns": "nom_proy (nombre del proyecto), sect_proy (sector), func_proy (funci\u00f3n), ubicho (ubicaci\u00f3n geogr\u00e1fica), monto_ref (monto de referencia)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Monitoreo y Seguimiento de Proyectos",
+        "description": "Crear un dashboard que muestre el estado de avance de cada proyecto, su presupuesto asignado, fechas clave y responsables. Esto permite un control m\u00e1s eficiente de la ejecuci\u00f3n de proyectos y la detecci\u00f3n temprana de posibles retrasos o problemas.",
+        "technique": "Desarrollo de dashboards interactivos, visualizaci\u00f3n de datos en tiempo real",
+        "columns": "id (identificador \u00fanico), cod_proy (c\u00f3digo del proyecto), nom_proy (nombre del proyecto), mod_proy (modalidad de ejecuci\u00f3n), monto_ref (monto de referencia), nivel_gob (nivel de gobierno)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "An\u00e1lisis de la Distribuci\u00f3n Presupuestaria por Distrito",
+        "description": "Generar informes que muestren la distribuci\u00f3n del presupuesto asignado a proyectos en cada distrito. Esto permite identificar posibles inequidades en la asignaci\u00f3n de recursos y tomar decisiones para garantizar una distribuci\u00f3n m\u00e1s equitativa.",
+        "technique": "An\u00e1lisis estad\u00edstico, agrupamiento por distrito, visualizaci\u00f3n en gr\u00e1ficos",
+        "columns": "nombdist (nombre del distrito), monto_ref (monto de referencia), sect_proy (sector del proyecto)",
+        "type": "fa-money-bill-alt"
+    }
+]

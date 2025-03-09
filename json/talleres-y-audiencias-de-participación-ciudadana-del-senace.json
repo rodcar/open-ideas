@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Participaci\u00f3n Ciudadana",
+        "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de los eventos de participaci\u00f3n ciudadana (talleres y audiencias) del SENACE. Esto permite identificar zonas con mayor o menor actividad, as\u00ed como \u00e1reas donde se requiere fortalecer la participaci\u00f3n.",
+        "technique": "An\u00e1lisis Geoespacial, Visualizaci\u00f3n de datos en mapas",
+        "columns": "LUGAR (ubicaci\u00f3n geogr\u00e1fica para geo-referenciar), DEPARTAMENTO (filtrar por departamento), TIPO_EVENTO (diferenciar talleres de audiencias), FECHA (analizar patrones temporales)",
+        "type": "fa-map-marker"
+    },
+    {
+        "title": "An\u00e1lisis de Tendencias en Temas Ambientales",
+        "description": "Identificar los temas ambientales que generan mayor inter\u00e9s y participaci\u00f3n ciudadana a trav\u00e9s del an\u00e1lisis del contenido de los proyectos presentados en los eventos.",
+        "technique": "Miner\u00eda de Texto, An\u00e1lisis de frecuencia de palabras clave",
+        "columns": "PROYECTO (texto descriptivo del proyecto), SUBSECTOR (categorizar por \u00e1reas tem\u00e1ticas)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Evaluaci\u00f3n del Impacto de las Actividades",
+        "description": "Medir el impacto de los eventos de participaci\u00f3n ciudadana en la toma de decisiones y en la mejora de proyectos ambientales. Esto puede realizarse a trav\u00e9s de encuestas o an\u00e1lisis de cambios en los proyectos.",
+        "technique": "Encuestas, An\u00e1lisis comparativo antes/despu\u00e9s de los eventos",
+        "columns": "PROYECTO (identificar proyecto espec\u00edfico), NUMERO_ASISTENTES (evaluar alcance), NUMERO_PREGUNTAS (indicador de participaci\u00f3n activa), ESTADO (analizar si se aprobaron cambios)",
+        "type": "fa-poll"
+    },
+    {
+        "title": "Predicci\u00f3n de Asistencia a Eventos",
+        "description": "Utilizar datos hist\u00f3ricos sobre asistencia, tipo de evento, ubicaci\u00f3n y otros factores para predecir la participaci\u00f3n en eventos futuros. Esto puede ayudar a planificar mejor los recursos.",
+        "technique": "Machine Learning (modelos de regresi\u00f3n), An\u00e1lisis de series temporales",
+        "columns": "TIPO_EVENTO (categorizar eventos), LUGAR (ubicaci\u00f3n geogr\u00e1fica), FECHA (factor temporal), NUMERO_ASISTENTES (variable objetivo)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Dashboard Interactivo de Transparencia",
+        "description": "Crear un dashboard online que permita a la ciudadan\u00eda consultar informaci\u00f3n sobre eventos, proyectos y decisiones ambientales. Esto promueve la transparencia y la participaci\u00f3n ciudadana.",
+        "technique": "Desarrollo web con herramientas de visualizaci\u00f3n (Tableau, PowerBI), API para acceder a datos",
+        "columns": "Todas las columnas del dataset (permitir filtros por tipo de evento, departamento, fecha, etc.)",
+        "type": "fa-dashboard"
+    }
+]

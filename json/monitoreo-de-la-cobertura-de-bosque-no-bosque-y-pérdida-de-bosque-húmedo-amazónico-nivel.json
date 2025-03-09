@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa interactivo de la deforestaci\u00f3n en Per\u00fa",
+        "description": "Visualizar la p\u00e9rdida de bosques a nivel nacional, departamental y distrital. Permite identificar zonas cr\u00edticas y patrones de deforestaci\u00f3n.",
+        "technique": "An\u00e1lisis geoespacial con QGIS/ArcGIS, creaci\u00f3n de mapas interactivos con Leaflet/Mapbox",
+        "columns": "UBIGEO (para la geolocalizaci\u00f3n), FECHA_CORTE (para an\u00e1lisis temporal), DEPARTAMENTO (para agrupar datos a nivel departamental), DISTRITO (para an\u00e1lisis a nivel local), PERDIDA_BOSQUE (para visualizar la intensidad de la deforestaci\u00f3n)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de la p\u00e9rdida de bosques con Machine Learning",
+        "description": "Utilizar datos hist\u00f3ricos de deforestaci\u00f3n para predecir \u00e1reas con mayor riesgo de perder cobertura forestal en el futuro.",
+        "technique": "Modelado predictivo con algoritmos de Machine Learning (Random Forest, Gradient Boosting), an\u00e1lisis de series de tiempo",
+        "columns": "FECHA_CORTE (variable temporal), UBIGEO (localizaci\u00f3n geogr\u00e1fica), PERDIDA_BOSQUE (variable objetivo), BOSQUE (variable predictora), HIDROGRAFIA (factor ambiental)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Comparaci\u00f3n de tasas de deforestaci\u00f3n entre distritos",
+        "description": "Generar un ranking de distritos seg\u00fan su tasa de p\u00e9rdida de bosque por a\u00f1o. Permite identificar las \u00e1reas con mayor impacto ambiental.",
+        "technique": "C\u00e1lculo de tasas de cambio (PERDIDA_BOSQUE/BOSQUE), ordenamiento y visualizaci\u00f3n de datos en tablas o gr\u00e1ficos",
+        "columns": "UBIGEO (para identificar distritos), ANIO (para an\u00e1lisis anual), PERDIDA_BOSQUE (para calcular la tasa de p\u00e9rdida), BOSQUE (dato inicial para calcular la tasa)",
+        "type": "fa-list-ol"
+    },
+    {
+        "title": "Dashboard interactivo del estado de los bosques",
+        "description": "Crear un tablero de control que muestre informaci\u00f3n clave sobre la cobertura forestal en tiempo real, mapas interactivos, gr\u00e1ficos y tablas.",
+        "technique": "Desarrollo web con librer\u00edas de visualizaci\u00f3n (Plotly, D3.js), integraci\u00f3n de datos con bases de datos",
+        "columns": "Todas las columnas del dataset para una visi\u00f3n completa del estado de los bosques, incluyendo informaci\u00f3n geogr\u00e1fica, temporal y cuantitativa.",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "An\u00e1lisis de la relaci\u00f3n entre deforestaci\u00f3n y variables socioecon\u00f3micas",
+        "description": "Investigar si existen correlaciones entre la p\u00e9rdida de bosques y factores como densidad poblacional, tipo de actividad econ\u00f3mica o acceso a servicios.",
+        "technique": "An\u00e1lisis estad\u00edstico multivariable (regresi\u00f3n lineal, an\u00e1lisis de correlaci\u00f3n), visualizaci\u00f3n de resultados con mapas de calor.",
+        "columns": "UBIGEO (para unir datos espaciales con informaci\u00f3n socioecon\u00f3mica), PERDIDA_BOSQUE (variable dependiente),  densidad poblacional, indicadores econ\u00f3micos (disponibles en otras fuentes de datos)",
+        "type": "fa-balance-scale"
+    }
+]

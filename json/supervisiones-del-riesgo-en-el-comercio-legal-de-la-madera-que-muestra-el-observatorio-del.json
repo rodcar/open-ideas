@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Calor de Riesgo de Tala Ilegal",
+        "description": "Visualizar la concentraci\u00f3n de casos de tala ilegal en un mapa interactivo. Esto permitir\u00e1 identificar zonas con mayor riesgo y enfocar esfuerzos de control.",
+        "technique": "An\u00e1lisis Geoespacial, Mapa de Calor",
+        "columns": "DEPARTAMENTO (Para ubicar el evento), PROVINCIA (Para una ubicaci\u00f3n m\u00e1s precisa), DISTRITO (Para definir la ubicaci\u00f3n exacta), VOLUMEN_ILEGAL (Para determinar la magnitud del riesgo en cada ubicaci\u00f3n). ",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de Tendencias en el Comercio Legal de Madera",
+        "description": "Identificar patrones y tendencias en el volumen de madera aprobada vs. la madera movilizada, permitiendo detectar posibles irregularidades o desviaciones.",
+        "technique": "An\u00e1lisis de Series de Tiempo, Visualizaci\u00f3n de Datos",
+        "columns": "FECHA_CORTE (Para definir el periodo de an\u00e1lisis), VOL_APROBADO (Volumen de madera autorizado), VOL_MOVILIZADO (Volumen de madera transportada), TITULAR (Para identificar patrones por empresa). ",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Predicci\u00f3n de Riesgo de Tala Ilegal",
+        "description": "Utilizar modelos de Machine Learning para predecir la probabilidad de tala ilegal en base a variables como ubicaci\u00f3n, tipo de madera y historial del titular.",
+        "technique": "Machine Learning (Algoritmos de Clasificaci\u00f3n), Modelado Predictivo",
+        "columns": "DEPARTAMENTO (Caracter\u00edstica geogr\u00e1fica), PROVINCIA (Caracter\u00edstica geogr\u00e1fica), DISTRITO (Caracter\u00edstica geogr\u00e1fica), TIPO_PMF (Tipo de plan de manejo forestal), TITULAR (Historial del titular), VOLUMEN_ILEGAL (Variable objetivo para entrenamiento). ",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Comparaci\u00f3n de Eficiencia entre Modalidades de Aprovechamiento",
+        "description": "Analizar la relaci\u00f3n entre diferentes modalidades de aprovechamiento forestal y la incidencia de tala ilegal, buscando identificar las m\u00e1s sostenibles.",
+        "technique": "An\u00e1lisis Comparativo, Tablas Din\u00e1micas",
+        "columns": "MODALIDAD_APROVECHAMIENTO (Variable a comparar), VOLUMEN_ILEGAL (Indicador de impacto), AREA_POA (Tama\u00f1o del \u00e1rea de aprovechamiento). ",
+        "type": "fa-table"
+    },
+    {
+        "title": "Sistema de Alerta Temprana para Tala Ilegal",
+        "description": "Desarrollar un sistema que detecte patrones sospechosos en tiempo real y genere alertas a las autoridades competentes.",
+        "technique": "Procesamiento de Datos en Tiempo Real, An\u00e1lisis de Anomal\u00edas",
+        "columns": "FECHA_SUPERVISION (Para determinar la temporalidad), ARBOLES_SUPERVISADOS (Cantidad de \u00e1rboles revisados), ARBOLES_INEXISTENTES (Indicador de posible tala ilegal), VOLUMEN_ILEGAL (Volumen detectado ilegalmente). ",
+        "type": "fa-bell"
+    }
+]

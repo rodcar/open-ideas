@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de la Densidad de Electrones en la Ionosfera Peruana",
+        "description": "Esta aplicaci\u00f3n web permitir\u00e1 visualizar la variaci\u00f3n de la densidad de electrones en diferentes puntos geogr\u00e1ficos del Per\u00fa a lo largo del tiempo. Los usuarios podr\u00e1n seleccionar una fecha y hora espec\u00edfica para ver un mapa con la distribuci\u00f3n espacial de la densidad de electrones, facilitando el estudio de los fen\u00f3menos ionosf\u00e9ricos.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos, mapas interactivos",
+        "columns": "UBIGEO (para la ubicaci\u00f3n geogr\u00e1fica), FECHA_UTC, HORA_UTC (para seleccionar una fecha y hora espec\u00edfica), FREC_MAX_F2 (indicador de densidad de electrones), ALT_MAX_DENS (altura donde se encuentra la mayor densidad)",
+        "type": "fa-map"
+    },
+    {
+        "title": "Predicci\u00f3n de la Actividad Ionosf\u00e9rica",
+        "description": "Utilizando modelos de machine learning, este sistema predecir\u00e1 las condiciones de la ionosfera en funci\u00f3n de datos hist\u00f3ricos. Esto permitir\u00e1 a operadores de radio y otras industrias dependientes de las comunicaciones por radio anticipar posibles interrupciones o ajustar sus sistemas para un funcionamiento \u00f3ptimo.",
+        "technique": "Machine Learning (regresi\u00f3n o series temporales), an\u00e1lisis de datos hist\u00f3ricos",
+        "columns": "FECHA_UTC, HORA_UTC, FREC_MAX_F2 (variable a predecir), ALT_F, ALT_MAX_DENS (variables predictoras)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "An\u00e1lisis de la Influencia del Sol en la Ionosfera",
+        "description": "Este an\u00e1lisis explorar\u00e1 las relaciones entre la actividad solar y las variaciones observadas en la ionosfera peruana. Se utilizar\u00e1n t\u00e9cnicas estad\u00edsticas para identificar patrones y determinar c\u00f3mo los eventos solares impactan la densidad de electrones, la altura de las capas ionosf\u00e9ricas y otras variables clave.",
+        "technique": "An\u00e1lisis estad\u00edstico (correlaci\u00f3n, regresi\u00f3n), visualizaci\u00f3n de datos",
+        "columns": "FECHA_UTC (para relacionar con datos de actividad solar), FREC_MAX_F2, ALT_F, ALT_MAX_DENS (variables a analizar en relaci\u00f3n con la actividad solar)",
+        "type": "fa-sun"
+    },
+    {
+        "title": "Sistema de Alertas Tempranas para Perturbaciones Ionosf\u00e9ricas",
+        "description": "Esta herramienta emitir\u00e1 alertas autom\u00e1ticas cuando se detecten condiciones inusuales en la ionosfera que puedan afectar las comunicaciones por radio. Las alertas incluir\u00e1n informaci\u00f3n sobre la ubicaci\u00f3n, severidad y posible duraci\u00f3n del evento, permitiendo a los usuarios tomar medidas preventivas.",
+        "technique": "Procesamiento de datos en tiempo real, algoritmos de detecci\u00f3n de anomal\u00edas",
+        "columns": "FECHA_UTC, HORA_UTC, FREC_MAX_F2 (para detectar desviaciones significativas), ALT_F, ALT_MAX_DENS (para identificar patrones an\u00f3malos)",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Comparaci\u00f3n de la Ionosfera Peruana con otras Regiones",
+        "description": "Este estudio comparar\u00e1 los datos de la ionosfera peruana con datos de otras regiones del mundo, buscando patrones y tendencias comunes o espec\u00edficas. Esto ayudar\u00e1 a comprender mejor las caracter\u00edsticas \u00fanicas de la ionosfera peruana y su relaci\u00f3n con el contexto global.",
+        "technique": "An\u00e1lisis estad\u00edstico (comparaci\u00f3n de medias, varianzas), visualizaci\u00f3n de datos",
+        "columns": "FECHA_UTC, HORA_UTC, FREC_MAX_F2 (variable principal a comparar), ALT_F, ALT_MAX_DENS (variables auxiliares para el an\u00e1lisis)",
+        "type": "fa-globe"
+    }
+]

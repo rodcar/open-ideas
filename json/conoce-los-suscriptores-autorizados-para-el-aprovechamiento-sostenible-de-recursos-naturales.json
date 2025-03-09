@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de \u00c1reas de Aprovechamiento",
+        "description": "Visualizar la ubicaci\u00f3n y extensi\u00f3n de las \u00e1reas donde se permite el aprovechamiento de recursos naturales dentro de las ANP. Permite a los usuarios explorar las zonas por tipo de recurso, vigencia del permiso y \u00e1rea total.",
+        "technique": "An\u00e1lisis Geoespacial con QGIS/ArcGIS",
+        "columns": "UBIGEO01-UBIGEO04 (Para geolocalizar las \u00e1reas de aprovechamiento), AREA_APROV_HA (Para representar el tama\u00f1o de las \u00e1reas en el mapa), ANP (Identificar el nombre del \u00e1rea protegida a la que pertenece cada zona), FECHA_VIGENCIA (Mostrar la vigencia de los permisos de aprovechamiento)",
+        "type": "fa-map-location"
+    },
+    {
+        "title": "An\u00e1lisis Temporal de Aprovechamiento de Recursos",
+        "description": "Identificar patrones y tendencias en el uso de recursos naturales a trav\u00e9s del tiempo. Permite analizar la evoluci\u00f3n del \u00e1rea total bajo aprovechamiento, los tipos de recursos m\u00e1s explotados y las ANP con mayor actividad.",
+        "technique": "Series de Tiempo y Visualizaci\u00f3n con Tableau/Power BI",
+        "columns": "FECHA_VIGENCIA (Para agrupar datos por a\u00f1o), AREA_APROV_HA (Sumar el \u00e1rea total por a\u00f1o), RECURSO (Categorizar el tipo de recurso aprovechado)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Sistema de Alertas para Aprovechamiento insostenible",
+        "description": "Desarrollar un sistema que identifique \u00e1reas con alto riesgo de sobreexplotaci\u00f3n de recursos, considerando la densidad de permisos otorgados, el tipo de recurso y la capacidad de regeneraci\u00f3n del ecosistema.",
+        "technique": "Machine Learning (clasificaci\u00f3n) con Python/R",
+        "columns": "UBIGEO01-UBIGEO04 (Geolocalizaci\u00f3n para an\u00e1lisis espacial), AREA_APROV_HA (Tama\u00f1o de las \u00e1reas bajo aprovechamiento), RECURSO (Tipo de recurso a analizar), FECHA_VIGENCIA (Para identificar patrones temporales)",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Plataforma para la Gesti\u00f3n de Permisos de Aprovechamiento",
+        "description": "Crear una plataforma digital que facilite el proceso de solicitud, aprobaci\u00f3n y seguimiento de los permisos de aprovechamiento de recursos. Permite a los usuarios consultar informaci\u00f3n sobre las \u00e1reas disponibles, requisitos de solicitud y estado de su tr\u00e1mite.",
+        "technique": "Desarrollo Web con Frameworks como Django/React",
+        "columns": "TODO (Todas las columnas son relevantes para la gesti\u00f3n de datos de los permisos)",
+        "type": "fa-laptop-code"
+    },
+    {
+        "title": "Comparaci\u00f3n del Aprovechamiento entre ANP",
+        "description": "Analizar y comparar la intensidad y tipo de aprovechamiento en diferentes ANP. Permite identificar las \u00e1reas con mayor presi\u00f3n sobre los recursos y tomar decisiones para una gesti\u00f3n m\u00e1s sostenible.",
+        "technique": "An\u00e1lisis Estad\u00edstico Comparativo con R/Excel",
+        "columns": "ANP (Para agrupar datos por \u00e1rea protegida), AREA_APROV_HA (Sumar el \u00e1rea total por ANP), RECURSO (Categorizar el tipo de recurso aprovechado)",
+        "type": "fa-chart-bar"
+    }
+]

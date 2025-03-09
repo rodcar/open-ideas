@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Plataforma de acceso a servicios de salud",
+        "description": "Una plataforma web y m\u00f3vil que conecta a personas en zonas rurales con profesionales de la salud. Se utilizar\u00e1 geolocalizaci\u00f3n para identificar las necesidades de atenci\u00f3n m\u00e9dica m\u00e1s urgentes y conectarlas con recursos disponibles.",
+        "technique": "An\u00e1lisis de datos espaciales, geo-referenciaci\u00f3n, machine learning para predecir patrones de demanda, desarrollo web y m\u00f3vil",
+        "columns": "Ubicaci\u00f3n (Para geolocalizar a los usuarios), Tipo de servicio necesario (Para clasificar la necesidad m\u00e9dica), Disponibilidad de profesionales (Para identificar recursos cercanos), Distancia (Para calcular la accesibilidad), Idioma (Para facilitar la comunicaci\u00f3n)",
+        "type": "fa-hospital"
+    },
+    {
+        "title": "Optimizador de rutas de transporte p\u00fablico",
+        "description": "Un sistema que utiliza datos en tiempo real sobre el tr\u00e1fico, la demanda y los horarios para optimizar las rutas de autobuses y otros medios de transporte p\u00fablico. Esto permitir\u00e1 reducir tiempos de viaje, mejorar la eficiencia y aumentar la accesibilidad.",
+        "technique": "An\u00e1lisis de big data, machine learning para predicci\u00f3n de patrones de movilidad, integraci\u00f3n con sistemas GPS, desarrollo de app m\u00f3vil",
+        "columns": "Ubicaci\u00f3n (Para rastrear el movimiento de los veh\u00edculos), Hora (Para ajustar las rutas seg\u00fan la demanda), N\u00famero de pasajeros (Para optimizar la capacidad), Estado del tr\u00e1fico (Para evitar congestiones), Tipo de transporte (Para diferenciar rutas)",
+        "type": "fa-bus"
+    },
+    {
+        "title": "Programa de alfabetizaci\u00f3n digital para comunidades rurales",
+        "description": "Un programa que utiliza recursos digitales y plataformas online para ense\u00f1ar habilidades digitales b\u00e1sicas a personas en \u00e1reas remotas. Se usar\u00e1n herramientas interactivas, cursos en l\u00ednea y apoyo personalizado.",
+        "technique": "Dise\u00f1o instruccional, desarrollo web, an\u00e1lisis de datos de participaci\u00f3n, gamificaci\u00f3n",
+        "columns": "Nivel de alfabetizaci\u00f3n digital inicial (Para personalizar el aprendizaje), Acceso a internet (Para identificar \u00e1reas con mayor necesidad), Intereses del usuario (Para adaptar el contenido), Progreso en el aprendizaje (Para monitorear la efectividad del programa),Retroalimentaci\u00f3n (Para mejorar el curso)",
+        "type": "fa-laptop"
+    },
+    {
+        "title": "Sistema de monitoreo ambiental con IA",
+        "description": "Una plataforma que utiliza im\u00e1genes satelitales, sensores y machine learning para monitorear la calidad del aire, la deforestaci\u00f3n, los patrones de precipitaci\u00f3n y otros indicadores ambientales.",
+        "technique": "An\u00e1lisis de im\u00e1genes satelitales, procesamiento de datos sensoriales, machine learning para detectar patrones y anomal\u00edas, desarrollo de dashboards interactivos",
+        "columns": "Ubicaci\u00f3n (Para geolocalizar eventos), Tipo de dato ambiental (Calidad del aire, deforestaci\u00f3n, etc.), Fecha y hora (Para analizar tendencias temporales), Intensidad (Para cuantificar el impacto), Fuente de datos (Sat\u00e9lite, sensor, etc.)",
+        "type": "fa-leaf"
+    },
+    {
+        "title": "Plataforma para la gesti\u00f3n de \u00e1reas naturales protegidas",
+        "description": "Una herramienta digital que facilita la administraci\u00f3n de \u00e1reas protegidas, permitiendo el monitoreo de la biodiversidad, la detecci\u00f3n de amenazas y la planificaci\u00f3n de acciones de conservaci\u00f3n.",
+        "technique": "An\u00e1lisis espacial, machine learning para identificar patrones en datos biol\u00f3gicos, desarrollo de mapas interactivos, integraci\u00f3n con bases de datos existentes",
+        "columns": "Ubicaci\u00f3n (Para mapear las \u00e1reas protegidas), Especies presentes (Para registrar la biodiversidad), Amenazas detectadas (Caza furtiva, incendios, etc.), Medidas de conservaci\u00f3n implementadas (Patrullaje, restauraci\u00f3n, etc.), Estado de conservaci\u00f3n (Para evaluar la efectividad de las acciones)",
+        "type": "fa-tree"
+    }
+]

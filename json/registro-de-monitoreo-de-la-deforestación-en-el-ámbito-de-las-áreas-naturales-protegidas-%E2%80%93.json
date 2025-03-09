@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo y an\u00e1lisis espacial de la deforestaci\u00f3n",
+        "description": "Este proyecto utilizar\u00e1 datos geoespaciales para visualizar y analizar patrones de deforestaci\u00f3n en las \u00e1reas protegidas. Se emplear\u00e1n mapas interactivos y herramientas de an\u00e1lisis espacial para identificar zonas con mayor riesgo de deforestaci\u00f3n.",
+        "technique": "An\u00e1lisis Geoespacial, Cartograf\u00eda Interactiva, Visualizaci\u00f3n de Datos",
+        "columns": "ANP (Filtrar por \u00e1rea natural protegida espec\u00edfica), ZONIFI_ANP (Identificar zonas dentro del ANP m\u00e1s vulnerables a la deforestaci\u00f3n), AREA_DEFO (Cuantificar el impacto de la deforestaci\u00f3n en cada zona), FECHA_CORTE (Analizar tendencias de deforestaci\u00f3n a trav\u00e9s del tiempo), TIPO_BOSQUE (Determinar qu\u00e9 tipos de bosque son los m\u00e1s afectados).",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de la deforestaci\u00f3n utilizando Machine Learning",
+        "description": "Se desarrollar\u00e1 un modelo de aprendizaje autom\u00e1tico que prediga \u00e1reas con mayor probabilidad de sufrir deforestaci\u00f3n en el futuro. El modelo utilizar\u00e1 variables como tipo de bosque, accesibilidad, y patrones hist\u00f3ricos de deforestaci\u00f3n.",
+        "technique": "Machine Learning (Regresi\u00f3n Log\u00edstica/Random Forest), An\u00e1lisis Predictivo",
+        "columns": "ANP (Definir \u00e1rea de estudio), TIPO_BOSQUE (Identificar tipos de bosque m\u00e1s vulnerables), ANIO_REPORTE (Analizar tendencias a trav\u00e9s del tiempo), DEFO_CAUSA (Entender las causas principales de deforestaci\u00f3n para el modelo), CONFIABILIDAD (Validar la calidad de los datos).",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Plataforma web de acceso a informaci\u00f3n sobre deforestaci\u00f3n",
+        "description": "Se crear\u00e1 una plataforma web que permita el acceso p\u00fablico a informaci\u00f3n detallada sobre la deforestaci\u00f3n en \u00e1reas protegidas. La plataforma incluir\u00e1 mapas interactivos, datos descargables, y an\u00e1lisis de tendencias.",
+        "technique": "Desarrollo Web (Python/Flask), Bases de Datos (PostgreSQL), Visualizaci\u00f3n de Datos (Leaflet)",
+        "columns": "ANP (Organizar la informaci\u00f3n por \u00e1rea natural protegida), ANIO_REPORTE (Permitir filtrar datos por a\u00f1o), AREA_DEFO (Mostrar el \u00e1rea deforestada en cada caso), TIPO_BOSQUE (Identificar los tipos de bosque afectados).",
+        "type": "fa-globe"
+    },
+    {
+        "title": "An\u00e1lisis de las causas de la deforestaci\u00f3n",
+        "description": "Se utilizar\u00e1n t\u00e9cnicas de an\u00e1lisis de datos para identificar patrones en las causas de la deforestaci\u00f3n. Esto permitir\u00e1 a los responsables de la gesti\u00f3n ambiental implementar estrategias m\u00e1s efectivas para combatir el problema.",
+        "technique": "An\u00e1lisis Exploratorio de Datos, Visualizaci\u00f3n de Datos (Tableau/Power BI)",
+        "columns": "DEFO_CAUSA (Clasificar las causas de deforestaci\u00f3n), ANP (Analizar las causas espec\u00edficas de cada \u00e1rea protegida), ANIO_REPORTE (Identificar tendencias en las causas a trav\u00e9s del tiempo).",
+        "type": "fa-search"
+    },
+    {
+        "title": "Evaluaci\u00f3n del impacto de la deforestaci\u00f3n",
+        "description": "Se desarrollar\u00e1 un modelo que permita cuantificar el impacto ambiental y econ\u00f3mico de la deforestaci\u00f3n en las \u00e1reas protegidas. Este modelo considerar\u00e1 factores como la p\u00e9rdida de biodiversidad, el secuestro de carbono, y los costos de restauraci\u00f3n.",
+        "technique": "Modelado Econ\u00f3mico (Python/R), An\u00e1lisis de Impacto",
+        "columns": "ANP (Definir \u00e1rea de estudio), AREA_DEFO (Cuantificar la superficie afectada), TIPO_BOSQUE (Considerar el valor de cada tipo de bosque), DEFO_CAUSA (Identificar las causas que generan mayor impacto).",
+        "type": "fa-balance-scale"
+    }
+]

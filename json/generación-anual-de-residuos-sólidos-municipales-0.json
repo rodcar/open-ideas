@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Accesibilidad a Servicios de Salud",
+        "description": "Este proyecto busca crear un mapa interactivo que muestre la ubicaci\u00f3n de centros de salud, hospitales y farmacias en zonas rurales y urbanas. La herramienta permitir\u00e1 identificar \u00e1reas con baja cobertura de servicios de salud y priorizar intervenciones para mejorar el acceso.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, machine learning para identificar patrones de accesibilidad.",
+        "columns": "Latitud (Ubicaci\u00f3n geogr\u00e1fica del centro de salud), Longitud (Ubicaci\u00f3n geogr\u00e1fica del centro de salud), Tipo de servicio (Hospital, centro de salud, farmacia), Distancia a la poblaci\u00f3n m\u00e1s cercana (Kil\u00f3metros), Poblaci\u00f3n atendida (N\u00famero de habitantes)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Optimizaci\u00f3n de Rutas de Transporte P\u00fablico",
+        "description": "Este proyecto utiliza datos de ubicaci\u00f3n y horarios de buses para optimizar las rutas del transporte p\u00fablico, reduciendo tiempos de viaje y mejorando la eficiencia.  La herramienta puede identificar \u00e1reas con alta demanda y ajustar frecuencias de autobuses.",
+        "technique": "An\u00e1lisis de rutas, machine learning para predecir patrones de movilidad, visualizaci\u00f3n en mapas.",
+        "columns": "ID Ruta (Identificador \u00fanico de la ruta), Hora de partida (Horario de salida del autob\u00fas), Hora de llegada (Horario de llegada a destino), Paradas (Lista de paradas en la ruta), N\u00famero de pasajeros (Cantidad de usuarios por parada)",
+        "type": "fa-bus"
+    },
+    {
+        "title": "Plataforma de Aprendizaje Digital para Comunidades Vulnerables",
+        "description": "Esta plataforma ofrece cursos online gratuitos y accesibles en \u00e1reas como alfabetizaci\u00f3n digital, habilidades profesionales y emprendimiento. La interfaz ser\u00e1 intuitiva y adaptable a diferentes dispositivos.",
+        "technique": "Desarrollo web, dise\u00f1o UX/UI amigable, integraci\u00f3n con plataformas de aprendizaje existentes.",
+        "columns": "Nombre del curso (T\u00edtulo del curso), Descripci\u00f3n (Breve resumen del contenido), Nivel (B\u00e1sico, intermedio, avanzado), Idioma (Espa\u00f1ol, ingl\u00e9s, quechua, etc.), Materiales (Enlace a videos, documentos, ejercicios)",
+        "type": "fa-laptop"
+    },
+    {
+        "title": "Sistema de Monitoreo Ambiental con Inteligencia Artificial",
+        "description": "Este sistema utiliza sensores y drones para recopilar datos sobre la calidad del aire, agua y suelo. La inteligencia artificial analiza estos datos para detectar patrones de contaminaci\u00f3n, predecir riesgos ambientales y guiar acciones de mitigaci\u00f3n.",
+        "technique": "IoT (Internet of Things), machine learning para an\u00e1lisis predictivo, visualizaci\u00f3n de datos en mapas interactivos.",
+        "columns": "Fecha (Fecha y hora de la medici\u00f3n), Ubicaci\u00f3n (Coordenadas GPS del sensor), Tipo de dato (Calidad del aire, temperatura del agua, niveles de contaminantes), Valor (Lectura del sensor), Alerta (Indicador de riesgo ambiental)",
+        "type": "fa-globe"
+    },
+    {
+        "title": "Predicci\u00f3n de la Demanda de Recursos H\u00eddricos",
+        "description": "Este modelo utiliza datos hist\u00f3ricos de consumo de agua, patrones clim\u00e1ticos y crecimiento poblacional para predecir la demanda futura de agua en diferentes regiones. Permite a las autoridades planificar mejor el uso del recurso h\u00eddrico.",
+        "technique": "An\u00e1lisis de series temporales, machine learning para pron\u00f3sticos, visualizaci\u00f3n de datos en gr\u00e1ficos interactivos.",
+        "columns": "Fecha (Fecha de la medici\u00f3n), Regi\u00f3n (Zona geogr\u00e1fica), Consumo de agua (Litros por habitante), Precipitaci\u00f3n (Mil\u00edmetros), Temperatura (Grados Celsius), Poblaci\u00f3n (N\u00famero de habitantes)",
+        "type": "fa-water"
+    }
+]

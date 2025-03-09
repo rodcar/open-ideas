@@ -1,0 +1,37 @@
+[
+    {
+        "title": "An\u00e1lisis de la recaudaci\u00f3n por \u00c1rea Natural Protegida",
+        "description": "Este an\u00e1lisis permite visualizar los ingresos generados en cada \u00c1rea Natural Protegida (ANP), identificar las ANP con mayor y menor recaudaci\u00f3n, y analizar tendencias a lo largo del tiempo. Esto puede ayudar a optimizar la gesti\u00f3n de recursos y a tomar decisiones informadas sobre inversiones en conservaci\u00f3n.",
+        "technique": "An\u00e1lisis por grupo, visualizaci\u00f3n de datos (gr\u00e1ficos de barras, mapas de calor), an\u00e1lisis de tendencias",
+        "columns": "ANP (agrupar los datos por ANP), FECHA_CORTE (filtrar datos por periodo de tiempo), IMPORTE_TOTAL (sumar para obtener la recaudaci\u00f3n total por ANP)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Identificaci\u00f3n de patrones en los tipos de documentos de venta",
+        "description": "Este an\u00e1lisis busca identificar si existen patrones en los tipos de documentos de venta (facturas, boletas, etc.) utilizados para recaudar fondos. Esto puede revelar informaci\u00f3n sobre el tipo de visitantes que frecuentan cada ANP y sus h\u00e1bitos de consumo.",
+        "technique": "An\u00e1lisis de frecuencia, tablas de contingencia, visualizaci\u00f3n de datos",
+        "columns": "TIPO_DOC_VTA (analizar la frecuencia de cada tipo), ANP (comparar patrones entre diferentes ANP)",
+        "type": "fa-list"
+    },
+    {
+        "title": "Mapa interactivo de la recaudaci\u00f3n por ubicaci\u00f3n",
+        "description": "Este mapa permite visualizar la distribuci\u00f3n geogr\u00e1fica de la recaudaci\u00f3n, mostrando la ubicaci\u00f3n de cada ANP y el monto total recaudado. Esto puede ayudar a identificar zonas con mayor potencial de ingresos y a planificar estrategias de desarrollo tur\u00edstico sostenible.",
+        "technique": "Geo-referenciaci\u00f3n, mapas interactivos, visualizaci\u00f3n de datos",
+        "columns": "ANP (ubicaci\u00f3n geogr\u00e1fica), IMPORTE_TOTAL (tama\u00f1o del marcador en el mapa)",
+        "type": "fa-map"
+    },
+    {
+        "title": "Predicci\u00f3n de la recaudaci\u00f3n futura mediante machine learning",
+        "description": "Utilizando datos hist\u00f3ricos de recaudaci\u00f3n, este modelo puede predecir los ingresos futuros para cada ANP. Esto permite a las autoridades planificar mejor los presupuestos y tomar decisiones proactivas sobre la gesti\u00f3n de recursos.",
+        "technique": "Machine Learning (regresi\u00f3n lineal, modelos ARIMA), an\u00e1lisis predictivo",
+        "columns": "FECHA_CORTE (variable temporal), IMPORTE_TOTAL (variable a predecir)",
+        "type": "fa-rocket"
+    },
+    {
+        "title": "Dashboard interactivo de monitoreo de la recaudaci\u00f3n",
+        "description": "Un dashboard interactivo permite visualizar la informaci\u00f3n clave sobre la recaudaci\u00f3n en tiempo real. Se pueden incluir gr\u00e1ficos, mapas y tablas que muestran la evoluci\u00f3n de los ingresos, los patrones de consumo y otros indicadores relevantes.",
+        "technique": "Desarrollo de dashboards, visualizaci\u00f3n de datos (Power BI, Tableau), conexi\u00f3n a base de datos",
+        "columns": "Todas las columnas del dataset (utilizar filtros y selectores para visualizar informaci\u00f3n espec\u00edfica)",
+        "type": "fa-dashboard"
+    }
+]

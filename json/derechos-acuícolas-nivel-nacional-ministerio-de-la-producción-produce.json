@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Identificaci\u00f3n de Zonas Optimas para Acuicultura",
+        "description": "Esta idea busca identificar las zonas geogr\u00e1ficas m\u00e1s propicias para el desarrollo de la acuicultura. Se analizar\u00e1n factores como especie cultivada, tipo de derecho acu\u00edcola, \u00e1rea disponible y departamento para determinar \u00e1reas con mayor potencial.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos",
+        "columns": "ESPECIE (filtrar especies de inter\u00e9s), AMBITO (seleccionar MARICULTURA o CONTINENTAL), AREA (filtrar por \u00e1reas disponibles), DEPARTAMENTO (visualizar distribuci\u00f3n por departamento), PROVINCIA (restringir an\u00e1lisis a provincias espec\u00edficas), DISTRITO (an\u00e1lisis a nivel m\u00e1s granular)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis Temporal de la Acuicultura",
+        "description": "Se estudiar\u00e1 la evoluci\u00f3n de la acuicultura en el tiempo, analizando tendencias en las especies cultivadas, tipo de derechos acu\u00edcolas concedidos y \u00e1reas destinadas a la actividad. ",
+        "technique": "An\u00e1lisis temporal de series, visualizaci\u00f3n de datos",
+        "columns": "ESPECIE (identificar cambios en la popularidad de especies), FECHA_EMISION (analizar la evoluci\u00f3n de la concesi\u00f3n de derechos), TIPO_DERECHO (observar tendencias en los tipos de derecho acu\u00edcola), AREA (evaluar el crecimiento del \u00e1rea dedicada a la acuicultura)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Clasificaci\u00f3n de Beneficiarios por Categor\u00eda Productiva",
+        "description": "Se analizar\u00e1 la distribuci\u00f3n de los beneficiarios de derechos acu\u00edcolas seg\u00fan su categor\u00eda productiva (AREL, AMYGE, AMYPE). Esto permitir\u00e1 comprender la estructura del sector acu\u00edcola y su composici\u00f3n.",
+        "technique": "An\u00e1lisis descriptivo, visualizaci\u00f3n de datos",
+        "columns": "CATEGORIA_PRODUCTIVA (categorizar a los beneficiarios), RAZON _SOCIAL_ANONIMIZADA (identificar a los actores clave en cada categor\u00eda), AREA (comparar el tama\u00f1o de las operaciones por categor\u00eda)",
+        "type": "fa-users"
+    },
+    {
+        "title": "Predicci\u00f3n del Futuro de la Acuicultura",
+        "description": "Utilizando modelos de machine learning, se intentar\u00e1 predecir futuras tendencias en la acuicultura, como el n\u00famero de derechos acu\u00edcolas que se conceder\u00e1n, las especies que ser\u00e1n m\u00e1s demandadas o las \u00e1reas donde se concentrar\u00e1 la actividad.",
+        "technique": "Modelado predictivo (machine learning), an\u00e1lisis de datos hist\u00f3ricos",
+        "columns": "FECHA_EMISION (variable temporal), ESPECIE (categorizar por demanda actual), TIPO_DERECHO (analizar tendencias en la concesi\u00f3n de derechos), AREA (predecir crecimiento del sector)",
+        "type": "fa-chart-area"
+    },
+    {
+        "title": "Mapa Interactivo de Derechos Acu\u00edcolas",
+        "description": "Se crear\u00e1 un mapa interactivo que mostrar\u00e1 la ubicaci\u00f3n geogr\u00e1fica de los derechos acu\u00edcolas concedidos. Los usuarios podr\u00e1n filtrar la informaci\u00f3n por especie, tipo de derecho, categor\u00eda productiva, entre otros criterios.",
+        "technique": "Visualizaci\u00f3n geoespacial, desarrollo web interactivo",
+        "columns": "DEPARTAMENTO (ubicar el derecho acu\u00edcola), PROVINCIA (refinar la ubicaci\u00f3n), DISTRITO (localizaci\u00f3n precisa), UBIGEO (c\u00f3digo de ubicaci\u00f3n geogr\u00e1fica), ESPECIE (filtrar por especies), TIPO_DERECHO (categorizar derechos)",
+        "type": "fa-globe"
+    }
+]

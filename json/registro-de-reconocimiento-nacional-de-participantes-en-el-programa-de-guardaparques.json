@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapeo de la distribuci\u00f3n geogr\u00e1fica de los Guardaparques Voluntarios",
+        "description": "Este proyecto busca visualizar la distribuci\u00f3n espacial de los guardaparques voluntarios en el Per\u00fa. Se utilizar\u00e1 informaci\u00f3n del UBIGEO, DEPARTAMENTO, PROVINCIA y DISTRITO para crear un mapa interactivo que muestre la concentraci\u00f3n de voluntarios en diferentes \u00e1reas.",
+        "technique": "An\u00e1lisis geoespacial con software GIS como QGIS o ArcGIS",
+        "columns": "UBIGEO (identificar ubicaci\u00f3n geogr\u00e1fica), DEPARTAMENTO (categorizaci\u00f3n por departamento), PROVINCIA (categorizaci\u00f3n por provincia), DISTRITO (categorizaci\u00f3n por distrito), ANP (visualizar la distribuci\u00f3n en diferentes \u00c1reas Naturales Protegidas)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de patrones de participaci\u00f3n en el Programa",
+        "description": "Se analizar\u00e1n variables como  ANIO_CONV, SEXO, PERIODO para identificar tendencias y patrones en la participaci\u00f3n de los guardaparques voluntarios. \u00bfHay mayor participaci\u00f3n en ciertos a\u00f1os? \u00bfExiste diferencia en la duraci\u00f3n del voluntariado seg\u00fan el sexo?",
+        "technique": "An\u00e1lisis estad\u00edstico descriptivo con herramientas como R o Python",
+        "columns": "ANIO_CONV (identificar tendencias a lo largo del tiempo), SEXO (analizar diferencias entre hombres y mujeres), PERIODO (evaluar la duraci\u00f3n del voluntariado), UUID (contar el n\u00famero de participantes \u00fanicos)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Identificaci\u00f3n de \u00c1reas con Mayor Necesidad de Voluntarios",
+        "description": "Se utilizar\u00e1 informaci\u00f3n sobre la ubicaci\u00f3n geogr\u00e1fica (UBIGEO, DEPARTAMENTO, PROVINCIA) y el n\u00famero de participantes por \u00e1rea para identificar las zonas donde existe mayor necesidad de apoyo. Esto puede ayudar a orientar esfuerzos de reclutamiento.",
+        "technique": "An\u00e1lisis geoespacial con software GIS como QGIS o ArcGIS",
+        "columns": "UBIGEO (identificar ubicaci\u00f3n geogr\u00e1fica precisa), DEPARTAMENTO (categorizaci\u00f3n por departamento), PROVINCIA (categorizaci\u00f3n por provincia), DISTRITO (categorizaci\u00f3n por distrito), UUID (contar el n\u00famero de voluntarios en cada \u00e1rea)",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Dashboard interactivo para visualizar informaci\u00f3n del Programa",
+        "description": "Se desarrollar\u00e1 un dashboard interactivo que permita a los usuarios explorar datos del programa de forma intuitiva. Los usuarios podr\u00e1n filtrar por variables como ANP, departamento, periodo de voluntariado, etc. para obtener informaci\u00f3n espec\u00edfica.",
+        "technique": "Desarrollo web con herramientas como R Shiny o Tableau",
+        "columns": "Todas las columnas (permitir filtros y visualizaciones personalizadas)",
+        "type": "fa-window-maximize"
+    },
+    {
+        "title": "Predicci\u00f3n de la duraci\u00f3n del voluntariado",
+        "description": "Se utilizar\u00e1 machine learning para desarrollar un modelo que prediga la duraci\u00f3n del periodo de voluntariado (PERIODO) en base a variables como SEXO, ANIO_CONV, CATEGORIA del \u00e1rea protegida. Esto puede ayudar a optimizar la planificaci\u00f3n del programa.",
+        "technique": "Modelado predictivo con t\u00e9cnicas de machine learning",
+        "columns": "SEXO (variable predictora), ANIO_CONV (variable predictora), CATEGORIA (variable predictora), PERIODO (variable objetivo)",
+        "type": "fa-robot"
+    }
+]

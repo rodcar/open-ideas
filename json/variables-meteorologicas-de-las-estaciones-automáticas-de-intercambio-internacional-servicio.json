@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo y Predicci\u00f3n de Fen\u00f3menos Meteorol\u00f3gicos",
+        "description": "Utilizar los datos hist\u00f3ricos de temperatura, humedad y precipitaci\u00f3n para desarrollar modelos de predicci\u00f3n meteorol\u00f3gica a corto plazo. Esto puede ser \u00fatil para la agricultura, gesti\u00f3n de recursos h\u00eddricos y planificaci\u00f3n de eventos al aire libre.",
+        "technique": "An\u00e1lisis de series temporales, modelos de aprendizaje autom\u00e1tico (regresi\u00f3n lineal, redes neuronales), visualizaci\u00f3n de datos",
+        "columns": "FECHA (Index temporal), HORA (Index temporal), TEMP (Variable predictora), HR (Variable predictora), PP (Variable predictora), LATITUD (Para geo-referenciar las predicciones), LONGITUD (Para geo-referenciar las predicciones)",
+        "type": "fa-cloud-showers-heavy"
+    },
+    {
+        "title": "Mapa de Riesgo de Sequ\u00eda",
+        "description": "Identificar \u00e1reas con mayor probabilidad de sufrir sequ\u00eda en funci\u00f3n de patrones hist\u00f3ricos de precipitaci\u00f3n y temperatura. Esto puede ayudar a las autoridades a tomar medidas preventivas.",
+        "technique": "An\u00e1lisis espacial, clustering, geo-estadistica, mapas interactivos",
+        "columns": "FECHA (Para analizar tendencias temporales), PP (Variable clave para detectar sequ\u00eda), LATITUD (Para la ubicaci\u00f3n geogr\u00e1fica), LONGITUD (Para la ubicaci\u00f3n geogr\u00e1fica), DEPARTAMENTO (Para an\u00e1lisis regional)",
+        "type": "fa-sun"
+    },
+    {
+        "title": "Optimizaci\u00f3n del Riego en Agricultura",
+        "description": "Proporcionar informaci\u00f3n sobre las necesidades de agua de los cultivos en funci\u00f3n de la temperatura, humedad y precipitaci\u00f3n. Esto permite un riego m\u00e1s eficiente y sostenible.",
+        "technique": "An\u00e1lisis predictivo, modelos de aprendizaje autom\u00e1tico, integraci\u00f3n con sistemas de control de riego",
+        "columns": "TEMP (Para estimar evapotranspiraci\u00f3n), HR (Para estimar evapotranspiraci\u00f3n), PP (Para calcular el agua disponible), LATITUD (Para considerar variaciones clim\u00e1ticas regionales), LONGITUD (Para considerar variaciones clim\u00e1ticas regionales)",
+        "type": "fa-leaf"
+    },
+    {
+        "title": "An\u00e1lisis de la Calidad del Aire",
+        "description": "Correlacionar los datos meteorol\u00f3gicos con indicadores de calidad del aire para identificar patrones y posibles fuentes de contaminaci\u00f3n.",
+        "technique": "An\u00e1lisis correlacional, visualizaci\u00f3n de datos espaciales, modelos estad\u00edsticos",
+        "columns": "TEMP (Puede influir en la formaci\u00f3n de ozono), HR (Puede influir en la dispersi\u00f3n de contaminantes), LATITUD (Para mapear la distribuci\u00f3n de contaminantes), LONGITUD (Para mapear la distribuci\u00f3n de contaminantes), FECHA (Para analizar patrones temporales)",
+        "type": "fa-smog"
+    },
+    {
+        "title": "Sistema de Alerta Temprana para Fen\u00f3menos Meteorol\u00f3gicos Extremas",
+        "description": "Desarrollar un sistema que utilice datos hist\u00f3ricos y modelos predictivos para anticipar eventos clim\u00e1ticos extremos como olas de calor o tormentas fuertes.",
+        "technique": "An\u00e1lisis de series temporales, aprendizaje autom\u00e1tico, sistemas de alerta temprana",
+        "columns": "TEMP (Para identificar patrones de olas de calor), PP (Para predecir tormentas intensas), HORA (Para determinar la hora de ocurrencia del evento), LATITUD (Para geolocalizar las alertas), LONGITUD (Para geolocalizar las alertas)",
+        "type": "fa-exclamation-triangle"
+    }
+]

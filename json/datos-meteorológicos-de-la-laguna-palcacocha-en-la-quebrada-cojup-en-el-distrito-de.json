@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo de patrones clim\u00e1ticos en la laguna Palcacocha",
+        "description": "Este proyecto analizar\u00e1 las tendencias a largo plazo en temperatura, precipitaci\u00f3n y humedad relativa en la laguna Palcacocha. Esto ayudar\u00e1 a comprender el impacto del cambio clim\u00e1tico en la regi\u00f3n.",
+        "technique": "An\u00e1lisis estad\u00edstico de series temporales, visualizaci\u00f3n de datos con gr\u00e1ficos interactivos.",
+        "columns": "FECHA_REGISTRO (fecha para analizar tendencias a largo plazo), TEMPERATURA_MAXIMA (identificar variaciones en la temperatura m\u00e1xima), TEMPERATURA_MINIMA (identificar variaciones en la temperatura m\u00ednima), HUMEDAD_RELATIVA_MAXIMA (analizar cambios en la humedad relativa m\u00e1xima), HUMEDAD_RELATIVA_MINIMA (analizar cambios en la humedad relativa m\u00ednima), PRECIPITACION (detectar patrones de precipitaci\u00f3n)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Sistema de alerta temprana para eventos hidrometeorol\u00f3gicos",
+        "description": "Se desarrollar\u00e1 un sistema que use datos meteorol\u00f3gicos en tiempo real para predecir eventos extremos como inundaciones o sequ\u00edas. El sistema enviar\u00e1 alertas a la poblaci\u00f3n local.",
+        "technique": "Machine learning para predecir eventos, sistemas de notificaci\u00f3n por SMS o correo electr\u00f3nico.",
+        "columns": "FECHA_REGISTRO (para identificar patrones temporales), TEMPERATURA_MAXIMA (relacionar con olas de calor), TEMPERATURA_MINIMA (identificar posibles heladas), HUMEDAD_RELATIVA_MAXIMA (predecir eventos de alta humedad), HUMEDAD_RELATIVA_MINIMA (identificar condiciones secas), PRECIPITACION (clave para predecir inundaciones o sequ\u00edas)",
+        "type": "fa-bell"
+    },
+    {
+        "title": "Mapa interactivo de la distribuci\u00f3n de estaciones meteorol\u00f3gicas",
+        "description": "Se crear\u00e1 un mapa que muestre la ubicaci\u00f3n de las diferentes estaciones meteorol\u00f3gicas en la regi\u00f3n. Se podr\u00e1n consultar datos espec\u00edficos de cada estaci\u00f3n y comparar las condiciones clim\u00e1ticas entre diferentes puntos.",
+        "technique": "Geo-referenciaci\u00f3n de datos, uso de herramientas de cartograf\u00eda web.",
+        "columns": "DEPARTAMENTO (para filtrar por departamento), PROVINCIA (para filtrar por provincia), DISTRITO (para filtrar por distrito), UBIGEO (c\u00f3digo \u00fanico para cada estaci\u00f3n), ESTACION (nombre de la estaci\u00f3n para identificar la ubicaci\u00f3n en el mapa), TEMPERATURA_MAXIMA, TEMPERATURA_MINIMA, HUMEDAD_RELATIVA_MAXIMA, HUMEDAD_RELATIVA_MINIMA, PRECIPITACION (para visualizar datos espec\u00edficos de cada estaci\u00f3n)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis del impacto del cambio clim\u00e1tico en la biodiversidad",
+        "description": "Se estudiar\u00e1 c\u00f3mo las variaciones en las condiciones clim\u00e1ticas afectan a la flora y fauna de la regi\u00f3n. Se utilizar\u00e1n modelos para predecir posibles cambios en la distribuci\u00f3n de especies.",
+        "technique": "Modelado ecol\u00f3gico, an\u00e1lisis estad\u00edstico espacial.",
+        "columns": "FECHA_REGISTRO (para analizar tendencias a largo plazo), TEMPERATURA_MAXIMA (identificar patrones de temperatura que afectan a las especies), TEMPERATURA_MINIMA (identificar patrones de temperatura que afectan a las especies), HUMEDAD_RELATIVA_MAXIMA (identificar patrones de humedad que afectan a las especies), HUMEDAD_RELATIVA_MINIMA (identificar patrones de humedad que afectan a las especies), PRECIPITACION (analizar los cambios en la precipitaci\u00f3n y su impacto en las especies)",
+        "type": "fa-tree"
+    },
+    {
+        "title": "Comparaci\u00f3n de datos meteorol\u00f3gicos con otros datasets",
+        "description": "Se combinar\u00e1n los datos meteorol\u00f3gicos con informaci\u00f3n sobre agricultura, salud p\u00fablica o recursos h\u00eddricos para identificar relaciones y patrones ocultos. ",
+        "technique": "An\u00e1lisis multivariado, visualizaci\u00f3n de datos correlacionados.",
+        "columns": "FECHA_REGISTRO (para sincronizar los datos con otros datasets), TEMPERATURA_MAXIMA, TEMPERATURA_MINIMA, HUMEDAD_RELATIVA_MAXIMA, HUMEDAD_RELATIVA_MINIMA, PRECIPITACION (variables clave para comparar con otros datasets)",
+        "type": "fa-link"
+    }
+]

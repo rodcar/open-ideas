@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Gastos por Tipo de Ruta",
+        "description": "Este dashboard mostrar\u00e1 la distribuci\u00f3n geogr\u00e1fica de los gastos de vi\u00e1ticos y pasajes del SENACE, categorizados por tipo de ruta (Terrestre, A\u00e9rea, Fluvial). Permitir\u00e1 identificar rutas con mayor gasto y patrones en la asignaci\u00f3n de recursos.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos",
+        "columns": "TIPO_RUTA (para categorizar los viajes), COSTO_PASAJES (para calcular el costo por tipo de ruta), RUTA (para ubicaci\u00f3n geogr\u00e1fica), NOMBRES_ANOMINIZADOS (opcional, para identificar patrones de viaje de ciertos servidores)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de Costos por \u00c1rea",
+        "description": "Este an\u00e1lisis permitir\u00e1 comparar los gastos en vi\u00e1ticos y pasajes entre diferentes \u00e1reas u oficinas del SENACE. Se pueden identificar \u00e1reas con mayor inversi\u00f3n en viajes y analizar si esta inversi\u00f3n se justifica.",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos",
+        "columns": "AREA (para agrupar los viajes por \u00e1rea), COSTO_PASAJES (para calcular el gasto total por \u00e1rea), VIATICOS (para analizar la proporci\u00f3n de vi\u00e1ticos respecto al costo total)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Predicci\u00f3n de Costos de Viaje",
+        "description": "Utilizando Machine Learning, este modelo podr\u00e1 predecir el costo total de un viaje futuro basado en variables como tipo de ruta, duraci\u00f3n del viaje y \u00e1rea de origen. Permite optimizar la planificaci\u00f3n presupuestaria.",
+        "technique": "Machine learning (regresi\u00f3n), an\u00e1lisis predictivo",
+        "columns": "TIPO_RUTA (variable predictora), DURACION (variable predictora), AREA (variable predictora), COSTO_PASAJES (variable a predecir)",
+        "type": "fa-robot"
+    },
+    {
+        "title": "Identificaci\u00f3n de Posibles Irregularidades",
+        "description": "Este an\u00e1lisis buscar\u00e1 patrones inusuales en los datos, como viajes muy costosos para distancias cortas o frecuencias de viaje altas para un servidor. Puede ayudar a detectar posibles casos de corrupci\u00f3n.",
+        "technique": "An\u00e1lisis de outliers, visualizaci\u00f3n de datos",
+        "columns": "COSTO_PASAJES (para identificar costos at\u00edpicos), DURACION (para relacionar duraci\u00f3n con costo), RUTA (para analizar distancias recorridas), NOMBRES_ANOMINIZADOS (para identificar patrones en viajes de servidores espec\u00edficos)",
+        "type": "fa-shield-check"
+    },
+    {
+        "title": "Optimizaci\u00f3n de Rutas",
+        "description": "Este dashboard mostrar\u00e1 las rutas m\u00e1s utilizadas por el SENACE y permitir\u00e1 compararlas con alternativas m\u00e1s eficientes en t\u00e9rminos de tiempo o costo. Se puede utilizar para optimizar la planificaci\u00f3n de viajes.",
+        "technique": "An\u00e1lisis geoespacial, optimizaci\u00f3n de rutas",
+        "columns": "RUTA (para identificar rutas frecuentes), TIPO_RUTA (para analizar el tipo de transporte utilizado), COSTO_PASAJES (para comparar costos entre rutas alternativas), DURACION (para comparar tiempos de viaje)",
+        "type": "fa-route"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Recolecci\u00f3n de Residuos",
+        "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de la recolecci\u00f3n de residuos s\u00f3lidos en el distrito. Permite identificar zonas con mayor acumulaci\u00f3n y optimizar rutas de recolecci\u00f3n.",
+        "technique": "An\u00e1lisis geoespacial, cartograf\u00eda interactiva (Leaflet, GeoPandas)",
+        "columns": "DISTRITO (Para ubicar geogr\u00e1ficamente cada punto de recolecci\u00f3n), UBIGEO (Especificar la ubicaci\u00f3n precisa dentro del distrito), TOTAL (Mostrar cantidad de residuos recolectados en cada ubicaci\u00f3n), DIA_RECORRIDO (Determinar patrones de recolecci\u00f3n en d\u00edas espec\u00edficos),  ",
+        "type": "fa-map"
+    },
+    {
+        "title": "Predicci\u00f3n de Necesidades de Recolecci\u00f3n",
+        "description": "Utilizar machine learning para predecir la cantidad de residuos que se generar\u00e1n en diferentes zonas del distrito, permitiendo planificar de forma eficiente la recolecci\u00f3n.",
+        "technique": "Machine Learning (Regresi\u00f3n lineal, \u00c1rbol de decisi\u00f3n), An\u00e1lisis temporal de series",
+        "columns": "FECHA_CORTE (Para an\u00e1lisis hist\u00f3rico de datos de recolecci\u00f3n), TOTAL (Cantidad de residuos recolectados por d\u00eda), DIA_SEMANA (Identificar patrones seg\u00fan d\u00edas de la semana), DISTRITO (Segmentar predicciones por zona), ",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "An\u00e1lisis de Eficiencia de Rutas",
+        "description": "Evaluar la eficiencia de las rutas de recolecci\u00f3n actuales, identificando posibles mejoras para optimizar tiempo y recursos.",
+        "technique": "Optimizaci\u00f3n de rutas (Algoritmo de Dijkstra o similar), An\u00e1lisis espacial",
+        "columns": "DIA_RECORRIDO (Secuenciar puntos de recolecci\u00f3n por d\u00eda), DISTRITO (Definir \u00e1rea de cobertura por ruta), TOTAL (Calcular carga por punto y optimizar distribuci\u00f3n), UBIGEO (Utilizar coordenadas geogr\u00e1ficas para calcular distancias)",
+        "type": "fa-truck"
+    },
+    {
+        "title": "Comparativo de Recolecci\u00f3n entre Distritos",
+        "description": "Generar reportes comparativos sobre la cantidad de residuos recolectados en diferentes distritos, permitiendo identificar mejores pr\u00e1cticas y \u00e1reas de mejora.",
+        "technique": "An\u00e1lisis estad\u00edstico (Media, desviaci\u00f3n est\u00e1ndar, gr\u00e1ficos de barras)",
+        "columns": "DISTRITO (Para agrupar datos por distrito), TOTAL (Cantidad de residuos recolectados), FECHA_CORTE (Analizar tendencias en el tiempo) ",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Sistema de Alerta Temprana para Acumulaci\u00f3n de Residuos",
+        "description": "Desarrollar un sistema que genere alertas cuando se detecte una acumulaci\u00f3n inusual de residuos en una zona espec\u00edfica, permitiendo una respuesta r\u00e1pida por parte de las autoridades.",
+        "technique": "An\u00e1lisis de datos en tiempo real (Streaming data), Sistemas de alerta (Emails, SMS)",
+        "columns": "UBIGEO (Ubicar con precisi\u00f3n la zona de acumulaci\u00f3n), TOTAL (Cantidad de residuos detectados), DIA_RECORRIDO (Identificar patrones de acumulaci\u00f3n), FECHA_CORTE (Analizar tendencias en el tiempo) ",
+        "type": "fa-exclamation-triangle"
+    }
+]

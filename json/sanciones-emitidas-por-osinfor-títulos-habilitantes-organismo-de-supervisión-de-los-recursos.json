@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Infracciones Forestales",
+        "description": "Visualizar la ubicaci\u00f3n geogr\u00e1fica de las infracciones forestales a trav\u00e9s de un mapa interactivo. Permite identificar zonas con mayor incidencia de infracciones y analizar patrones geogr\u00e1ficos.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, mapas interactivos (Leaflet, Google Maps API)",
+        "columns": "UBIGEO (Para geolocalizar las infracciones), DEPARTAMENTO (Contexto regional), PROVINCIA (Contexto local), DISTRITO (Nivel de detalle geogr\u00e1fico), INFRACCIONES (Tipo de infracci\u00f3n para diferenciar marcadores en el mapa), AREA_OTORGADA (Tama\u00f1o del \u00e1rea afectada)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de Tendencias en Tipos de Sanciones",
+        "description": "Identificar los tipos de infracciones m\u00e1s comunes y analizar la evoluci\u00f3n de las sanciones aplicadas a lo largo del tiempo.",
+        "technique": "An\u00e1lisis de series temporales, gr\u00e1ficos de barras",
+        "columns": "FECHA_CORTE (Para el an\u00e1lisis temporal), INFRACCIONES (Tipo de infracci\u00f3n), SANCION (Tipo de sanci\u00f3n aplicada), MONTO_MULTA (Valor de la multa para comparar severidad)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Predicci\u00f3n de Riesgo de Infracciones",
+        "description": "Utilizar modelos de machine learning para predecir \u00e1reas o titulares con mayor riesgo de cometer infracciones forestales en el futuro.",
+        "technique": "Machine learning (Regresi\u00f3n Log\u00edstica, Random Forest), an\u00e1lisis predictivo",
+        "columns": "UBIGEO (Localizaci\u00f3n geogr\u00e1fica), DEPARTAMENTO (Contexto regional), PROVINCIA (Contexto local), TITULO (N\u00famero de t\u00edtulo para identificar titulares espec\u00edficos), TIPO_DOC (Para clasificar titulares), NUM_DOC (Identificador \u00fanico del titular), MODALIDAD (Tipo de aprovechamiento forestal)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Dashboard de Monitoreo de Sanciones",
+        "description": "Crear un dashboard interactivo que permita visualizar datos clave sobre las sanciones aplicadas, incluyendo mapas, gr\u00e1ficos y tablas.",
+        "technique": "Desarrollo de dashboards (Power BI, Tableau)",
+        "columns": "Todas las columnas del dataset (Para una visualizaci\u00f3n completa de los datos)",
+        "type": "fa-dashboard"
+    },
+    {
+        "title": "An\u00e1lisis de Impacto de las Sanciones",
+        "description": "Evaluar el impacto de las sanciones en la reducci\u00f3n de infracciones forestales y la protecci\u00f3n del medio ambiente.",
+        "technique": "An\u00e1lisis estad\u00edstico, comparaci\u00f3n de datos pre y post sanci\u00f3n",
+        "columns": "FECHA_CORTE (Para comparar periodos antes y despu\u00e9s de las sanciones), INFRACCIONES (Tipo de infracci\u00f3n para analizar tendencias), SANCION (Tipo de sanci\u00f3n aplicada)",
+        "type": "fa-balance-scale"
+    }
+]

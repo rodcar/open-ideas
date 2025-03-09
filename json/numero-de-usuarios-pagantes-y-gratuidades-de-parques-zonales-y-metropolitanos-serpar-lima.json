@@ -1,0 +1,37 @@
+[
+    {
+        "title": "An\u00e1lisis de la distribuci\u00f3n de usuarios en los parques zonales y metropolitanos",
+        "description": "Este an\u00e1lisis se enfoca en determinar c\u00f3mo se distribuyen los usuarios en diferentes parques a lo largo del tiempo. La informaci\u00f3n obtenida puede servir para optimizar la asignaci\u00f3n de recursos, identificar patrones de uso y planificar estrategias de mejora.",
+        "technique": "An\u00e1lisis estad\u00edstico descriptivo, visualizaci\u00f3n de datos con gr\u00e1ficos de barras y mapas de calor",
+        "columns": "PARQUE ZONAL Y METROPOLITANO (identificaci\u00f3n del parque a analizar), A\u00d1O (filtrado por a\u00f1o), PERIODO (agrupaci\u00f3n por mes), USUARIO PAGANTE MAYOR DE 13 A 59 A\u00d1OS, USUARIO PAGANTE MENOR DE 5 A 12 A\u00d1OS, GRATUIDAD MENORES DE 0 A 4 A\u00d1OS, GRATUIDAD ADULTO MAYOR (uso de estas columnas para calcular el total de usuarios por parque y periodo), TOTAL (verificaci\u00f3n de la suma)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Identificaci\u00f3n de patrones estacionales en la afluencia a los parques",
+        "description": "Este an\u00e1lisis busca detectar si existen variaciones significativas en la cantidad de visitantes seg\u00fan la \u00e9poca del a\u00f1o. La informaci\u00f3n puede ser \u00fatil para planificar eventos, ajustar horarios de atenci\u00f3n y optimizar recursos.",
+        "technique": "An\u00e1lisis de series temporales, gr\u00e1ficos de l\u00ednea",
+        "columns": "A\u00d1O (filtrado por a\u00f1o), PERIODO (agrupaci\u00f3n por mes), TOTAL (suma total de usuarios por mes)",
+        "type": "fa-line-chart"
+    },
+    {
+        "title": "Comparaci\u00f3n de la afluencia entre parques zonales y metropolitanos",
+        "description": "Este an\u00e1lisis permite evaluar si existen diferencias significativas en la cantidad de visitantes entre tipos de parques. Los resultados pueden ayudar a comprender las preferencias del p\u00fablico, identificar \u00e1reas de oportunidad para mejorar la oferta de servicios y optimizar la inversi\u00f3n.",
+        "technique": "An\u00e1lisis estad\u00edstico comparativo, gr\u00e1ficos de barras agrupadas",
+        "columns": "PARQUE ZONAL Y METROPOLITANO (clasificaci\u00f3n por tipo de parque), A\u00d1O (filtrado por a\u00f1o), PERIODO (agrupaci\u00f3n por mes), TOTAL (suma total de usuarios por parque)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "An\u00e1lisis de la composici\u00f3n demogr\u00e1fica de los visitantes",
+        "description": "Este an\u00e1lisis examina la distribuci\u00f3n de usuarios seg\u00fan su edad y condici\u00f3n de pago. La informaci\u00f3n puede ser valiosa para adaptar las actividades y servicios a las necesidades del p\u00fablico objetivo.",
+        "technique": "Gr\u00e1ficos circulares, tablas de frecuencia",
+        "columns": "USUARIO PAGANTE MAYOR DE 13 A 59 A\u00d1OS, USUARIO PAGANTE MENOR DE 5 A 12 A\u00d1OS, GRATUIDAD MENORES DE 0 A 4 A\u00d1OS, GRATUIDAD ADULTO MAYOR (uso de estas columnas para calcular porcentajes)",
+        "type": "fa-chart-pie"
+    },
+    {
+        "title": "Predicci\u00f3n de la afluencia futura a los parques",
+        "description": "Utilizando modelos de machine learning, este an\u00e1lisis busca predecir el n\u00famero de visitantes a los parques en per\u00edodos futuros. Los resultados pueden ser usados para optimizar la planificaci\u00f3n de recursos y personal.",
+        "technique": "Modelado predictivo (regresi\u00f3n lineal, redes neuronales), series temporales",
+        "columns": "A\u00d1O (variable independiente), PERIODO (variable independiente), TOTAL (variable dependiente)",
+        "type": "fa-calendar-alt"
+    }
+]

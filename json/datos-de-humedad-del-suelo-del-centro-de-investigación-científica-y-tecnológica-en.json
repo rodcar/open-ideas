@@ -1,0 +1,37 @@
+[
+    {
+        "title": "An\u00e1lisis de la evoluci\u00f3n de la humedad del suelo",
+        "description": "Esta aplicaci\u00f3n analizar\u00e1 la variaci\u00f3n de la humedad del suelo a diferentes profundidades (20, 60 y 100 cm) a lo largo del tiempo. Se utilizar\u00e1 para identificar patrones estacionales o tendencias a largo plazo en la humedad del suelo.",
+        "technique": "An\u00e1lisis de series temporales, visualizaci\u00f3n de datos",
+        "columns": "FECHA_REGISTRO (variable temporal para an\u00e1lisis de series), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Mapa de humedad del suelo",
+        "description": "Esta aplicaci\u00f3n mostrar\u00e1 un mapa interactivo que visualice la humedad del suelo en diferentes ubicaciones.  Permitir\u00e1 a los usuarios explorar las variaciones espaciales de la humedad y comparar los datos entre diferentes estaciones.",
+        "technique": "Geo-referenciaci\u00f3n, cartograf\u00eda web",
+        "columns": "DEPARTAMENTO (para ubicaci\u00f3n geogr\u00e1fica), PROVINCIA (para ubicaci\u00f3n geogr\u00e1fica), DISTRITO (para ubicaci\u00f3n geogr\u00e1fica), UBIGEO (c\u00f3digo para ubicaci\u00f3n precisa), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
+        "type": "fa-map-location"
+    },
+    {
+        "title": "Predicci\u00f3n de la humedad del suelo",
+        "description": "Utilizando t\u00e9cnicas de machine learning, esta aplicaci\u00f3n predecir\u00e1 futuras condiciones de humedad del suelo basadas en datos hist\u00f3ricos. Esto puede ser \u00fatil para agricultores y gestores de recursos h\u00eddricos.",
+        "technique": "Machine learning (regresi\u00f3n), an\u00e1lisis de series temporales",
+        "columns": "FECHA_REGISTRO (variable temporal), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
+        "type": "fa-flask"
+    },
+    {
+        "title": "Comparaci\u00f3n de humedad del suelo entre estaciones",
+        "description": "Esta aplicaci\u00f3n permitir\u00e1 comparar la humedad del suelo en diferentes estaciones meteorol\u00f3gicas. Se puede utilizar para identificar patrones regionales y evaluar el impacto de factores como la altitud o la vegetaci\u00f3n.",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos",
+        "columns": "ESTACION (nombre de la estaci\u00f3n), FECHA_REGISTRO (variable temporal), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Dashboard de monitoreo ambiental",
+        "description": "Esta aplicaci\u00f3n combinar\u00e1 datos de humedad del suelo con otros indicadores ambientales relevantes para crear un dashboard interactivo que permita monitorear la salud de los ecosistemas. ",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones, Dashboards",
+        "columns": "FECHA_REGISTRO (variable temporal), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm), DEPARTAMENTO (ubicaci\u00f3n geogr\u00e1fica), PROVINCIA (ubicaci\u00f3n geogr\u00e1fica), DISTRITO (ubicaci\u00f3n geogr\u00e1fica), UBIGEO (c\u00f3digo para ubicaci\u00f3n precisa)",
+        "type": "fa-dashboard"
+    }
+]

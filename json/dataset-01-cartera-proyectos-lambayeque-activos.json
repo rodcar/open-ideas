@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de proyectos por sector",
+        "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de los proyectos en Lambayeque, diferenciados por sector (salud, educaci\u00f3n, transporte, etc.). Esto permitir\u00e1 identificar \u00e1reas con mayor o menor inversi\u00f3n en cada sector y detectar posibles desigualdades.",
+        "technique": "An\u00e1lisis espacial, cartograf\u00eda, filtrado por sector",
+        "columns": "geom (localizaci\u00f3n geogr\u00e1fica), sect_proy (sector del proyecto), nom_proy (nombre del proyecto para etiquetar)",
+        "type": "fa-map"
+    },
+    {
+        "title": "Priorizaci\u00f3n de proyectos por impacto social",
+        "description": "Utilizar t\u00e9cnicas de machine learning para analizar la relaci\u00f3n entre las caracter\u00edsticas de los proyectos (tipo, funci\u00f3n, monto) y su posible impacto social. Esto permitir\u00e1 priorizar proyectos con mayor potencial de beneficio para la comunidad.",
+        "technique": "Machine Learning, an\u00e1lisis de correlaci\u00f3n, ranking",
+        "columns": "tip_proy (tipo de proyecto), func_proy (funci\u00f3n del proyecto), monto_ref (monto de referencia), nivel_gob (nivel de gobierno que administra el proyecto)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Monitoreo del avance de proyectos",
+        "description": "Crear un dashboard interactivo que muestre el estado actual de cada proyecto, incluyendo informaci\u00f3n sobre su progreso, fecha de inicio y finalizaci\u00f3n prevista. Esto permitir\u00e1 a los ciudadanos y autoridades tener una visi\u00f3n transparente del avance de las inversiones.",
+        "technique": "Desarrollo web, dashboards interactivos, visualizaci\u00f3n de datos",
+        "columns": "id (identificador \u00fanico), nom_proy (nombre del proyecto), nivel_proy (nivel de detalle), mod_proy (modalidad de ejecuci\u00f3n), fecha_inicio (fecha de inicio del proyecto), fecha_fin (fecha de finalizaci\u00f3n prevista)",
+        "type": "fa-dashboard"
+    },
+    {
+        "title": "Identificaci\u00f3n de \u00e1reas con mayor necesidad de inversi\u00f3n",
+        "description": "Analizar la distribuci\u00f3n geogr\u00e1fica de los proyectos junto con indicadores socioecon\u00f3micos para identificar zonas con mayor necesidad de inversi\u00f3n en salud, educaci\u00f3n o infraestructura. Esto permitir\u00e1 tomar decisiones m\u00e1s informadas sobre d\u00f3nde dirigir los recursos.",
+        "technique": "An\u00e1lisis espacial, geoestadistica, cruce de datos",
+        "columns": "geom (localizaci\u00f3n geogr\u00e1fica), nivel_gob (nivel de gobierno), sect_proy (sector del proyecto), localidad (localidad del proyecto)",
+        "type": "fa-search"
+    },
+    {
+        "title": "An\u00e1lisis de la eficiencia en la ejecuci\u00f3n de proyectos",
+        "description": "Comparar el tiempo de ejecuci\u00f3n de los proyectos con el inicialmente previsto y analizar los factores que pueden influir en las demoras. Esto permitir\u00e1 identificar buenas pr\u00e1cticas y \u00e1reas de mejora para optimizar la gesti\u00f3n de proyectos.",
+        "technique": "An\u00e1lisis temporal, visualizaci\u00f3n de datos, regresi\u00f3n lineal",
+        "columns": "id (identificador \u00fanico), nom_proy (nombre del proyecto), fecha_inicio (fecha de inicio), fecha_fin (fecha de finalizaci\u00f3n prevista), mod_proy (modalidad de ejecuci\u00f3n)",
+        "type": "fa-clock"
+    }
+]

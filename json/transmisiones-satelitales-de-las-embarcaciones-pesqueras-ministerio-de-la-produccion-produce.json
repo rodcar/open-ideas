@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa Interactivo de Tr\u00e1fico Pesquero",
+        "description": "Visualizar en tiempo real las rutas y patrones de movimiento de las embarcaciones pesqueras. Esto permite identificar zonas de alta concentraci\u00f3n, analizar posibles \u00e1reas de sobreexplotaci\u00f3n y optimizar la gesti\u00f3n de recursos.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos (mapas interactivos), filtrado por fecha, r\u00e9gimen, proveedor satelital",
+        "columns": "A\u00d1O (filtrado por a\u00f1o), MES (filtrado por mes), ID_anonimizado_TRANSMISION (identificaci\u00f3n \u00fanica de cada transmisi\u00f3n), LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), VEL_NUDOS (visualizaci\u00f3n de la velocidad de las embarcaciones), RUMBO (indicaci\u00f3n de direcci\u00f3n de movimiento), REF_COSTA (mostrar informaci\u00f3n contextual de la zona costera)",
+        "type": "fa-map-marker"
+    },
+    {
+        "title": "Predicci\u00f3n de Zonas de Mayor Captura",
+        "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir las zonas donde se espera mayor actividad pesquera, considerando factores como ubicaci\u00f3n, temporada, tipo de embarcaci\u00f3n y patrones hist\u00f3ricos.",
+        "technique": "Machine learning (modelos de regresi\u00f3n o clasificaci\u00f3n), an\u00e1lisis de series temporales, mapas de calor",
+        "columns": "A\u00d1O (variable temporal), MES (variable temporal), LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), REGIMEN (tipo de pesca puede influir en la captura), PROVEED_SAT (posibles diferencias en la cobertura o precisi\u00f3n de los proveedores)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "An\u00e1lisis de Rutas Optimizadas",
+        "description": "Identificar rutas de navegaci\u00f3n m\u00e1s eficientes para las embarcaciones, minimizando tiempo y combustible. Esto puede ayudar a reducir costos operativos y el impacto ambiental.",
+        "technique": "An\u00e1lisis de trayectorias, algoritmos de optimizaci\u00f3n de rutas (ej: Dijkstra), visualizaci\u00f3n en mapas",
+        "columns": "LATITUD (coordenadas para trazar la ruta), LONGITUD (coordenadas para trazar la ruta), VEL_NUDOS (velocidad puede influir en la ruta \u00f3ptima), RUMBO (direcci\u00f3n de movimiento)",
+        "type": "fa-ship"
+    },
+    {
+        "title": "Monitoreo de Actividad Pesquera Ilegal",
+        "description": "Detectar patrones sospechosos de actividad pesquera ilegal, como la pesca en \u00e1reas restringidas o fuera de temporada. Esto puede ayudar a las autoridades a tomar medidas para proteger los recursos marinos.",
+        "technique": "An\u00e1lisis de outliers, detecci\u00f3n de anomalias (ej: clustering), visualizaci\u00f3n espacial de alertas",
+        "columns": "A\u00d1O (filtrado por a\u00f1o), MES (filtrado por mes), LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), REGIMEN (comparaci\u00f3n con permisos v\u00e1lidos), REF_COSTA (identificaci\u00f3n de \u00e1reas protegidas)",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Evaluaci\u00f3n del Impacto Ambiental",
+        "description": "Analizar el impacto ambiental de la actividad pesquera, considerando factores como la ubicaci\u00f3n de las capturas, la tipolog\u00eda de embarcaciones y la intensidad de pesca. Esto puede ayudar a desarrollar estrategias de gesti\u00f3n sostenible.",
+        "technique": "An\u00e1lisis espacial (densidad de puntos), indicadores ambientales (ej: biomasa, biodiversidad), modelos de simulaci\u00f3n",
+        "columns": "LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), REGIMEN (tipo de pesca puede tener diferente impacto ambiental), VEL_NUDOS (intensidad de actividad)",
+        "type": "fa-leaf"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Identificaci\u00f3n de sectores con mayor impacto en las emisiones GEI",
+        "description": "Este an\u00e1lisis busca determinar los sectores que contribuyen m\u00e1s a las emisiones de gases de efecto invernadero (GEI) en el Per\u00fa. Esto permitir\u00e1 enfocar esfuerzos de mitigaci\u00f3n en \u00e1reas clave.",
+        "technique": "An\u00e1lisis estad\u00edstico por sector, visualizaci\u00f3n de datos con gr\u00e1ficos de barras",
+        "columns": "ANIO (Filtrar por a\u00f1o espec\u00edfico), SECTOR (Agrupar emisiones por sector), EMISIONES_GEI_GGCO2EQ (Sumar las emisiones GEI para cada sector)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "An\u00e1lisis de tendencias de emisi\u00f3n de GEI por fuente",
+        "description": "Este an\u00e1lisis examinar\u00e1 la evoluci\u00f3n de las emisiones de GEI a lo largo del tiempo, permitiendo identificar fuentes que han aumentado o disminuido sus emisiones y as\u00ed enfocar estrategias de intervenci\u00f3n.",
+        "technique": "An\u00e1lisis de series temporales, visualizaci\u00f3n con gr\u00e1ficos de l\u00edneas",
+        "columns": "FECHA_CORTE (Ordenar cronol\u00f3gicamente), FUENTE_DE_EMISION (Agrupar por fuente), EMISIONES_GEI_GGCO2EQ (Mostrar la evoluci\u00f3n de las emisiones para cada fuente)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Mapa de Calor de Emisiones GEI por Regi\u00f3n",
+        "description": "Visualizar geogr\u00e1ficamente la distribuci\u00f3n de las emisiones de GEI en el Per\u00fa. Esto permite identificar regiones con mayor impacto ambiental y guiar estrategias de desarrollo sostenible regional.",
+        "technique": "Geo-referenciaci\u00f3n de datos, mapa de calor con intensidad de color representando niveles de emisi\u00f3n",
+        "columns": "ANIO (Filtrar por a\u00f1o espec\u00edfico), SECTOR (Agrupar por sector para an\u00e1lisis m\u00e1s detallado), EMISIONES_GEI_GGCO2EQ (Usar como indicador de intensidad en el mapa)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de Emisiones Futuras con Machine Learning",
+        "description": "Utilizar modelos de machine learning para predecir las emisiones futuras de GEI en base a las tendencias hist\u00f3ricas. Esto permitir\u00e1 anticipar escenarios y tomar medidas preventivas.",
+        "technique": "Machine learning (regresi\u00f3n lineal, ARIMA o redes neuronales), an\u00e1lisis predictivo",
+        "columns": "FECHA_CORTE (Variable independiente), ANIO (Variable independiente), EMISIONES_GEI_GGCO2EQ (Variable dependiente)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Dashboard Interactivo de Seguimiento de Emisiones",
+        "description": "Crear un dashboard interactivo que permita visualizar y analizar los datos de emisiones GEI de forma intuitiva. Esto facilita el acceso a la informaci\u00f3n y la toma de decisiones.",
+        "technique": "Desarrollo de Dashboard (Power BI, Tableau), selecci\u00f3n de KPIs relevantes ",
+        "columns": "Todas las columnas del dataset (utilizar filtros, gr\u00e1ficos interactivos para explorar los datos)",
+        "type": "fa-desktop"
+    }
+]

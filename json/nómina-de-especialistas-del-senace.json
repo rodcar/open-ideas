@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Distribuci\u00f3n de Especialistas Ambientales",
+        "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de los especialistas ambientales registrados en la N\u00f3mina de SENACE. Esto permitir\u00e1 identificar zonas con mayor concentraci\u00f3n de profesionales y \u00e1reas donde existe una necesidad de mayor presencia.",
+        "technique": "An\u00e1lisis geoespacial, cartograf\u00eda, visualizaciones interactivas",
+        "columns": "UBIGEO (para ubicar a los especialistas geogr\u00e1ficamente), COLEGIO_PROFESIONAL (filtrar por tipo de especialista ambiental), NIVEL_I, NIVEL_II, NIVEL_III (diferenciar la experiencia de los especialistas)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de Necesidades de Especialistas",
+        "description": "Utilizar machine learning para predecir futuras necesidades de especialistas ambientales en diferentes regiones, considerando variables como proyectos de inversi\u00f3n, crecimiento poblacional y tendencias ambientales.",
+        "technique": "Machine learning, an\u00e1lisis predictivo, modelos de regresi\u00f3n",
+        "columns": "UBIGEO (localizaci\u00f3n), FECHA_INSCRIPCION_NOMINAS (tendencia hist\u00f3rica), TOTAL_EXPERIENCIA_GENERAL (nivel de experiencia disponible), COLEGIO_PROFESIONAL (tipos de especialistas necesarios)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "An\u00e1lisis de Trayectorias Profesionales",
+        "description": "Identificar patrones en las trayectorias profesionales de los especialistas ambientales, analizando su evoluci\u00f3n en experiencia, nivel de especializaci\u00f3n y movilidad geogr\u00e1fica.",
+        "technique": "An\u00e1lisis de series temporales, miner\u00eda de datos, visualizaci\u00f3n de redes",
+        "columns": "DNI_ANONIMIZADO (identificaci\u00f3n de especialistas), FECHA_NACIMIENTO (para analizar cohortes), FECHA_INCORPORACION_COLEGIO, FECHA_INSCRIPCION_NOMINAS, NIVEL_I, NIVEL_II, NIVEL_III, TOTAL_EXPERIENCIA_GENERAL, TOTAL_EXPERIENCIA_ESPECIFICA, UBIGEO (ubicaci\u00f3n a lo largo del tiempo)",
+        "type": "fa-history"
+    },
+    {
+        "title": "Plataforma de Conexi\u00f3n entre Especialistas y Proyectos",
+        "description": "Crear una plataforma que conecte a los especialistas ambientales registrados con proyectos que requieren sus servicios, facilitando la b\u00fasqueda de oportunidades laborales y la selecci\u00f3n de profesionales adecuados.",
+        "technique": "Desarrollo web, bases de datos, sistema de b\u00fasqueda inteligente",
+        "columns": "DNI_ANONIMIZADO (identificaci\u00f3n), COLEGIO_PROFESIONAL, NIVEL_I, NIVEL_II, NIVEL_III, TOTAL_EXPERIENCIA_GENERAL, TOTAL_EXPERIENCIA_ESPECIFICA (para filtrar por experiencia y tipo de especialista), UBIGEO (ubicaci\u00f3n)",
+        "type": "fa-handshake"
+    },
+    {
+        "title": "Evaluaci\u00f3n del Impacto Social de los Especialistas Ambientales",
+        "description": "Analizar el impacto social de los proyectos en los que participan los especialistas ambientales, utilizando indicadores como la mejora de la calidad ambiental, la generaci\u00f3n de empleo verde y el acceso a servicios b\u00e1sicos.",
+        "technique": "An\u00e1lisis de datos cualitativos y cuantitativos, encuestas, entrevistas",
+        "columns": "DNI_ANONIMIZADO (identificaci\u00f3n), COLEGIO_PROFESIONAL, UBIGEO (ubicaci\u00f3n del proyecto), FECHA_INSCRIPCION_NOMINAS (per\u00edodo de participaci\u00f3n en proyectos)",
+        "type": "fa-globe"
+    }
+]

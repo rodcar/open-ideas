@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo de Humedad del Suelo en Tayacoto",
+        "description": "Visualizar la evoluci\u00f3n de la humedad del suelo a diferentes profundidades (20, 60 y 100 cm) en el tiempo. Identificar patrones de sequ\u00eda o exceso de humedad.",
+        "technique": "An\u00e1lisis temporal de series, mapas de calor, geo-referenciaci\u00f3n",
+        "columns": "FECHA_REGISTRO (eje X para graficos de serie temporal), HUMEDAD_SUELO_PROMEDIO_20 (valor para gr\u00e1fica a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (valor para gr\u00e1fica a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (valor para gr\u00e1fica a 100 cm), DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (para geo-referenciar los datos y crear mapas de calor)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Comparaci\u00f3n de Humedad del Suelo en Diferentes Zonas",
+        "description": "Analizar las diferencias en la humedad del suelo entre diferentes \u00e1reas dentro del distrito de Independencia. Determinar si hay zonas m\u00e1s propensas a la sequ\u00eda o al exceso de agua.",
+        "technique": "An\u00e1lisis espacial, mapas de contorno, agrupamiento",
+        "columns": "HUMEDAD_SUELO_PROMEDIO_20 (valor para mapa de contorno), HUMEDAD_SUELO_PROMEDIO_60 (valor para mapa de contorno), HUMEDAD_SUELO_PROMEDIO_100 (valor para mapa de contorno), DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (para geo-referenciar los datos)",
+        "type": "fa-map-marked"
+    },
+    {
+        "title": "Predicci\u00f3n de Humedad del Suelo",
+        "description": "Utilizar modelos de machine learning para predecir la humedad del suelo en el futuro. Esto puede ayudar a los agricultores a tomar decisiones informadas sobre riego.",
+        "technique": "Machine Learning, Regresi\u00f3n lineal o redes neuronales",
+        "columns": "FECHA_REGISTRO (variable independiente), HUMEDAD_SUELO_PROMEDIO_20 (variable dependiente), HUMEDAD_SUELO_PROMEDIO_60 (variable dependiente), HUMEDAD_SUELO_PROMEDIO_100 (variable dependiente)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Dashboard Interactivo de Humedad del Suelo",
+        "description": "Desarrollar un dashboard interactivo que permita a los usuarios explorar los datos de humedad del suelo. El dashboard puede incluir mapas, gr\u00e1ficos y tablas.",
+        "technique": "Desarrollo web, herramientas de visualizaci\u00f3n (Tableau, Power BI)",
+        "columns": "FECHA_REGISTRO, HUMEDAD_SUELO_PROMEDIO_20, HUMEDAD_SUELO_PROMEDIO_60, HUMEDAD_SUELO_PROMEDIO_100, DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (todas las columnas ser\u00e1n utilizadas para filtros y visualizaci\u00f3n)",
+        "type": "fa-laptop"
+    },
+    {
+        "title": "An\u00e1lisis de la Relaci\u00f3n entre Humedad del Suelo y Otros Factores",
+        "description": "Investigar si existe una relaci\u00f3n entre la humedad del suelo y otros factores ambientales, como la temperatura o la precipitaci\u00f3n. Esto puede ayudar a comprender mejor los patrones de humedad del suelo.",
+        "technique": "An\u00e1lisis estad\u00edstico, correlaci\u00f3n, regresi\u00f3n",
+        "columns": "FECHA_REGISTRO (variable independiente), HUMEDAD_SUELO_PROMEDIO_20, HUMEDAD_SUELO_PROMEDIO_60, HUMEDAD_SUELO_PROMEDIO_100 (variables dependientes). Se requerir\u00e1 informaci\u00f3n adicional sobre temperatura y precipitaci\u00f3n.",
+        "type": "fa-flask"
+    }
+]

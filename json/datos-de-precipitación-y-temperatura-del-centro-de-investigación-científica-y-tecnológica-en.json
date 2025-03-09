@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo de patrones clim\u00e1ticos",
+        "description": "Analizar las tendencias hist\u00f3ricas de precipitaci\u00f3n y temperatura para identificar patrones estacionales, eventos extremos y posibles impactos del cambio clim\u00e1tico.",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos con mapas interactivos, series de tiempo.",
+        "columns": "FECHA_REGISTRO (para identificar tendencias a lo largo del tiempo), PRECIPITACION (para analizar patrones de lluvia), TEMPERATURA_PROMEDIO (para evaluar cambios en la temperatura media), DEPARTAMENTO, PROVINCIA, DISTRITO (para georreferenciar los datos y visualizar patrones regionales), UBIGEO (para un an\u00e1lisis m\u00e1s preciso por ubicaci\u00f3n).",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Sistema de alerta temprana para eventos hidrol\u00f3gicos",
+        "description": "Desarrollar un sistema que utilice datos hist\u00f3ricos de precipitaci\u00f3n y temperatura para predecir posibles eventos de inundaci\u00f3n, sequ\u00eda u otros fen\u00f3menos hidrol\u00f3gicos.",
+        "technique": "Modelado estad\u00edstico, machine learning (algoritmos de predicci\u00f3n), mapas interactivos con alertas.",
+        "columns": "PRECIPITACION (variable clave para la predicci\u00f3n de eventos hidrol\u00f3gicos), TEMPERATURA_PROMEDIO (influye en la evaporaci\u00f3n y disponibilidad de agua), FECHA_REGISTRO (para identificar patrones temporales), DEPARTAMENTO, PROVINCIA, DISTRITO (para delimitar \u00e1reas de riesgo).",
+        "type": "fa-bell"
+    },
+    {
+        "title": "Evaluaci\u00f3n del impacto ambiental",
+        "description": "Analizar c\u00f3mo los cambios en la precipitaci\u00f3n y temperatura pueden afectar a los ecosistemas locales, considerando factores como disponibilidad de agua para la flora y fauna.",
+        "technique": "An\u00e1lisis espacial, modelado ecol\u00f3gico, mapas de vulnerabilidad.",
+        "columns": "PRECIPITACION (influye en la disponibilidad de agua), TEMPERATURA_PROMEDIO, TEMPERATURA_MINIMA, TEMPERATURA_MAXIMA (afectan a las especies y sus ciclos vitales), DEPARTAMENTO, PROVINCIA, DISTRITO (para delimitar \u00e1reas de estudio).",
+        "type": "fa-leaf"
+    },
+    {
+        "title": "Plataforma de informaci\u00f3n clim\u00e1tica para la agricultura",
+        "description": "Desarrollar una plataforma web o m\u00f3vil que proporcione informaci\u00f3n sobre las condiciones clim\u00e1ticas locales (precipitaci\u00f3n, temperatura) a los agricultores para ayudarles a tomar mejores decisiones.",
+        "technique": "Desarrollo web/mobile, API de datos meteorol\u00f3gicos, visualizaci\u00f3n de datos intuitiva.",
+        "columns": "FECHA_REGISTRO (mostrar datos actualizados), PRECIPITACION (informaci\u00f3n crucial para la agricultura), TEMPERATURA_PROMEDIO, TEMPERATURA_MINIMA, TEMPERATURA_MAXIMA (influyen en el desarrollo de los cultivos), DEPARTAMENTO, PROVINCIA, DISTRITO (para proporcionar informaci\u00f3n espec\u00edfica por regi\u00f3n).",
+        "type": "fa-seedling"
+    },
+    {
+        "title": "An\u00e1lisis de la variabilidad clim\u00e1tica a largo plazo",
+        "description": "Estudiar c\u00f3mo la precipitaci\u00f3n y temperatura han cambiado en las \u00faltimas d\u00e9cadas para identificar tendencias de calentamiento global o cambios en los patrones de lluvia.",
+        "technique": "An\u00e1lisis estad\u00edstico, series de tiempo, visualizaci\u00f3n de datos con gr\u00e1ficos.",
+        "columns": "FECHA_REGISTRO (clave para el an\u00e1lisis temporal), PRECIPITACION, TEMPERATURA_PROMEDIO (variables a estudiar), DEPARTAMENTO, PROVINCIA, DISTRITO (para analizar las variaciones regionales).",
+        "type": "fa-globe"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo de la Eficiencia en la Recolecci\u00f3n de Residuos",
+        "description": "Este an\u00e1lisis permitir\u00e1 identificar patrones en la recolecci\u00f3n de residuos, evaluar la eficiencia de las rutas y optimizar el uso de los veh\u00edculos.  Tambi\u00e9n se puede usar para determinar \u00e1reas con mayor volumen de residuos y planificar estrategias de gesti\u00f3n m\u00e1s efectivas.",
+        "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos",
+        "columns": "FECHA_CORTE (Para analizar tendencias en el tiempo), UBIGEO (Para identificar zonas geogr\u00e1ficas con mayor volumen de residuos), Veh\u00edculo de transporte que dispone los residuos (Para evaluar la eficiencia de cada veh\u00edculo), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para optimizar las rutas de recolecci\u00f3n), Cantidad de residuos dispuestos (toneladas) (Para cuantificar el volumen de residuos por zona y fecha)",
+        "type": "fa-map-location"
+    },
+    {
+        "title": "Sistema de Alerta para la Gesti\u00f3n de Residuos",
+        "description": "Este sistema utilizar\u00e1 datos hist\u00f3ricos de recolecci\u00f3n para predecir picos en la generaci\u00f3n de residuos. Esto permitir\u00e1 a la Municipalidad Distrital de San Ram\u00f3n tomar medidas preventivas, como aumentar la frecuencia de recolecci\u00f3n o asignar m\u00e1s recursos a zonas espec\u00edficas.",
+        "technique": "An\u00e1lisis predictivo (Machine Learning)",
+        "columns": "FECHA_CORTE (Variable temporal para el modelo predictivo), UBIGEO (Para identificar patrones geogr\u00e1ficos en la generaci\u00f3n de residuos), Cantidad de residuos dispuestos (toneladas) (Dato objetivo para la predicci\u00f3n), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para considerar la influencia de d\u00edas festivos o eventos especiales)",
+        "type": "fa-bell"
+    },
+    {
+        "title": "Comparaci\u00f3n del Rendimiento de los Veh\u00edculos",
+        "description": "Analizar la eficiencia de cada veh\u00edculo en funci\u00f3n del volumen de residuos recolectados, la distancia recorrida y el tiempo empleado. Esto permitir\u00e1 identificar veh\u00edculos con bajo rendimiento y optimizar su uso.",
+        "technique": "An\u00e1lisis estad\u00edstico comparativo",
+        "columns": "Veh\u00edculo de transporte que dispone los residuos (Para identificar cada veh\u00edculo), Cantidad de residuos dispuestos (toneladas) (Para evaluar la capacidad de carga), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para considerar variaciones en la distancia recorrida por d\u00eda)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Optimizaci\u00f3n de las Rutas de Recolecci\u00f3n",
+        "description": "Utilizar datos geogr\u00e1ficos y de recolecci\u00f3n para dise\u00f1ar rutas m\u00e1s eficientes, minimizando distancias y tiempo de viaje. Esto reducir\u00e1 costos y mejorar\u00e1 la puntualidad del servicio.",
+        "technique": "Algoritmos de optimizaci\u00f3n de rutas (ej. algoritmo de Dijkstra)",
+        "columns": "UBIGEO (Para determinar la ubicaci\u00f3n geogr\u00e1fica de los puntos de recolecci\u00f3n), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para considerar la frecuencia de recolecci\u00f3n en cada zona)",
+        "type": "fa-truck"
+    },
+    {
+        "title": "Mapa Interactivo de Puntos de Recolecci\u00f3n",
+        "description": "Desarrollar un mapa interactivo que muestre la ubicaci\u00f3n de los puntos de recolecci\u00f3n, la frecuencia de servicio y el volumen de residuos generado en cada zona. Esto permitir\u00e1 a la ciudadan\u00eda acceder informaci\u00f3n transparente sobre el servicio de recolecci\u00f3n.",
+        "technique": "Visualizaci\u00f3n web (ej. Leaflet o Google Maps API)",
+        "columns": "UBIGEO (Para ubicar los puntos de recolecci\u00f3n en el mapa), Cantidad de residuos dispuestos (toneladas) (Para mostrar el volumen de residuos por zona), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para indicar la frecuencia de servicio)",
+        "type": "fa-globe"
+    }
+]

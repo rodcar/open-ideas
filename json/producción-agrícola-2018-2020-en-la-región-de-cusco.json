@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Rendimiento Agr\u00edcola",
+        "description": "Visualizar la distribuci\u00f3n espacial del rendimiento agr\u00edcola por cultivo en la regi\u00f3n de Cusco. Esto permite identificar \u00e1reas con alto potencial productivo y zonas que requieren atenci\u00f3n.",
+        "technique": "An\u00e1lisis geoespacial, mapas interactivos",
+        "columns": "DEPARTAMENTO (Filtrar por departamento), PROVINCIA (Filtrar por provincia), DISTRITO (Filtrar por distrito), CULTIVO (Seleccionar cultivo de inter\u00e9s), RENDIMIENTO (Mostrar valores de rendimiento en el mapa)",
+        "type": "fa-map-location"
+    },
+    {
+        "title": "An\u00e1lisis Temporal de la Producci\u00f3n Agr\u00edcola",
+        "description": "Analizar las tendencias de producci\u00f3n a lo largo del tiempo para diferentes cultivos. Esto ayuda a comprender la evoluci\u00f3n del sector agr\u00edcola y prever futuras demandas.",
+        "technique": "Series de tiempo, an\u00e1lisis estad\u00edstico",
+        "columns": "PERIODO_AGRICOLA (Agrupar datos por a\u00f1o), CULTIVO (Seleccionar cultivo de inter\u00e9s), PRODUCCION (Calcular sumas o promedios por periodo)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Identificaci\u00f3n de \u00c1reas con Riesgo de P\u00e9rdida de Superficie",
+        "description": "Utilizar modelos de machine learning para predecir \u00e1reas con mayor probabilidad de sufrir p\u00e9rdida de superficie cultivable. Esto permite implementar estrategias preventivas.",
+        "technique": "Machine learning, an\u00e1lisis predictivo",
+        "columns": "DEPARTAMENTO (Considerar contexto regional), PROVINCIA, DISTRITO, CULTIVO, SUPERFICIE_PERDIDA (Usar como variable objetivo para el modelo)",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Plataforma de Informaci\u00f3n para Peque\u00f1os Productores",
+        "description": "Crear una plataforma web o aplicaci\u00f3n m\u00f3vil que facilite el acceso a informaci\u00f3n relevante sobre precios, mercados, t\u00e9cnicas de cultivo y asistencia t\u00e9cnica para los peque\u00f1os productores.",
+        "technique": "Desarrollo web/mobile, bases de datos, integraci\u00f3n de APIs",
+        "columns": "CULTIVO (Categorizar informaci\u00f3n por tipo de cultivo), PRECIO_CHACRA (Mostrar precios hist\u00f3ricos y tendencias),  DEPARTAMENTO (Filtrar informaci\u00f3n por regi\u00f3n)",
+        "type": "fa-laptop"
+    },
+    {
+        "title": "Optimizaci\u00f3n de la Cadena de Suministro Agr\u00edcola",
+        "description": "Analizar los flujos de producci\u00f3n, distribuci\u00f3n y comercializaci\u00f3n para identificar puntos de mejora en la cadena de suministro, reduciendo costos y tiempos de entrega.",
+        "technique": "An\u00e1lisis de red, optimizaci\u00f3n log\u00edstica",
+        "columns": "CULTIVO (Seleccionar cultivo espec\u00edfico), PRODUCCION (Cantidad producida), DISTRITO (Ubicaci\u00f3n de producci\u00f3n), PRECIO_CHACRA (Precio de venta)",
+        "type": "fa-truck"
+    }
+]

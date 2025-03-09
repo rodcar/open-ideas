@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Monitoreo de la Actividad Magn\u00e9tica en el Per\u00fa",
+        "description": "Este proyecto utilizar\u00e1 los datos de magnet\u00f3metro para generar mapas interactivos que muestran las variaciones del campo magn\u00e9tico terrestre a lo largo del tiempo. Esto permitir\u00e1 a investigadores y cient\u00edficos estudiar fen\u00f3menos geof\u00edsicos como tormentas geomagn\u00e9ticas, actividad volc\u00e1nica e incluso cambios en la placa tect\u00f3nica.",
+        "technique": "An\u00e1lisis espacial (GIS), visualizaci\u00f3n de datos (mapas de calor, gr\u00e1ficos de l\u00ednea)",
+        "columns": "FECHA_UTC (tiempo para el an\u00e1lisis temporal), HORA_UTC (precisi\u00f3n temporal para correlaciones), UBIGEO, DEPARTAMENTO, PROVINCIA, DISTRITO (localizaci\u00f3n geogr\u00e1fica para mapeo), D, H, Z, I, F (valores de campo magn\u00e9tico para an\u00e1lisis y visualizaci\u00f3n)",
+        "type": "fa-globe"
+    },
+    {
+        "title": "Predicci\u00f3n de Eventos Geomagn\u00e9ticos",
+        "description": "Se utilizar\u00e1 machine learning con los datos hist\u00f3ricos del magnet\u00f3metro para entrenar un modelo que pueda predecir eventos geomagn\u00e9ticos como tormentas solares. Esto ser\u00e1 \u00fatil para proteger infraestructuras sensibles a las fluctuaciones magn\u00e9ticas.",
+        "technique": "Machine Learning (algoritmos de regresi\u00f3n o clasificaci\u00f3n), an\u00e1lisis de series temporales",
+        "columns": "FECHA_UTC, HORA_UTC (para features temporales), D, H, Z, I, F (valores del campo magn\u00e9tico para entrenar el modelo)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Estudio de la Influencia Magn\u00e9tica en la Fauna",
+        "description": "Investigar si existe correlaci\u00f3n entre las variaciones del campo magn\u00e9tico y los patrones migratorios de animales o su comportamiento reproductivo. ",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos (gr\u00e1ficos de dispersi\u00f3n), modelado ecol\u00f3gico",
+        "columns": "FECHA_UTC, HORA_UTC (contextualizaci\u00f3n temporal), D, H, Z, I, F (valores del campo magn\u00e9tico para correlaciones), UBIGEO (localizaci\u00f3n para estudiar patrones espaciales)",
+        "type": "fa-dove"
+    },
+    {
+        "title": "Aplicaci\u00f3n M\u00f3vil de Informaci\u00f3n Magn\u00e9tica",
+        "description": "Desarrollar una aplicaci\u00f3n m\u00f3vil que permita a los usuarios consultar informaci\u00f3n sobre el campo magn\u00e9tico en tiempo real. Esta app podr\u00eda ser \u00fatil para navegantes, exploradores y cualquier persona interesada en la geomagnetismo.",
+        "technique": "Desarrollo de aplicaciones m\u00f3viles (Android/iOS), APIs para acceso a datos",
+        "columns": "FECHA_UTC, HORA_UTC, D, H, Z, I, F (valores actualizados del campo magn\u00e9tico)",
+        "type": "fa-mobile-screen"
+    },
+    {
+        "title": "Detecci\u00f3n de Anomal\u00edas Magn\u00e9ticas",
+        "description": "Analizar los datos del magnet\u00f3metro para identificar patrones an\u00f3malos que puedan indicar la presencia de dep\u00f3sitos minerales, fallas geol\u00f3gicas u otras caracter\u00edsticas geol\u00f3gicas interesantes.",
+        "technique": "An\u00e1lisis espacial (GIS), detecci\u00f3n de outliers, visualizaci\u00f3n de mapas",
+        "columns": "FECHA_UTC, HORA_UTC (para contexto temporal), D, H, Z, I, F (valores del campo magn\u00e9tico para detectar anomal\u00edas), UBIGEO, DEPARTAMENTO, PROVINCIA, DISTRITO (localizaci\u00f3n para mapeo)",
+        "type": "fa-map-marker"
+    }
+]

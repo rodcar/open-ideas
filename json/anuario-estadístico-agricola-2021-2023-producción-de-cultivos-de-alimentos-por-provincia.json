@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Productividad Agr\u00edcola",
+        "description": "Visualizar la producci\u00f3n agr\u00edcola de diferentes cultivos en la regi\u00f3n de Tacna. Identificar zonas de mayor rendimiento y potencial para el desarrollo de nuevas iniciativas agr\u00edcolas.",
+        "technique": "An\u00e1lisis geoespacial, mapas interactivos",
+        "columns": "CULTIVO (Para clasificar los datos por tipo de cultivo), PRODUCCI\u00d3N_ANUAL(t) (Para determinar la cantidad producida en cada zona), SUPERFICIE_CULTIVADA ha.(*) (Para calcular la densidad de producci\u00f3n), RENDIMIENTO (Para evaluar la eficiencia de cada cultivo)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de Tendencias de Mercado",
+        "description": "Identificar patrones en los precios del mercado de productos agr\u00edcolas de Tacna. Detectar per\u00edodos de mayor demanda y oferta para optimizar las estrategias de producci\u00f3n y comercializaci\u00f3n.",
+        "technique": "An\u00e1lisis temporal, series de tiempo, regresi\u00f3n lineal",
+        "columns": "CULTIVO (Para analizar el comportamiento individual de cada producto), PRODUCCI\u00d3N_ANUAL(t) (Para determinar la oferta disponible), PRECIO EN CHACRA (Para identificar las fluctuaciones de precio)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Sistema de Alerta para Cultivos en Riesgo",
+        "description": "Desarrollar un sistema que alertara a los agricultores sobre posibles amenazas a sus cultivos, como plagas o enfermedades. Se podr\u00eda usar informaci\u00f3n hist\u00f3rica y datos clim\u00e1ticos para predecir riesgos.",
+        "technique": "Machine learning, an\u00e1lisis predictivo",
+        "columns": "CULTIVO (Para enfocar las alertas en cultivos espec\u00edficos), RENDIMIENTO (Para detectar variaciones inusuales que puedan indicar problemas), SUPERFICIE_CULTIVADA ha.(*) (Para estimar el impacto potencial de las amenazas)",
+        "type": "fa-exclamation-triangle"
+    },
+    {
+        "title": "Optimizaci\u00f3n del Uso de Recursos",
+        "description": "Analizar la eficiencia en el uso de agua, fertilizantes y tierra para cada cultivo. Identificar oportunidades para reducir los costos de producci\u00f3n y minimizar el impacto ambiental.",
+        "technique": "An\u00e1lisis multivariado, modelos de optimizaci\u00f3n",
+        "columns": "CULTIVO (Para analizar las necesidades espec\u00edficas de cada cultivo), SUPERFICIE_CULTIVADA ha.(*) (Para evaluar la extensi\u00f3n de tierra utilizada), RENDIMIENTO (Para determinar la eficiencia en el uso de recursos)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Plataforma de Conexi\u00f3n entre Productores y Compradores",
+        "description": "Crear una plataforma digital que conecte a los agricultores de Tacna con compradores potenciales. Facilitar la comercializaci\u00f3n de productos frescos y locales.",
+        "technique": "Desarrollo web, bases de datos",
+        "columns": "CULTIVO (Para clasificar los productos disponibles), PRODUCCI\u00d3N_ANUAL(t) (Para indicar la cantidad disponible), PRECIO EN CHACRA (Para establecer un precio competitivo)",
+        "type": "fa-handshake"
+    }
+]

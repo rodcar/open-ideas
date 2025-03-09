@@ -1,0 +1,37 @@
+[
+    {
+        "title": "An\u00e1lisis de patrones de generaci\u00f3n de residuos",
+        "description": "Identificar tendencias en la generaci\u00f3n de residuos a lo largo del tiempo y en diferentes zonas del distrito. Esto puede ayudar a optimizar rutas de recolecci\u00f3n y a planificar estrategias para reducir la cantidad de basura generada.",
+        "technique": "An\u00e1lisis temporal, geo-referenciaci\u00f3n, visualizaci\u00f3n de datos",
+        "columns": "FECHA_CORTE (filtrar por rango de fechas), UBGEO (agrupar por zona geogr\u00e1fica), PESO (sumar el peso total de residuos por zona y fecha), DISTRITO (identificar distritos con mayor generaci\u00f3n de residuos), ",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Mapa de puntos de recolecci\u00f3n",
+        "description": "Visualizar la ubicaci\u00f3n de los puntos de recolecci\u00f3n en un mapa, mostrando el peso diario de residuos recogidos en cada punto. Esto permite identificar \u00e1reas con mayor necesidad de atenci\u00f3n y optimizar la distribuci\u00f3n de contenedores.",
+        "technique": "Geo-referenciaci\u00f3n, visualizaci\u00f3n de mapas (Heatmap)",
+        "columns": "UBIGEO (coordenadas geogr\u00e1ficas), PESO (tama\u00f1o del marcador en el mapa), FECHA_REGISTRO (filtrar por fecha espec\u00edfica), TURNO (distinguir puntos de recolecci\u00f3n por turno), ",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de la cantidad de residuos",
+        "description": "Utilizar t\u00e9cnicas de Machine Learning para predecir la cantidad de residuos que se generar\u00e1n en el futuro, considerando factores como la poblaci\u00f3n, eventos especiales, \u00e9poca del a\u00f1o, etc. Esto permite planificar mejor la log\u00edstica de recolecci\u00f3n y evitar desbordamientos.",
+        "technique": "Machine learning (regresi\u00f3n), an\u00e1lisis temporal",
+        "columns": "FECHA_CORTE (variable independiente), PESO (variable dependiente), ANIO, MES (variables categ\u00f3ricas para ajustar el modelo), DISTRITO (identificar patrones espec\u00edficos por distrito), ",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Sistema de alertas para la recolecci\u00f3n",
+        "description": "Desarrollar un sistema que env\u00ede notificaciones a los encargados de la recolecci\u00f3n cuando el volumen de residuos en un punto espec\u00edfico supere cierto umbral. Esto permite responder con mayor rapidez a las necesidades y optimizar la eficiencia del servicio.",
+        "technique": "Sistema de alertas, an\u00e1lisis de datos en tiempo real",
+        "columns": "UBIGEO (identificar puntos de recolecci\u00f3n), PESO (comparar con umbrales preestablecidos), FECHA_REGISTRO (filtrar por fecha actual), RESPONSABLE (identificar al responsable del punto de recolecci\u00f3n), ",
+        "type": "fa-bell"
+    },
+    {
+        "title": "Comparaci\u00f3n de la eficiencia de recolecci\u00f3n entre turnos",
+        "description": "Analizar la cantidad de residuos recogidos por cada turno y determinar si hay diferencias significativas en la eficiencia. Esto puede ayudar a optimizar la asignaci\u00f3n de recursos y el horario de trabajo.",
+        "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos",
+        "columns": "TURNO (agrupar por turno), PESO (calcular promedio por turno), DISTRITO (comparar la eficiencia entre diferentes distritos), FECHA_REGISTRO (filtrar por rango de fechas para comparar periodos espec\u00edficos), ",
+        "type": "fa-balance-scale"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapeo de \u00c1rboles Talados/Trasladados",
+        "description": "Visualizar la ubicaci\u00f3n y cantidad de \u00e1rboles autorizados para tala, traslado o poda severa en un mapa interactivo. Permite identificar \u00e1reas con mayor impacto ambiental y patrones de solicitud.",
+        "technique": "An\u00e1lisis geoespacial, cartograf\u00eda web (Leaflet, Google Maps API),  filtros interactivos",
+        "columns": "UBIGEO (para geolocalizaci\u00f3n), CANTIDAD_DE_ARBOLES_AUTORIZADOS_PARA_TALA(visualizada en mapa), CANTIDAD_DE_ARBOLES_AUTORIZADOS_PARA_TRASLADO (visualizada en mapa), CANTIDAD_DE_ARBOLES_AUTORIZADOS_PARA_PODA_SEVERA (visualizada en mapa), FECHA_CORTE (para definir per\u00edodo de an\u00e1lisis), DISTRITO (opcional para filtros)",
+        "type": "fa-map-marker-alt"
+    },
+    {
+        "title": "An\u00e1lisis de Solicitantes",
+        "description": "Identificar los principales solicitantes de autorizaciones para tala, traslado o poda. Determinar si existen patrones en el tipo de instituciones que realizan las solicitudes.",
+        "technique": "An\u00e1lisis descriptivo, agrupamiento por frecuencia, visualizaci\u00f3n de datos (gr\u00e1ficos de barras, nubes de palabras)",
+        "columns": "EMPRESA_O_INSTITUCION_SOLICITANTE (para identificar solicitantes), PROCEDENTE_O_IMPROCEDENTE (analizar tasa de aprobaci\u00f3n por solicitante), CANTIDAD_DE_ARBOLES_AUTORIZADOS_PARA_TALA/TRASLADO/PODA_SEVERA (comparar volumen de solicitudes por solicitante)",
+        "type": "fa-users"
+    },
+    {
+        "title": "Predicci\u00f3n de Solicitudes Futuras",
+        "description": "Utilizar t\u00e9cnicas de machine learning para predecir la cantidad de solicitudes futuras de autorizaciones, considerando factores como ubicaci\u00f3n, tipo de instituci\u00f3n solicitante y \u00e9poca del a\u00f1o.",
+        "technique": "Aprendizaje autom\u00e1tico (regresi\u00f3n lineal, \u00e1rboles de decisi\u00f3n), an\u00e1lisis temporal de series de tiempo ",
+        "columns": "Todas las columnas (para entrenar el modelo de machine learning. Fecha de ingreso, departamento, distrito, cantidad de \u00e1rboles autorizados, etc.)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Comparaci\u00f3n Temporal de Autorizaciones",
+        "description": "Analizar la evoluci\u00f3n en el tiempo de las autorizaciones para tala, traslado y poda. Identificar tendencias, picos de actividad y posibles impactos ambientales.",
+        "technique": "An\u00e1lisis temporal, gr\u00e1ficos de l\u00ednea, visualizaci\u00f3n de datos por per\u00edodo",
+        "columns": "FECHA_DE_INGRESO_POR_TRAMITE_DOCUMENTARIO (para definir periodos temporales), CANTIDAD_DE_ARBOLES_AUTORIZADOS_PARA_TALA/TRASLADO/PODA_SEVERA (comparar la cantidad de \u00e1rboles autorizados por per\u00edodo)",
+        "type": "fa-calendar-alt"
+    },
+    {
+        "title": "Dashboard Interactivo de Autorizaciones",
+        "description": "Desarrollar un tablero de control interactivo que permita explorar datos sobre autorizaciones, filtrarlos por ubicaci\u00f3n, tipo de solicitud y visualizar tendencias. Facilitar la toma de decisiones.",
+        "technique": "Herramientas de desarrollo de dashboards (Tableau, Power BI), integraci\u00f3n de datos",
+        "columns": "Todas las columnas (para incluir informaci\u00f3n completa en el dashboard)",
+        "type": "fa-chart-bar"
+    }
+]

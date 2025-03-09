@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mapa de Calor de Generaci\u00f3n de Residuos",
+        "description": "Visualizar la cantidad de residuos s\u00f3lidos domiciliarios generados por distrito. Permite identificar zonas con mayor necesidad de gesti\u00f3n de residuos.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, mapas de calor",
+        "columns": "UBIGEO (Para geolocalizaci\u00f3n), DISTRITO (Para etiquetar la informaci\u00f3n en el mapa), QRESIDUOS_DOM (Para determinar la intensidad del color en el mapa de calor), PERIODO (Para analizar la generaci\u00f3n de residuos en diferentes a\u00f1os)",
+        "type": "fa-map-marked-alt"
+    },
+    {
+        "title": "Predicci\u00f3n de Generaci\u00f3n de Residuos",
+        "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir la cantidad futura de residuos generados en funci\u00f3n de variables como poblaci\u00f3n, tipo de vivienda y tendencias hist\u00f3ricas.",
+        "technique": "An\u00e1lisis, machine learning, regresi\u00f3n lineal o ARIMA",
+        "columns": "PERIODO (Variable independiente), POB_TOTAL (Variable independiente), QRESIDUOS_DOM (Variable dependiente)",
+        "type": "fa-chart-line"
+    },
+    {
+        "title": "Comparaci\u00f3n de Gesti\u00f3n de Residuos por Regi\u00f3n Natural",
+        "description": "Analizar la cantidad de residuos generados por unidad de poblaci\u00f3n en las diferentes regiones naturales (costa, sierra, selva) para identificar patrones y necesidades espec\u00edficas.",
+        "technique": "An\u00e1lisis, gr\u00e1ficos de barras",
+        "columns": "REG_NAT (Para agrupar los datos), QRESIDUOS_DOM (Para calcular la cantidad de residuos por unidad de poblaci\u00f3n), POB_TOTAL (Para normalizar la cantidad de residuos)",
+        "type": "fa-chart-bar"
+    },
+    {
+        "title": "Identificaci\u00f3n de Zonas con Alta Densidad Poblacional y Baja Gesti\u00f3n de Residuos",
+        "description": "Cruzar datos de densidad poblacional con informaci\u00f3n sobre la generaci\u00f3n de residuos para identificar \u00e1reas donde la gesti\u00f3n de residuos podr\u00eda ser deficiente.",
+        "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, mapas tem\u00e1ticos",
+        "columns": "UBIGEO (Para geolocalizaci\u00f3n), DISTRITO (Para etiquetar la informaci\u00f3n en el mapa), POB_TOTAL (Para calcular la densidad poblacional), QRESIDUOS_DOM (Para identificar \u00e1reas con baja gesti\u00f3n de residuos)",
+        "type": "fa-map-pin"
+    },
+    {
+        "title": "Dashboard Interactivo de Gesti\u00f3n de Residuos",
+        "description": "Desarrollar un tablero de control interactivo que permita visualizar la informaci\u00f3n sobre generaci\u00f3n de residuos, tendencias, puntos cr\u00edticos y indicadores clave de desempe\u00f1o.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones, Dashboards",
+        "columns": "Todas las columnas (Para permitir una visualizaci\u00f3n completa de los datos)",
+        "type": "fa-tachometer-alt"
+    }
+]
