@@ -4,34 +4,54 @@
         "description": "Esta aplicaci\u00f3n analizar\u00e1 la variaci\u00f3n de la humedad del suelo a diferentes profundidades (20, 60 y 100 cm) a lo largo del tiempo. Se utilizar\u00e1 para identificar patrones estacionales o tendencias a largo plazo en la humedad del suelo.",
         "technique": "An\u00e1lisis de series temporales, visualizaci\u00f3n de datos",
         "columns": "FECHA_REGISTRO (variable temporal para an\u00e1lisis de series), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El an\u00e1lisis de la evoluci\u00f3n de la humedad del suelo a diferentes profundidades (20cm, 60cm y 100cm) utilizando series de tiempo y aprendizaje autom\u00e1tico para predecir niveles futuros de humedad y detectar anomal\u00edas. La visualizaci\u00f3n de los datos mediante modelos 3D interactivos permitir\u00e1 una comprensi\u00f3n clara y accesible.",
+        "impact": "Este proyecto tendr\u00e1 un impacto significativo al optimizar el uso del agua, mejorar la producci\u00f3n de cultivos y aumentar la resiliencia ante el cambio clim\u00e1tico. Al proporcionar a los agricultores informaci\u00f3n basada en datos para tomar decisiones informadas, se promover\u00e1 la agricultura sostenible que beneficia tanto a las comunidades como al medio ambiente.",
+        "scalability": "La soluci\u00f3n es altamente escalable y adaptable a diferentes regiones geogr\u00e1ficas y tipos de cultivos. El uso de herramientas de an\u00e1lisis de c\u00f3digo abierto asegura un desarrollo rentable y accesible.",
+        "viability": "El proyecto es viable gracias a la disponibilidad de sensores de humedad del suelo asequibles, tecnolog\u00edas de transmisi\u00f3n de datos de bajo consumo como LoRaWAN y herramientas de an\u00e1lisis y visualizaci\u00f3n de c\u00f3digo abierto. La combinaci\u00f3n de estas tecnolog\u00edas hace que la soluci\u00f3n sea pr\u00e1ctica e implementable."
     },
     {
         "title": "Mapa de humedad del suelo",
         "description": "Esta aplicaci\u00f3n mostrar\u00e1 un mapa interactivo que visualice la humedad del suelo en diferentes ubicaciones.  Permitir\u00e1 a los usuarios explorar las variaciones espaciales de la humedad y comparar los datos entre diferentes estaciones.",
         "technique": "Geo-referenciaci\u00f3n, cartograf\u00eda web",
         "columns": "DEPARTAMENTO (para ubicaci\u00f3n geogr\u00e1fica), PROVINCIA (para ubicaci\u00f3n geogr\u00e1fica), DISTRITO (para ubicaci\u00f3n geogr\u00e1fica), UBIGEO (c\u00f3digo para ubicaci\u00f3n precisa), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
-        "type": "fa-map-location"
+        "type": "fa-map-location",
+        "complement_idea": "La idea de 'Mapa de Humedad del Suelo' es excelente y puede complementarse con funciones adicionales que aumenten su utilidad y alcance. Algunas sugerencias son:",
+        "impact": "'Mapa de Humedad del Suelo' tiene un alto impacto potencial, beneficiando a diversos actores: \n* **Agricultores:** Optimizando el riego, ahorrando agua y aumentando los rendimientos.\n* **Investigadores:** Monitorizando tendencias de humedad en el suelo y estudiando su relaci\u00f3n con factores clim\u00e1ticos.\n* **Comunidades:** Prepar\u00e1ndose para sequ\u00edas o inundaciones mediante la predicci\u00f3n de niveles de humedad.",
+        "scalability": "El proyecto es escalable gracias a su modelo freemium, que permite acceder a funciones b\u00e1sicas de forma gratuita. La posibilidad de integrar datos de usuarios a trav\u00e9s de una aplicaci\u00f3n m\u00f3vil tambi\u00e9n aumenta su alcance y precisi\u00f3n. Adem\u00e1s, se pueden establecer alianzas con instituciones gubernamentales o empresas para ampliar la red de sensores y cubrir m\u00e1s \u00e1reas.",
+        "viability": "'Mapa de Humedad del Suelo' es viable econ\u00f3micamente gracias a su modelo de negocio freemium. La oferta de planes de suscripci\u00f3n con funciones avanzadas como predicci\u00f3n de humedad, an\u00e1lisis hist\u00f3rico y acceso a API puede generar ingresos sostenibles. Adem\u00e1s, la posibilidad de obtener financiaci\u00f3n a trav\u00e9s de subvenciones o inversiones privadas tambi\u00e9n puede contribuir a su viabilidad."
     },
     {
         "title": "Predicci\u00f3n de la humedad del suelo",
         "description": "Utilizando t\u00e9cnicas de machine learning, esta aplicaci\u00f3n predecir\u00e1 futuras condiciones de humedad del suelo basadas en datos hist\u00f3ricos. Esto puede ser \u00fatil para agricultores y gestores de recursos h\u00eddricos.",
         "technique": "Machine learning (regresi\u00f3n), an\u00e1lisis de series temporales",
         "columns": "FECHA_REGISTRO (variable temporal), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
-        "type": "fa-flask"
+        "type": "fa-flask",
+        "complement_idea": "La idea se puede complementar desarrollando una interfaz de usuario amigable y accesible tanto para agricultores como para gestores del agua. Tambi\u00e9n se podr\u00eda explorar la integraci\u00f3n con sistemas de monitoreo remoto de humedad del suelo para obtener datos en tiempo real y mejorar a\u00fan m\u00e1s la precisi\u00f3n de las predicciones.",
+        "impact": "El impacto potencial es significativo. La optimizaci\u00f3n del riego puede llevar a un ahorro considerable de agua, lo que es crucial en regiones con escasez h\u00eddrica. Adem\u00e1s, aumentar los rendimientos agr\u00edcolas contribuye a la seguridad alimentaria y al desarrollo econ\u00f3mico local. Por otro lado, la predicci\u00f3n de la demanda de agua permite una gesti\u00f3n m\u00e1s eficiente de los recursos h\u00eddricos, mitigando el riesgo de sequ\u00edas y inundaciones.",
+        "scalability": "La soluci\u00f3n es escalable gracias a su dise\u00f1o modular. El modelo puede ser calibrado para diferentes regiones y tipos de suelo, adapt\u00e1ndose a diversas necesidades. La utilizaci\u00f3n de datos abiertos y la posibilidad de integrar informaci\u00f3n de usuario permiten un crecimiento continuo y una mayor precisi\u00f3n en las predicciones.",
+        "viability": "-"
     },
     {
         "title": "Comparaci\u00f3n de humedad del suelo entre estaciones",
         "description": "Esta aplicaci\u00f3n permitir\u00e1 comparar la humedad del suelo en diferentes estaciones meteorol\u00f3gicas. Se puede utilizar para identificar patrones regionales y evaluar el impacto de factores como la altitud o la vegetaci\u00f3n.",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos",
         "columns": "ESTACION (nombre de la estaci\u00f3n), FECHA_REGISTRO (variable temporal), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "La aplicaci\u00f3n de comparaci\u00f3n de humedad del suelo puede complementarse con funciones adicionales como recomendaciones personalizadas de riego para los agricultores, an\u00e1lisis hist\u00f3ricos de datos meteorol\u00f3gicos y la posibilidad de compartir informaci\u00f3n sobre condiciones de suelo entre usuarios.",
+        "impact": "La aplicaci\u00f3n tendr\u00eda un impacto positivo en la agricultura sostenible al ayudar a los agricultores a optimizar el uso del agua y mejorar los rendimientos. Tambi\u00e9n podr\u00eda contribuir a la investigaci\u00f3n cient\u00edfica al proporcionar datos valiosos sobre las tendencias de humedad del suelo y los patrones clim\u00e1ticos.",
+        "scalability": "La aplicaci\u00f3n tiene un alto potencial de escalabilidad gracias a su dise\u00f1o basado en crowdsourcing y API. Se puede adaptar a diferentes regiones y cultivos, y se puede integrar con otras plataformas para ampliar su alcance.",
+        "viability": "La viabilidad t\u00e9cnica de la aplicaci\u00f3n es alta dado que se basa en datos p\u00fablicos disponibles y tecnolog\u00edas de visualizaci\u00f3n y an\u00e1lisis existentes. Su modelo de negocio podr\u00eda basarse en suscripciones premium para funciones avanzadas o en colaboraciones con instituciones agr\u00edcolas y de investigaci\u00f3n."
     },
     {
         "title": "Dashboard de monitoreo ambiental",
         "description": "Esta aplicaci\u00f3n combinar\u00e1 datos de humedad del suelo con otros indicadores ambientales relevantes para crear un dashboard interactivo que permita monitorear la salud de los ecosistemas. ",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones, Dashboards",
         "columns": "FECHA_REGISTRO (variable temporal), HUMEDAD_SUELO_PROMEDIO_20 (humedad a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (humedad a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (humedad a 100 cm), DEPARTAMENTO (ubicaci\u00f3n geogr\u00e1fica), PROVINCIA (ubicaci\u00f3n geogr\u00e1fica), DISTRITO (ubicaci\u00f3n geogr\u00e1fica), UBIGEO (c\u00f3digo para ubicaci\u00f3n precisa)",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "El proyecto 'Dashboard de monitoreo ambiental' combina datos de humedad del suelo, calidad del aire, temperatura y precipitaci\u00f3n para ofrecer una visi\u00f3n hol\u00edstica de la salud del ecosistema. La geo-referenciaci\u00f3n permite visualizar estos factores espacialmente, revelando patrones y tendencias cruciales. Los algoritmos de aprendizaje autom\u00e1tico, como los bosques aleatorios, pueden identificar relaciones dentro de los datos y predecir eventos futuros (por ejemplo, sequ\u00edas), lo que permite medidas de conservaci\u00f3n proactivas.",
+        "impact": "El impacto del proyecto es significativo: los agricultores se benefician de informaci\u00f3n basada en datos para obtener rendimientos optimizados; las comunidades vulnerables reciben sistemas de alerta temprana para desastres naturales; y se fomenta la transparencia en la gesti\u00f3n ambiental. El tablero tambi\u00e9n puede utilizarse para educar al p\u00fablico sobre los problemas ambientales y promover soluciones sostenibles.",
+        "scalability": "La viabilidad del proyecto se ve reforzada por su naturaleza de c\u00f3digo abierto, que facilita la adopci\u00f3n global y la personalizaci\u00f3n para diferentes ecosistemas. La integraci\u00f3n de la ciencia ciudadana ampl\u00eda la cobertura de datos mientras promueve el compromiso comunitario. Adem\u00e1s, las API de geo-referenciaci\u00f3n como ArcGIS o Google Maps permiten una f\u00e1cil integraci\u00f3n con sistemas existentes.",
+        "viability": "La viabilidad del proyecto depende en gran medida de la adquisici\u00f3n de datos confiables en tiempo real. Las colaboraciones con agencias meteorol\u00f3gicas y la utilizaci\u00f3n de redes de sensores de c\u00f3digo abierto pueden mitigar los costos. Un an\u00e1lisis costo-beneficio detallado es esencial para evaluar la sostenibilidad a largo plazo. La b\u00fasqueda de financiaci\u00f3n a trav\u00e9s de subvenciones para proyectos de conservaci\u00f3n ambiental tambi\u00e9n puede ser crucial."
     }
 ]
