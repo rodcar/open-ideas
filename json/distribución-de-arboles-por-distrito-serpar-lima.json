@@ -4,34 +4,54 @@
         "description": "Este dashboard permitir\u00e1 visualizar la cantidad de \u00e1rboles plantados en cada distrito a trav\u00e9s del tiempo. Permite identificar \u00e1reas con mayor o menor densidad de plantaci\u00f3n y evaluar el progreso de las iniciativas de arborizaci\u00f3n.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, dashboards interactivos",
         "columns": "DISTRITO (Se usar\u00e1 para agrupar los datos por distrito), A\u00d1O (Se utilizar\u00e1 para filtrar los datos por a\u00f1o), MES (Permitir\u00e1 analizar la plantaci\u00f3n mes a mes), TOTAL (Mostrar el total de \u00e1rboles plantados en cada distrito y per\u00edodo)",
-        "type": "fa-tree"
+        "type": "fa-tree",
+        "complement_idea": "La idea de un tablero interactivo para monitorear el progreso de la arborizaci\u00f3n en distritos es excelente. Se puede complementar con funcionalidades adicionales como:",
+        "impact": "El impacto potencial de esta iniciativa es significativo.  Permitir\u00eda: \n* **Aumentar la transparencia:** Al hacer que los datos de plantaci\u00f3n sean accesibles a todos. \n* **Empoderar a las comunidades:** Proporcionando informaci\u00f3n para la defensa y responsabilizando a las autoridades. \n* **Promover la conciencia sobre la biodiversidad:**  Al rastrear la diversidad de especies junto con el recuento de \u00e1rboles.",
+        "scalability": "El tablero es altamente escalable, ya que se basa en datos GIS existentes y im\u00e1genes satelitales. Puede adaptarse f\u00e1cilmente a diferentes ciudades o regiones simplemente actualizando los l\u00edmites de los distritos e integrando datos locales relevantes.",
+        "viability": "La viabilidad de este proyecto es alta debido al uso de herramientas de c\u00f3digo abierto y datos disponibles.  La complejidad t\u00e9cnica se puede manejar con un equipo experimentado en an\u00e1lisis de datos geogr\u00e1ficos."
     },
     {
         "title": "Predicci\u00f3n del crecimiento futuro de la cobertura vegetal",
         "description": "Utilizando modelos de aprendizaje autom\u00e1tico, se analizar\u00e1n las tendencias hist\u00f3ricas de plantaci\u00f3n para predecir la cantidad futura de \u00e1rboles en cada distrito. Esto ayudar\u00e1 a planificar estrategias a largo plazo de arborizaci\u00f3n.",
         "technique": "An\u00e1lisis predictivo con machine learning, visualizaci\u00f3n de datos",
         "columns": "DISTRITO (Variable independiente), A\u00d1O (Variable independiente), MES (Variable independiente), TOTAL (Variable dependiente para entrenar el modelo de predicci\u00f3n)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El proyecto se puede complementar con la integraci\u00f3n de datos sobre la salud de los \u00e1rboles existentes, utilizando im\u00e1genes satelitales de alta resoluci\u00f3n y an\u00e1lisis de drones para identificar \u00e1reas donde los \u00e1rboles necesitan atenci\u00f3n o reemplazo. Adem\u00e1s, se puede incorporar un sistema de alerta temprana para detectar plagas y enfermedades que puedan afectar a la cobertura forestal.",
+        "impact": "Este proyecto tendr\u00e1 un impacto positivo significativo en el medio ambiente al contribuir a la lucha contra el cambio clim\u00e1tico mediante la absorci\u00f3n de CO2, mejorando la calidad del aire al reducir los niveles de contaminaci\u00f3n y promoviendo la biodiversidad al proporcionar h\u00e1bitats para una variedad de especies. Adem\u00e1s, la creaci\u00f3n de \u00e1reas verdes mejorar\u00e1 la calidad de vida de las comunidades.",
+        "scalability": "El modelo predictivo se puede escalar a otras ciudades o regiones adapt\u00e1ndolo a las condiciones clim\u00e1ticas locales y a los tipos de \u00e1rboles predominantes. La plataforma de visualizaci\u00f3n tambi\u00e9n se puede replicar en otros contextos, facilitando el acceso a informaci\u00f3n crucial sobre la salud de los bosques urbanos.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta, ya que existen herramientas de an\u00e1lisis de datos y aprendizaje autom\u00e1tico disponibles para desarrollar modelos predictivos precisos. Adem\u00e1s, la disponibilidad de datos hist\u00f3ricos sobre plantaciones y la posibilidad de obtener informaci\u00f3n en tiempo real a trav\u00e9s de sensores remotos hacen posible la implementaci\u00f3n exitosa de este proyecto."
     },
     {
         "title": "Mapa interactivo de la densidad de \u00e1rboles en Lima",
         "description": "Se crear\u00e1 un mapa interactivo que muestre la ubicaci\u00f3n de los \u00e1rboles plantados por SERPAR LIMA. Los usuarios podr\u00e1n filtrar por distrito, a\u00f1o y mes para visualizar la distribuci\u00f3n espacial de la arborizaci\u00f3n.",
         "technique": "Geolocalizaci\u00f3n, visualizaci\u00f3n de mapas interactivos",
         "columns": "DISTRITO (Para identificar la ubicaci\u00f3n geogr\u00e1fica de los \u00e1rboles plantados), TOTAL (Indicar\u00e1 la densidad de \u00e1rboles en cada zona)",
-        "type": "fa-map-marked"
+        "type": "fa-map-marked",
+        "complement_idea": "El mapa interactivo de densidad de \u00e1rboles de Lima podr\u00eda complementarse con informaci\u00f3n adicional sobre cada \u00e1rbol, como la especie, el a\u00f1o de plantaci\u00f3n y su estado de salud. Adem\u00e1s, se podr\u00edan agregar funciones para que los usuarios reporten problemas con los \u00e1rboles, como da\u00f1os o plagas.",
+        "impact": "Este proyecto tendr\u00e1 un gran impacto en la comunidad lime\u00f1a al aumentar la transparencia en la gesti\u00f3n de los espacios verdes, promover la educaci\u00f3n ambiental y empoderar a los ciudadanos para participar en el cuidado de su ciudad. Al visualizar la distribuci\u00f3n de los \u00e1rboles, se podr\u00e1n identificar \u00e1reas con mayor necesidad de arborizaci\u00f3n y planificar nuevas plantaciones de forma m\u00e1s eficiente.",
+        "scalability": "El proyecto es altamente escalable, ya que puede ser adaptado a otras ciudades o regiones. Adem\u00e1s, la incorporaci\u00f3n de funciones de citizen science permitir\u00e1 que el mapa se actualice constantemente con informaci\u00f3n de la comunidad, lo que garantizar\u00e1 su relevancia y utilidad a largo plazo.",
+        "viability": "La viabilidad del proyecto es alta gracias al uso de herramientas de software de c\u00f3digo abierto como Leaflet y QGIS. La colaboraci\u00f3n con SERPAR LIMA para obtener los datos de plantaci\u00f3n de \u00e1rboles tambi\u00e9n facilitar\u00e1 la implementaci\u00f3n.  Adem\u00e1s, el proyecto puede ser financiado mediante becas, donaciones o alianzas estrat\u00e9gicas."
     },
     {
         "title": "Comparaci\u00f3n del impacto de SERPAR LIMA con otros programas de arborizaci\u00f3n",
         "description": "Se analizar\u00e1n los datos de SERPAR LIMA junto con informaci\u00f3n sobre otros programas de plantaci\u00f3n de \u00e1rboles en Lima. Esto permitir\u00e1 evaluar la efectividad relativa de las diferentes iniciativas y identificar mejores pr\u00e1cticas.",
         "technique": "An\u00e1lisis comparativo, visualizaci\u00f3n de datos",
         "columns": "ITEM (Para identificar cada programa), DISTRITO (Para comparar el impacto en diferentes zonas), A\u00d1O (Para analizar la evoluci\u00f3n a trav\u00e9s del tiempo), TOTAL (Para medir la cantidad de \u00e1rboles plantados por cada programa)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Analizar el impacto de SERPAR LIMA en comparaci\u00f3n con otros programas de arborizaci\u00f3n en Lima a trav\u00e9s del an\u00e1lisis comparativo y la visualizaci\u00f3n de datos.",
+        "impact": "Este enfoque permite identificar las mejores pr\u00e1cticas que SERPAR LIMA puede adoptar, guiar intervenciones dirigidas en comunidades desfavorecidas y optimizar la asignaci\u00f3n de recursos para maximizar el impacto dentro de las restricciones presupuestarias. Adem\u00e1s, posiciona a SERPAR LIMA como un l\u00edder en el campo de la arborizaci\u00f3n urbana.",
+        "scalability": "La metodolog\u00eda propuesta es escalable ya que puede aplicarse a otras ciudades o regiones con programas similares de arborizaci\u00f3n. El uso de datos estandarizados y herramientas de visualizaci\u00f3n interactivas facilita la comparaci\u00f3n y la comunicaci\u00f3n de los resultados a diversas audiencias.",
+        "viability": "La viabilidad de esta idea se basa en la disponibilidad de datos accesibles sobre las tasas de supervivencia de los \u00e1rboles, las m\u00e9tricas de crecimiento (altura, cobertura del dosel) y el costo por \u00e1rbol para todos los programas. La creaci\u00f3n de una tarjeta de informes interactiva y un mapa interactivo son herramientas viables y de bajo costo que pueden desarrollarse utilizando software de c\u00f3digo abierto."
     },
     {
         "title": "Identificaci\u00f3n de patrones estacionales en la plantaci\u00f3n de \u00e1rboles",
         "description": "Se analizar\u00e1n los datos hist\u00f3ricos para identificar si existen patrones recurrentes en la plantaci\u00f3n de \u00e1rboles a lo largo del a\u00f1o. Esto puede ayudar a optimizar el calendario de plantaciones y aprovechar las mejores condiciones clim\u00e1ticas.",
         "technique": "An\u00e1lisis de series temporales, visualizaci\u00f3n de gr\u00e1ficos",
         "columns": "A\u00d1O (Variable para analizar tendencias a largo plazo), MES (Para identificar patrones estacionales), TOTAL (Mostrar la cantidad de \u00e1rboles plantados en cada mes)",
-        "type": "fa-calendar-alt"
+        "type": "fa-calendar-alt",
+        "complement_idea": "El an\u00e1lisis de patrones estacionales en los datos hist\u00f3ricos de plantaci\u00f3n de \u00e1rboles es una idea innovadora y prometedora que complementa las estrategias tradicionales de reforestaci\u00f3n. Al identificar ventanas de plantaci\u00f3n \u00f3ptimas alineadas con condiciones clim\u00e1ticas favorables, esta t\u00e9cnica maximiza la supervivencia de las pl\u00e1ntulas, optimiza el uso de recursos y fomenta la participaci\u00f3n comunitaria.",
+        "impact": "Este enfoque tiene un alto impacto social y ambiental. Las plantaciones m\u00e1s exitosas contribuyen a la restauraci\u00f3n de ecosistemas forestales degradados, capturan carbono atmosf\u00e9rico, mejoran la calidad del agua y del suelo, y proporcionan h\u00e1bitat para especies de flora y fauna. Adem\u00e1s, la participaci\u00f3n comunitaria en el proceso de reforestaci\u00f3n fortalece el sentido de propiedad y responsabilidad ambiental.",
+        "scalability": "La escalabilidad de esta soluci\u00f3n es alta debido a que se basa en datos hist\u00f3ricos y t\u00e9cnicas de an\u00e1lisis bien establecidas. El enfoque puede adaptarse a diferentes regiones y especies arb\u00f3reas mediante la modificaci\u00f3n de los par\u00e1metros de entrada. La integraci\u00f3n con herramientas de modelado predictivo permite proyectar ventanas de plantaci\u00f3n \u00f3ptimas para el futuro, considerando los cambios clim\u00e1ticos.",
+        "viability": "La viabilidad t\u00e9cnica de esta soluci\u00f3n es s\u00f3lida, ya que se basa en t\u00e9cnicas probadas de an\u00e1lisis de series temporales y visualizaci\u00f3n de datos. Adem\u00e1s, la optimizaci\u00f3n de las ventanas de plantaci\u00f3n conduce a una mayor supervivencia de las pl\u00e1ntulas, lo que reduce los costos asociados con la reforestaci\u00f3n. La participaci\u00f3n comunitaria en la recopilaci\u00f3n de datos puede ser un factor clave para garantizar la sostenibilidad y el \u00e9xito a largo plazo del proyecto."
     }
 ]
