@@ -4,34 +4,54 @@
         "description": "Visualizar la p\u00e9rdida de bosques a nivel nacional, departamental y distrital. Permite identificar zonas cr\u00edticas y patrones de deforestaci\u00f3n.",
         "technique": "An\u00e1lisis geoespacial con QGIS/ArcGIS, creaci\u00f3n de mapas interactivos con Leaflet/Mapbox",
         "columns": "UBIGEO (para la geolocalizaci\u00f3n), FECHA_CORTE (para an\u00e1lisis temporal), DEPARTAMENTO (para agrupar datos a nivel departamental), DISTRITO (para an\u00e1lisis a nivel local), PERDIDA_BOSQUE (para visualizar la intensidad de la deforestaci\u00f3n)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El proyecto del 'Mapa Interactivo de la Deforestaci\u00f3n en Per\u00fa' se complementa con la posibilidad de integrar un sistema de alertas tempranas basado en datos satelitales para identificar cambios recientes en la cobertura forestal y notificar a las autoridades pertinentes y a las comunidades locales. Esto permitir\u00eda una respuesta m\u00e1s r\u00e1pida y efectiva ante la tala ilegal o la degradaci\u00f3n del bosque.",
+        "impact": "El impacto potencial de este proyecto es significativo, ya que puede contribuir a reducir la deforestaci\u00f3n en Per\u00fa al proporcionar informaci\u00f3n precisa y oportuna a los tomadores de decisiones. La visualizaci\u00f3n de datos espaciales permite identificar \u00e1reas cr\u00edticas para la conservaci\u00f3n y planificar estrategias efectivas de manejo forestal. Adem\u00e1s, el empoderamiento de las comunidades locales a trav\u00e9s del acceso a la informaci\u00f3n sobre la deforestaci\u00f3n les permitir\u00e1 participar activamente en la protecci\u00f3n de sus recursos naturales.",
+        "scalability": "El proyecto tiene un alto potencial de escalabilidad gracias al uso de datos de c\u00f3digo abierto y tecnolog\u00edas de mapeo web. La plataforma puede ser adaptada a otras regiones del mundo con acceso a datos similares, lo que permitir\u00eda replicar el modelo en \u00e1reas con problemas de deforestaci\u00f3n. Adem\u00e1s, la incorporaci\u00f3n de herramientas de colaboraci\u00f3n y participaci\u00f3n ciudadana podr\u00eda fortalecer la sostenibilidad del proyecto a largo plazo.",
+        "viability": "La viabilidad del proyecto depende de asegurar una financiaci\u00f3n sostenible para el desarrollo, mantenimiento y actualizaci\u00f3n de la plataforma. Se pueden explorar diversas fuentes de financiamiento, como subvenciones de organizaciones internacionales, alianzas con empresas privadas comprometidas con la sostenibilidad o modelos de suscripci\u00f3n para usuarios institucionales."
     },
     {
         "title": "Predicci\u00f3n de la p\u00e9rdida de bosques con Machine Learning",
         "description": "Utilizar datos hist\u00f3ricos de deforestaci\u00f3n para predecir \u00e1reas con mayor riesgo de perder cobertura forestal en el futuro.",
         "technique": "Modelado predictivo con algoritmos de Machine Learning (Random Forest, Gradient Boosting), an\u00e1lisis de series de tiempo",
         "columns": "FECHA_CORTE (variable temporal), UBIGEO (localizaci\u00f3n geogr\u00e1fica), PERDIDA_BOSQUE (variable objetivo), BOSQUE (variable predictora), HIDROGRAFIA (factor ambiental)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de 'Predicci\u00f3n de la p\u00e9rdida de bosques con Machine Learning' puede complementarse integrando datos de teledetecci\u00f3n, como im\u00e1genes satelitales, para mejorar la precisi\u00f3n del modelo. Tambi\u00e9n ser\u00eda beneficioso incorporar an\u00e1lisis socioecon\u00f3micos para identificar las causas subyacentes de la deforestaci\u00f3n y dise\u00f1ar intervenciones m\u00e1s efectivas.",
+        "impact": "El impacto potencial de esta idea es significativo. Al predecir la deforestaci\u00f3n futura, se pueden tomar medidas preventivas para proteger los bosques, promover la biodiversidad, mitigar el cambio clim\u00e1tico y mejorar la calidad de vida de las comunidades locales.",
+        "scalability": "La escalabilidad de esta idea depende en gran medida de la disponibilidad de datos confiables a nivel global. Se necesitar\u00e1n asociaciones con organizaciones internacionales, gobiernos y comunidades locales para recopilar y compartir datos de deforestaci\u00f3n. Adem\u00e1s, se deber\u00e1 considerar el uso de infraestructura computacional de alto rendimiento para procesar grandes vol\u00famenes de datos.",
+        "viability": "La viabilidad de esta idea es alta, ya que existe tecnolog\u00eda disponible para desarrollar modelos predictivos de deforestaci\u00f3n. Sin embargo, se requieren inversiones en investigaci\u00f3n y desarrollo para mejorar la precisi\u00f3n del modelo, as\u00ed como recursos para implementar las intervenciones necesarias."
     },
     {
         "title": "Comparaci\u00f3n de tasas de deforestaci\u00f3n entre distritos",
         "description": "Generar un ranking de distritos seg\u00fan su tasa de p\u00e9rdida de bosque por a\u00f1o. Permite identificar las \u00e1reas con mayor impacto ambiental.",
         "technique": "C\u00e1lculo de tasas de cambio (PERDIDA_BOSQUE/BOSQUE), ordenamiento y visualizaci\u00f3n de datos en tablas o gr\u00e1ficos",
         "columns": "UBIGEO (para identificar distritos), ANIO (para an\u00e1lisis anual), PERDIDA_BOSQUE (para calcular la tasa de p\u00e9rdida), BOSQUE (dato inicial para calcular la tasa)",
-        "type": "fa-list-ol"
+        "type": "fa-list-ol",
+        "complement_idea": "El proyecto 'Comparaci\u00f3n de tasas de deforestaci\u00f3n entre distritos' presenta una idea s\u00f3lida y bien definida. Para complementarla, se podr\u00eda considerar la inclusi\u00f3n de las siguientes funcionalidades:",
+        "impact": "El impacto potencial de este proyecto es significativo. Al proporcionar informaci\u00f3n transparente sobre la deforestaci\u00f3n a nivel de distrito, el proyecto puede:",
+        "scalability": "La escalabilidad de este proyecto parece factible. La metodolog\u00eda de comparaci\u00f3n de tasas de deforestaci\u00f3n se puede aplicar a diferentes regiones geogr\u00e1ficas con adaptaciones menores.",
+        "viability": "En t\u00e9rminos de viabilidad, el proyecto requiere la adquisici\u00f3n de datos confiables sobre la cobertura forestal y el uso del suelo. La colaboraci\u00f3n con instituciones gubernamentales o organizaciones no gubernamentales especializadas en monitoreo ambiental ser\u00eda crucial para asegurar la calidad de los datos."
     },
     {
         "title": "Dashboard interactivo del estado de los bosques",
         "description": "Crear un tablero de control que muestre informaci\u00f3n clave sobre la cobertura forestal en tiempo real, mapas interactivos, gr\u00e1ficos y tablas.",
         "technique": "Desarrollo web con librer\u00edas de visualizaci\u00f3n (Plotly, D3.js), integraci\u00f3n de datos con bases de datos",
         "columns": "Todas las columnas del dataset para una visi\u00f3n completa del estado de los bosques, incluyendo informaci\u00f3n geogr\u00e1fica, temporal y cuantitativa.",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El proyecto 'Dashboard Interactivo del Estado de los Bosques' es una idea innovadora que utiliza datos de fuentes abiertas como Global Forest Watch y bibliotecas de visualizaci\u00f3n (Plotly/D3.js) para crear un tablero interactivo que monitoriza en tiempo real el estado de los bosques.",
+        "impact": "Este proyecto tiene un gran impacto potencial al proporcionar informaci\u00f3n accesible sobre los bosques, empoderando a las comunidades, investigadores y tomadores de decisiones. La integraci\u00f3n de la gamificaci\u00f3n, experiencias de realidad aumentada/virtual y la ciencia ciudadana puede aumentar a\u00fan m\u00e1s su impacto.",
+        "scalability": "La arquitectura escalable del proyecto, basada en datos de origen abierto y bibliotecas de visualizaci\u00f3n robustas, permite manejar grandes conjuntos de datos y adaptarse a un p\u00fablico global. La posibilidad de implementar modelos de precios freemium o asociaciones con organizaciones de conservaci\u00f3n tambi\u00e9n contribuye a su escalabilidad a largo plazo.",
+        "viability": "La viabilidad del proyecto se basa en el uso de herramientas y datos de c\u00f3digo abierto, lo que reduce los costos de desarrollo. Sin embargo, es fundamental realizar un an\u00e1lisis exhaustivo de costos y beneficios antes de avanzar, y explorar modelos de financiaci\u00f3n sostenibles para garantizar su \u00e9xito a largo plazo."
     },
     {
         "title": "An\u00e1lisis de la relaci\u00f3n entre deforestaci\u00f3n y variables socioecon\u00f3micas",
         "description": "Investigar si existen correlaciones entre la p\u00e9rdida de bosques y factores como densidad poblacional, tipo de actividad econ\u00f3mica o acceso a servicios.",
         "technique": "An\u00e1lisis estad\u00edstico multivariable (regresi\u00f3n lineal, an\u00e1lisis de correlaci\u00f3n), visualizaci\u00f3n de resultados con mapas de calor.",
         "columns": "UBIGEO (para unir datos espaciales con informaci\u00f3n socioecon\u00f3mica), PERDIDA_BOSQUE (variable dependiente),  densidad poblacional, indicadores econ\u00f3micos (disponibles en otras fuentes de datos)",
-        "type": "fa-balance-scale"
+        "type": "fa-balance-scale",
+        "complement_idea": "Para expandir esta idea, se debe ir m\u00e1s all\u00e1 de la correlaci\u00f3n y buscar establecer relaciones causales entre la deforestaci\u00f3n y las variables socioecon\u00f3micas utilizando t\u00e9cnicas de inferencia causal. Adem\u00e1s, se puede enriquecer el an\u00e1lisis incorporando datos espaciales de alta resoluci\u00f3n y desarrollando visualizaciones interactivas que permitan a las comunidades locales participar en la b\u00fasqueda de soluciones.",
+        "impact": "Esta idea tiene un alto potencial de impacto al proporcionar informaci\u00f3n crucial para la formulaci\u00f3n de pol\u00edticas p\u00fablicas efectivas que combatan la deforestaci\u00f3n. Adem\u00e1s, puede empoderar a las comunidades locales al brindarles acceso a datos y herramientas que les permitan identificar las causas de la deforestaci\u00f3n en sus territorios y participar activamente en la b\u00fasqueda de soluciones sostenibles.",
+        "scalability": "La idea se puede escalar f\u00e1cilmente a diferentes regiones geogr\u00e1ficas y periodos de tiempo gracias a la disponibilidad de datos satelitales y socioecon\u00f3micos globales. La creaci\u00f3n de una plataforma abierta y colaborativa permitir\u00e1 que investigadores y comunidades de todo el mundo contribuyan con datos y an\u00e1lisis, ampliando as\u00ed el alcance y la relevancia del proyecto.",
+        "viability": "La viabilidad t\u00e9cnica de esta idea es alta gracias a la disponibilidad de herramientas de an\u00e1lisis estad\u00edstico de c\u00f3digo abierto y a la existencia de bases de datos p\u00fablicas con informaci\u00f3n sobre deforestaci\u00f3n y variables socioecon\u00f3micas. La implementaci\u00f3n puede realizarse dentro de un presupuesto razonable, especialmente si se prioriza el uso de recursos libres y se busca la colaboraci\u00f3n con instituciones y organizaciones que ya cuentan con experiencia en este tipo de an\u00e1lisis."
     }
 ]
