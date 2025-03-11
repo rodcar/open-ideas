@@ -4,34 +4,54 @@
         "description": "Este proyecto utilizar\u00e1 datos geoespaciales para visualizar y analizar patrones de deforestaci\u00f3n en las \u00e1reas protegidas. Se emplear\u00e1n mapas interactivos y herramientas de an\u00e1lisis espacial para identificar zonas con mayor riesgo de deforestaci\u00f3n.",
         "technique": "An\u00e1lisis Geoespacial, Cartograf\u00eda Interactiva, Visualizaci\u00f3n de Datos",
         "columns": "ANP (Filtrar por \u00e1rea natural protegida espec\u00edfica), ZONIFI_ANP (Identificar zonas dentro del ANP m\u00e1s vulnerables a la deforestaci\u00f3n), AREA_DEFO (Cuantificar el impacto de la deforestaci\u00f3n en cada zona), FECHA_CORTE (Analizar tendencias de deforestaci\u00f3n a trav\u00e9s del tiempo), TIPO_BOSQUE (Determinar qu\u00e9 tipos de bosque son los m\u00e1s afectados).",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "La idea se complementa con el uso de t\u00e9cnicas de aprendizaje autom\u00e1tico para predecir futuras zonas de deforestaci\u00f3n, lo que permite intervenciones preventivas. Adem\u00e1s, la creaci\u00f3n de una aplicaci\u00f3n m\u00f3vil para que los ciudadanos reporten actividades sospechosas incrementar\u00e1 la participaci\u00f3n comunitaria y la eficacia del proyecto.",
+        "impact": "El impacto potencial es significativo, ya que la iniciativa busca proteger ecosistemas vitales, empoderar a las comunidades locales y promover un enfoque colaborativo para la conservaci\u00f3n forestal. Al identificar y monitorear de forma precisa las zonas de deforestaci\u00f3n, se pueden tomar medidas oportunas para mitigar los da\u00f1os ambientales y asegurar la sostenibilidad de los recursos naturales.",
+        "scalability": "El proyecto presenta un alto potencial de escalabilidad debido al uso de herramientas de c\u00f3digo abierto y datos de acceso libre. Esto permite una implementaci\u00f3n a bajo costo en diversas regiones y ecosistemas, ampliando su alcance e impacto.",
+        "viability": "La viabilidad econ\u00f3mica del proyecto se basa en la obtenci\u00f3n de subvenciones de organizaciones dedicadas a la conservaci\u00f3n ambiental. La utilizaci\u00f3n de software de c\u00f3digo abierto y datos gratuitos minimiza los costos operativos. Adem\u00e1s, la participaci\u00f3n activa de las comunidades locales garantiza la sostenibilidad a largo plazo."
     },
     {
         "title": "Predicci\u00f3n de la deforestaci\u00f3n utilizando Machine Learning",
         "description": "Se desarrollar\u00e1 un modelo de aprendizaje autom\u00e1tico que prediga \u00e1reas con mayor probabilidad de sufrir deforestaci\u00f3n en el futuro. El modelo utilizar\u00e1 variables como tipo de bosque, accesibilidad, y patrones hist\u00f3ricos de deforestaci\u00f3n.",
         "technique": "Machine Learning (Regresi\u00f3n Log\u00edstica/Random Forest), An\u00e1lisis Predictivo",
         "columns": "ANP (Definir \u00e1rea de estudio), TIPO_BOSQUE (Identificar tipos de bosque m\u00e1s vulnerables), ANIO_REPORTE (Analizar tendencias a trav\u00e9s del tiempo), DEFO_CAUSA (Entender las causas principales de deforestaci\u00f3n para el modelo), CONFIABILIDAD (Validar la calidad de los datos).",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de utilizar el aprendizaje autom\u00e1tico (modelos Regresi\u00f3n Log\u00edstica o Random Forest) para predecir puntos cr\u00edticos de deforestaci\u00f3n, basada en variables como tipo de bosque, accesibilidad y patrones hist\u00f3ricos, es prometedora. Se puede complementar integrando datos sobre pol\u00edticas forestales locales, actividades econ\u00f3micas en las \u00e1reas boscosas y patrones clim\u00e1ticos.",
+        "impact": "Esta iniciativa tendr\u00eda un impacto positivo significativo al permitir intervenciones proactivas por parte de grupos de conservaci\u00f3n, formuladores de pol\u00edticas y comunidades locales.  Podr\u00eda ayudar a reducir la deforestaci\u00f3n, proteger la biodiversidad, mitigar el cambio clim\u00e1tico y mejorar los medios de vida de las poblaciones dependientes de los bosques.",
+        "scalability": "El modelo es escalable gracias a la t\u00e9cnica de ajuste fino, lo que permite adaptarlo a diferentes regiones con caracter\u00edsticas espec\u00edficas. La utilizaci\u00f3n de datos abiertos y la colaboraci\u00f3n con organizaciones no gubernamentales (ONG) contribuir\u00edan a su viabilidad a largo plazo.",
+        "viability": "La viabilidad t\u00e9cnica se basa en el uso de modelos de aprendizaje autom\u00e1tico relativamente accesibles y la disponibilidad de datos sobre caracter\u00edsticas forestales. La colaboraci\u00f3n con expertos en datos y el acceso a recursos computacionales adecuados ser\u00edan esenciales para el \u00e9xito del proyecto."
     },
     {
         "title": "Plataforma web de acceso a informaci\u00f3n sobre deforestaci\u00f3n",
         "description": "Se crear\u00e1 una plataforma web que permita el acceso p\u00fablico a informaci\u00f3n detallada sobre la deforestaci\u00f3n en \u00e1reas protegidas. La plataforma incluir\u00e1 mapas interactivos, datos descargables, y an\u00e1lisis de tendencias.",
         "technique": "Desarrollo Web (Python/Flask), Bases de Datos (PostgreSQL), Visualizaci\u00f3n de Datos (Leaflet)",
         "columns": "ANP (Organizar la informaci\u00f3n por \u00e1rea natural protegida), ANIO_REPORTE (Permitir filtrar datos por a\u00f1o), AREA_DEFO (Mostrar el \u00e1rea deforestada en cada caso), TIPO_BOSQUE (Identificar los tipos de bosque afectados).",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "La plataforma de informaci\u00f3n sobre deforestaci\u00f3n es una idea innovadora que combina datos accesibles con elementos de juego para involucrar a los usuarios y promover la conservaci\u00f3n. Se basa en tecnolog\u00edas probadas y busca colaborar con organizaciones existentes para obtener datos confiables.",
+        "impact": "El impacto potencial es significativo. La plataforma puede empoderar a las comunidades locales al proporcionarles informaci\u00f3n sobre la deforestaci\u00f3n en sus \u00e1reas,  ayudar a los investigadores a analizar patrones y tendencias, e informar a los tomadores de decisiones para implementar pol\u00edticas de conservaci\u00f3n m\u00e1s efectivas.",
+        "scalability": "La plataforma es escalable gracias a su arquitectura basada en API, lo que permite la integraci\u00f3n con otras herramientas y sistemas. La disponibilidad de datos en varios idiomas tambi\u00e9n ampl\u00eda su alcance global.",
+        "viability": "T\u00e9cnicamente, la plataforma es viable utilizando tecnolog\u00edas de c\u00f3digo abierto.  La sostenibilidad a largo plazo depender\u00e1 de asegurar financiaci\u00f3n sostenible, posiblemente a trav\u00e9s de una combinaci\u00f3n de subvenciones, colaboraciones con organizaciones y tarifas por el acceso a la API."
     },
     {
         "title": "An\u00e1lisis de las causas de la deforestaci\u00f3n",
         "description": "Se utilizar\u00e1n t\u00e9cnicas de an\u00e1lisis de datos para identificar patrones en las causas de la deforestaci\u00f3n. Esto permitir\u00e1 a los responsables de la gesti\u00f3n ambiental implementar estrategias m\u00e1s efectivas para combatir el problema.",
         "technique": "An\u00e1lisis Exploratorio de Datos, Visualizaci\u00f3n de Datos (Tableau/Power BI)",
         "columns": "DEFO_CAUSA (Clasificar las causas de deforestaci\u00f3n), ANP (Analizar las causas espec\u00edficas de cada \u00e1rea protegida), ANIO_REPORTE (Identificar tendencias en las causas a trav\u00e9s del tiempo).",
-        "type": "fa-search"
+        "type": "fa-search",
+        "complement_idea": "Esta iniciativa puede ser complementada con la incorporaci\u00f3n de herramientas de aprendizaje autom\u00e1tico para predecir \u00e1reas de mayor riesgo de deforestaci\u00f3n y proponer estrategias de intervenci\u00f3n preventivas.",
+        "impact": "El impacto social de esta idea es significativo, ya que busca abordar las causas ra\u00edz de la deforestaci\u00f3n, como la pobreza y las pr\u00e1cticas insostenibles. Al empoderar a las comunidades locales y brindar informaci\u00f3n precisa a los tomadores de decisiones, se puede lograr un manejo m\u00e1s sostenible de los recursos naturales y proteger los ecosistemas.",
+        "scalability": "La idea presenta un alto potencial de escalabilidad gracias al uso de herramientas de c\u00f3digo abierto y la posibilidad de adaptar el modelo a diferentes contextos geogr\u00e1ficos y socioecon\u00f3micos. La incorporaci\u00f3n de datos satelitales y otras fuentes de informaci\u00f3n permite una cobertura amplia y un an\u00e1lisis m\u00e1s preciso de las tendencias de deforestaci\u00f3n.",
+        "viability": "T\u00e9cnicamente, la idea es viable ya que se basa en metodolog\u00edas probadas de an\u00e1lisis de datos y visualizaci\u00f3n. Sin embargo, se requiere contar con personal capacitado en el manejo de herramientas de an\u00e1lisis y visualizaci\u00f3n de datos, as\u00ed como acceso a informaci\u00f3n confiable sobre la deforestaci\u00f3n."
     },
     {
         "title": "Evaluaci\u00f3n del impacto de la deforestaci\u00f3n",
         "description": "Se desarrollar\u00e1 un modelo que permita cuantificar el impacto ambiental y econ\u00f3mico de la deforestaci\u00f3n en las \u00e1reas protegidas. Este modelo considerar\u00e1 factores como la p\u00e9rdida de biodiversidad, el secuestro de carbono, y los costos de restauraci\u00f3n.",
         "technique": "Modelado Econ\u00f3mico (Python/R), An\u00e1lisis de Impacto",
         "columns": "ANP (Definir \u00e1rea de estudio), AREA_DEFO (Cuantificar la superficie afectada), TIPO_BOSQUE (Considerar el valor de cada tipo de bosque), DEFO_CAUSA (Identificar las causas que generan mayor impacto).",
-        "type": "fa-balance-scale"
+        "type": "fa-balance-scale",
+        "complement_idea": "El proyecto 'Evaluaci\u00f3n del impacto de la deforestaci\u00f3n' combina modelado econ\u00f3mico con visualizaciones inmersivas y elementos de gamificaci\u00f3n para cuantificar el impacto de la deforestaci\u00f3n en la p\u00e9rdida de biodiversidad, la secuestraci\u00f3n de carbono y los costos de restauraci\u00f3n en \u00e1reas protegidas.",
+        "impact": "El proyecto tiene un alto impacto social al empoderar a las comunidades a trav\u00e9s de visualizaciones de datos accesibles y conocimientos accionables. Ayuda a comprender las consecuencias de la deforestaci\u00f3n y a tomar medidas para mitigarlas.",
+        "scalability": "El dise\u00f1o modular y el enfoque de c\u00f3digo abierto garantizan que el proyecto pueda adaptarse a diversos contextos geogr\u00e1ficos y sociales.",
+        "viability": "-"
     }
 ]

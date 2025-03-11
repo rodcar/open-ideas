@@ -4,34 +4,54 @@
         "description": "Visualizar la cantidad de residuos s\u00f3lidos domiciliarios generados por distrito. Permite identificar zonas con mayor necesidad de gesti\u00f3n de residuos.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, mapas de calor",
         "columns": "UBIGEO (Para geolocalizaci\u00f3n), DISTRITO (Para etiquetar la informaci\u00f3n en el mapa), QRESIDUOS_DOM (Para determinar la intensidad del color en el mapa de calor), PERIODO (Para analizar la generaci\u00f3n de residuos en diferentes a\u00f1os)",
-        "type": "fa-map-marked-alt"
+        "type": "fa-map-marked-alt",
+        "complement_idea": "El 'Mapa de Calor de Generaci\u00f3n de Residuos' es una idea innovadora que utiliza datos y tecnolog\u00eda para optimizar la gesti\u00f3n de residuos. Mediante el an\u00e1lisis de datos de generaci\u00f3n de residuos a nivel de distrito y su visualizaci\u00f3n en mapas de calor, utilizando herramientas accesibles como Leaflet o QGIS, podemos identificar puntos cr\u00edticos que requieren intervenciones espec\u00edficas.",
+        "impact": "Este proyecto tiene un alto impacto potencial al mejorar la asignaci\u00f3n de recursos, empoderando a las comunidades para participar en soluciones sostenibles y promoviendo pr\u00e1cticas m\u00e1s limpias y saludables. La visualizaci\u00f3n de los datos permite una comprensi\u00f3n m\u00e1s clara de los patrones de generaci\u00f3n de residuos y facilita la toma de decisiones informadas.",
+        "scalability": "El 'Mapa de Calor' es altamente escalable, ya que puede expandirse a niveles de datos m\u00e1s granulares (barrios, edificios) e integrar conjuntos de datos adicionales para obtener informaci\u00f3n m\u00e1s profunda. Adem\u00e1s, el desarrollo de una aplicaci\u00f3n m\u00f3vil para la notificaci\u00f3n ciudadana y la publicaci\u00f3n del c\u00f3digo fuente bajo una licencia de software libre permitir\u00e1n su adaptaci\u00f3n a contextos globales.",
+        "viability": "La viabilidad t\u00e9cnica de este proyecto es alta, ya que utiliza herramientas de c\u00f3digo abierto y datos existentes (registros municipales, datos de recogida de residuos). La viabilidad econ\u00f3mica tambi\u00e9n es favorable, ya que los costes de desarrollo son relativamente bajos gracias al uso de herramientas gratuitas y los costes de mantenimiento se pueden reducir mediante la automatizaci\u00f3n de las actualizaciones de datos."
     },
     {
         "title": "Predicci\u00f3n de Generaci\u00f3n de Residuos",
         "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir la cantidad futura de residuos generados en funci\u00f3n de variables como poblaci\u00f3n, tipo de vivienda y tendencias hist\u00f3ricas.",
         "technique": "An\u00e1lisis, machine learning, regresi\u00f3n lineal o ARIMA",
         "columns": "PERIODO (Variable independiente), POB_TOTAL (Variable independiente), QRESIDUOS_DOM (Variable dependiente)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de \"Predicci\u00f3n de Generaci\u00f3n de Residuos\" se puede complementar con la creaci\u00f3n de una plataforma web o aplicaci\u00f3n m\u00f3vil que permita a los ciudadanos acceder a informaci\u00f3n sobre los puntos de reciclaje m\u00e1s cercanos, horarios de recogida de basura y consejos para reducir la generaci\u00f3n de residuos.",
+        "impact": "Este proyecto tendr\u00e1 un impacto positivo significativo en la comunidad al mejorar la gesti\u00f3n de residuos, reduciendo el volumen de basura que acaba en vertederos y promoviendo una cultura de reciclaje. Tambi\u00e9n contribuir\u00e1 a la mejora de la salud p\u00fablica y a la creaci\u00f3n de un entorno m\u00e1s limpio y sostenible.",
+        "scalability": "La soluci\u00f3n es escalable ya que se puede adaptar a diferentes contextos geogr\u00e1ficos y tipos de comunidades. Adem\u00e1s, el uso de tecnolog\u00edas de aprendizaje autom\u00e1tico permite la optimizaci\u00f3n constante del modelo predictivo a medida que se dispone de m\u00e1s datos.",
+        "viability": "La viabilidad del proyecto se basa en el uso de datos f\u00e1cilmente accesibles, la aplicaci\u00f3n de t\u00e9cnicas de aprendizaje autom\u00e1tico probadas y la posibilidad de integrar diferentes fuentes de informaci\u00f3n. El bajo coste de implementaci\u00f3n y mantenimiento lo hace una opci\u00f3n atractiva para municipios de cualquier tama\u00f1o."
     },
     {
         "title": "Comparaci\u00f3n de Gesti\u00f3n de Residuos por Regi\u00f3n Natural",
         "description": "Analizar la cantidad de residuos generados por unidad de poblaci\u00f3n en las diferentes regiones naturales (costa, sierra, selva) para identificar patrones y necesidades espec\u00edficas.",
         "technique": "An\u00e1lisis, gr\u00e1ficos de barras",
         "columns": "REG_NAT (Para agrupar los datos), QRESIDUOS_DOM (Para calcular la cantidad de residuos por unidad de poblaci\u00f3n), POB_TOTAL (Para normalizar la cantidad de residuos)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "La idea de 'Comparaci\u00f3n de Gesti\u00f3n de Residuos por Regi\u00f3n Natural' se complementa con la creaci\u00f3n de un mapa interactivo que muestre los datos de generaci\u00f3n de residuos por regi\u00f3n y tipo. Este mapa podr\u00eda incluir informaci\u00f3n adicional sobre las infraestructuras de gesti\u00f3n de residuos existentes en cada \u00e1rea, permitiendo una mejor visualizaci\u00f3n de las necesidades y oportunidades.",
+        "impact": "El an\u00e1lisis de los datos de generaci\u00f3n de residuos por regi\u00f3n permitir\u00e1 tomar decisiones informadas para mejorar la gesti\u00f3n de residuos en Ecuador. Esto puede traducirse en: \n* Reducci\u00f3n de la cantidad de residuos que terminan en vertederos.\n* Implementaci\u00f3n de sistemas de reciclaje y compostaje m\u00e1s eficientes.\n* Promoci\u00f3n de la responsabilidad individual en la generaci\u00f3n de residuos.",
+        "scalability": "La metodolog\u00eda propuesta es escalable ya que se basa en datos p\u00fablicos y herramientas de an\u00e1lisis accesibles. El proyecto puede ampliarse a incluir m\u00e1s variables, como la tasa de reciclaje por regi\u00f3n o el impacto ambiental de los diferentes tipos de residuos. Adem\u00e1s, se puede replicar la metodolog\u00eda en otros pa\u00edses latinoamericanos con problemas similares.",
+        "viability": "La viabilidad del proyecto es alta debido a su bajo costo y su enfoque pr\u00e1ctico. La utilizaci\u00f3n de datos p\u00fablicos y herramientas de an\u00e1lisis gratuitas reduce significativamente los costos de implementaci\u00f3n.  Adem\u00e1s, el proyecto cuenta con el apoyo de diferentes actores clave, como organizaciones ambientales, gobiernos locales y universidades."
     },
     {
         "title": "Identificaci\u00f3n de Zonas con Alta Densidad Poblacional y Baja Gesti\u00f3n de Residuos",
         "description": "Cruzar datos de densidad poblacional con informaci\u00f3n sobre la generaci\u00f3n de residuos para identificar \u00e1reas donde la gesti\u00f3n de residuos podr\u00eda ser deficiente.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, mapas tem\u00e1ticos",
         "columns": "UBIGEO (Para geolocalizaci\u00f3n), DISTRITO (Para etiquetar la informaci\u00f3n en el mapa), POB_TOTAL (Para calcular la densidad poblacional), QRESIDUOS_DOM (Para identificar \u00e1reas con baja gesti\u00f3n de residuos)",
-        "type": "fa-map-pin"
+        "type": "fa-map-pin",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Dashboard Interactivo de Gesti\u00f3n de Residuos",
         "description": "Desarrollar un tablero de control interactivo que permita visualizar la informaci\u00f3n sobre generaci\u00f3n de residuos, tendencias, puntos cr\u00edticos y indicadores clave de desempe\u00f1o.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones, Dashboards",
         "columns": "Todas las columnas (Para permitir una visualizaci\u00f3n completa de los datos)",
-        "type": "fa-tachometer-alt"
+        "type": "fa-tachometer-alt",
+        "complement_idea": "Implementar un sistema de recompensas para los usuarios que contribuyen con datos sobre la generaci\u00f3n de residuos, mejorando as\u00ed la precisi\u00f3n del an\u00e1lisis.",
+        "impact": "El proyecto tendr\u00e1 un impacto significativo en la reducci\u00f3n de residuos y la promoci\u00f3n de pr\u00e1cticas sostenibles. La visualizaci\u00f3n de datos y las herramientas interactivas empoderar\u00e1n a las comunidades para tomar decisiones informadas sobre el manejo de residuos.",
+        "scalability": "La plataforma se puede escalar f\u00e1cilmente a diferentes ciudades y regiones gracias al uso de herramientas de c\u00f3digo abierto y un dise\u00f1o modular.",
+        "viability": "El proyecto es viable econ\u00f3micamente debido al uso de herramientas de c\u00f3digo abierto, lo que reduce los costos de desarrollo. Adem\u00e1s, la optimizaci\u00f3n de rutas y recursos generar\u00e1 ahorros para las entidades gubernamentales."
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Visualizar la distribuci\u00f3n espacial del rendimiento agr\u00edcola por cultivo en la regi\u00f3n de Cusco. Esto permite identificar \u00e1reas con alto potencial productivo y zonas que requieren atenci\u00f3n.",
         "technique": "An\u00e1lisis geoespacial, mapas interactivos",
         "columns": "DEPARTAMENTO (Filtrar por departamento), PROVINCIA (Filtrar por provincia), DISTRITO (Filtrar por distrito), CULTIVO (Seleccionar cultivo de inter\u00e9s), RENDIMIENTO (Mostrar valores de rendimiento en el mapa)",
-        "type": "fa-map-location"
+        "type": "fa-map-location",
+        "complement_idea": "Integrar datos de mercado y precios de los cultivos en el mapa para ayudar a los agricultores a tomar decisiones informadas sobre qu\u00e9 cultivar y cu\u00e1ndo vender.",
+        "impact": "El Mapa de Rendimiento Agr\u00edcola tendr\u00e1 un alto impacto en la comunidad, mejorando la eficiencia de la producci\u00f3n agr\u00edcola, aumentando las ganancias de los agricultores y contribuyendo a la seguridad alimentaria regional. Adem\u00e1s, promover\u00e1 la adopci\u00f3n de pr\u00e1cticas agr\u00edcolas sostenibles.",
+        "scalability": "La soluci\u00f3n es escalable a otras regiones con datos similares sobre rendimiento de cultivos. Se puede adaptar a diferentes contextos y culturas agr\u00edcolas.",
+        "viability": "La viabilidad t\u00e9cnica depende de la disponibilidad de datos confiables sobre el rendimiento de los cultivos en Cusco. La construcci\u00f3n y el mantenimiento del mapa requerir\u00e1n recursos t\u00e9cnicos y financieros, pero se espera que los beneficios superen los costos."
     },
     {
         "title": "An\u00e1lisis Temporal de la Producci\u00f3n Agr\u00edcola",
         "description": "Analizar las tendencias de producci\u00f3n a lo largo del tiempo para diferentes cultivos. Esto ayuda a comprender la evoluci\u00f3n del sector agr\u00edcola y prever futuras demandas.",
         "technique": "Series de tiempo, an\u00e1lisis estad\u00edstico",
         "columns": "PERIODO_AGRICOLA (Agrupar datos por a\u00f1o), CULTIVO (Seleccionar cultivo de inter\u00e9s), PRODUCCION (Calcular sumas o promedios por periodo)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "An\u00e1lisis Temporal de la Producci\u00f3n Agr\u00edcola, un sistema que utiliza an\u00e1lisis de series de tiempo para predecir los rendimientos futuros y ayudar a los agricultores a tomar decisiones m\u00e1s informadas.",
+        "impact": "Este proyecto puede tener un impacto significativo en la seguridad alimentaria al optimizar los cultivos, ayudar a los agricultores a adaptarse al cambio clim\u00e1tico y facilitar una asignaci\u00f3n de recursos m\u00e1s eficiente.",
+        "scalability": "La naturaleza abierta del proyecto permite que se aplique a nivel mundial. Se pueden agregar datos adicionales sobre diferentes cultivos, regiones y tipos de agricultura para ampliar su alcance.",
+        "viability": "-"
     },
     {
         "title": "Identificaci\u00f3n de \u00c1reas con Riesgo de P\u00e9rdida de Superficie",
         "description": "Utilizar modelos de machine learning para predecir \u00e1reas con mayor probabilidad de sufrir p\u00e9rdida de superficie cultivable. Esto permite implementar estrategias preventivas.",
         "technique": "Machine learning, an\u00e1lisis predictivo",
         "columns": "DEPARTAMENTO (Considerar contexto regional), PROVINCIA, DISTRITO, CULTIVO, SUPERFICIE_PERDIDA (Usar como variable objetivo para el modelo)",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Plataforma de Informaci\u00f3n para Peque\u00f1os Productores",
         "description": "Crear una plataforma web o aplicaci\u00f3n m\u00f3vil que facilite el acceso a informaci\u00f3n relevante sobre precios, mercados, t\u00e9cnicas de cultivo y asistencia t\u00e9cnica para los peque\u00f1os productores.",
         "technique": "Desarrollo web/mobile, bases de datos, integraci\u00f3n de APIs",
         "columns": "CULTIVO (Categorizar informaci\u00f3n por tipo de cultivo), PRECIO_CHACRA (Mostrar precios hist\u00f3ricos y tendencias),  DEPARTAMENTO (Filtrar informaci\u00f3n por regi\u00f3n)",
-        "type": "fa-laptop"
+        "type": "fa-laptop",
+        "complement_idea": "La plataforma 'Plataforma de Informaci\u00f3n para Peque\u00f1os Productores' se complementa con la inclusi\u00f3n de funciones que permitan a los agricultores conectarse entre s\u00ed, compartiendo experiencias y conocimientos. Tambi\u00e9n se podr\u00eda considerar la integraci\u00f3n con servicios financieros para facilitar el acceso a cr\u00e9dito o seguros.",
+        "impact": "El impacto potencial de esta plataforma es significativo. Al brindar acceso a informaci\u00f3n precisa y actualizada sobre precios, mercados y t\u00e9cnicas de cultivo, empodera a los peque\u00f1os productores, permiti\u00e9ndoles tomar decisiones m\u00e1s informadas que aumenten sus ingresos y mejoren su calidad de vida. La inclusi\u00f3n de herramientas de aprendizaje innovadoras como la realidad virtual aumentada (AR/VR) facilita la adquisici\u00f3n de conocimientos y habilidades.",
+        "scalability": "La plataforma tiene un alto potencial de escalabilidad gracias a su dise\u00f1o web/mobile, que permite acceder desde cualquier dispositivo.  La opci\u00f3n de ofrecer funcionalidades offline ampl\u00eda su alcance a \u00e1reas con baja conectividad. Adem\u00e1s, el modelo freemium garantiza la sostenibilidad econ\u00f3mica mientras se mantiene accesible para todos los productores.",
+        "viability": "La viabilidad t\u00e9cnica de la plataforma es s\u00f3lida. El uso de tecnolog\u00edas existentes como bases de datos, APIs y alojamiento en la nube garantiza un desarrollo y mantenimiento eficientes.  El modelo de negocio freemium permite generar ingresos sin sacrificar la accesibilidad. La participaci\u00f3n de organizaciones de agricultores y expertos en el sector fortalece la confianza y la adopci\u00f3n por parte de los usuarios."
     },
     {
         "title": "Optimizaci\u00f3n de la Cadena de Suministro Agr\u00edcola",
         "description": "Analizar los flujos de producci\u00f3n, distribuci\u00f3n y comercializaci\u00f3n para identificar puntos de mejora en la cadena de suministro, reduciendo costos y tiempos de entrega.",
         "technique": "An\u00e1lisis de red, optimizaci\u00f3n log\u00edstica",
         "columns": "CULTIVO (Seleccionar cultivo espec\u00edfico), PRODUCCION (Cantidad producida), DISTRITO (Ubicaci\u00f3n de producci\u00f3n), PRECIO_CHACRA (Precio de venta)",
-        "type": "fa-truck"
+        "type": "fa-truck",
+        "complement_idea": "La idea de optimizar las cadenas de suministro agr\u00edcolas mediante el an\u00e1lisis de red y la optimizaci\u00f3n log\u00edstica es s\u00f3lida. Se puede complementar incluyendo tecnolog\u00edas como trazabilidad blockchain para mayor transparencia y seguridad alimentaria.",
+        "impact": "Este enfoque tendr\u00eda un alto impacto, reduciendo costos para productores y consumidores, acelerando la entrega de productos frescos, minimizando el desperdicio de alimentos y mejorando la seguridad alimentaria.",
+        "scalability": "La soluci\u00f3n es escalable, ya que las herramientas de an\u00e1lisis de red y optimizaci\u00f3n log\u00edstica est\u00e1n disponibles y se han probado en otras industrias. Se pueden adaptar a diferentes tama\u00f1os de cadenas de suministro y tipos de cultivos.",
+        "viability": "La viabilidad es alta debido al uso de tecnolog\u00edas existentes y probadas. La implementaci\u00f3n requerir\u00e1 inversi\u00f3n inicial en software y capacitaci\u00f3n, pero los beneficios a largo plazo superar\u00e1n los costos."
     }
 ]

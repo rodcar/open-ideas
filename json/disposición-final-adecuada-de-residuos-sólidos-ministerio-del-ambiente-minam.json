@@ -4,34 +4,54 @@
         "description": "Este proyecto crear\u00e1 un mapa interactivo que muestre la cobertura de disposici\u00f3n final adecuada de residuos s\u00f3lidos en diferentes distritos. Los usuarios podr\u00e1n visualizar \u00e1reas con mayor y menor acceso, identificar zonas prioritarias para mejorar la gesti\u00f3n de residuos y tomar decisiones informadas.",
         "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos",
         "columns": "UBIGEO (para ubicar los distritos en el mapa), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para identificar qui\u00e9n gestiona la disposici\u00f3n final en cada zona), COBERTURA_DISPOSICION_FINAL_ADECUADA (para mostrar la cantidad de habitantes con acceso a la disposici\u00f3n final adecuada en cada distrito), RESIDUOS_MUNICIPALES_DISPUESTOS (opcional para mostrar la cantidad de residuos tratados en cada zona)",
-        "type": "fa-map"
+        "type": "fa-map",
+        "complement_idea": "Integrar un sistema de recompensas por reportes de puntos de recolecci\u00f3n inadecuados o \u00e1reas con acumulaci\u00f3n de basura. Esto incentivar\u00eda la participaci\u00f3n comunitaria y generar\u00eda informaci\u00f3n valiosa para mejorar la gesti\u00f3n de residuos.",
+        "impact": "El proyecto tendr\u00e1 un impacto positivo en la salud p\u00fablica al reducir la exposici\u00f3n a residuos peligrosos, mejorar la calidad del aire y agua, y promover entornos m\u00e1s sanos. Adem\u00e1s, contribuir\u00e1 a una mayor equidad en el acceso a servicios de gesti\u00f3n de residuos para toda la poblaci\u00f3n.",
+        "scalability": "La plataforma puede ser f\u00e1cilmente adaptada a diferentes contextos geogr\u00e1ficos y culturales gracias al uso de software de c\u00f3digo abierto. La posibilidad de integrar datos de otras fuentes, como sensores de calidad del aire o reportes de incidentes, la convierte en una herramienta vers\u00e1til y escalable.",
+        "viability": "El uso de plataformas de c\u00f3digo abierto y la b\u00fasqueda de alianzas estrat\u00e9gicas con ONGs y organismos gubernamentales aseguran un desarrollo sostenible a largo plazo. La generaci\u00f3n de datos valiosos para la toma de decisiones puede atraer financiamiento adicional de entidades interesadas en la gesti\u00f3n ambiental."
     },
     {
         "title": "An\u00e1lisis de Tendencias en Disposici\u00f3n Final",
         "description": "Este an\u00e1lisis explorar\u00e1 las tendencias hist\u00f3ricas en la disposici\u00f3n final de residuos s\u00f3lidos, utilizando datos de varios a\u00f1os. Se buscar\u00e1n patrones en la cantidad de residuos tratados, la cobertura de servicios y los tipos de sitios de disposici\u00f3n utilizados.",
         "technique": "An\u00e1lisis de series de tiempo, visualizaci\u00f3n de datos",
         "columns": "FECHA (para identificar el per\u00edodo de tiempo), RESIDUOS_MUNICIPALES_DISPUESTOS (para analizar las tendencias en la cantidad de residuos tratados), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para analizar la evoluci\u00f3n del tipo de gesti\u00f3n de residuos), COBERTURA_DISPOSICION_FINAL_ADECUADA (para identificar las tendencias en el acceso a la disposici\u00f3n final)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El an\u00e1lisis de tendencias en disposici\u00f3n final de residuos es una idea brillante que puede tener un gran impacto al optimizar la gesti\u00f3n de residuos. ",
+        "impact": "La identificaci\u00f3n de patrones en la generaci\u00f3n de residuos, la cobertura del tratamiento y el uso de los sitios de eliminaci\u00f3n permitir\u00e1 intervenciones dirigidas, rutas de recolecci\u00f3n optimizadas y decisiones pol\u00edticas basadas en datos. Esto contribuir\u00e1 a un entorno m\u00e1s limpio y sostenible.",
+        "scalability": "El enfoque modular permite que el an\u00e1lisis se adapte a diferentes tipos de residuos, regiones y per\u00edodos de tiempo, lo que garantiza su aplicabilidad en diversos contextos.",
+        "viability": "La utilizaci\u00f3n de herramientas de c\u00f3digo abierto como R o Python asegura la asequibilidad y accesibilidad del proyecto. Adem\u00e1s, los datos hist\u00f3ricos sobre residuos suelen ser p\u00fablicos, lo que facilita su adquisici\u00f3n."
     },
     {
         "title": "Predicci\u00f3n de Necesidades de Disposici\u00f3n Final",
         "description": "Utilizando modelos de aprendizaje autom\u00e1tico, este proyecto predecir\u00e1 las necesidades futuras de capacidad de disposici\u00f3n final de residuos en diferentes \u00e1reas. Esto permitir\u00e1 a los responsables tomar decisiones proactivas sobre inversiones y planificaci\u00f3n.",
         "technique": "Machine learning, regresi\u00f3n",
         "columns": "UBIGEO (para identificar la ubicaci\u00f3n), RESIDUOS_MUNICIPALES_DISPUESTOS (variable dependiente para predecir), POBLACION (factor que influye en la generaci\u00f3n de residuos), PBI (indicador socioecon\u00f3mico que puede influir en la producci\u00f3n de residuos), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para analizar si el tipo de gesti\u00f3n afecta la necesidad de capacidad)",
-        "type": "fa-flask"
+        "type": "fa-flask",
+        "complement_idea": "El proyecto \"Predicci\u00f3n de Necesidades de Disposici\u00f3n Final\" utiliza la regresi\u00f3n de aprendizaje autom\u00e1tico para predecir las necesidades futuras de capacidad de eliminaci\u00f3n de residuos, lo que permite una planificaci\u00f3n proactiva de infraestructuras y asignaci\u00f3n de recursos. Esto aborda un problema global cr\u00edtico con soluciones basadas en datos.",
+        "impact": "Este proyecto tiene el potencial de tener un impacto significativo al promover la sostenibilidad ambiental y el bienestar comunitario. La predicci\u00f3n precisa de las necesidades futuras de eliminaci\u00f3n de residuos puede ayudar a reducir los vertederos, mejorar la eficiencia de la gesti\u00f3n de residuos y minimizar el impacto ambiental negativo.",
+        "scalability": "El proyecto es altamente escalable debido a su dise\u00f1o modular, que permite adaptarlo a diferentes contextos. La plataforma de aprendizaje autom\u00e1tico puede ser personalizada para satisfacer las necesidades espec\u00edficas de diversas regiones y tipos de residuos.",
+        "viability": "La viabilidad del proyecto depende en gran medida de la disponibilidad de datos hist\u00f3ricos de calidad sobre los residuos (volumen, tipo y ubicaci\u00f3n). Tambi\u00e9n se debe considerar el costo de adquisici\u00f3n de datos y la posible necesidad de experiencia externa. Sin embargo, la exploraci\u00f3n de fuentes de datos accesibles y el uso de bibliotecas de aprendizaje autom\u00e1tico de c\u00f3digo abierto pueden ayudar a minimizar los costos y aumentar la viabilidad."
     },
     {
         "title": "Evaluaci\u00f3n del Impacto Ambiental de Diferentes Sitios de Disposici\u00f3n",
         "description": "Se realizar\u00e1 un an\u00e1lisis comparativo del impacto ambiental de diferentes tipos de sitios de disposici\u00f3n final (rellenos sanitarios, vertederos controlados, etc.). Se evaluar\u00e1n factores como emisiones, contaminaci\u00f3n del agua y suelo.",
         "technique": "An\u00e1lisis multicriterio, modelado ambiental",
         "columns": "NOMBRE_SITIO_DISPOSICION_FINAL_ADECUADA (para identificar el sitio), TIPO_ADMINISTRADOR_SITIO_DISPOSICION_FINAL_ADECUADA (para clasificar por tipo de sitio), EMISIONES (datos sobre emisiones generadas por cada sitio), CONTAMINACION_AGUA (datos sobre contaminaci\u00f3n del agua relacionada con cada sitio), CONTAMINACION_SUELO (datos sobre contaminaci\u00f3n del suelo)",
-        "type": "fa-leaf"
+        "type": "fa-leaf",
+        "complement_idea": "Esta idea propone una evaluaci\u00f3n integral de los sitios de disposici\u00f3n de residuos, considerando no solo el impacto ambiental sino tambi\u00e9n factores socioecon\u00f3micos. La inclusi\u00f3n de la participaci\u00f3n comunitaria a trav\u00e9s de talleres y herramientas de visualizaci\u00f3n l\u00fadica fortalece la transparencia y el empoderamiento.",
+        "impact": "El proyecto puede generar un impacto significativo al promover la selecci\u00f3n de m\u00e9todos de gesti\u00f3n de residuos m\u00e1s sostenibles, lo que lleva a una mejora en la salud p\u00fablica, la protecci\u00f3n del medio ambiente y el desarrollo econ\u00f3mico local. ",
+        "scalability": "La utilizaci\u00f3n de modelos de an\u00e1lisis multicriterio y software de c\u00f3digo abierto permite que este proyecto sea adaptable a diferentes contextos geogr\u00e1ficos y tipos de residuos. Adem\u00e1s, la metodolog\u00eda se puede replicar en otras \u00e1reas de planificaci\u00f3n urbana o gesti\u00f3n de recursos.",
+        "viability": "La viabilidad del proyecto es alta debido al uso de herramientas y datos accesibles, la participaci\u00f3n activa de la comunidad y el enfoque en la toma de decisiones informada. La combinaci\u00f3n de an\u00e1lisis rigurosos con estrategias de comunicaci\u00f3n efectivas aumenta las posibilidades de \u00e9xito."
     },
     {
         "title": "Plataforma de Monitoreo y Gesti\u00f3n de Residuos",
         "description": "Se desarrollar\u00e1 una plataforma web para monitorear en tiempo real la gesti\u00f3n de residuos s\u00f3lidos. Esta plataforma permitir\u00e1 a los usuarios visualizar informaci\u00f3n sobre la cantidad de residuos recolectados, transportados y dispuestos, as\u00ed como identificar \u00e1reas problem\u00e1ticas.",
         "technique": "Desarrollo web, bases de datos, APIs",
         "columns": "FECHA (para registrar la informaci\u00f3n en tiempo real), UBIGEO (para ubicar las actividades de gesti\u00f3n de residuos), TIPO_RESIDUO (clasificaci\u00f3n del tipo de residuo recolectado), CANTIDAD (cantidad de residuos procesados), ESTADO (estado actual del proceso de gesti\u00f3n)",
-        "type": "fa-database"
+        "type": "fa-database",
+        "complement_idea": "La Plataforma de Monitoreo y Gesti\u00f3n de Residuos es una soluci\u00f3n innovadora que complementa las pr\u00e1cticas existentes de gesti\u00f3n de residuos al proporcionar informaci\u00f3n en tiempo real a los residentes y a las autoridades. Esto permite una mayor transparencia, responsabilidad y participaci\u00f3n ciudadana en el proceso.",
+        "impact": "El impacto potencial de esta plataforma es significativo. Al empoderar a la comunidad con datos y herramientas para participar activamente en la gesti\u00f3n de residuos, se fomenta una cultura de responsabilidad ambiental. La visualizaci\u00f3n de datos en tiempo real puede ayudar a identificar \u00e1reas problem\u00e1ticas, optimizar las rutas de recogida y reducir los costos asociados con la gesti\u00f3n de residuos.",
+        "scalability": "La arquitectura modular de la plataforma permite su escalabilidad para adaptarse a diferentes contextos y necesidades. Se pueden agregar funcionalidades como gamificaci\u00f3n, recursos educativos y sistemas de clasificaci\u00f3n inteligente basados en IA para mejorar a\u00fan m\u00e1s su eficacia y alcance.",
+        "viability": "La viabilidad t\u00e9cnica de la plataforma se basa en tecnolog\u00edas web probadas, integraci\u00f3n de bases de datos (MySQL/PostgreSQL) y APIs para conectar con sistemas existentes. El uso de soluciones de c\u00f3digo abierto puede minimizar los costos de desarrollo y mantenimiento, haciendo que la plataforma sea una soluci\u00f3n accesible y sostenible."
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Utilizar los datos hist\u00f3ricos de temperatura, humedad y precipitaci\u00f3n para desarrollar modelos de predicci\u00f3n meteorol\u00f3gica a corto plazo. Esto puede ser \u00fatil para la agricultura, gesti\u00f3n de recursos h\u00eddricos y planificaci\u00f3n de eventos al aire libre.",
         "technique": "An\u00e1lisis de series temporales, modelos de aprendizaje autom\u00e1tico (regresi\u00f3n lineal, redes neuronales), visualizaci\u00f3n de datos",
         "columns": "FECHA (Index temporal), HORA (Index temporal), TEMP (Variable predictora), HR (Variable predictora), PP (Variable predictora), LATITUD (Para geo-referenciar las predicciones), LONGITUD (Para geo-referenciar las predicciones)",
-        "type": "fa-cloud-showers-heavy"
+        "type": "fa-cloud-showers-heavy",
+        "complement_idea": "La idea de 'Monitoreo y Predicci\u00f3n de Fen\u00f3menos Meteorol\u00f3gicos' podr\u00eda complementarse incorporando datos en tiempo real de estaciones meteorol\u00f3gicas locales, sensores IoT y reportes ciudadanos. Esto enriquecer\u00eda los modelos y permitir\u00eda predicciones m\u00e1s precisas y actualizadas.",
+        "impact": "El impacto potencial de este proyecto es significativo. Podr\u00eda mejorar la eficiencia de las pr\u00e1cticas agr\u00edcolas, optimizar la gesti\u00f3n del agua, reducir riesgos en eventos al aire libre y empoderar a las comunidades con informaci\u00f3n meteorol\u00f3gica confiable y accesible.",
+        "scalability": "La escalabilidad del proyecto es alta gracias a la utilizaci\u00f3n de modelos de aprendizaje autom\u00e1tico que pueden entrenarse de forma descentralizada. La creaci\u00f3n de aplicaciones m\u00f3viles amigables facilitar\u00eda el acceso a la informaci\u00f3n para una amplia gama de usuarios.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es s\u00f3lida, dado que se basa en t\u00e9cnicas de an\u00e1lisis de series temporales y aprendizaje autom\u00e1tico probadas. El uso de conjuntos de datos de c\u00f3digo abierto reduce los costos y facilita la implementaci\u00f3n. La colaboraci\u00f3n con organizaciones meteorol\u00f3gicas locales podr\u00eda fortalecer la calidad de los datos y la precisi\u00f3n de las predicciones."
     },
     {
         "title": "Mapa de Riesgo de Sequ\u00eda",
         "description": "Identificar \u00e1reas con mayor probabilidad de sufrir sequ\u00eda en funci\u00f3n de patrones hist\u00f3ricos de precipitaci\u00f3n y temperatura. Esto puede ayudar a las autoridades a tomar medidas preventivas.",
         "technique": "An\u00e1lisis espacial, clustering, geo-estadistica, mapas interactivos",
         "columns": "FECHA (Para analizar tendencias temporales), PP (Variable clave para detectar sequ\u00eda), LATITUD (Para la ubicaci\u00f3n geogr\u00e1fica), LONGITUD (Para la ubicaci\u00f3n geogr\u00e1fica), DEPARTAMENTO (Para an\u00e1lisis regional)",
-        "type": "fa-sun"
+        "type": "fa-sun",
+        "complement_idea": "Integrar modelos clim\u00e1ticos para una mayor precisi\u00f3n predictiva y utilizar datos de crowdsourcing para obtener informaci\u00f3n en tiempo real.",
+        "impact": "El mapa permitir\u00eda implementar intervenciones dirigidas, como la distribuci\u00f3n de cultivos resistentes a la sequ\u00eda y la mejora de la infraestructura de conservaci\u00f3n del agua. Tambi\u00e9n facilitar\u00eda el desarrollo de sistemas de alerta temprana para que las comunidades puedan prepararse ante la sequ\u00eda.",
+        "scalability": "La plataforma de c\u00f3digo abierto permitir\u00e1 la adaptaci\u00f3n global y garantizar\u00e1 que su potencial para construir resiliencia ante la sequ\u00eda llegue a comunidades de todo el mundo.",
+        "viability": "-"
     },
     {
         "title": "Optimizaci\u00f3n del Riego en Agricultura",
         "description": "Proporcionar informaci\u00f3n sobre las necesidades de agua de los cultivos en funci\u00f3n de la temperatura, humedad y precipitaci\u00f3n. Esto permite un riego m\u00e1s eficiente y sostenible.",
         "technique": "An\u00e1lisis predictivo, modelos de aprendizaje autom\u00e1tico, integraci\u00f3n con sistemas de control de riego",
         "columns": "TEMP (Para estimar evapotranspiraci\u00f3n), HR (Para estimar evapotranspiraci\u00f3n), PP (Para calcular el agua disponible), LATITUD (Para considerar variaciones clim\u00e1ticas regionales), LONGITUD (Para considerar variaciones clim\u00e1ticas regionales)",
-        "type": "fa-leaf"
+        "type": "fa-leaf",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "An\u00e1lisis de la Calidad del Aire",
         "description": "Correlacionar los datos meteorol\u00f3gicos con indicadores de calidad del aire para identificar patrones y posibles fuentes de contaminaci\u00f3n.",
         "technique": "An\u00e1lisis correlacional, visualizaci\u00f3n de datos espaciales, modelos estad\u00edsticos",
         "columns": "TEMP (Puede influir en la formaci\u00f3n de ozono), HR (Puede influir en la dispersi\u00f3n de contaminantes), LATITUD (Para mapear la distribuci\u00f3n de contaminantes), LONGITUD (Para mapear la distribuci\u00f3n de contaminantes), FECHA (Para analizar patrones temporales)",
-        "type": "fa-smog"
+        "type": "fa-smog",
+        "complement_idea": "Integrar an\u00e1lisis predictivo mediante aprendizaje autom\u00e1tico para anticipar tendencias de calidad del aire basadas en patrones meteorol\u00f3gicos.",
+        "impact": "Empoderamiento comunitario a trav\u00e9s de visualizaciones accesibles que permiten la toma de decisiones informadas sobre actividades al aire libre y la defensa de intervenciones dirigidas.",
+        "scalability": "Adaptabilidad a diferentes climas y fuentes de contaminaci\u00f3n mediante ajustes de variables y modelos.",
+        "viability": "Alta viabilidad debido al uso de datos p\u00fablicos, herramientas estad\u00edsticas existentes y potencial de automatizaci\u00f3n."
     },
     {
         "title": "Sistema de Alerta Temprana para Fen\u00f3menos Meteorol\u00f3gicos Extremas",
         "description": "Desarrollar un sistema que utilice datos hist\u00f3ricos y modelos predictivos para anticipar eventos clim\u00e1ticos extremos como olas de calor o tormentas fuertes.",
         "technique": "An\u00e1lisis de series temporales, aprendizaje autom\u00e1tico, sistemas de alerta temprana",
         "columns": "TEMP (Para identificar patrones de olas de calor), PP (Para predecir tormentas intensas), HORA (Para determinar la hora de ocurrencia del evento), LATITUD (Para geolocalizar las alertas), LONGITUD (Para geolocalizar las alertas)",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "El Sistema de Alerta Temprana para Fen\u00f3menos Meteorol\u00f3gicos Extremas puede complementarse con la integraci\u00f3n de datos en tiempo real de estaciones meteorol\u00f3gicas, sat\u00e9lites y sensores IoT para mejorar a\u00fan m\u00e1s la precisi\u00f3n de las predicciones y la anticipaci\u00f3n de eventos extremos.",
+        "impact": "Este sistema tendr\u00eda un impacto social significativo al salvar vidas, reducir da\u00f1os a la propiedad y promover la resiliencia ante el cambio clim\u00e1tico. Al proporcionar alertas oportunas en m\u00faltiples idiomas, llegar a comunidades vulnerables y empoderarlas para tomar medidas preventivas.",
+        "scalability": "La arquitectura del sistema, que utiliza aprendizaje autom\u00e1tico (como LSTM) y una infraestructura basada en la nube con pipelines automatizados, permite escalabilidad y adaptabilidad a diferentes regiones y tipos de eventos meteorol\u00f3gicos. La implementaci\u00f3n de aprendizaje federado asegura que los modelos se ajusten a las condiciones clim\u00e1ticas espec\u00edficas de cada lugar.",
+        "viability": "El sistema es viable desde el punto de vista t\u00e9cnico y econ\u00f3mico. El uso de algoritmos de c\u00f3digo abierto y la nube reduce los costos de desarrollo y mantenimiento. Adem\u00e1s, las alianzas con organizaciones locales y comunitarias pueden fortalecer su impacto y sostenibilidad."
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Desarrollar un mapa web interactivo que muestre la concentraci\u00f3n de PM10, PM2.5 y NO2 en tiempo real en diferentes puntos de Lima. Los usuarios podr\u00e1n consultar la calidad del aire en su ubicaci\u00f3n o barrio.",
         "technique": "An\u00e1lisis espacial, Geovisualizaci\u00f3n, desarrollo web",
         "columns": "ESTACION (para ubicar la estaci\u00f3n en el mapa), LONGITUD (coordenada X para ubicar la estaci\u00f3n), LATITUD (coordenada Y para ubicar la estaci\u00f3n), FECHA (para filtrar datos por fecha), HORA (para filtrar datos por hora), PM10 (valor de concentraci\u00f3n a mostrar en el mapa), PM2_5 (valor de concentraci\u00f3n a mostrar en el mapa), NO2 (valor de concentraci\u00f3n a mostrar en el mapa),",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El 'Mapa interactivo de calidad del aire en Lima' puede ser a\u00fan m\u00e1s efectivo si incorpora las siguientes mejoras:",
+        "impact": "Este mapa tiene un impacto social significativo al empoderar a los residentes de Lima para tomar decisiones informadas sobre su salud con base en datos precisos y localizados de la calidad del aire. Puede contribuir a reducir los riesgos para la salud asociados a la contaminaci\u00f3n del aire.",
+        "scalability": "El dise\u00f1o modular del mapa permite expandirse f\u00e1cilmente a otros contaminantes, ubicaciones e idiomas, maximizando su alcance e impacto.",
+        "viability": "La viabilidad t\u00e9cnica es alta gracias al uso de plataformas de cartograf\u00eda de c\u00f3digo abierto y fuentes de datos en tiempo real como OpenAQ. Las asociaciones con organizaciones ambientales locales garantizan la precisi\u00f3n a largo plazo de los datos y la participaci\u00f3n comunitaria."
     },
     {
         "title": "Predicci\u00f3n de niveles de contaminaci\u00f3n",
         "description": "Utilizar modelos de machine learning para predecir los niveles futuros de PM10, PM2.5 y NO2 en base a datos hist\u00f3ricos de calidad del aire, condiciones meteorol\u00f3gicas y otros factores relevantes.",
         "technique": "Machine Learning, Regresi\u00f3n, an\u00e1lisis de series temporales",
         "columns": "FECHA (para el entrenamiento del modelo), HORA (para el entrenamiento del modelo), PM10 (variable objetivo para predecir), PM2_5 (variable objetivo para predecir), NO2 (variable objetivo para predecir), TEMPERATURA (variable predictora, se puede obtener de otras fuentes), HUMEDAD (variable predictora, se puede obtener de otras fuentes), VIENTO (variable predictora, se puede obtener de otras fuentes),",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El proyecto 'Predicci\u00f3n de niveles de contaminaci\u00f3n' puede complementarse incluyendo an\u00e1lisis predictivos para otros contaminantes atmosf\u00e9ricos relevantes, como el ozono (O3) y el di\u00f3xido de carbono (CO2). Esto permitir\u00eda una visi\u00f3n m\u00e1s completa de la calidad del aire y facilitar\u00eda la toma de decisiones m\u00e1s informadas.",
+        "impact": "El impacto de este proyecto es significativo al mejorar la salud p\u00fablica a trav\u00e9s de la prevenci\u00f3n. Las alertas tempranas permiten a las personas vulnerables tomar medidas para protegerse de los efectos nocivos de la contaminaci\u00f3n. Adem\u00e1s, la informaci\u00f3n proporcionada puede influir en la planificaci\u00f3n urbana sostenible, promoviendo espacios verdes y reduciendo el tr\u00e1fico en zonas con mayor riesgo.",
+        "scalability": "La escalabilidad del proyecto es alta. El modelo puede adaptarse a diferentes regiones geogr\u00e1ficas ajustando los par\u00e1metros y utilizando datos locales. Tambi\u00e9n se puede extender para predecir niveles de otros contaminantes atmosf\u00e9ricos, ampliando su utilidad.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es s\u00f3lida. La combinaci\u00f3n de modelos de regresi\u00f3n con ARIMA o LSTM, junto con el uso de herramientas de aprendizaje autom\u00e1tico de c\u00f3digo abierto, permite un desarrollo eficiente y rentable. Sin embargo, el acceso a datos hist\u00f3ricos confiables sobre calidad del aire, meteorolog\u00eda, densidad de tr\u00e1fico y emisiones industriales es crucial para asegurar la precisi\u00f3n de las predicciones."
     },
     {
         "title": "Identificaci\u00f3n de zonas con mayor riesgo de contaminaci\u00f3n",
         "description": "Analizar los datos hist\u00f3ricos de calidad del aire para identificar las zonas de Lima que presentan mayores niveles de contaminaci\u00f3n. Esta informaci\u00f3n puede ser \u00fatil para tomar medidas de mitigaci\u00f3n.",
         "technique": "An\u00e1lisis espacial, Clustering, estad\u00edstica descriptiva",
         "columns": "ESTACION (para identificar la ubicaci\u00f3n de cada punto de medici\u00f3n), LATITUD (coordenada Y para ubicar la estaci\u00f3n), LONGITUD (coordenada X para ubicar la estaci\u00f3n), PM10 (variable a analizar para identificar zonas de mayor contaminaci\u00f3n), PM2_5 (variable a analizar para identificar zonas de mayor contaminaci\u00f3n), NO2 (variable a analizar para identificar zonas de mayor contaminaci\u00f3n),",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "Identificaci\u00f3n de zonas con mayor riesgo de contaminaci\u00f3n mediante an\u00e1lisis espacial y algoritmos de agrupamiento de datos hist\u00f3ricos de calidad del aire, complementados con informaci\u00f3n en tiempo real y modelos predictivos.",
+        "impact": "Al identificar las zonas de mayor riesgo, se pueden implementar estrategias dirigidas para mejorar la calidad del aire, como la creaci\u00f3n de espacios verdes, el redise\u00f1o del tr\u00e1fico y la imposici\u00f3n de normas m\u00e1s estrictas a las industrias. Esto tendr\u00e1 un impacto positivo directo en la salud p\u00fablica, especialmente en las poblaciones vulnerables.",
+        "scalability": "La metodolog\u00eda propuesta es escalable a otras ciudades peruanas o internacionales con datos similares disponibles. La integraci\u00f3n de datos en tiempo real y modelos predictivos permitir\u00e1 una respuesta m\u00e1s r\u00e1pida y efectiva a los cambios en los patrones de contaminaci\u00f3n.",
+        "viability": "La viabilidad del proyecto depende de la disponibilidad de datos hist\u00f3ricos de calidad del aire confiables. Se recomienda complementar estos datos con informaci\u00f3n de sensores en tiempo real para mayor precisi\u00f3n. La creaci\u00f3n de un tablero interactivo facilitar\u00e1 la visualizaci\u00f3n y comprensi\u00f3n de los resultados por parte de las autoridades y la ciudadan\u00eda."
     },
     {
         "title": "Relaci\u00f3n entre calidad del aire y salud p\u00fablica",
         "description": "Investigar la posible relaci\u00f3n entre los niveles de contaminaci\u00f3n en Lima y las tasas de enfermedades respiratorias. Se puede utilizar informaci\u00f3n adicional de fuentes de datos p\u00fablicas sobre casos de enfermedades.",
         "technique": "An\u00e1lisis de correlaci\u00f3n, Regresi\u00f3n lineal, visualizaci\u00f3n de datos",
         "columns": "FECHA (para emparejar datos de calidad del aire con datos de salud), ESTACION (para ubicar la fuente de contaminaci\u00f3n potencial), PM10 (posible factor de riesgo para enfermedades respiratorias), PM2_5 (posible factor de riesgo para enfermedades respiratorias), NO2 (posible factor de riesgo para enfermedades respiratorias), TASAS_ENFERMEDADES_RESPIRATORIAS (datos de fuentes de salud p\u00fablica, a agregar al dataset),",
-        "type": "fa-heartbeat"
+        "type": "fa-heartbeat",
+        "complement_idea": "Este proyecto investiga la relaci\u00f3n crucial entre la calidad del aire en Lima y las enfermedades respiratorias. Utilizaremos datos p\u00fablicos sobre los niveles de contaminantes (PM2.5, ozono de SENAMHI & MINAM) y la incidencia de enfermedades respiratorias (registros de salud p\u00fablica).",
+        "impact": "Este proyecto proporcionar\u00e1 informaci\u00f3n crucial para intervenciones de salud p\u00fablica dirigidas, aumentar\u00e1 la conciencia sobre los riesgos de la calidad del aire y permitir\u00e1 a las personas tomar decisiones informadas sobre su bienestar.",
+        "scalability": "La metodolog\u00eda se basa en datos p\u00fablicos y t\u00e9cnicas de an\u00e1lisis estad\u00edstico establecidas, lo que garantiza la viabilidad t\u00e9cnica y maximiza el impacto social. Adem\u00e1s, el proyecto puede ser escalado a otras ciudades o regiones mediante la adquisici\u00f3n de datos locales pertinentes.",
+        "viability": "La utilizaci\u00f3n de datos abiertos y t\u00e9cnicas estad\u00edsticas comprobadas asegura la viabilidad t\u00e9cnica del proyecto. El acceso a los datos de calidad del aire y salud p\u00fablica es esencial para garantizar la precisi\u00f3n y validez de los resultados."
     },
     {
         "title": "Comparaci\u00f3n de calidad del aire en diferentes distritos de Lima",
         "description": "Generar un reporte que compare los niveles de contaminaci\u00f3n en diferentes distritos de Lima. Esta informaci\u00f3n puede ser \u00fatil para evaluar la efectividad de las pol\u00edticas ambientales.",
         "technique": "An\u00e1lisis de datos, visualizaci\u00f3n de datos, gr\u00e1ficos de barras y mapas de calor",
         "columns": "DISTRITO (para agrupar los datos por distrito), PM10 (variable a comparar entre distritos), PM2_5 (variable a comparar entre distritos), NO2 (variable a comparar entre distritos), FECHA (para filtrar datos por periodo de tiempo),",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     }
 ]

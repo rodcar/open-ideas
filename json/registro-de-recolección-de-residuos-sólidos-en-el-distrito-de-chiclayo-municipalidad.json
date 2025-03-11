@@ -4,34 +4,54 @@
         "description": "Identificar tendencias en la generaci\u00f3n de residuos a lo largo del tiempo y en diferentes zonas del distrito. Esto puede ayudar a optimizar rutas de recolecci\u00f3n y a planificar estrategias para reducir la cantidad de basura generada.",
         "technique": "An\u00e1lisis temporal, geo-referenciaci\u00f3n, visualizaci\u00f3n de datos",
         "columns": "FECHA_CORTE (filtrar por rango de fechas), UBGEO (agrupar por zona geogr\u00e1fica), PESO (sumar el peso total de residuos por zona y fecha), DISTRITO (identificar distritos con mayor generaci\u00f3n de residuos), ",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "An\u00e1lisis de patrones de generaci\u00f3n de residuos es una idea innovadora que utiliza el an\u00e1lisis de datos para optimizar la gesti\u00f3n de residuos y empoderar a las comunidades.",
+        "impact": "Esta soluci\u00f3n tiene un impacto significativo al reducir los costos operativos, minimizar el impacto ambiental y promover una cultura de sostenibilidad a trav\u00e9s de la participaci\u00f3n comunitaria. ",
+        "scalability": "La escalabilidad de este proyecto es alta gracias a la colecci\u00f3n de datos estandarizada y a los modelos predictivos que permiten adaptarlo a necesidades en crecimiento.",
+        "viability": "La viabilidad t\u00e9cnica se asegura mediante el uso de herramientas de c\u00f3digo abierto para geo-referenciaci\u00f3n y visualizaci\u00f3n de datos, lo que garantiza un enfoque eficiente y rentable."
     },
     {
         "title": "Mapa de puntos de recolecci\u00f3n",
         "description": "Visualizar la ubicaci\u00f3n de los puntos de recolecci\u00f3n en un mapa, mostrando el peso diario de residuos recogidos en cada punto. Esto permite identificar \u00e1reas con mayor necesidad de atenci\u00f3n y optimizar la distribuci\u00f3n de contenedores.",
         "technique": "Geo-referenciaci\u00f3n, visualizaci\u00f3n de mapas (Heatmap)",
         "columns": "UBIGEO (coordenadas geogr\u00e1ficas), PESO (tama\u00f1o del marcador en el mapa), FECHA_REGISTRO (filtrar por fecha espec\u00edfica), TURNO (distinguir puntos de recolecci\u00f3n por turno), ",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El sistema 'Mapa de puntos de recolecci\u00f3n' podr\u00eda complementarse con una plataforma digital que permita a los ciudadanos reportar puntos de acumulaci\u00f3n de basura ilegal o solicitar la ubicaci\u00f3n de contenedores cercanos. Adem\u00e1s, se podr\u00edan integrar an\u00e1lisis predictivos para anticipar las necesidades de recogida en funci\u00f3n de eventos locales (ferias, fiestas) y patrones hist\u00f3ricos.",
+        "impact": "El impacto social de 'Mapa de puntos de recolecci\u00f3n' es significativo, ya que promueve la consciencia ciudadana sobre la gesti\u00f3n de residuos, incentiva pr\u00e1cticas de reciclaje m\u00e1s eficientes y contribuye a la creaci\u00f3n de entornos m\u00e1s limpios y saludables. A nivel ambiental, la optimizaci\u00f3n de las rutas de recogida reduce las emisiones de CO2 y el consumo de combustible.",
+        "scalability": "'Mapa de puntos de recolecci\u00f3n' es altamente escalable, pudiendo implementarse en cualquier ciudad o regi\u00f3n con acceso a datos geogr\u00e1ficos y sistemas de informaci\u00f3n. La plataforma puede adaptarse a diferentes contextos y necesidades, incorporando informaci\u00f3n sobre distintos tipos de residuos, horarios de recogida espec\u00edficos y opciones de comunicaci\u00f3n biling\u00fces o multiling\u00fces.",
+        "viability": "La viabilidad t\u00e9cnica y econ\u00f3mica de 'Mapa de puntos de recolecci\u00f3n' es alta, dado que se basa en tecnolog\u00edas existentes y accesibles. El retorno de la inversi\u00f3n se observa en la reducci\u00f3n de costes operativos asociados a la gesti\u00f3n de residuos, as\u00ed como en la mejora de la eficiencia y la sostenibilidad de los servicios p\u00fablicos."
     },
     {
         "title": "Predicci\u00f3n de la cantidad de residuos",
         "description": "Utilizar t\u00e9cnicas de Machine Learning para predecir la cantidad de residuos que se generar\u00e1n en el futuro, considerando factores como la poblaci\u00f3n, eventos especiales, \u00e9poca del a\u00f1o, etc. Esto permite planificar mejor la log\u00edstica de recolecci\u00f3n y evitar desbordamientos.",
         "technique": "Machine learning (regresi\u00f3n), an\u00e1lisis temporal",
         "columns": "FECHA_CORTE (variable independiente), PESO (variable dependiente), ANIO, MES (variables categ\u00f3ricas para ajustar el modelo), DISTRITO (identificar patrones espec\u00edficos por distrito), ",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "La idea de predecir la generaci\u00f3n de residuos utilizando aprendizaje autom\u00e1tico es una soluci\u00f3n innovadora y prometedora para optimizar la gesti\u00f3n de residuos. Se puede complementar con otras iniciativas como el uso de contenedores inteligentes, programas de educaci\u00f3n ambiental para fomentar la reducci\u00f3n de residuos y la correcta separaci\u00f3n en origen, e incentivos para el compostaje dom\u00e9stico.",
+        "impact": "El impacto social de esta soluci\u00f3n es significativo. La optimizaci\u00f3n de las rutas de recogida reducir\u00eda los costes operativos y la huella de carbono, mejorando la eficiencia y la sostenibilidad del sistema de gesti\u00f3n de residuos. Adem\u00e1s, la reducci\u00f3n de vertederos y la promoci\u00f3n del reciclaje contribuir\u00edan a un entorno m\u00e1s limpio y saludable para todos.",
+        "scalability": "La soluci\u00f3n es altamente escalable, ya que se basa en modelos de aprendizaje autom\u00e1tico que pueden entrenarse con datos hist\u00f3ricos de diferentes municipios y adaptarse a contextos geogr\u00e1ficos diversos. La posibilidad de incorporar datos adicionales como tendencias de redes sociales o patrones meteorol\u00f3gicos la hace a\u00fan m\u00e1s robusta y adaptable a las variaciones locales.",
+        "viability": "La viabilidad t\u00e9cnica de esta soluci\u00f3n es alta, dado que existen herramientas y plataformas de aprendizaje autom\u00e1tico disponibles para desarrollar modelos de predicci\u00f3n precisos. Sin embargo, se requiere un equipo con experiencia en an\u00e1lisis de datos y aprendizaje autom\u00e1tico, as\u00ed como acceso a datos de calidad sobre la generaci\u00f3n de residuos. La inversi\u00f3n inicial puede ser considerable, pero los beneficios a largo plazo en t\u00e9rminos de ahorro de costes y mejora del medio ambiente justifican la implementaci\u00f3n."
     },
     {
         "title": "Sistema de alertas para la recolecci\u00f3n",
         "description": "Desarrollar un sistema que env\u00ede notificaciones a los encargados de la recolecci\u00f3n cuando el volumen de residuos en un punto espec\u00edfico supere cierto umbral. Esto permite responder con mayor rapidez a las necesidades y optimizar la eficiencia del servicio.",
         "technique": "Sistema de alertas, an\u00e1lisis de datos en tiempo real",
         "columns": "UBIGEO (identificar puntos de recolecci\u00f3n), PESO (comparar con umbrales preestablecidos), FECHA_REGISTRO (filtrar por fecha actual), RESPONSABLE (identificar al responsable del punto de recolecci\u00f3n), ",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Comparaci\u00f3n de la eficiencia de recolecci\u00f3n entre turnos",
         "description": "Analizar la cantidad de residuos recogidos por cada turno y determinar si hay diferencias significativas en la eficiencia. Esto puede ayudar a optimizar la asignaci\u00f3n de recursos y el horario de trabajo.",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos",
         "columns": "TURNO (agrupar por turno), PESO (calcular promedio por turno), DISTRITO (comparar la eficiencia entre diferentes distritos), FECHA_REGISTRO (filtrar por rango de fechas para comparar periodos espec\u00edficos), ",
-        "type": "fa-balance-scale"
+        "type": "fa-balance-scale",
+        "complement_idea": "Analizar la eficiencia de recolecci\u00f3n entre turnos mediante un enfoque combinando an\u00e1lisis estad\u00edstico y visualizaci\u00f3n de datos.",
+        "impact": "Optimizar el horario, distribuir equitativamente la carga de trabajo entre los trabajadores y potencialmente reducir los costes operativos. Esto beneficiar\u00e1 tanto a la eficiencia como a la comunidad.",
+        "scalability": "El marco estad\u00edstico y las t\u00e9cnicas de visualizaci\u00f3n son adaptables a otros contextos (por ejemplo, comparar la eficiencia en diferentes zonas de recogida o veh\u00edculos).",
+        "viability": "La combinaci\u00f3n de an\u00e1lisis estad\u00edsticos y herramientas de visualizaci\u00f3n accesibles hace que esta idea sea t\u00e9cnicamente viable y con una alta probabilidad de \u00e9xito."
     }
 ]

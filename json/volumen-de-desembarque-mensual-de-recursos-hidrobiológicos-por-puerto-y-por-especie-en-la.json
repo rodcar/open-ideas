@@ -4,34 +4,54 @@
         "description": "Visualizar la distribuci\u00f3n espacial y temporal del volumen de desembarque de diferentes especies en Piura. Permitir a los usuarios explorar patrones de pesca por especie, ubicaci\u00f3n y tiempo.",
         "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n con mapas interactivos (Tableau, Power BI), an\u00e1lisis de series de tiempo",
         "columns": "UBIGEO (para la geolocalizaci\u00f3n del punto de desembarque), FECHA_MUESTRA (para el an\u00e1lisis temporal), ESPECIE (para filtrar por tipo de pez), VOLUMEN (para representar la cantidad capturada en cada punto), TIPO_PUERTO (opcional, para diferenciar entre puertos p\u00fablicos y privados)",
-        "type": "fa-map-marker"
+        "type": "fa-map-marker",
+        "complement_idea": "Integrar un sistema de alerta temprana para identificar patrones de sobrepesca y cambios en la abundancia de especies, permitiendo una gesti\u00f3n m\u00e1s efectiva de los recursos.",
+        "impact": "El mapa interactivo tendr\u00e1 un alto impacto social al empoderar a los pescadores artesanales, mejorando sus ingresos y promoviendo pr\u00e1cticas de pesca sostenible. Adem\u00e1s, fortalecer\u00e1 la transparencia y la colaboraci\u00f3n entre las partes interesadas.",
+        "scalability": "La soluci\u00f3n es altamente escalable gracias a su arquitectura en la nube. Puede ser adaptada a otras regiones costeras e incorporada a sistemas de gesti\u00f3n pesquera m\u00e1s amplios.",
+        "viability": "El proyecto es viable t\u00e9cnicamente y econ\u00f3micamente, dado el acceso a datos existentes, la utilizaci\u00f3n de herramientas de software accesibles y el potencial para generar un retorno de inversi\u00f3n a trav\u00e9s del aumento de la productividad pesquera."
     },
     {
         "title": "Predicci\u00f3n del Volumen de Desembarque",
         "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir el volumen de desembarque futuro de diferentes especies en funci\u00f3n de variables hist\u00f3ricas como la fecha, ubicaci\u00f3n, especie y volumen pasado.",
         "technique": "Machine Learning (regresi\u00f3n lineal, redes neuronales), an\u00e1lisis de series de tiempo",
         "columns": "FECHA_CORTE, FECHA_MUESTRA, UBGEO, ESPECIE, VOLUMEN (para entrenar el modelo)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea se puede complementar integrando datos sobre condiciones oceanogr\u00e1ficas (temperatura, corrientes) para mejorar la precisi\u00f3n de las predicciones.",
+        "impact": "\u00a1Este proyecto tiene un impacto social y ambiental significativo! Puede contribuir a la conservaci\u00f3n de los recursos marinos al promover pr\u00e1cticas de pesca m\u00e1s sostenibles y empoderar a las comunidades costeras a trav\u00e9s de informaci\u00f3n valiosa sobre el mercado.",
+        "scalability": "El modelo puede escalarse a otras especies marinas y regiones geogr\u00e1ficas, lo que ampl\u00eda su potencial de impacto.",
+        "viability": "La viabilidad t\u00e9cnica es alta, ya que se basa en modelos de aprendizaje autom\u00e1tico probados. La accesibilidad a datos hist\u00f3ricos de captura de peces ser\u00e1 crucial para el \u00e9xito del proyecto."
     },
     {
         "title": "Identificaci\u00f3n de Zonas de Mayor Productividad",
         "description": "Analizar los datos para identificar las zonas con mayor volumen de desembarque de especies espec\u00edficas. Esto puede ayudar a optimizar esfuerzos de pesca y gesti\u00f3n de recursos.",
         "technique": "An\u00e1lisis estad\u00edstico espacial, agrupamiento (clustering)",
         "columns": "UBIGEO (para la geolocalizaci\u00f3n), ESPECIE (para filtrar por tipo de pez), VOLUMEN (para cuantificar la producci\u00f3n) ",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Identificaci\u00f3n de Zonas de Mayor Productividad propone el uso de an\u00e1lisis espacial estad\u00edstico y algoritmos de agrupamiento para identificar zonas de alta producci\u00f3n pesquera. Esta idea se basa en analizar datos hist\u00f3ricos de captura, junto con variables ambientales como temperatura y corrientes, para revelar patrones y determinar puntos calientes para especies espec\u00edficas.",
+        "impact": "Esta soluci\u00f3n tiene un alto impacto potencial, ya que puede aumentar las capturas para los pescadores, mejorando sus medios de vida. Al mismo tiempo, promueve la pesca sostenible al minimizar los esfuerzos en \u00e1reas improductivas, lo que ayuda a proteger los ecosistemas marinos.",
+        "scalability": "La idea es escalable y adaptable a diferentes regiones de pesca en todo el mundo. El enfoque metodol\u00f3gico puede ser replicado para diferentes especies y adaptado a las condiciones ambientales espec\u00edficas de cada zona.",
+        "viability": "T\u00e9cnicamente, la idea es viable, ya que se basa en m\u00e9todos estad\u00edsticos establecidos y herramientas de software disponibles. Su viabilidad econ\u00f3mica depende del acceso a datos hist\u00f3ricos confiables de captura y variables ambientales. La calidad de los datos influir\u00e1 directamente en la precisi\u00f3n del modelo."
     },
     {
         "title": "Dashboard de Monitoreo de la Pesca Artesanal",
         "description": "Crear un tablero interactivo que muestre informaci\u00f3n clave sobre la pesca artesanal en Piura. Esto puede incluir indicadores como el volumen total de desembarque, especies m\u00e1s pescadas, zonas de mayor producci\u00f3n, etc.",
         "technique": "Visualizaci\u00f3n de datos (Tableau, Power BI), an\u00e1lisis exploratorio de datos",
         "columns": "Todas las columnas del dataset (para una visualizaci\u00f3n completa)",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "El tablero de control 'Dashboard de Monitoreo de la Pesca Artesanal' es una excelente idea que puede ser complementada con funciones adicionales como: \n* **Sistema de alerta:** Notificaciones a los pescadores sobre cambios en las condiciones clim\u00e1ticas, presencia de especies protegidas o zonas de veda.\n* **Integraci\u00f3n con plataformas de venta:** Permite a los pescadores acceder a informaci\u00f3n sobre precios de mercado y conectar directamente con compradores.\n* **Herramientas de gesti\u00f3n:** Funciones para registrar gastos, ingresos y controlar el inventario de equipos de pesca.",
+        "impact": "El impacto del tablero de control ser\u00e1 significativo para la comunidad de pescadores artesanales de Piura. Proporcionar\u00e1 acceso a informaci\u00f3n clave que les permitir\u00e1 tomar mejores decisiones sobre d\u00f3nde pescar, qu\u00e9 especies buscar y cu\u00e1ndo vender sus productos. Esto contribuir\u00e1 a aumentar sus ingresos, mejorar su seguridad y promover pr\u00e1cticas de pesca m\u00e1s sostenibles.",
+        "scalability": "La arquitectura basada en software de c\u00f3digo abierto como Metabase garantiza que el tablero de control sea escalable y adaptable a otras comunidades de pescadores. Adem\u00e1s, la modularidad del dise\u00f1o permite agregar nuevas funcionalidades seg\u00fan las necesidades espec\u00edficas de cada regi\u00f3n.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta gracias al uso de herramientas de visualizaci\u00f3n de datos robustas como Tableau o Power BI. La adquisici\u00f3n constante de datos de fuentes confiables como registros de pesca y bases de datos gubernamentales ser\u00e1 crucial para mantener la precisi\u00f3n y utilidad del tablero de control."
     },
     {
         "title": "Comparaci\u00f3n Temporal de la Productividad Pesquera",
         "description": "Analizar la evoluci\u00f3n del volumen de desembarque a lo largo del tiempo para identificar tendencias, variaciones estacionales y posibles impactos ambientales.",
         "technique": "An\u00e1lisis de series de tiempo, visualizaci\u00f3n con gr\u00e1ficos de l\u00ednea",
         "columns": "FECHA_CORTE (para el eje temporal), ESPECIE (para analizar por tipo de pez), VOLUMEN (para representar la cantidad capturada)",
-        "type": "fa-calendar-alt"
+        "type": "fa-calendar-alt",
+        "complement_idea": "El an\u00e1lisis de series temporales de la productividad pesquera, utilizando gr\u00e1ficos de l\u00edneas para visualizar las tendencias de volumen de captura a lo largo del tiempo, es un enfoque s\u00f3lido. Para maximizar su impacto, se podr\u00eda complementar con: \n\n* **An\u00e1lisis m\u00e1s profundos:** Incorporar el tama\u00f1o y la edad de los peces para obtener informaci\u00f3n sobre las din\u00e1micas de la poblaci\u00f3n.\n* **Modelado predictivo:** Utilizar aprendizaje autom\u00e1tico para predecir futuros vol\u00famenes de captura y apoyar la gesti\u00f3n pesquera proactiva.\n* **Visualizaci\u00f3n interactiva:** Desarrollar paneles que permitan a los usuarios explorar datos por especie, regi\u00f3n y temporada, mejorando la comprensi\u00f3n y el compromiso.",
+        "impact": "Este enfoque tiene un alto impacto potencial al proporcionar informaci\u00f3n valiosa para: \n\n* **Pescadores:** Identificar las temporadas de pesca \u00f3ptimas y anticipar posibles escaseces.\n* **Conservaci\u00f3n:** Revelar conexiones entre el volumen de captura y los factores ambientales, informando estrategias de conservaci\u00f3n m\u00e1s efectivas.\n* **Toma de decisiones:** Apoyar a los responsables de la pol\u00edtica con datos para una gesti\u00f3n pesquera sostenible.",
+        "scalability": "La idea es escalable. Comenzar con un an\u00e1lisis b\u00e1sico de series temporales y gr\u00e1ficos de l\u00edneas permite construir sobre esa base. En el futuro, se pueden agregar funciones como modelado predictivo y visualizaci\u00f3n interactiva para ampliar el alcance y la utilidad del proyecto.",
+        "viability": "-"
     }
 ]

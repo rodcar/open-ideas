@@ -4,34 +4,54 @@
         "description": "Este dashboard permitir\u00e1 visualizar la distribuci\u00f3n espacial y temporal de las precipitaciones en la regi\u00f3n. Se utilizar\u00e1n mapas interactivos para mostrar la intensidad de las precipitaciones en diferentes ubicaciones y momentos.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, visualizaci\u00f3n con mapas interactivos (Leaflet, Folium)",
         "columns": "LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), FECHA_UTC (momento de la medici\u00f3n), HORA_UTC (momento de la medici\u00f3n), REFLECTIVITY (intensidad de la precipitaci\u00f3n)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "La idea de 'Mapa Interactivo de Precipitaciones' es excelente y se puede complementar incluyendo:",
+        "impact": "El impacto potencial del proyecto es alto, ya que beneficiar\u00eda a diversos sectores como la agricultura, la gesti\u00f3n de riesgos de desastres y la administraci\u00f3n del agua.",
+        "scalability": "La plataforma se puede escalar f\u00e1cilmente gracias al uso de tecnolog\u00edas de c\u00f3digo abierto y la implementaci\u00f3n en la nube.",
+        "viability": "El proyecto es viable t\u00e9cnicamente y econ\u00f3micamente gracias a la utilizaci\u00f3n de herramientas gratuitas y la posibilidad de monetizaci\u00f3n a trav\u00e9s de servicios premium o colaboraciones."
     },
     {
         "title": "Predicci\u00f3n de Eventos Meteorol\u00f3gicos",
         "description": "Utilizando datos hist\u00f3ricos de precipitaci\u00f3n y machine learning, se puede desarrollar un modelo para predecir eventos meteorol\u00f3gicos futuros como tormentas o sequ\u00edas.",
         "technique": "An\u00e1lisis, machine learning (regresi\u00f3n, redes neuronales), visualizaci\u00f3n con gr\u00e1ficos de series de tiempo",
         "columns": "FECHA_UTC (fecha de la medici\u00f3n), HORA_UTC (hora de la medici\u00f3n), REFLECTIVITY (intensidad de la precipitaci\u00f3n), VELOCITY (velocidad del viento), SPECTRAL_WIDTH (ancho espectral)",
-        "type": "fa-cloud-rain"
+        "type": "fa-cloud-rain",
+        "complement_idea": "Implementar un sistema de alertas tempranas basado en las predicciones del modelo para informar a la poblaci\u00f3n sobre eventos meteorol\u00f3gicos extremos.",
+        "impact": "El modelo puede tener un impacto significativo al mejorar la preparaci\u00f3n ante desastres, optimizar la producci\u00f3n agr\u00edcola y permitir una gesti\u00f3n m\u00e1s eficiente de los recursos h\u00eddricos. Esto puede traducirse en la reducci\u00f3n de p\u00e9rdidas econ\u00f3micas, la salvaguarda de vidas humanas y la promoci\u00f3n de un desarrollo sostenible.",
+        "scalability": "La arquitectura basada en machine learning permite escalar el modelo a diferentes regiones geogr\u00e1ficas y tipos de eventos meteorol\u00f3gicos. Adem\u00e1s, se pueden integrar nuevas fuentes de datos para mejorar la precisi\u00f3n de las predicciones.",
+        "viability": "El acceso a datos hist\u00f3ricos de precipitaci\u00f3n es relativamente sencillo, y existen herramientas de machine learning de c\u00f3digo abierto que facilitan el desarrollo del modelo. La viabilidad econ\u00f3mica depende de la inversi\u00f3n inicial en infraestructura y personal, pero los beneficios potenciales en t\u00e9rminos de reducci\u00f3n de riesgos y mejora de la eficiencia superan con creces los costos."
     },
     {
         "title": "An\u00e1lisis de Patrones de Precipitaciones",
         "description": "Se puede analizar los patrones de precipitaci\u00f3n a lo largo del tiempo para identificar tendencias, variaciones estacionales y posibles efectos del cambio clim\u00e1tico.",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n con gr\u00e1ficos de l\u00edneas y barras",
         "columns": "FECHA_UTC (fecha de la medici\u00f3n), FECHA_CORTE (d\u00eda de generaci\u00f3n del dataset), ANIO (a\u00f1o de la medici\u00f3n), REFLECTIVITY (intensidad de la precipitaci\u00f3n), DISTRITO (localizaci\u00f3n)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El an\u00e1lisis de patrones de precipitaci\u00f3n puede complementarse con datos sobre el uso del suelo, la temperatura y la humedad para crear modelos m\u00e1s precisos y completos que ayuden a las comunidades a adaptarse al cambio clim\u00e1tico.",
+        "impact": "Este proyecto tendr\u00eda un alto impacto al proporcionar informaci\u00f3n vital para la toma de decisiones en \u00e1reas clave como la agricultura (optimizaci\u00f3n de cultivos y ciclos de siembra), la gesti\u00f3n del agua (predicci\u00f3n de sequ\u00edas e inundaciones) y la adaptaci\u00f3n al clima (desarrollo de estrategias de mitigaci\u00f3n).",
+        "scalability": "El uso de una plataforma en la nube y herramientas de c\u00f3digo abierto permite escalar f\u00e1cilmente el proyecto a diferentes regiones y usuarios, maximizando su alcance y beneficios.",
+        "viability": "Si bien la adquisici\u00f3n de datos de alta calidad y la contrataci\u00f3n de expertos estad\u00edsticos pueden representar un desaf\u00edo inicial, las oportunidades de colaboraci\u00f3n con instituciones acad\u00e9micas y gubernamentales podr\u00edan minimizar estos costos y garantizar la viabilidad del proyecto a largo plazo."
     },
     {
         "title": "Sistema de Alerta Temprana",
         "description": "Se puede desarrollar un sistema que env\u00ede alertas a la poblaci\u00f3n en caso de eventos meteorol\u00f3gicos severos, como fuertes lluvias o inundaciones.",
         "technique": "An\u00e1lisis, machine learning para detecci\u00f3n de patrones an\u00f3malos, integraci\u00f3n con sistemas de mensajer\u00eda",
         "columns": "REFLECTIVITY (intensidad de precipitaci\u00f3n), VELOCITY (velocidad del viento), FECHA_UTC (fecha de la medici\u00f3n), HORA_UTC (hora de la medici\u00f3n), UBIGEO (c\u00f3digo de ubicaci\u00f3n)",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "Sistema de Alerta Temprana puede complementarse con la integraci\u00f3n de datos en tiempo real de estaciones meteorol\u00f3gicas locales, informaci\u00f3n sobre refugios cercanos y mapas interactivos que muestren las zonas afectadas.",
+        "impact": "\u00a1El impacto potencial de Sistema de Alerta Temprana es enorme! Podr\u00eda salvar vidas, reducir da\u00f1os a la propiedad, y mejorar la resiliencia de las comunidades ante eventos clim\u00e1ticos extremos.",
+        "scalability": "Sistema de Alerta Temprana tiene un gran potencial de escalabilidad. Puede adaptarse a diferentes regiones geogr\u00e1ficas, idiomas y tipos de desastres. La apertura del API permitir\u00e1 que desarrolladores creen aplicaciones y herramientas personalizadas para necesidades espec\u00edficas.",
+        "viability": "La viabilidad t\u00e9cnica y econ\u00f3mica de Sistema de Alerta Temprana es alta. Utiliza datos p\u00fablicos y tecnolog\u00edas de machine learning accesibles, lo que reduce los costos de desarrollo. El alto retorno de inversi\u00f3n (ROI) se justifica por la reducci\u00f3n de p\u00e9rdidas humanas y materiales."
     },
     {
         "title": "Estudio Hidrol\u00f3gico",
         "description": "Los datos de precipitaci\u00f3n pueden utilizarse para modelar el flujo de agua en r\u00edos y quebradas, lo que es \u00fatil para la gesti\u00f3n de recursos h\u00eddricos.",
         "technique": "Modelado hidrol\u00f3gico, an\u00e1lisis espacial",
         "columns": "REFLECTIVITY (intensidad de la precipitaci\u00f3n), FECHA_UTC (fecha de la medici\u00f3n), HORA_UTC (hora de la medici\u00f3n), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica)",
-        "type": "fa-water"
+        "type": "fa-water",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     }
 ]

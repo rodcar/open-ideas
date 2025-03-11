@@ -4,34 +4,54 @@
         "description": "Visualizar la cantidad de \u00e1rboles sembrados por distrito y mes en un mapa interactivo de Lima. Permite a los usuarios explorar patrones de plantaci\u00f3n y comparar el progreso del programa de arborizaci\u00f3n entre distritos.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, mapas interactivos",
         "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
-        "type": "fa-map"
+        "type": "fa-map",
+        "complement_idea": "El mapa interactivo de \"Mapa Interactivo de Arborizaci\u00f3n en Lima\" puede complementarse con informaci\u00f3n adicional sobre las especies de \u00e1rboles plantados, los beneficios ambientales de cada especie y la participaci\u00f3n ciudadana en los proyectos de plantaci\u00f3n.",
+        "impact": "Este proyecto tendr\u00eda un gran impacto al promover la transparencia en la gesti\u00f3n urbana, aumentar la conciencia ciudadana sobre la importancia de los \u00e1rboles y fomentar la participaci\u00f3n comunitaria en el cuidado del medio ambiente.",
+        "scalability": "La idea es escalable a otras ciudades y pa\u00edses, ya que el modelo puede adaptarse a diferentes contextos geogr\u00e1ficos y tipos de datos. Adem\u00e1s, la plataforma podr\u00eda ser utilizada para visualizar otros proyectos de infraestructura verde, como parques o jardines.",
+        "viability": "La viabilidad del proyecto depende de la disponibilidad de datos confiables sobre la plantaci\u00f3n de \u00e1rboles en Lima. Tambi\u00e9n ser\u00e1 necesario contar con recursos tecnol\u00f3gicos y humanos para desarrollar y mantener la plataforma."
     },
     {
         "title": "Predicci\u00f3n del cumplimiento de metas",
         "description": "Utilizar un modelo de aprendizaje autom\u00e1tico para predecir el porcentaje de cumplimiento de las metas de arborizaci\u00f3n en funci\u00f3n de variables como el mes, el distrito y la cantidad de \u00e1rboles sembrados previamente.",
         "technique": "Aprendizaje autom\u00e1tico, an\u00e1lisis de series temporales, regresi\u00f3n",
         "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de utilizar aprendizaje autom\u00e1tico para predecir el \u00e9xito de la reforestaci\u00f3n es innovadora y prometedora. Al combinar an\u00e1lisis de series temporales y modelos de regresi\u00f3n, se puede crear un sistema que tenga en cuenta factores como la \u00e9poca del a\u00f1o, la ubicaci\u00f3n geogr\u00e1fica y los datos hist\u00f3ricos de plantaci\u00f3n para proporcionar predicciones precisas.",
+        "impact": "Este tipo de sistema tendr\u00eda un impacto significativo al permitir una asignaci\u00f3n de recursos m\u00e1s eficiente, identificar las \u00e1reas donde se necesitan intervenciones espec\u00edficas y aumentar las tasas de supervivencia de los \u00e1rboles. Esto contribuir\u00eda a la lucha contra el cambio clim\u00e1tico, la conservaci\u00f3n de la biodiversidad y el desarrollo sostenible.",
+        "scalability": "La viabilidad de escalar esta soluci\u00f3n es alta gracias a su naturaleza abierta. Un modelo de c\u00f3digo abierto puede ser adaptado y utilizado por diferentes organizaciones y comunidades en todo el mundo. Adem\u00e1s, una interfaz amigable para el usuario facilitar\u00eda su adopci\u00f3n por parte de personas con distintos niveles de experiencia t\u00e9cnica.",
+        "viability": "La viabilidad t\u00e9cnica de este proyecto es alta, ya que existen herramientas y t\u00e9cnicas de aprendizaje autom\u00e1tico disponibles para desarrollar el modelo predictivo. Sin embargo, se debe considerar la calidad y disponibilidad de los datos hist\u00f3ricos de plantaci\u00f3n, as\u00ed como abordar las cuestiones \u00e9ticas relacionadas con la transparencia y la posible aparici\u00f3n de sesgos en el modelo."
     },
     {
         "title": "Comparaci\u00f3n interdistrital de la arborizaci\u00f3n",
         "description": "Generar un dashboard interactivo que permita comparar la cantidad de \u00e1rboles plantados, el cumplimiento de metas y otras m\u00e9tricas clave entre los diferentes distritos de Lima.",
         "technique": "An\u00e1lisis exploratorio de datos, visualizaci\u00f3n de datos, dashboards interactivos",
         "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El proyecto 'Comparaci\u00f3n Interdistrital de la Arborizaci\u00f3n' propone crear un tablero interactivo que visualice el progreso del plan de plantaci\u00f3n de \u00e1rboles en Lima. Esta herramienta permitir\u00e1 a los ciudadanos monitorear el avance, comparar el progreso entre distritos y abogar por una distribuci\u00f3n equitativa de los \u00e1rboles.",
+        "impact": "El impacto potencial es significativo. La transparencia del proyecto fomentar\u00e1 la rendici\u00f3n de cuentas de las autoridades, empoderar\u00e1 a las comunidades para participar en la gesti\u00f3n ambiental y aumentar\u00e1 la conciencia sobre la importancia de los \u00e1rboles en la ciudad. Adem\u00e1s, la herramienta puede ayudar a optimizar la asignaci\u00f3n de recursos para maximizar el impacto de las iniciativas de arborizaci\u00f3n.",
+        "scalability": "El marco del proyecto es adaptable y se puede replicar en otras ciudades. El uso de herramientas de c\u00f3digo abierto y la infraestructura en la nube garantizan un desarrollo rentable y escalable.",
+        "viability": "Desde una perspectiva t\u00e9cnica, el proyecto es viable. El uso de tecnolog\u00edas de visualizaci\u00f3n de datos existentes hace que la construcci\u00f3n del tablero sea factible. Adem\u00e1s, el enfoque en herramientas de c\u00f3digo abierto y la nube reduce los costos y aumenta la sostenibilidad a largo plazo."
     },
     {
         "title": "Identificaci\u00f3n de \u00e1reas con menor arborizaci\u00f3n",
         "description": "Analizar los datos espaciales para identificar los distritos o zonas dentro de Lima que presentan menor cantidad de \u00e1rboles plantados y un bajo porcentaje de cumplimiento. Esto permite enfocar esfuerzos de plantaci\u00f3n en \u00e1reas prioritarias.",
         "technique": "An\u00e1lisis espacial, mapas de calor, visualizaci\u00f3n de datos",
         "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "Identificaci\u00f3n de \u00c1reas con Menor Arborizaci\u00f3n: Un Enfoque Dirigido para Lima",
+        "impact": "Esta idea tiene un alto impacto, ya que utiliza el an\u00e1lisis espacial para identificar las \u00e1reas con menor arbolado en Lima. Esto permite una intervenci\u00f3n m\u00e1s eficiente y estrat\u00e9gica en la plantaci\u00f3n de \u00e1rboles, maximizando su efecto positivo en la ciudad.",
+        "scalability": "La t\u00e9cnica utilizada es escalable a otras ciudades, ya que solo se necesita adaptar los par\u00e1metros de an\u00e1lisis espacial y utilizar fuentes de datos locales. Adem\u00e1s, la naturaleza abierta de las herramientas de GIS facilita su replicaci\u00f3n en diferentes contextos.",
+        "viability": "El enfoque es t\u00e9cnicamente viable gracias al uso de software GIS ampliamente disponible. Tambi\u00e9n es econ\u00f3micamente viable, ya que permite optimizar los recursos destinados a la plantaci\u00f3n de \u00e1rboles. La utilizaci\u00f3n de datos abiertos y la creaci\u00f3n de dashboards interactivos promueven la transparencia y la participaci\u00f3n ciudadana."
     },
     {
         "title": "Monitoreo del impacto ambiental de la arborizaci\u00f3n",
         "description": "Integrar los datos de plantaci\u00f3n con otras fuentes de informaci\u00f3n ambiental, como datos clim\u00e1ticos o de calidad del aire, para evaluar el impacto positivo de la arborizaci\u00f3n en el medio ambiente.",
         "technique": "An\u00e1lisis multivariado, modelado estad\u00edstico, visualizaci\u00f3n de datos",
         "columns": "ITEM (identificador \u00fanico), METAS (meta de \u00e1rboles por periodo), CANTIDAD DE ARBOLES SEMBRADOS (cantidad plantada), MESES (mes de plantaci\u00f3n), TOTAL (total anual), CUMPLIMIENTO (porcentaje de cumplimiento) ",
-        "type": "fa-tree"
+        "type": "fa-tree",
+        "complement_idea": "El an\u00e1lisis multivariado de datos sobre plantaci\u00f3n de \u00e1rboles, ubicaci\u00f3n y densidad combinados con datos clim\u00e1ticos y de calidad del aire permite construir modelos estad\u00edsticos que predicen resultados como la captura de CO2, la reducci\u00f3n de la temperatura y la mejora de la calidad del aire.",
+        "impact": "La propuesta tiene un alto impacto al ofrecer una evidencia cuantificable de los beneficios ambientales de la arborizaci\u00f3n. Esto puede ser crucial para concienciar a las comunidades sobre la importancia de plantar \u00e1rboles y promover acciones para proteger el medio ambiente.",
+        "scalability": "El uso de datos y herramientas open-source hace que esta soluci\u00f3n sea altamente escalable y adaptable a diferentes contextos geogr\u00e1ficos. Adem\u00e1s, la integraci\u00f3n de la ciencia ciudadana permite enriquecer los datos y fomentar la participaci\u00f3n local.",
+        "viability": "-"
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de los especialistas ambientales registrados en la N\u00f3mina de SENACE. Esto permitir\u00e1 identificar zonas con mayor concentraci\u00f3n de profesionales y \u00e1reas donde existe una necesidad de mayor presencia.",
         "technique": "An\u00e1lisis geoespacial, cartograf\u00eda, visualizaciones interactivas",
         "columns": "UBIGEO (para ubicar a los especialistas geogr\u00e1ficamente), COLEGIO_PROFESIONAL (filtrar por tipo de especialista ambiental), NIVEL_I, NIVEL_II, NIVEL_III (diferenciar la experiencia de los especialistas)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El mapa de distribuci\u00f3n de especialistas ambientales puede ser complementado con informaci\u00f3n sobre proyectos en curso, necesidades espec\u00edficas de las comunidades y datos demogr\u00e1ficos para una mejor comprensi\u00f3n del contexto.",
+        "impact": "Este proyecto tendr\u00e1 un impacto significativo al empoderar a las comunidades locales brind\u00e1ndoles acceso directo a la experiencia ambiental que necesitan. Tambi\u00e9n impulsar\u00e1 la toma de decisiones informadas dentro de SENACE, optimizando la asignaci\u00f3n de recursos y promoviendo una distribuci\u00f3n m\u00e1s equitativa de los especialistas ambientales en todo Per\u00fa.",
+        "scalability": "La plataforma se puede escalar f\u00e1cilmente para incluir datos de otras organizaciones como universidades y ONG, creando un mapa completo de la experiencia ambiental disponible en el pa\u00eds. Adem\u00e1s, se pueden agregar funcionalidades adicionales como foros de discusi\u00f3n y herramientas de colaboraci\u00f3n para conectar a los especialistas con las comunidades que los necesitan.",
+        "viability": "La viabilidad del proyecto es alta. La tecnolog\u00eda necesaria est\u00e1 disponible y existe un equipo multidisciplinario dedicado a su desarrollo. La clave del \u00e9xito reside en asegurar la precisi\u00f3n de los datos y contar con el apoyo de SENACE para la implementaci\u00f3n y difusi\u00f3n del mapa."
     },
     {
         "title": "Predicci\u00f3n de Necesidades de Especialistas",
         "description": "Utilizar machine learning para predecir futuras necesidades de especialistas ambientales en diferentes regiones, considerando variables como proyectos de inversi\u00f3n, crecimiento poblacional y tendencias ambientales.",
         "technique": "Machine learning, an\u00e1lisis predictivo, modelos de regresi\u00f3n",
         "columns": "UBIGEO (localizaci\u00f3n), FECHA_INSCRIPCION_NOMINAS (tendencia hist\u00f3rica), TOTAL_EXPERIENCIA_GENERAL (nivel de experiencia disponible), COLEGIO_PROFESIONAL (tipos de especialistas necesarios)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "\u00a1Esta idea es brillante! Utilizar el aprendizaje autom\u00e1tico para predecir la demanda futura de especialistas ambientales es una soluci\u00f3n innovadora y necesaria. La combinaci\u00f3n de an\u00e1lisis de red para identificar grupos emergentes de habilidades y an\u00e1lisis de sentimiento para medir la demanda p\u00fablica de soluciones ambientales agrega un valor \u00fanico a este proyecto.",
+        "impact": "El impacto potencial de esta iniciativa es enorme. Al guiar a los estudiantes hacia carreras con alta demanda, optimizar la asignaci\u00f3n de recursos para las organizaciones y permitir una planificaci\u00f3n proactiva para desaf\u00edos ambientales futuros,  'Predicci\u00f3n de Necesidades de Especialistas' contribuir\u00e1 significativamente a un futuro m\u00e1s sostenible.",
+        "scalability": "La escalabilidad de esta soluci\u00f3n parece prometedora. Dado que el modelo se puede entrenar con datos regionales diversosmente disponibles, se puede adaptar a diferentes contextos geogr\u00e1ficos y necesidades espec\u00edficas. Adem\u00e1s, la capacidad de ajustar la granularidad del modelo para predecir la demanda de tipos espec\u00edficos de especialistas ambientales la hace a\u00fan m\u00e1s vers\u00e1til.",
+        "viability": "'Predicci\u00f3n de Necesidades de Especialistas' parece ser econ\u00f3micamente viable. Los ahorros en reclutamiento y la optimizaci\u00f3n de la utilizaci\u00f3n de recursos justifican la inversi\u00f3n inicial en el desarrollo del modelo.  Adem\u00e1s, la accesibilidad de los datos necesarios para entrenar el modelo contribuye a su viabilidad."
     },
     {
         "title": "An\u00e1lisis de Trayectorias Profesionales",
         "description": "Identificar patrones en las trayectorias profesionales de los especialistas ambientales, analizando su evoluci\u00f3n en experiencia, nivel de especializaci\u00f3n y movilidad geogr\u00e1fica.",
         "technique": "An\u00e1lisis de series temporales, miner\u00eda de datos, visualizaci\u00f3n de redes",
         "columns": "DNI_ANONIMIZADO (identificaci\u00f3n de especialistas), FECHA_NACIMIENTO (para analizar cohortes), FECHA_INCORPORACION_COLEGIO, FECHA_INSCRIPCION_NOMINAS, NIVEL_I, NIVEL_II, NIVEL_III, TOTAL_EXPERIENCIA_GENERAL, TOTAL_EXPERIENCIA_ESPECIFICA, UBIGEO (ubicaci\u00f3n a lo largo del tiempo)",
-        "type": "fa-history"
+        "type": "fa-history",
+        "complement_idea": "An\u00e1lisis de Trayectorias Profesionales utiliza an\u00e1lisis de series temporales y visualizaci\u00f3n de datos para mapear las trayectorias profesionales de los especialistas en medio ambiente. Identifica tendencias en experiencia, especializaci\u00f3n y movilidad geogr\u00e1fica a partir de datos anonimizados de redes profesionales o conjuntos de datos abiertos.",
+        "impact": "Esta iniciativa empodera a los individuos con orientaci\u00f3n profesional personalizada, apoya a las organizaciones en la implementaci\u00f3n de estrategias de retenci\u00f3n de talento dirigidas y proporciona a los responsables pol\u00edticos informaci\u00f3n sobre las brechas de habilidades regionales y las necesidades futuras de la fuerza laboral. Las visualizaciones de red muestran las conexiones entre especialistas, fomentando una comunidad ambiental m\u00e1s conectada y resiliente.",
+        "scalability": "El enfoque es adaptable a otros campos que enfrentan escasez de talento. La apertura de la plataforma permite la personalizaci\u00f3n y la entrada de datos globales. Esto aumenta el alcance e impacto del an\u00e1lisis.",
+        "viability": "-"
     },
     {
         "title": "Plataforma de Conexi\u00f3n entre Especialistas y Proyectos",
         "description": "Crear una plataforma que conecte a los especialistas ambientales registrados con proyectos que requieren sus servicios, facilitando la b\u00fasqueda de oportunidades laborales y la selecci\u00f3n de profesionales adecuados.",
         "technique": "Desarrollo web, bases de datos, sistema de b\u00fasqueda inteligente",
         "columns": "DNI_ANONIMIZADO (identificaci\u00f3n), COLEGIO_PROFESIONAL, NIVEL_I, NIVEL_II, NIVEL_III, TOTAL_EXPERIENCIA_GENERAL, TOTAL_EXPERIENCIA_ESPECIFICA (para filtrar por experiencia y tipo de especialista), UBIGEO (ubicaci\u00f3n)",
-        "type": "fa-handshake"
+        "type": "fa-handshake",
+        "complement_idea": "La plataforma se puede complementar con funciones adicionales como foros de discusi\u00f3n, recursos educativos y herramientas de gesti\u00f3n de proyectos para mejorar la experiencia de los usuarios y fomentar la colaboraci\u00f3n.",
+        "impact": "Esta plataforma tendr\u00e1 un impacto positivo al abordar el desempleo entre especialistas ambientales, acelerar la implementaci\u00f3n de proyectos ambientales cruciales y promover la compartici\u00f3n de conocimientos dentro de la comunidad ambiental.",
+        "scalability": "La plataforma es escalable gracias a su arquitectura basada en la web y puede expandirse a otros sectores profesionales m\u00e1s all\u00e1 del \u00e1mbito ambiental. El uso de infraestructura en la nube permite un crecimiento flexible seg\u00fan la demanda.",
+        "viability": "La viabilidad econ\u00f3mica de la plataforma se basa en modelos de suscripci\u00f3n para especialistas y proyectos, as\u00ed como tarifas por comisi\u00f3n en las conexiones exitosas. La investigaci\u00f3n de mercado es crucial para determinar los precios \u00f3ptimos y validar la demanda."
     },
     {
         "title": "Evaluaci\u00f3n del Impacto Social de los Especialistas Ambientales",
         "description": "Analizar el impacto social de los proyectos en los que participan los especialistas ambientales, utilizando indicadores como la mejora de la calidad ambiental, la generaci\u00f3n de empleo verde y el acceso a servicios b\u00e1sicos.",
         "technique": "An\u00e1lisis de datos cualitativos y cuantitativos, encuestas, entrevistas",
         "columns": "DNI_ANONIMIZADO (identificaci\u00f3n), COLEGIO_PROFESIONAL, UBIGEO (ubicaci\u00f3n del proyecto), FECHA_INSCRIPCION_NOMINAS (per\u00edodo de participaci\u00f3n en proyectos)",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "Evaluaci\u00f3n del Impacto Social de los Especialistas Ambientales",
+        "impact": "Este enfoque analiza tanto los impactos tangibles (mejora de la calidad del aire, empleos verdes) como los beneficios intangibles (empoderamiento comunitario, intercambio de conocimientos). La combinaci\u00f3n de datos cuantitativos (encuestas, monitoreo ambiental) con informaci\u00f3n cualitativa (talleres de narraci\u00f3n, entrevistas) proporciona una comprensi\u00f3n hol\u00edstica del impacto social.",
+        "scalability": "El m\u00e9todo es adaptable a diferentes contextos de proyectos y permite la comparaci\u00f3n entre ellos. La creaci\u00f3n de una plataforma de datos abierta fomenta el aprendizaje cruzado y la colaboraci\u00f3n, aumentando la escalabilidad e impacto del proceso de evaluaci\u00f3n.",
+        "viability": "-"
     }
 ]

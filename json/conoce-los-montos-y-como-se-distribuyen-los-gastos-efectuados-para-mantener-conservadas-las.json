@@ -4,34 +4,54 @@
         "description": "Esta idea busca analizar c\u00f3mo se distribuyen los gastos entre las diferentes \u00c1reas Naturales Protegidas (ANP).  Esto permitir\u00e1 identificar ANP con mayor o menor inversi\u00f3n y comprender las prioridades en la conservaci\u00f3n.",
         "technique": "An\u00e1lisis de datos, visualizaci\u00f3n",
         "columns": "DEPENDENCIA (Filtrar por \u00e1rea natural protegida), ACTIVIDAD (Agrupar por tipo de actividad), TIPO_GASTO (Categorizar los gastos), RUBRO (Detallar subcategor\u00edas de gasto), PARTIDA_GASTO (Identificar partidas espec\u00edficas), EJECUCION (Valor del gasto ejecutado)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El an\u00e1lisis de gastos por \u00c1rea Natural Protegida (ANP) es una idea innovadora y de gran valor. Se puede complementar con el desarrollo de un sistema de informaci\u00f3n geogr\u00e1fica que permita visualizar la distribuci\u00f3n espacial de los gastos en relaci\u00f3n con las caracter\u00edsticas ecol\u00f3gicas y socioecon\u00f3micas de cada ANP. Esto permitir\u00eda identificar zonas prioritarias para la inversi\u00f3n y evaluar la efectividad de las acciones de conservaci\u00f3n.",
+        "impact": "Este an\u00e1lisis tendr\u00eda un impacto significativo en la gesti\u00f3n de \u00e1reas protegidas, permitiendo una asignaci\u00f3n m\u00e1s eficiente de recursos y maximizando el retorno de la inversi\u00f3n en conservaci\u00f3n. Adem\u00e1s, la transparencia que genera este tipo de an\u00e1lisis puede fortalecer la confianza p\u00fablica en las instituciones responsables de la gesti\u00f3n ambiental.",
+        "scalability": "La metodolog\u00eda propuesta es altamente escalable ya que se basa en datos cuantificables y anal\u00edticos. Se puede replicar en diferentes pa\u00edses o regiones con adaptaciones a los contextos locales. La creaci\u00f3n de una plataforma digital para compartir los resultados del an\u00e1lisis incrementar\u00eda su alcance y facilitar\u00eda la colaboraci\u00f3n entre diferentes actores.",
+        "viability": "La viabilidad de este proyecto es alta, considerando la creciente disponibilidad de datos sobre gastos en \u00e1reas protegidas y el inter\u00e9s de las organizaciones internacionales y gubernamentales por mejorar la eficiencia de la conservaci\u00f3n. La obtenci\u00f3n de financiamiento para desarrollar el an\u00e1lisis y la plataforma digital puede provenir de fuentes como fondos de cooperaci\u00f3n internacional, organizaciones no gubernamentales y agencias gubernamentales."
     },
     {
         "title": "Identificaci\u00f3n de Patrones en Gastos por Tipo de Ingreso",
         "description": "Analizar c\u00f3mo var\u00edan los gastos seg\u00fan la fuente de financiamiento (Recursos Ordinarios vs. Financieros No Reembolsables). Esto puede revelar tendencias en la inversi\u00f3n p\u00fablica vs. privada en la conservaci\u00f3n.",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n",
         "columns": "TIPO_INGRESO (Categorizar por fuente de financiamiento), TIPO_GASTO (Agrupar gastos por categor\u00edas), EJECUCION (Valor del gasto ejecutado por tipo de ingreso)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "Para complementar esta idea, se podr\u00eda explorar la creaci\u00f3n de un \u00edndice que mida la eficiencia de las diferentes fuentes de financiaci\u00f3n en funci\u00f3n de su impacto en los proyectos de conservaci\u00f3n.",
+        "impact": "El an\u00e1lisis de patrones de gasto por tipo de ingreso puede generar un impacto significativo al identificar \u00e1reas con falta de financiaci\u00f3n, promover la transparencia en el uso de fondos y permitir una asignaci\u00f3n m\u00e1s efectiva de recursos para la conservaci\u00f3n.",
+        "scalability": "Esta idea es escalable a diferentes regiones y tipos de proyectos de conservaci\u00f3n. La metodolog\u00eda utilizada puede adaptarse a contextos espec\u00edficos y proporcionar informaci\u00f3n valiosa para la toma de decisiones a nivel local, regional e internacional.",
+        "viability": "La viabilidad t\u00e9cnica de esta propuesta es alta, ya que se basa en m\u00e9todos estad\u00edsticos comunes y herramientas de visualizaci\u00f3n accesibles. Adem\u00e1s, los beneficios potenciales justifican la inversi\u00f3n necesaria para su implementaci\u00f3n."
     },
     {
         "title": "Mapeo Geogr\u00e1fico de Gastos en Conservaci\u00f3n",
         "description": "Geolocalizar las ANP y visualizar los gastos asociados a cada una. Esto permite identificar \u00e1reas con mayor inversi\u00f3n y potenciales desequilibrios geogr\u00e1ficos.",
         "technique": "Geo-referenciaci\u00f3n, cartograf\u00eda, visualizaci\u00f3n",
         "columns": "DEPENDENCIA (Nombre de la ANP), EJECUCION (Valor del gasto ejecutado), Coordenadas geogr\u00e1ficas de las ANP (necesaria informaci\u00f3n adicional)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "La idea original de geolocalizar \u00e1reas protegidas (ANP) y visualizar los gastos de conservaci\u00f3n se ha complementado con un enfoque hol\u00edstico que considera la transparencia, la toma de decisiones basada en datos y el empoderamiento comunitario.",
+        "impact": "El impacto potencial de este proyecto es significativo. Al visualizar los gastos de conservaci\u00f3n, se fomenta la transparencia y la rendici\u00f3n de cuentas, lo que permite a las partes interesadas comprender c\u00f3mo se est\u00e1n utilizando los recursos. Adem\u00e1s, al identificar \u00e1reas con mayor necesidad de inversi\u00f3n, se puede optimizar la asignaci\u00f3n de recursos para un impacto mayor en la conservaci\u00f3n.",
+        "scalability": "El proyecto es escalable gracias al uso de software de c\u00f3digo abierto y plataformas de cartograf\u00eda web. Esto permite que el sistema se adapte a diferentes regiones geogr\u00e1ficas y que se integren datos de diversas fuentes, como gobiernos, ONGs e instituciones de investigaci\u00f3n.",
+        "viability": "La viabilidad t\u00e9cnica y econ\u00f3mica del proyecto es alta debido al uso de herramientas de c\u00f3digo abierto, que reducen los costos de desarrollo y mantenimiento. Adem\u00e1s, las colaboraciones con organizaciones existentes para obtener datos contribuyen a la sostenibilidad financiera."
     },
     {
         "title": "Predicci\u00f3n de Gastos Futuros",
         "description": "Utilizar machine learning para predecir futuros gastos en conservaci\u00f3n bas\u00e1ndose en datos hist\u00f3ricos. Esto puede ayudar a planificar mejor la asignaci\u00f3n de recursos.",
         "technique": "Machine Learning, an\u00e1lisis predictivo",
         "columns": "FECHA_CORTE (Fecha), TIPO_GASTO (Categor\u00eda de gasto), EJECUCION (Valor del gasto ejecutado)",
-        "type": "fa-chart-pie"
+        "type": "fa-chart-pie",
+        "complement_idea": "La idea de 'Predicci\u00f3n de Gastos Futuros' se puede complementar con un sistema de alerta temprana que notifica a los responsables de proyectos de conservaci\u00f3n sobre posibles desviaciones presupuestarias. Esto permitir\u00eda una respuesta m\u00e1s r\u00e1pida y eficiente a los cambios en las condiciones.",
+        "impact": "\u00a1El impacto potencial de 'Predicci\u00f3n de Gastos Futuros' es enorme! Al optimizar la asignaci\u00f3n de recursos, se puede asegurar que los fondos lleguen a las comunidades que m\u00e1s los necesitan, impulsando proyectos de conservaci\u00f3n m\u00e1s efectivos. La transparencia proporcionada por los pron\u00f3sticos de costos tambi\u00e9n fomentar\u00e1 la confianza entre las partes interesadas y mejorar\u00e1 la toma de decisiones.",
+        "scalability": "La soluci\u00f3n 'Predicci\u00f3n de Gastos Futuros' es altamente escalable gracias a su arquitectura basada en la nube con acceso a API. Esto permite que diferentes organizaciones de conservaci\u00f3n la integren f\u00e1cilmente en sus sistemas existentes, independientemente de su tama\u00f1o o ubicaci\u00f3n. Adem\u00e1s, la posibilidad de personalizar los modelos seg\u00fan las necesidades espec\u00edficas de cada proyecto garantiza su adaptabilidad a diversos contextos.",
+        "viability": "'Predicci\u00f3n de Gastos Futuros' es t\u00e9cnicamente viable utilizando bibliotecas de aprendizaje autom\u00e1tico existentes y la infraestructura de computaci\u00f3n en la nube. Su enfoque en la eficiencia y la automatizaci\u00f3n promete reducir costos operativos y maximizar el retorno de inversi\u00f3n. Adem\u00e1s, la soluci\u00f3n tiene un alto potencial de adopci\u00f3n debido a su capacidad para abordar una necesidad cr\u00edtica en el sector de la conservaci\u00f3n: la gesti\u00f3n eficiente de los recursos."
     },
     {
         "title": "Dashboard Interactivo para la Transparencia en Gastos",
         "description": "Crear un dashboard interactivo que permita a los usuarios explorar los datos de gastos en conservaci\u00f3n. Esto promueve la transparencia y la participaci\u00f3n ciudadana.",
         "technique": "Desarrollo web, visualizaci\u00f3n interactiva",
         "columns": "Todas las columnas (para permitir an\u00e1lisis multifac\u00e9ticos)",
-        "type": "fa-laptop"
+        "type": "fa-laptop",
+        "complement_idea": "Un tablero interactivo que visualiza datos de gastos en conservaci\u00f3n de manera atractiva y accesible para el p\u00fablico, usando mapas, gr\u00e1ficos, elementos gamificados e incluso realidad aumentada.",
+        "impact": "Al visualizar los datos de forma transparente y atractiva, se empodera a la ciudadan\u00eda para comprender mejor c\u00f3mo se utilizan los recursos destinados a la conservaci\u00f3n. La interacci\u00f3n y la gamificaci\u00f3n pueden fomentar una mayor participaci\u00f3n ciudadana y un sentido de responsabilidad colectiva hacia el medio ambiente.",
+        "scalability": "El uso de formatos de datos estandarizados permite que el tablero se pueda ampliar f\u00e1cilmente a diferentes organizaciones conservacionistas. Adem\u00e1s, su dise\u00f1o modular facilita la incorporaci\u00f3n de nuevas funcionalidades y la adaptaci\u00f3n a diferentes contextos.",
+        "viability": "El desarrollo con herramientas de c\u00f3digo abierto como Python/Dash asegura un coste efectivo. La disponibilidad de recursos t\u00e9cnicos y la realizaci\u00f3n de una investigaci\u00f3n previa sobre las necesidades de los usuarios son factores clave para garantizar el \u00e9xito del proyecto."
     }
 ]

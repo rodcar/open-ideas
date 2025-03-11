@@ -4,34 +4,54 @@
         "description": "Esta aplicaci\u00f3n web permitir\u00e1 visualizar la variaci\u00f3n de la densidad de electrones en diferentes puntos geogr\u00e1ficos del Per\u00fa a lo largo del tiempo. Los usuarios podr\u00e1n seleccionar una fecha y hora espec\u00edfica para ver un mapa con la distribuci\u00f3n espacial de la densidad de electrones, facilitando el estudio de los fen\u00f3menos ionosf\u00e9ricos.",
         "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos, mapas interactivos",
         "columns": "UBIGEO (para la ubicaci\u00f3n geogr\u00e1fica), FECHA_UTC, HORA_UTC (para seleccionar una fecha y hora espec\u00edfica), FREC_MAX_F2 (indicador de densidad de electrones), ALT_MAX_DENS (altura donde se encuentra la mayor densidad)",
-        "type": "fa-map"
+        "type": "fa-map",
+        "complement_idea": "El desarrollo de un mapa interactivo de la densidad de electrones en la ion\u00f3sfera peruana es una idea brillante con alto potencial de impacto. Para complementarla, se podr\u00edan considerar las siguientes mejoras:",
+        "impact": "Este proyecto tendr\u00eda un impacto significativo en diversas \u00e1reas: \n* **Investigaci\u00f3n:** Proporcionar\u00eda a los investigadores datos valiosos sobre la din\u00e1mica de la ion\u00f3sfera peruana, lo que permitir\u00eda un mejor entendimiento de los fen\u00f3menos atmosf\u00e9ricos y su influencia en las comunicaciones.\n* **Educaci\u00f3n:** Ser\u00eda una herramienta educativa invaluable para estudiantes de f\u00edsica, meteorolog\u00eda y ciencias afines, permitiendo visualizar y comprender conceptos complejos de forma interactiva.\n* **Aplicaciones pr\u00e1cticas:**  La informaci\u00f3n sobre la densidad electr\u00f3nica podr\u00eda utilizarse para optimizar sistemas de comunicaci\u00f3n, predecir interferencias radioel\u00e9ctricas y mejorar la precisi\u00f3n de los sistemas de navegaci\u00f3n por sat\u00e9lite.",
+        "scalability": "La idea es escalable a nivel regional e internacional. Se puede extender la cobertura del mapa a otros pa\u00edses o continentes, lo que permitir\u00eda crear una base de datos global sobre la densidad de electrones en la ion\u00f3sfera. Adem\u00e1s, se podr\u00eda integrar informaci\u00f3n de otras fuentes, como estaciones meteorol\u00f3gicas y sat\u00e9lites, para ofrecer una visi\u00f3n m\u00e1s completa.",
+        "viability": "La viabilidad del proyecto es alta. Existen herramientas y tecnolog\u00edas disponibles para el desarrollo de mapas interactivos, y los datos sobre la densidad de electrones pueden obtenerse de fuentes p\u00fablicas o mediante colaboraci\u00f3n con instituciones de investigaci\u00f3n.  Con un equipo multidisciplinario y una planificaci\u00f3n adecuada, este proyecto podr\u00eda llevarse a cabo de manera eficiente."
     },
     {
         "title": "Predicci\u00f3n de la Actividad Ionosf\u00e9rica",
         "description": "Utilizando modelos de machine learning, este sistema predecir\u00e1 las condiciones de la ionosfera en funci\u00f3n de datos hist\u00f3ricos. Esto permitir\u00e1 a operadores de radio y otras industrias dependientes de las comunicaciones por radio anticipar posibles interrupciones o ajustar sus sistemas para un funcionamiento \u00f3ptimo.",
         "technique": "Machine Learning (regresi\u00f3n o series temporales), an\u00e1lisis de datos hist\u00f3ricos",
         "columns": "FECHA_UTC, HORA_UTC, FREC_MAX_F2 (variable a predecir), ALT_F, ALT_MAX_DENS (variables predictoras)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de 'Predicci\u00f3n de la Actividad Ionosf\u00e9rica' se puede complementar con el desarrollo de una plataforma de acceso abierto que permita a usuarios de diferentes pa\u00edses y sectores acceder a las predicciones ionosf\u00e9ricas. Esto fomentar\u00eda la colaboraci\u00f3n internacional y maximizar\u00eda el impacto social de la tecnolog\u00eda.",
+        "impact": "El impacto potencial de 'Predicci\u00f3n de la Actividad Ionosf\u00e9rica' es enorme. Al mejorar la fiabilidad de las comunicaciones por radio, esta tecnolog\u00eda puede salvar vidas en situaciones de emergencia, promover el desarrollo socioecon\u00f3mico en \u00e1reas remotas y contribuir a la seguridad de la navegaci\u00f3n a\u00e9rea y mar\u00edtima.",
+        "scalability": "La escalabilidad de 'Predicci\u00f3n de la Actividad Ionosf\u00e9rica' es alta gracias a su arquitectura basada en la nube. Esto permite un acceso global a las predicciones ionosf\u00e9ricas y facilita la incorporaci\u00f3n de nuevos datos y funcionalidades.",
+        "viability": "La viabilidad de 'Predicci\u00f3n de la Actividad Ionosf\u00e9rica' se ve respaldada por el creciente inter\u00e9s en las tecnolog\u00edas de predicci\u00f3n espacial y por la necesidad de soluciones fiables para las comunicaciones por radio. La colaboraci\u00f3n con instituciones de investigaci\u00f3n y la b\u00fasqueda de financiaci\u00f3n p\u00fablica o privada pueden contribuir a asegurar su \u00e9xito."
     },
     {
         "title": "An\u00e1lisis de la Influencia del Sol en la Ionosfera",
         "description": "Este an\u00e1lisis explorar\u00e1 las relaciones entre la actividad solar y las variaciones observadas en la ionosfera peruana. Se utilizar\u00e1n t\u00e9cnicas estad\u00edsticas para identificar patrones y determinar c\u00f3mo los eventos solares impactan la densidad de electrones, la altura de las capas ionosf\u00e9ricas y otras variables clave.",
         "technique": "An\u00e1lisis estad\u00edstico (correlaci\u00f3n, regresi\u00f3n), visualizaci\u00f3n de datos",
         "columns": "FECHA_UTC (para relacionar con datos de actividad solar), FREC_MAX_F2, ALT_F, ALT_MAX_DENS (variables a analizar en relaci\u00f3n con la actividad solar)",
-        "type": "fa-sun"
+        "type": "fa-sun",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Sistema de Alertas Tempranas para Perturbaciones Ionosf\u00e9ricas",
         "description": "Esta herramienta emitir\u00e1 alertas autom\u00e1ticas cuando se detecten condiciones inusuales en la ionosfera que puedan afectar las comunicaciones por radio. Las alertas incluir\u00e1n informaci\u00f3n sobre la ubicaci\u00f3n, severidad y posible duraci\u00f3n del evento, permitiendo a los usuarios tomar medidas preventivas.",
         "technique": "Procesamiento de datos en tiempo real, algoritmos de detecci\u00f3n de anomal\u00edas",
         "columns": "FECHA_UTC, HORA_UTC, FREC_MAX_F2 (para detectar desviaciones significativas), ALT_F, ALT_MAX_DENS (para identificar patrones an\u00f3malos)",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "El Sistema de Alertas Tempranas para Perturbaciones Ionosf\u00e9ricas puede complementarse con un sistema de comunicaci\u00f3n de respaldo que funcione independientemente de las ondas de radio, como una red satelital dedicada o una red de comunicaci\u00f3n por fibra \u00f3ptica. Esto asegurar\u00eda la continuidad de las comunicaciones incluso durante eventos severos de perturbaciones ionosf\u00e9ricas.",
+        "impact": "El impacto potencial del Sistema de Alertas Tempranas para Perturbaciones Ionosf\u00e9ricas es significativo. Podr\u00eda salvar vidas en situaciones de emergencia al garantizar que los servicios de emergencia puedan comunicarse eficazmente, reducir las interrupciones comerciales y econ\u00f3micas causadas por fallos de comunicaci\u00f3n, y mejorar la seguridad y la fiabilidad de las comunicaciones en general.",
+        "scalability": "El sistema es escalable y puede adaptarse a diferentes usuarios y necesidades. Se pueden agregar m\u00e1s sensores y estaciones de monitoreo para ampliar su cobertura geogr\u00e1fica, y se pueden desarrollar interfaces de usuario personalizadas para diferentes sectores.",
+        "viability": "La viabilidad del Sistema de Alertas Tempranas para Perturbaciones Ionosf\u00e9ricas es alta. La tecnolog\u00eda necesaria ya existe y se est\u00e1 utilizando en otros sistemas de monitoreo espacial. Con el apoyo adecuado de las instituciones gubernamentales, acad\u00e9micas y privadas, este sistema puede convertirse en una realidad y proporcionar importantes beneficios a la sociedad."
     },
     {
         "title": "Comparaci\u00f3n de la Ionosfera Peruana con otras Regiones",
         "description": "Este estudio comparar\u00e1 los datos de la ionosfera peruana con datos de otras regiones del mundo, buscando patrones y tendencias comunes o espec\u00edficas. Esto ayudar\u00e1 a comprender mejor las caracter\u00edsticas \u00fanicas de la ionosfera peruana y su relaci\u00f3n con el contexto global.",
         "technique": "An\u00e1lisis estad\u00edstico (comparaci\u00f3n de medias, varianzas), visualizaci\u00f3n de datos",
         "columns": "FECHA_UTC, HORA_UTC, FREC_MAX_F2 (variable principal a comparar), ALT_F, ALT_MAX_DENS (variables auxiliares para el an\u00e1lisis)",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "El proyecto 'Comparaci\u00f3n de la Ionosfera Peruana con otras Regiones' presenta una oportunidad \u00fanica para investigar en profundidad las particularidades de la ion\u00f3sfera peruana. La propuesta de combinar an\u00e1lisis estad\u00edstico tradicional con modelos predictivos de IA y visualizaciones 3D interactivas representa un enfoque innovador que podr\u00eda generar resultados de gran valor.",
+        "impact": "El impacto social potencial del proyecto es significativo.  Mejorar la comunicaci\u00f3n en \u00e1reas remotas, predecir eventos de clima espacial para proteger infraestructura vital y, adem\u00e1s, inspirar a futuras generaciones de cient\u00edficos peruanos son objetivos valiosos que este proyecto puede alcanzar.",
+        "scalability": "La utilizaci\u00f3n de datos de c\u00f3digo abierto y herramientas accesibles garantiza la viabilidad econ\u00f3mica del proyecto. La estructura modular del proyecto permite una escalabilidad gradual, comenzando con un enfoque regional (Sudam\u00e9rica) antes de expandirse a nivel global.",
+        "viability": "La factibilidad t\u00e9cnica del proyecto se basa en la solidez de los m\u00e9todos estad\u00edsticos utilizados y la disponibilidad de herramientas open-source robustas. El equipo debe asegurarse de tener la experiencia necesaria para el an\u00e1lisis estad\u00edstico o planificar la colaboraci\u00f3n con expertos externos."
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Visualizar la producci\u00f3n agr\u00edcola de diferentes cultivos en la regi\u00f3n de Tacna. Identificar zonas de mayor rendimiento y potencial para el desarrollo de nuevas iniciativas agr\u00edcolas.",
         "technique": "An\u00e1lisis geoespacial, mapas interactivos",
         "columns": "CULTIVO (Para clasificar los datos por tipo de cultivo), PRODUCCI\u00d3N_ANUAL(t) (Para determinar la cantidad producida en cada zona), SUPERFICIE_CULTIVADA ha.(*) (Para calcular la densidad de producci\u00f3n), RENDIMIENTO (Para evaluar la eficiencia de cada cultivo)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El 'Mapa de Productividad Agr\u00edcola' es una iniciativa innovadora que utiliza an\u00e1lisis geoespacial y cartograf\u00eda interactiva para visualizar la productividad de los cultivos en Tacna. Esta herramienta identifica zonas de alto rendimiento y potencial no explotado, lo que permite a los agricultores tomar decisiones informadas sobre qu\u00e9 cultivar y c\u00f3mo hacerlo para obtener mayores rendimientos.",
+        "impact": "Este mapa tendr\u00e1 un impacto significativo en la comunidad de Tacna al aumentar los ingresos de los agricultores mediante el cultivo de productos m\u00e1s adecuados a las condiciones locales. Tambi\u00e9n promover\u00e1 una mayor sostenibilidad, al optimizar la asignaci\u00f3n de recursos y reducir el impacto ambiental. La creaci\u00f3n de una plataforma interactiva fomentar\u00e1 el intercambio de conocimiento entre agricultores, impulsando la innovaci\u00f3n y el desarrollo conjunto.",
+        "scalability": "El uso de formatos de datos estandarizados permitir\u00e1 la expansi\u00f3n del 'Mapa de Productividad Agr\u00edcola' a otras regiones de Per\u00fa y potencialmente a nivel internacional. Esta escalabilidad asegura que el impacto positivo de esta iniciativa se pueda replicar en otros contextos.",
+        "viability": "La viabilidad del proyecto se basa en la utilizaci\u00f3n de herramientas de c\u00f3digo abierto para el an\u00e1lisis geoespacial y la cartograf\u00eda, lo que reduce significativamente los costos. Adem\u00e1s, la integraci\u00f3n con bases de datos existentes garantizar\u00e1 que la informaci\u00f3n est\u00e9 actualizada a largo plazo. La b\u00fasqueda de financiaci\u00f3n a trav\u00e9s de subvenciones u otras entidades comprometidas con la agricultura sostenible fortalecer\u00e1 la viabilidad econ\u00f3mica del proyecto."
     },
     {
         "title": "An\u00e1lisis de Tendencias de Mercado",
         "description": "Identificar patrones en los precios del mercado de productos agr\u00edcolas de Tacna. Detectar per\u00edodos de mayor demanda y oferta para optimizar las estrategias de producci\u00f3n y comercializaci\u00f3n.",
         "technique": "An\u00e1lisis temporal, series de tiempo, regresi\u00f3n lineal",
         "columns": "CULTIVO (Para analizar el comportamiento individual de cada producto), PRODUCCI\u00d3N_ANUAL(t) (Para determinar la oferta disponible), PRECIO EN CHACRA (Para identificar las fluctuaciones de precio)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "Esta idea se puede complementar incluyendo an\u00e1lisis de sentimientos de las redes sociales para comprender mejor la demanda del consumidor y tendencias emergentes.",
+        "impact": "El impacto de esta soluci\u00f3n es significativo, ya que permite a los agricultores de Tacna optimizar sus estrategias de producci\u00f3n y venta, aumentando sus ingresos y reduciendo el desperdicio. Esto contribuye directamente al desarrollo econ\u00f3mico y social de la regi\u00f3n.",
+        "scalability": "La soluci\u00f3n es escalable, ya que su metodolog\u00eda se puede aplicar a otras regiones con productos agr\u00edcolas similares. Adem\u00e1s, la incorporaci\u00f3n de datos adicionales como informaci\u00f3n meteorol\u00f3gica, precios internacionales y tendencias de consumo, puede aumentar la precisi\u00f3n de las predicciones y ampliar el alcance de la herramienta.",
+        "viability": "T\u00e9cnicamente, la soluci\u00f3n es viable porque utiliza m\u00e9todos estad\u00edsticos probados y datos hist\u00f3ricos accesibles. La implementaci\u00f3n requerir\u00e1 un equipo con experiencia en an\u00e1lisis de datos, pero los costos ser\u00e1n relativamente bajos comparados con el potencial retorno de inversi\u00f3n."
     },
     {
         "title": "Sistema de Alerta para Cultivos en Riesgo",
         "description": "Desarrollar un sistema que alertara a los agricultores sobre posibles amenazas a sus cultivos, como plagas o enfermedades. Se podr\u00eda usar informaci\u00f3n hist\u00f3rica y datos clim\u00e1ticos para predecir riesgos.",
         "technique": "Machine learning, an\u00e1lisis predictivo",
         "columns": "CULTIVO (Para enfocar las alertas en cultivos espec\u00edficos), RENDIMIENTO (Para detectar variaciones inusuales que puedan indicar problemas), SUPERFICIE_CULTIVADA ha.(*) (Para estimar el impacto potencial de las amenazas)",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Optimizaci\u00f3n del Uso de Recursos",
         "description": "Analizar la eficiencia en el uso de agua, fertilizantes y tierra para cada cultivo. Identificar oportunidades para reducir los costos de producci\u00f3n y minimizar el impacto ambiental.",
         "technique": "An\u00e1lisis multivariado, modelos de optimizaci\u00f3n",
         "columns": "CULTIVO (Para analizar las necesidades espec\u00edficas de cada cultivo), SUPERFICIE_CULTIVADA ha.(*) (Para evaluar la extensi\u00f3n de tierra utilizada), RENDIMIENTO (Para determinar la eficiencia en el uso de recursos)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Optimizaci\u00f3n del Uso de Recursos propone el uso de an\u00e1lisis multivariante y modelos de optimizaci\u00f3n para determinar la combinaci\u00f3n ideal de agua, fertilizantes y tierra para cada cultivo individualmente. Esto permite maximizar el rendimiento mientras se minimizan los costos de producci\u00f3n.",
+        "impact": "Este enfoque tiene un impacto positivo tanto en los agricultores como en el medio ambiente. Los agricultores experimentar\u00e1n un aumento en sus beneficios debido a los menores costos de producci\u00f3n. Adem\u00e1s, la reducci\u00f3n del uso de agua y fertilizantes minimizar\u00e1 el impacto ambiental, protegiendo los ecosistemas y conservando recursos preciosos.",
+        "scalability": "La propuesta es altamente escalable ya que puede aplicarse a una amplia variedad de cultivos, regiones y pr\u00e1cticas agr\u00edcolas. Los modelos pueden ser constantemente refinados con nuevos datos, adapt\u00e1ndose a los desaf\u00edos agr\u00edcolas en evoluci\u00f3n.",
+        "viability": "La viabilidad de esta idea se basa en la disponibilidad de datos hist\u00f3ricos sobre factores como patrones clim\u00e1ticos, tipo de suelo, uso de agua y fertilizantes, as\u00ed como el rendimiento del cultivo. Con el avance de la tecnolog\u00eda y la creciente accesibilidad a los datos, esta propuesta tiene un alto potencial de \u00e9xito."
     },
     {
         "title": "Plataforma de Conexi\u00f3n entre Productores y Compradores",
         "description": "Crear una plataforma digital que conecte a los agricultores de Tacna con compradores potenciales. Facilitar la comercializaci\u00f3n de productos frescos y locales.",
         "technique": "Desarrollo web, bases de datos",
         "columns": "CULTIVO (Para clasificar los productos disponibles), PRODUCCI\u00d3N_ANUAL(t) (Para indicar la cantidad disponible), PRECIO EN CHACRA (Para establecer un precio competitivo)",
-        "type": "fa-handshake"
+        "type": "fa-handshake",
+        "complement_idea": "Plataforma de Conexi\u00f3n es una idea innovadora que busca conectar directamente a los agricultores de Tacna con los compradores, eliminando intermediarios y asegurando precios m\u00e1s justos. La plataforma, construida como una aplicaci\u00f3n web progresiva (PWA), ser\u00e1 accesible desde cualquier dispositivo y sin necesidad de conexi\u00f3n a internet constante, lo que la hace ideal para la regi\u00f3n.",
+        "impact": "Esta plataforma tendr\u00e1 un impacto positivo significativo en la comunidad agr\u00edcola de Tacna al: \n* Empoderar a los agricultores d\u00e1ndoles control sobre sus precios y marketing.\n* Aumentar la transparencia a trav\u00e9s de la integraci\u00f3n de blockchain, garantizando la trazabilidad de los productos y generando confianza en los consumidores.\n* Promover la accesibilidad mediante una interfaz multiling\u00fce (espa\u00f1ol, quechua) y optimizaci\u00f3n m\u00f3vil.\n* Impulsar el crecimiento econ\u00f3mico local al conectar directamente a productores y compradores.",
+        "scalability": "Plataforma de Conexi\u00f3n tiene un alto potencial de escalabilidad. Inicialmente se enfocar\u00e1 en Tacna, pero el modelo puede ser replicado en otras regiones e incluso pa\u00edses. Adem\u00e1s, la plataforma puede expandirse para incluir otros productos como ganado, productos procesados e incluso experiencias tur\u00edsticas relacionadas con la agricultura.",
+        "viability": "La viabilidad econ\u00f3mica de Plataforma de Conexi\u00f3n se basa en un modelo freemium que ofrece acceso b\u00e1sico gratuito a los agricultores y opciones de suscripci\u00f3n premium para funciones adicionales. Este modelo equilibra el acceso con la generaci\u00f3n de ingresos, asegurando la sostenibilidad de la plataforma a largo plazo."
     }
 ]

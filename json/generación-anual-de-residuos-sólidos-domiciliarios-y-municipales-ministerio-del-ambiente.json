@@ -4,34 +4,54 @@
         "description": "Visualizar la cantidad de residuos generados por municipio en un mapa interactivo. Permite identificar zonas con mayor acumulaci\u00f3n de basura y focalizar esfuerzos de recolecci\u00f3n y reciclaje.",
         "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos con mapas interactivos",
         "columns": "UBIGEO (para ubicar el municipio en el mapa), GENERACION_MUN_TDIA (mostrar la cantidad de residuos generados por d\u00eda), GENERACION_PER_CAPITA_MUNICIPAL (comparar la generaci\u00f3n de residuos entre municipios)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El mapa interactivo de generaci\u00f3n de residuos permite visualizar y analizar patrones de residuos en diferentes \u00e1reas, lo que facilita la toma de decisiones informadas para optimizar la gesti\u00f3n de residuos. Adem\u00e1s de identificar zonas con mayor acumulaci\u00f3n de residuos, la herramienta puede utilizarse para planificar rutas de recolecci\u00f3n m\u00e1s eficientes, dise\u00f1ar programas de reciclaje espec\u00edficos para cada zona y evaluar el impacto de las pol\u00edticas de gesti\u00f3n de residuos.",
+        "impact": "La implementaci\u00f3n del mapa interactivo puede generar un impacto positivo significativo en la comunidad. Al mejorar la eficiencia de la recolecci\u00f3n y el reciclaje, se reducir\u00eda la cantidad de residuos que terminan en vertederos, lo que a su vez disminuye la contaminaci\u00f3n ambiental. Adem\u00e1s, la participaci\u00f3n ciudadana a trav\u00e9s de la posibilidad de reportar puntos cr\u00edticos o sugerir mejoras promueve una mayor conciencia sobre la importancia del manejo responsable de los residuos.",
+        "scalability": "La naturaleza modular y adaptable del mapa interactivo permite su escalado a diferentes contextos geogr\u00e1ficos y demogr\u00e1ficos. La utilizaci\u00f3n de herramientas de c\u00f3digo abierto garantiza un menor costo de desarrollo y mantenimiento, lo que facilita la adopci\u00f3n por parte de municipios con recursos limitados. Adem\u00e1s, la plataforma se puede integrar con sistemas existentes de gesti\u00f3n de residuos para optimizar los procesos operativos.",
+        "viability": "La viabilidad del proyecto se basa en su capacidad para generar beneficios tangibles tanto para el gobierno como para la comunidad. Para el municipio, la herramienta permite ahorrar costos en la gesti\u00f3n de residuos, mejorar la eficiencia operativa y cumplir con las normas ambientales. Para la comunidad, el mapa representa una oportunidad para participar activamente en la mejora de su entorno, fomentando un sentido de responsabilidad social."
     },
     {
         "title": "Predicci\u00f3n de generaci\u00f3n de residuos",
         "description": "Utilizar machine learning para predecir la cantidad de residuos que se generar\u00e1n en un futuro determinado, considerando variables como poblaci\u00f3n, tipo de vivienda y h\u00e1bitos de consumo.",
         "technique": "Modelado predictivo con algoritmos de machine learning",
         "columns": "UBIGEO (para identificar la ubicaci\u00f3n), POBLACION (variable para el modelo), GENERACION_MUN_TDIA (variable objetivo a predecir), TIPO_VIVIENDA (categor\u00eda para mejorar la precisi\u00f3n del modelo), REGION (considerar factores regionales)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El proyecto 'Predicci\u00f3n de generaci\u00f3n de residuos' utiliza el aprendizaje autom\u00e1tico para predecir la generaci\u00f3n futura de residuos, optimizando as\u00ed la gesti\u00f3n de residuos.",
+        "impact": "Este proyecto tendr\u00e1 un gran impacto al optimizar las rutas de recogida de basura, aumentar la recuperaci\u00f3n de recursos a trav\u00e9s de iniciativas de reciclaje dirigidas y proporcionar informaci\u00f3n basada en datos para la toma de decisiones sobre infraestructuras y reducci\u00f3n de residuos. Esto contribuir\u00e1 a un entorno m\u00e1s sostenible y saludable.",
+        "scalability": "La viabilidad del proyecto es alta gracias a su dise\u00f1o modular que permite su adaptaci\u00f3n a diversos contextos,  la disponibilidad de herramientas de aprendizaje autom\u00e1tico de c\u00f3digo abierto y la posibilidad de compartir el modelo de forma abierta.",
+        "viability": "T\u00e9cnicamente factible, dado el acceso a datos p\u00fablicos y bibliotecas de aprendizaje autom\u00e1tico de c\u00f3digo abierto. La innovaci\u00f3n radica en el concepto de 'Huella de residuos', que permite intervenciones m\u00e1s dirigidas. El proyecto presenta un alto potencial de impacto social y ambiental."
     },
     {
         "title": "Comparaci\u00f3n de gesti\u00f3n de residuos entre municipios",
         "description": "Crear un dashboard interactivo que permita comparar indicadores clave de gesti\u00f3n de residuos (por ejemplo, tasa de reciclaje, cantidad de vertederos) entre diferentes municipios. Facilita la identificaci\u00f3n de mejores pr\u00e1cticas y \u00e1reas de mejora.",
         "technique": "An\u00e1lisis comparativo, visualizaci\u00f3n en dashboards interactivos",
         "columns": "UBIGEO (para identificar el municipio), GENERACION_MUN_TDIA (comparar la cantidad de residuos generados), TASA_RECICLAJE (indicador de eficiencia), CANTIDAD_VERTEDEROS (evaluar impacto ambiental)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "La idea de un tablero interactivo comparativo de gesti\u00f3n de residuos entre municipios es excelente. Se puede complementar con las siguientes funcionalidades para aumentar su impacto:",
+        "impact": "\u00a1El impacto potencial de este proyecto es significativo! Al promover la transparencia y el acceso a informaci\u00f3n clave sobre la gesti\u00f3n de residuos, se empodera a los ciudadanos, fomenta la rendici\u00f3n de cuentas por parte de los municipios y facilita la adopci\u00f3n de mejores pr\u00e1cticas. Esto contribuir\u00e1 a un manejo m\u00e1s sostenible de los residuos y a un entorno m\u00e1s limpio para todos.",
+        "scalability": "La propuesta es altamente escalable gracias al uso de plataformas open-source como Redash. Esto permite adaptarla a diferentes contextos, incorporar nuevos indicadores y funcionalidades seg\u00fan las necesidades, e incluso replicarse en otras regiones o pa\u00edses.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta.  Con la colaboraci\u00f3n de asociaciones de gesti\u00f3n de residuos para la estandarizaci\u00f3n de datos, se puede desarrollar un tablero interactivo funcional y accesible a bajo costo. El enfoque en fases permitir\u00e1 ir ampliando el proyecto gradualmente seg\u00fan los recursos disponibles."
     },
     {
         "title": "An\u00e1lisis de patrones de consumo seg\u00fan tipo de vivienda",
         "description": "Investigar si existe una relaci\u00f3n entre el tipo de vivienda y la cantidad de residuos generados por habitante. Permite identificar \u00e1reas donde se necesitan campa\u00f1as de concientizaci\u00f3n sobre reciclaje o reducci\u00f3n de consumo.",
         "technique": "An\u00e1lisis estad\u00edstico, segmentaci\u00f3n por tipo de vivienda",
         "columns": "UBIGEO (para contextualizar la informaci\u00f3n), TIPO_VIVIENDA (categorizar las viviendas), GENERACION_PER_CAPITA_MUNICIPAL (comparar la generaci\u00f3n de residuos por tipo de vivienda)",
-        "type": "fa-home"
+        "type": "fa-home",
+        "complement_idea": "Esta idea se puede complementar analizando patrones de consumo en otros \u00e1mbitos, como el uso de energ\u00eda o agua. Tambi\u00e9n podr\u00eda integrar datos sociodemogr\u00e1ficos para comprender mejor las motivaciones detr\u00e1s de los diferentes patrones de consumo.",
+        "impact": "El an\u00e1lisis de patrones de consumo por tipo de vivienda puede tener un impacto significativo al permitir la implementaci\u00f3n de campa\u00f1as de reciclaje dirigidas, pol\u00edticas p\u00fablicas m\u00e1s efectivas y un mayor conocimiento sobre c\u00f3mo reducir el consumo en cada tipo de hogar.",
+        "scalability": "La idea es escalable porque se basa en m\u00e9todos estad\u00edsticos que pueden aplicarse a diferentes contextos geogr\u00e1ficos. Adem\u00e1s, la tecnolog\u00eda actual permite acceder y procesar grandes vol\u00famenes de datos de forma eficiente.",
+        "viability": "La viabilidad de esta idea es alta ya que se puede implementar utilizando herramientas estad\u00edsticas existentes y datos que generalmente est\u00e1n disponibles a trav\u00e9s de entidades gubernamentales o empresas de gesti\u00f3n de residuos."
     },
     {
         "title": "Identificaci\u00f3n de zonas con mayor potencial para compostaje",
         "description": "Utilizar informaci\u00f3n geogr\u00e1fica y demogr\u00e1fica para identificar \u00e1reas donde el compostaje domiciliario podr\u00eda ser m\u00e1s viable, considerando factores como la densidad poblacional, acceso a espacios verdes y h\u00e1bitos de consumo.",
         "technique": "An\u00e1lisis geoespacial, superposici\u00f3n de capas de datos",
         "columns": "UBIGEO (para ubicar las zonas), DENSIDAD_POBLACIONAL (evaluar la viabilidad del compostaje a nivel local), ACCESO_ESPACIOS_VERDES (considerar la disponibilidad de espacios para compostaje)",
-        "type": "fa-leaf"
+        "type": "fa-leaf",
+        "complement_idea": "La idea de 'Identificaci\u00f3n de zonas con mayor potencial para compostaje' es innovadora y efectiva. Utiliza el an\u00e1lisis geoespacial para identificar las \u00e1reas \u00f3ptimas para implementar iniciativas de compostaje dom\u00e9stico, considerando factores como la densidad de poblaci\u00f3n, la proximidad a espacios verdes y los h\u00e1bitos de consumo.",
+        "impact": "Este proyecto tiene un gran impacto potencial. Promover\u00e1 la sostenibilidad ambiental al reducir los residuos org\u00e1nicos que terminan en vertederos, adem\u00e1s de mejorar la calidad del suelo y crear conciencia sobre la importancia del reciclaje. A nivel comunitario, fortalecer\u00e1 el sentido de pertenencia y empoderar\u00e1 a los ciudadanos para tomar acciones positivas por su entorno.",
+        "scalability": "La idea es altamente escalable. La metodolog\u00eda de an\u00e1lisis geoespacial se puede adaptar a diferentes contextos locales y a diversas realidades socioecon\u00f3micas. Adem\u00e1s, la posibilidad de integrar datos en tiempo real sobre residuos alimenticios permite afinar a\u00fan m\u00e1s la precisi\u00f3n del mapa de 'hotspots' de compostaje.",
+        "viability": "La viabilidad del proyecto es alta. Existe tecnolog\u00eda accesible para realizar el an\u00e1lisis geoespacial y se pueden establecer alianzas con organizaciones locales, gobiernos municipales o empresas privadas para obtener los datos necesarios. La clave del \u00e9xito radica en un plan de comunicaci\u00f3n efectivo que motive a la comunidad a participar."
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Este proyecto busca crear un mapa interactivo que muestre la ubicaci\u00f3n de centros de salud, hospitales y farmacias en zonas rurales y urbanas. La herramienta permitir\u00e1 identificar \u00e1reas con baja cobertura de servicios de salud y priorizar intervenciones para mejorar el acceso.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, machine learning para identificar patrones de accesibilidad.",
         "columns": "Latitud (Ubicaci\u00f3n geogr\u00e1fica del centro de salud), Longitud (Ubicaci\u00f3n geogr\u00e1fica del centro de salud), Tipo de servicio (Hospital, centro de salud, farmacia), Distancia a la poblaci\u00f3n m\u00e1s cercana (Kil\u00f3metros), Poblaci\u00f3n atendida (N\u00famero de habitantes)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "Integrar funciones de realidad aumentada para guiar a los usuarios hasta los centros de salud.",
+        "impact": "El mapa interactivo tiene un alto impacto potencial al identificar \u00e1reas con poca accesibilidad a servicios de salud y permitir que las personas tomen decisiones informadas sobre su bienestar. Adem\u00e1s, la inclusi\u00f3n de rutas personalizadas y elementos de juego puede aumentar la participaci\u00f3n de la comunidad y promover h\u00e1bitos m\u00e1s saludables.",
+        "scalability": "La arquitectura modular del mapa permite adaptarlo a otras necesidades sociales, como la visualizaci\u00f3n de recursos educativos o puntos de acceso a agua potable. La colaboraci\u00f3n con organizaciones locales y el uso de plataformas de c\u00f3digo abierto garantizan su sostenibilidad y expansi\u00f3n a nuevas \u00e1reas.",
+        "viability": "El proyecto es viable gracias al uso estrat\u00e9gico de tecnolog\u00eda de c\u00f3digo abierto, alianzas estrat\u00e9gicas con entidades p\u00fablicas y privadas para obtener datos y financiamiento, y un enfoque en la usabilidad y participaci\u00f3n comunitaria para asegurar su adopci\u00f3n y \u00e9xito."
     },
     {
         "title": "Optimizaci\u00f3n de Rutas de Transporte P\u00fablico",
         "description": "Este proyecto utiliza datos de ubicaci\u00f3n y horarios de buses para optimizar las rutas del transporte p\u00fablico, reduciendo tiempos de viaje y mejorando la eficiencia.  La herramienta puede identificar \u00e1reas con alta demanda y ajustar frecuencias de autobuses.",
         "technique": "An\u00e1lisis de rutas, machine learning para predecir patrones de movilidad, visualizaci\u00f3n en mapas.",
         "columns": "ID Ruta (Identificador \u00fanico de la ruta), Hora de partida (Horario de salida del autob\u00fas), Hora de llegada (Horario de llegada a destino), Paradas (Lista de paradas en la ruta), N\u00famero de pasajeros (Cantidad de usuarios por parada)",
-        "type": "fa-bus"
+        "type": "fa-bus",
+        "complement_idea": "La idea de optimizar las rutas de transporte p\u00fablico en tiempo real utilizando datos de ubicaci\u00f3n de autobuses y algoritmos es excelente. Se puede complementar con otras tecnolog\u00edas como la geolocalizaci\u00f3n de usuarios para una mayor personalizaci\u00f3n de las rutas.",
+        "impact": "El impacto potencial es enorme: reducci\u00f3n de tiempos de viaje, aumento de oportunidades laborales, mejor acceso a servicios esenciales, disminuci\u00f3n de la congesti\u00f3n vehicular y un transporte p\u00fablico m\u00e1s eficiente y atractivo.",
+        "scalability": "La soluci\u00f3n es altamente escalable. Se puede implementar en otras ciudades y pa\u00edses con adaptaciones seg\u00fan las necesidades locales. La posibilidad de utilizar algoritmos de aprendizaje autom\u00e1tico permite que el sistema se adapte din\u00e1micamente a los cambios en los patrones de movilidad.",
+        "viability": "La viabilidad t\u00e9cnica es alta, ya que existen APIs para acceder a datos en tiempo real de transporte p\u00fablico y algoritmos de optimizaci\u00f3n de rutas disponibles. La viabilidad econ\u00f3mica depende de la colaboraci\u00f3n p\u00fablico-privada para compartir costos y obtener beneficios mutuos."
     },
     {
         "title": "Plataforma de Aprendizaje Digital para Comunidades Vulnerables",
         "description": "Esta plataforma ofrece cursos online gratuitos y accesibles en \u00e1reas como alfabetizaci\u00f3n digital, habilidades profesionales y emprendimiento. La interfaz ser\u00e1 intuitiva y adaptable a diferentes dispositivos.",
         "technique": "Desarrollo web, dise\u00f1o UX/UI amigable, integraci\u00f3n con plataformas de aprendizaje existentes.",
         "columns": "Nombre del curso (T\u00edtulo del curso), Descripci\u00f3n (Breve resumen del contenido), Nivel (B\u00e1sico, intermedio, avanzado), Idioma (Espa\u00f1ol, ingl\u00e9s, quechua, etc.), Materiales (Enlace a videos, documentos, ejercicios)",
-        "type": "fa-laptop"
+        "type": "fa-laptop",
+        "complement_idea": "Plataforma de Aprendizaje Digital para Comunidades Vulnerables es una iniciativa poderosa que busca empoderar a comunidades vulnerables mediante cursos en l\u00ednea gratuitos en \u00e1reas esenciales como alfabetizaci\u00f3n digital, desarrollo profesional y emprendimiento. ",
+        "impact": "Esta plataforma tiene un alto impacto social al proporcionar acceso a la educaci\u00f3n y oportunidades econ\u00f3micas a personas que de otro modo podr\u00edan no tenerlas. La inclusi\u00f3n de insignias de habilidades basadas en blockchain, contenido localizado y un mercado comunitario potencia a\u00fan m\u00e1s el aprendizaje y la generaci\u00f3n de ingresos.",
+        "scalability": "El modelo basado en tecnolog\u00eda de c\u00f3digo abierto y dise\u00f1o m\u00f3vil primero asegura la viabilidad a largo plazo y permite que la plataforma se adapte a diferentes contextos culturales y ling\u00fc\u00edsticos. ",
+        "viability": "La plataforma es t\u00e9cnicamente viable gracias al uso de plataformas LMS de c\u00f3digo abierto y la integraci\u00f3n con recursos MOOC existentes. Adem\u00e1s, la b\u00fasqueda activa de subvenciones y financiaci\u00f3n enfocada en la inclusi\u00f3n digital asegurar\u00e1 su sostenibilidad."
     },
     {
         "title": "Sistema de Monitoreo Ambiental con Inteligencia Artificial",
         "description": "Este sistema utiliza sensores y drones para recopilar datos sobre la calidad del aire, agua y suelo. La inteligencia artificial analiza estos datos para detectar patrones de contaminaci\u00f3n, predecir riesgos ambientales y guiar acciones de mitigaci\u00f3n.",
         "technique": "IoT (Internet of Things), machine learning para an\u00e1lisis predictivo, visualizaci\u00f3n de datos en mapas interactivos.",
         "columns": "Fecha (Fecha y hora de la medici\u00f3n), Ubicaci\u00f3n (Coordenadas GPS del sensor), Tipo de dato (Calidad del aire, temperatura del agua, niveles de contaminantes), Valor (Lectura del sensor), Alerta (Indicador de riesgo ambiental)",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "El Sistema de Monitoreo Ambiental con IA es una idea innovadora que utiliza sensores IoT y drones con IA para monitorear la calidad ambiental en tiempo real.  Esto permite la detecci\u00f3n temprana de problemas, la predicci\u00f3n de riesgos y la identificaci\u00f3n de fuentes de contaminaci\u00f3n.",
+        "impact": "Este sistema tiene un alto impacto potencial al mejorar la salud p\u00fablica mediante la provisi\u00f3n de informaci\u00f3n sobre la calidad del aire y el agua. Tambi\u00e9n puede ayudar a prevenir desastres ambientales y promover pr\u00e1cticas de sostenibilidad.",
+        "scalability": "El sistema es escalable gracias a la naturaleza modular de los sensores y drones, que pueden desplegarse en diferentes ubicaciones. La integraci\u00f3n con plataformas de datos abiertas permite compartir informaci\u00f3n y colaborar con otras organizaciones.",
+        "viability": "La viabilidad del proyecto depende de asegurar financiamiento para la implementaci\u00f3n inicial y el mantenimiento continuo de los equipos. Adem\u00e1s, es importante abordar las cuestiones de seguridad y privacidad de los datos recolectados."
     },
     {
         "title": "Predicci\u00f3n de la Demanda de Recursos H\u00eddricos",
         "description": "Este modelo utiliza datos hist\u00f3ricos de consumo de agua, patrones clim\u00e1ticos y crecimiento poblacional para predecir la demanda futura de agua en diferentes regiones. Permite a las autoridades planificar mejor el uso del recurso h\u00eddrico.",
         "technique": "An\u00e1lisis de series temporales, machine learning para pron\u00f3sticos, visualizaci\u00f3n de datos en gr\u00e1ficos interactivos.",
         "columns": "Fecha (Fecha de la medici\u00f3n), Regi\u00f3n (Zona geogr\u00e1fica), Consumo de agua (Litros por habitante), Precipitaci\u00f3n (Mil\u00edmetros), Temperatura (Grados Celsius), Poblaci\u00f3n (N\u00famero de habitantes)",
-        "type": "fa-water"
+        "type": "fa-water",
+        "complement_idea": "Esta idea puede complementarse integrando datos en tiempo real sobre precipitaciones, niveles de agua en embalses y consumo actual. Adem\u00e1s, se podr\u00eda desarrollar una plataforma web para acceder a las predicciones y an\u00e1lisis personalizados para diferentes regiones.",
+        "impact": "El impacto potencial es significativo, ya que permite una gesti\u00f3n m\u00e1s eficiente del agua, previniendo escasez y asegurando el acceso a este recurso vital para la poblaci\u00f3n, especialmente en \u00e1reas vulnerables.",
+        "scalability": "La soluci\u00f3n se puede escalar f\u00e1cilmente a nivel global gracias a su naturaleza abierta y adaptable a diferentes contextos regionales. La posibilidad de integrar datos locales permite personalizar las predicciones y aumentar su precisi\u00f3n.",
+        "viability": "La viabilidad t\u00e9cnica es alta, ya que se basa en tecnolog\u00edas probadas como el an\u00e1lisis de series temporales y el aprendizaje autom\u00e1tico.  Es importante asegurar la calidad y accesibilidad de los datos hist\u00f3ricos para un funcionamiento \u00f3ptimo."
     }
 ]

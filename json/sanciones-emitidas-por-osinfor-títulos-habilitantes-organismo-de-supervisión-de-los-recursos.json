@@ -4,34 +4,54 @@
         "description": "Visualizar la ubicaci\u00f3n geogr\u00e1fica de las infracciones forestales a trav\u00e9s de un mapa interactivo. Permite identificar zonas con mayor incidencia de infracciones y analizar patrones geogr\u00e1ficos.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, mapas interactivos (Leaflet, Google Maps API)",
         "columns": "UBIGEO (Para geolocalizar las infracciones), DEPARTAMENTO (Contexto regional), PROVINCIA (Contexto local), DISTRITO (Nivel de detalle geogr\u00e1fico), INFRACCIONES (Tipo de infracci\u00f3n para diferenciar marcadores en el mapa), AREA_OTORGADA (Tama\u00f1o del \u00e1rea afectada)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El proyecto 'Mapa Interactivo de Infracciones Forestales' propone una soluci\u00f3n innovadora y efectiva para combatir la deforestaci\u00f3n mediante el uso de mapas interactivos que visualizan las zonas afectadas. Esta herramienta permite a las comunidades monitorear sus bosques, denunciar infracciones y exigir responsabilidad a las autoridades.",
+        "impact": "El impacto potencial del proyecto es significativo. La mayor transparencia sobre la deforestaci\u00f3n empodera a las comunidades locales, fortalece la gobernanza forestal y facilita la toma de decisiones informadas por parte de organizaciones no gubernamentales (ONG) y agencias gubernamentales. Al identificar \u00e1reas de riesgo, se pueden implementar medidas preventivas para proteger los ecosistemas forestales.",
+        "scalability": "La viabilidad a largo plazo del proyecto reside en su dise\u00f1o escalable. La utilizaci\u00f3n de tecnolog\u00eda de c\u00f3digo abierto como Leaflet reduce los costos iniciales, mientras que la incorporaci\u00f3n de datos p\u00fablicos garantiza un flujo constante de informaci\u00f3n actualizada. Adem\u00e1s, la posibilidad de integrar an\u00e1lisis predictivos (IA) permite anticipar las zonas vulnerables a la deforestaci\u00f3n y optimizar las estrategias de intervenci\u00f3n.",
+        "viability": "En t\u00e9rminos de viabilidad econ\u00f3mica, el proyecto se presenta como una soluci\u00f3n sostenible. La utilizaci\u00f3n de recursos gratuitos, como datasets p\u00fablicos y plataformas de c\u00f3digo abierto, minimiza los costos de desarrollo y mantenimiento.  La participaci\u00f3n activa de las comunidades locales asegura la sostenibilidad del proyecto a largo plazo."
     },
     {
         "title": "An\u00e1lisis de Tendencias en Tipos de Sanciones",
         "description": "Identificar los tipos de infracciones m\u00e1s comunes y analizar la evoluci\u00f3n de las sanciones aplicadas a lo largo del tiempo.",
         "technique": "An\u00e1lisis de series temporales, gr\u00e1ficos de barras",
         "columns": "FECHA_CORTE (Para el an\u00e1lisis temporal), INFRACCIONES (Tipo de infracci\u00f3n), SANCION (Tipo de sanci\u00f3n aplicada), MONTO_MULTA (Valor de la multa para comparar severidad)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Para complementar esta idea, se podr\u00eda integrar la visualizaci\u00f3n de datos con herramientas interactivas que permitan a los usuarios explorar las tendencias y patrones de infracciones de forma m\u00e1s personalizada.",
+        "impact": "Esta an\u00e1lisis tendr\u00eda un gran impacto al revelar posibles sesgos sist\u00e9micos en el sistema de justicia, lo que permitir\u00eda a las comunidades abogar por pol\u00edticas de reforma y sentencias m\u00e1s justas. Adem\u00e1s, la identificaci\u00f3n de infracciones comunes podr\u00eda ayudar a dise\u00f1ar intervenciones preventivas m\u00e1s efectivas.",
+        "scalability": "La escalabilidad de esta idea es alta ya que se puede automatizar la recopilaci\u00f3n y el an\u00e1lisis de datos, y los resultados pueden ser presentados en plataformas online accesibles a un p\u00fablico amplio. La posibilidad de incorporar datos de diferentes jurisdicciones tambi\u00e9n permitir\u00eda realizar comparaciones interculturales.",
+        "viability": "Esta idea es viable dado que las t\u00e9cnicas de an\u00e1lisis empleadas (an\u00e1lisis de series temporales y gr\u00e1ficos de barras) son m\u00e9todos estad\u00edsticos bien establecidos y existen herramientas de software disponibles para su implementaci\u00f3n. La accesibilidad a datos p\u00fablicos de infracciones tambi\u00e9n facilita la puesta en marcha del proyecto."
     },
     {
         "title": "Predicci\u00f3n de Riesgo de Infracciones",
         "description": "Utilizar modelos de machine learning para predecir \u00e1reas o titulares con mayor riesgo de cometer infracciones forestales en el futuro.",
         "technique": "Machine learning (Regresi\u00f3n Log\u00edstica, Random Forest), an\u00e1lisis predictivo",
         "columns": "UBIGEO (Localizaci\u00f3n geogr\u00e1fica), DEPARTAMENTO (Contexto regional), PROVINCIA (Contexto local), TITULO (N\u00famero de t\u00edtulo para identificar titulares espec\u00edficos), TIPO_DOC (Para clasificar titulares), NUM_DOC (Identificador \u00fanico del titular), MODALIDAD (Tipo de aprovechamiento forestal)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de 'Predicci\u00f3n de Riesgo de Infracciones' es innovadora y prometedora. Para complementarla, se podr\u00eda considerar la integraci\u00f3n con sistemas de vigilancia existentes, como drones o c\u00e1maras trampa, para una detecci\u00f3n en tiempo real de posibles infracciones.",
+        "impact": "El impacto potencial de esta soluci\u00f3n es significativo. Al predecir las \u00e1reas de mayor riesgo, permite intervenciones preventivas que protegen los ecosistemas forestales, combaten la tala ilegal y promueven un desarrollo sostenible. Adem\u00e1s, la informaci\u00f3n generada por el modelo puede utilizarse para formular pol\u00edticas p\u00fablicas m\u00e1s efectivas.",
+        "scalability": "La arquitectura modular propuesta facilita la escalabilidad de la soluci\u00f3n a diferentes regiones y contextos.  Adaptarla a diversas legislaciones y tipos de bosques ser\u00eda clave para su implementaci\u00f3n a gran escala.",
+        "viability": "La viabilidad t\u00e9cnica depende en gran medida del acceso a datos confiables sobre infracciones forestales pasadas. Adem\u00e1s, se requiere inversi\u00f3n en recursos humanos con experiencia en aprendizaje autom\u00e1tico y en infraestructura computacional adecuada para el entrenamiento y mantenimiento del modelo."
     },
     {
         "title": "Dashboard de Monitoreo de Sanciones",
         "description": "Crear un dashboard interactivo que permita visualizar datos clave sobre las sanciones aplicadas, incluyendo mapas, gr\u00e1ficos y tablas.",
         "technique": "Desarrollo de dashboards (Power BI, Tableau)",
         "columns": "Todas las columnas del dataset (Para una visualizaci\u00f3n completa de los datos)",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "El proyecto de 'Dashboard de Monitoreo de Sanciones' consiste en desarrollar un tablero interactivo que utiliza la visualizaci\u00f3n de datos para promover la transparencia y el an\u00e1lisis de sanciones. El tablero mostrar\u00e1 informaci\u00f3n sobre las sanciones, incluyendo su tipo, gravedad, ubicaci\u00f3n y demograf\u00eda, a trav\u00e9s de mapas interactivos, gr\u00e1ficos din\u00e1micos y detalles de casos espec\u00edficos.",
+        "impact": "Este proyecto tendr\u00e1 un impacto significativo al aumentar la transparencia en torno a las sanciones, permitiendo identificar tendencias y patrones, analizar disparidades y promover pol\u00edticas m\u00e1s justas. La integraci\u00f3n de an\u00e1lisis predictivo utilizando machine learning permitir\u00e1 intervenir proactivamente para reducir el riesgo futuro de sanciones.",
+        "scalability": "La escalabilidad del proyecto se ve reforzada por su capacidad de integrarse con bases de datos legales existentes y sistemas de recursos humanos, ampliando as\u00ed su utilidad. Adem\u00e1s, la posibilidad de localizaci\u00f3n asegura su aplicabilidad a nivel global.",
+        "viability": "El proyecto es t\u00e9cnicamente viable gracias al uso de plataformas como Power BI o Tableau, que ofrecen una combinaci\u00f3n atractiva de funcionalidad, usabilidad y coste-efectividad. La priorizaci\u00f3n de funcionalidades esenciales y la exploraci\u00f3n de alternativas open-source aseguran que el proyecto se ajuste al presupuesto."
     },
     {
         "title": "An\u00e1lisis de Impacto de las Sanciones",
         "description": "Evaluar el impacto de las sanciones en la reducci\u00f3n de infracciones forestales y la protecci\u00f3n del medio ambiente.",
         "technique": "An\u00e1lisis estad\u00edstico, comparaci\u00f3n de datos pre y post sanci\u00f3n",
         "columns": "FECHA_CORTE (Para comparar periodos antes y despu\u00e9s de las sanciones), INFRACCIONES (Tipo de infracci\u00f3n para analizar tendencias), SANCION (Tipo de sanci\u00f3n aplicada)",
-        "type": "fa-balance-scale"
+        "type": "fa-balance-scale",
+        "complement_idea": "El an\u00e1lisis de impacto de las sanciones utilizar\u00e1 un enfoque estad\u00edstico riguroso para evaluar su efectividad en la reducci\u00f3n de la tala ilegal y la protecci\u00f3n del medio ambiente. ",
+        "impact": "La comparaci\u00f3n de datos pre y post-sanci\u00f3n, junto con la evaluaci\u00f3n del impacto ambiental (deforestaci\u00f3n, biodiversidad, secuestro de carbono), permitir\u00e1 cuantificar los beneficios alcanzados.",
+        "scalability": "El enfoque estad\u00edstico es escalable y adaptable a diferentes contextos geogr\u00e1ficos y tipos de sanciones. Los resultados pueden servir para informar pol\u00edticas de gesti\u00f3n forestal m\u00e1s efectivas.",
+        "viability": "La viabilidad del an\u00e1lisis se basa en la disponibilidad de datos confiables sobre infracciones forestales y indicadores ambientales. La colaboraci\u00f3n con instituciones gubernamentales y organizaciones ambientales ser\u00e1 crucial."
     }
 ]

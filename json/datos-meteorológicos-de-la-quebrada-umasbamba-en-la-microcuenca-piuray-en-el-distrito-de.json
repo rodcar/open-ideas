@@ -4,34 +4,54 @@
         "description": "Este mapa visualizar\u00e1 la distribuci\u00f3n espacial de las precipitaciones en la quebrada Umasbamba. El usuario podr\u00e1 interactuar con el mapa para ver informaci\u00f3n detallada sobre la intensidad de las lluvias en diferentes puntos y fechas.",
         "technique": "Geo-referenciaci\u00f3n, an\u00e1lisis espacial, visualizaci\u00f3n en mapas",
         "columns": "FECHA_REGISTRO (filtrar por fecha), HORA_REGISTRO (filtrar por hora), PRECIPITACION (valor a mostrar en el mapa), LATITUD (obtener de UBIGEO o datos geogr\u00e1ficos adicionales), LONGITUD (obtener de UBIGEO o datos geogr\u00e1ficos adicionales).",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El mapa interactivo de intensidad de lluvia para la cuenca de Umasbamba es una idea brillante que puede tener un impacto significativo en la comunidad. Aqu\u00ed hay algunas ideas para complementarlo: ",
+        "impact": "Este proyecto tiene un gran potencial de impacto al proporcionar informaci\u00f3n vital sobre las precipitaciones a los agricultores, quienes podr\u00e1n planificar mejor sus cultivos, y a las autoridades locales, que podr\u00e1n tomar medidas preventivas ante posibles inundaciones o deslizamientos.  Tambi\u00e9n puede ser \u00fatil para la gesti\u00f3n de recursos h\u00eddricos.",
+        "scalability": "La naturaleza modular del proyecto lo hace f\u00e1cilmente escalable a otras cuencas hidrogr\u00e1ficas. Se puede crear un mapa similar para cualquier regi\u00f3n donde se disponga de datos meteorol\u00f3gicos. Esto permitir\u00eda una mejor planificaci\u00f3n y gesti\u00f3n del agua a nivel regional e incluso nacional.",
+        "viability": "T\u00e9cnicamente, el proyecto es viable ya que se basa en tecnolog\u00edas GIS y de cartograf\u00eda web probadas. El acceso a datos meteorol\u00f3gicos confiables ser\u00e1 crucial para la precisi\u00f3n del mapa. La colaboraci\u00f3n con instituciones meteorol\u00f3gicas locales o nacionales puede ser fundamental."
     },
     {
         "title": "An\u00e1lisis de Patrones de Precipitaci\u00f3n",
         "description": "Se aplicar\u00e1 machine learning para identificar patrones y tendencias en las precipitaciones. Esto permitir\u00e1 predecir posibles eventos extremos como sequ\u00edas o inundaciones.",
         "technique": "Machine Learning (modelos de series temporales), an\u00e1lisis estad\u00edstico",
         "columns": "FECHA_REGISTRO (variable temporal), HORA_REGISTRO (variable temporal), PRECIPITACION (variable a predecir)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "\u00a1An\u00e1lisis de Patrones de Precipitaci\u00f3n es una idea innovadora que combina el poder de aprendizaje autom\u00e1tico con an\u00e1lisis estad\u00edstico para predecir eventos clim\u00e1ticos extremos!",
+        "impact": "Este proyecto tiene un impacto potencial enorme. Las predicciones precisas pueden salvar vidas y proteger los medios de vida al permitir que las comunidades se preparen para sequ\u00edas e inundaciones. Adem\u00e1s, la asignaci\u00f3n de recursos dirigidos puede mitigar a\u00fan m\u00e1s el impacto de estos eventos.",
+        "scalability": "Para escalar este proyecto, es fundamental colaborar con agencias meteorol\u00f3gicas para acceder a datos de precipitaci\u00f3n de alta calidad en todo el mundo.  El desarrollo de modelos locales y adaptables garantizar\u00e1 precisi\u00f3n en diferentes regiones.",
+        "viability": "La viabilidad del proyecto depende de abordar desaf\u00edos como la interpretabilidad de los modelos (para construir confianza) y el equilibrio entre recursos computacionales y costos. La utilizaci\u00f3n de bibliotecas de aprendizaje autom\u00e1tico de c\u00f3digo abierto y la computaci\u00f3n en la nube pueden ser soluciones efectivas."
     },
     {
         "title": "Dashboard de Monitoreo Hidrol\u00f3gico",
         "description": "Se desarrollar\u00e1 un dashboard interactivo que muestre informaci\u00f3n en tiempo real sobre las condiciones hidrol\u00f3gicas de la quebrada. Esto ser\u00e1 \u00fatil para la gesti\u00f3n de recursos h\u00eddricos y la prevenci\u00f3n de desastres.",
         "technique": "Desarrollo web, visualizaci\u00f3n de datos (Dashboards)",
         "columns": "FECHA_REGISTRO (filtrar por fecha), HORA_REGISTRO (filtrar por hora), PRECIPITACION (mostrar en gr\u00e1ficos), DEPARTAMENTO (filtrar por ubicaci\u00f3n), PROVINCIA (filtrar por ubicaci\u00f3n), DISTRITO (filtrar por ubicaci\u00f3n)",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "El Dashboard de Monitoreo Hidrol\u00f3gico es una herramienta innovadora que combina datos hidrol\u00f3gicos en tiempo real con tecnolog\u00eda accesible para empoderar a la comunidad y las autoridades locales. Se puede complementar integrando informaci\u00f3n sobre el clima, patrones de uso del agua y sistemas de alerta temprana.",
+        "impact": "Este proyecto tendr\u00e1 un alto impacto social al brindar informaci\u00f3n vital para la toma de decisiones en materia de agricultura (riego eficiente), seguridad (prevenci\u00f3n de inundaciones) y gesti\u00f3n de recursos h\u00eddricos. Adem\u00e1s, promover\u00e1 la participaci\u00f3n ciudadana y el desarrollo local.",
+        "scalability": "La naturaleza open-source del Dashboard facilita su escalabilidad a otras cuencas hidrogr\u00e1ficas. El modelo puede ser replicado y adaptado a diferentes contextos geogr\u00e1ficos y socioecon\u00f3micos.",
+        "viability": "La viabilidad econ\u00f3mica del proyecto se basa en la utilizaci\u00f3n de tecnolog\u00eda de bajo costo y la posibilidad de obtener financiamiento a trav\u00e9s de fondos gubernamentales o internacionales destinados a proyectos de gesti\u00f3n de recursos h\u00eddricos y mitigaci\u00f3n de desastres."
     },
     {
         "title": "Comparaci\u00f3n Hist\u00f3rica de Precipitaciones",
         "description": "Se analizar\u00e1n los datos hist\u00f3ricos de precipitaci\u00f3n para comparar patrones y tendencias a lo largo del tiempo. Esto permitir\u00e1 entender c\u00f3mo han cambiado las condiciones clim\u00e1ticas en la regi\u00f3n.",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos (gr\u00e1ficos de l\u00ednea)",
         "columns": "FECHA_REGISTRO (variable temporal), PRECIPITACION (variable a comparar)",
-        "type": "fa-history"
+        "type": "fa-history",
+        "complement_idea": "Integrar elementos sonoros en las visualizaciones para aumentar el compromiso emocional con los datos.",
+        "impact": "Este proyecto beneficia directamente a las comunidades al proporcionar informaci\u00f3n para la planificaci\u00f3n agr\u00edcola, la gesti\u00f3n de recursos h\u00eddricos y la preparaci\u00f3n ante desastres. Su dise\u00f1o escalable permite la expansi\u00f3n geogr\u00e1fica e integraci\u00f3n de datos clim\u00e1ticos adicionales (temperatura, humedad) para una comprensi\u00f3n m\u00e1s completa del cambio clim\u00e1tico regional.",
+        "scalability": "F\u00e1cil adaptaci\u00f3n a diferentes regiones y tipos de datos (temperatura, humedad). Las plataformas de visualizaci\u00f3n interactivas online permiten la personalizaci\u00f3n y accesibilidad para diversos usuarios.",
+        "viability": "-"
     },
     {
         "title": "Identificaci\u00f3n de Zonas Vulnerables",
         "description": "Se utilizar\u00e1 informaci\u00f3n geogr\u00e1fica y datos meteorol\u00f3gicos para identificar \u00e1reas con mayor riesgo de sufrir los efectos de eventos extremos relacionados con la precipitaci\u00f3n.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, superposici\u00f3n de capas",
         "columns": "UBIGEO (ubicaci\u00f3n geogr\u00e1fica), PRECIPITACION (intensidad de la lluvia), ALTITUD (obtener de datos geogr\u00e1ficos adicionales)",
-        "type": "fa-shield-alt"
+        "type": "fa-shield-alt",
+        "complement_idea": "Identificaci\u00f3n de Zonas Vulnerables propone una soluci\u00f3n innovadora y pr\u00e1ctica para la preparaci\u00f3n ante desastres utilizando an\u00e1lisis espacial y datos meteorol\u00f3gicos. Se centra en identificar proactivamente zonas de alto riesgo ante eventos de precipitaci\u00f3n extrema, permitiendo intervenciones focalizadas como la asignaci\u00f3n eficiente de recursos y la planificaci\u00f3n de infraestructuras.",
+        "impact": "Este enfoque tiene un impacto significativo al mejorar la preparaci\u00f3n ante desastres y la resiliencia de las comunidades. Permite alertas tempranas dirigidas, una asignaci\u00f3n m\u00e1s eficaz de recursos (suministros de emergencia, mejoras en infraestructuras) y decisiones informadas basadas en datos para mitigar los riesgos.",
+        "scalability": "La viabilidad a largo plazo de Identificaci\u00f3n de Zonas Vulnerables se ve reforzada por su naturaleza escalable. Una plataforma de c\u00f3digo abierto fomenta la participaci\u00f3n comunitaria y la adaptaci\u00f3n a diferentes contextos. La integraci\u00f3n de datos en tiempo real y el aprendizaje autom\u00e1tico mejoran la precisi\u00f3n y las capacidades predictivas.",
+        "viability": "La idea es t\u00e9cnicamente viable, ya que se basa en software GIS existente y conjuntos de datos p\u00fablicos. Se requiere conocimiento especializado para modelos avanzados de aprendizaje autom\u00e1tico, pero su implementaci\u00f3n puede generar un impacto significativo en la preparaci\u00f3n ante desastres."
     }
 ]

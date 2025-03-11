@@ -4,34 +4,54 @@
         "description": "Visualizar la ubicaci\u00f3n geogr\u00e1fica de proyectos con certificaci\u00f3n ambiental evaluada por el SENACE. Permite filtrar por tipo de proyecto, estado de evaluaci\u00f3n y departamento.",
         "technique": "Geo-referenciaci\u00f3n, an\u00e1lisis espacial, mapas interactivos (Leaflet o Google Maps API)",
         "columns": "UBIGEO (Para geolocalizar los proyectos), DEPARTAMENTO (Filtrar por departamento), NOM_PROYECTO (Mostrar informaci\u00f3n al hacer clic en un punto), ESTADO (Filtrar por estado de evaluaci\u00f3n), TIPO_IGA (Categorizar tipos de proyectos)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El mapa interactivo podr\u00eda complementarse con informaci\u00f3n adicional sobre cada proyecto, como su descripci\u00f3n, impacto ambiental esperado, presupuesto y contacto de la organizaci\u00f3n responsable. Tambi\u00e9n ser\u00eda \u00fatil incorporar un sistema de comentarios para que los usuarios puedan compartir sus opiniones y sugerencias.",
+        "impact": "El proyecto tendr\u00eda un alto impacto al promover la transparencia en las iniciativas ambientales de Per\u00fa, empoderando a las comunidades locales para que participen en la toma de decisiones y fomentando una mayor responsabilidad por parte de las organizaciones involucradas. ",
+        "scalability": "La plataforma es escalable gracias al uso de tecnolog\u00eda de c\u00f3digo abierto (Leaflet) y la integraci\u00f3n con API de SENACE. Se pueden incorporar datos de otras entidades certificadoras, traducir la interfaz a otros idiomas y ofrecer acceso a la API para que desarrolladores terceros creen nuevas aplicaciones basadas en los datos del mapa.",
+        "viability": "La viabilidad econ\u00f3mica del proyecto es alta debido al uso de herramientas de c\u00f3digo abierto, lo que reduce los costos de desarrollo. Adem\u00e1s, se pueden explorar modelos de monetizaci\u00f3n como la suscripci\u00f3n a funciones premium o la venta de informes personalizados."
     },
     {
         "title": "Dashboard de Monitoreo de Inversiones",
         "description": "Analizar las tendencias de inversi\u00f3n en proyectos con certificaci\u00f3n ambiental. Mostrar el monto total invertido por departamento, tipo de proyecto y estado de evaluaci\u00f3n.",
         "technique": "An\u00e1lisis de datos, visualizaci\u00f3n de dashboards (Power BI o Tableau)",
         "columns": "DEPARTAMENTO (Agrupar inversiones por departamento), NOM_PROYECTO (Identificar proyectos individuales), TIPO_IGA (Categorizar tipos de proyectos), ESTADO (Analizar inversiones seg\u00fan el estado de evaluaci\u00f3n), MONTO_INV, MONEDA_INV (Calcular monto total invertido)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Identificaci\u00f3n de \u00c1reas con Mayor Actividad Ambiental",
         "description": "Utilizar machine learning para identificar \u00e1reas geogr\u00e1ficas con mayor concentraci\u00f3n de proyectos con certificaci\u00f3n ambiental. Esto puede ayudar a guiar pol\u00edticas de desarrollo sostenible.",
         "technique": "Machine Learning (Clustering), Geo-referenciaci\u00f3n, an\u00e1lisis espacial",
         "columns": "LONGITUD, LATITUD (Para ubicar los proyectos geogr\u00e1ficamente), TIPO_IGA (Categorizar tipos de proyectos para an\u00e1lisis m\u00e1s detallado)",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "La idea de utilizar el aprendizaje autom\u00e1tico para identificar \u00e1reas con alta concentraci\u00f3n de proyectos ambientales certificados es excelente. Para complementarla, se podr\u00eda considerar la integraci\u00f3n de datos sobre indicadores socioecon\u00f3micos y de vulnerabilidad para tener una visi\u00f3n m\u00e1s completa del contexto de cada \u00e1rea.",
+        "impact": "El impacto potencial de esta iniciativa es significativo. Al guiar las inversiones y pol\u00edticas hacia \u00e1reas con mayor necesidad, se puede optimizar el uso de recursos, empoderar a las comunidades locales y promover un desarrollo sostenible m\u00e1s equitativo.",
+        "scalability": "La escalabilidad de la propuesta parece viable gracias al uso de herramientas de c\u00f3digo abierto y a la adaptabilidad de los m\u00e9todos de aprendizaje autom\u00e1tico.  Sin embargo, se requiere una evaluaci\u00f3n cuidadosa de la disponibilidad de datos en diferentes regiones para garantizar su aplicabilidad global.",
+        "viability": "La viabilidad del proyecto depende en gran medida de la accesibilidad a datos confiables sobre proyectos ambientales certificados y de la disponibilidad de expertos en aprendizaje autom\u00e1tico y an\u00e1lisis geoespacial. Se recomienda iniciar con un piloto en una regi\u00f3n espec\u00edfica para evaluar la factibilidad t\u00e9cnica y econ\u00f3mica antes de escalar a nivel global."
     },
     {
         "title": "An\u00e1lisis del Tiempo de Evaluaci\u00f3n",
         "description": "Analizar el tiempo promedio que toma la evaluaci\u00f3n de los proyectos por tipo, departamento y consultora. Identificar posibles cuellos de botella en el proceso.",
         "technique": "An\u00e1lisis de datos, visualizaci\u00f3n temporal (gr\u00e1ficos de l\u00edneas)",
         "columns": "FECHA_ING (Fecha de inicio del proceso), FECHA_RD (Fecha de resoluci\u00f3n), TIPO_IGA (Categorizar por tipo de proyecto), DEPARTAMENTO (Analizar tiempos por departamento), CONSULTORA (Identificar consultoras con tiempos de respuesta m\u00e1s largos)",
-        "type": "fa-calendar-alt"
+        "type": "fa-calendar-alt",
+        "complement_idea": "Para ampliar esta idea, se debe ir m\u00e1s all\u00e1 del an\u00e1lisis de tiempo promedio de evaluaci\u00f3n. Se recomienda incorporar informaci\u00f3n sobre las razones detr\u00e1s de los retrasos, la satisfacci\u00f3n de los solicitantes con el proceso y la calidad de las evaluaciones realizadas.",
+        "impact": "La implementaci\u00f3n de esta idea puede tener un impacto significativo al acelerar la aprobaci\u00f3n de proyectos, lo que permite una mayor cantidad de iniciativas beneficiosas para las comunidades. Adem\u00e1s, optimizar el proceso de evaluaci\u00f3n contribuir\u00e1 a una mejor asignaci\u00f3n de recursos y un mayor retorno de la inversi\u00f3n.",
+        "scalability": "Esta idea es escalable debido a su enfoque basado en datos. Al automatizar la recolecci\u00f3n y an\u00e1lisis de informaci\u00f3n sobre los tiempos de evaluaci\u00f3n, se puede aplicar este m\u00e9todo a diferentes proyectos y organizaciones, adapt\u00e1ndolo a sus necesidades espec\u00edficas.",
+        "viability": "La viabilidad de esta idea es alta, dado que se basa en datos existentes y utiliza herramientas de an\u00e1lisis accesibles. La implementaci\u00f3n requerir\u00e1 un esfuerzo inicial para recopilar y preparar la informaci\u00f3n, pero los beneficios a largo plazo justifican la inversi\u00f3n."
     },
     {
         "title": "Predicci\u00f3n del Estado de Evaluaci\u00f3n",
         "description": "Utilizar machine learning para predecir el estado final de evaluaci\u00f3n de un proyecto basado en caracter\u00edsticas como tipo, ubicaci\u00f3n, consultora y monto de inversi\u00f3n. ",
         "technique": "Machine Learning (clasificaci\u00f3n), an\u00e1lisis predictivo",
         "columns": "TIPO_IGA, DEPARTAMENTO, RUC_CONSULTORA, MONTO_INV, ESTADO (variable objetivo para predecir)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "La idea de 'Predicci\u00f3n del Estado de Evaluaci\u00f3n' utilizando aprendizaje autom\u00e1tico para predecir el \u00e9xito de un proyecto es innovadora y prometedora. Para complementarla, se podr\u00edan considerar los siguientes aspectos:",
+        "impact": "El impacto potencial de esta soluci\u00f3n es significativo. Podr\u00eda llevar a una optimizaci\u00f3n de la asignaci\u00f3n de recursos, una mejora en la selecci\u00f3n de proyectos y una reducci\u00f3n del riesgo de fracaso. Esto podr\u00eda traducirse en ahorros econ\u00f3micos y un mayor \u00e9xito en la consecuci\u00f3n de objetivos.",
+        "scalability": "La escalabilidad de 'Predicci\u00f3n del Estado de Evaluaci\u00f3n' es alta. El modelo puede adaptarse a diferentes tipos de proyectos, industrias y regiones mediante el ajuste de las caracter\u00edsticas y los datos de entrenamiento. Adem\u00e1s, su integraci\u00f3n con sistemas existentes de gesti\u00f3n de proyectos facilitar\u00eda su implementaci\u00f3n a gran escala.",
+        "viability": "La viabilidad de 'Predicci\u00f3n del Estado de Evaluaci\u00f3n' depende de varios factores clave: la disponibilidad de datos hist\u00f3ricos de calidad, la eliminaci\u00f3n de posibles sesgos en los datos, la utilizaci\u00f3n de t\u00e9cnicas de inteligencia artificial explicativa para garantizar la transparencia y la cuantificaci\u00f3n del retorno de la inversi\u00f3n (ROI) mediante la demostraci\u00f3n de un impacto tangible en los costos o el \u00e9xito de los proyectos."
     }
 ]

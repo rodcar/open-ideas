@@ -4,34 +4,54 @@
         "description": "Este mapa mostrar\u00e1 la ubicaci\u00f3n y magnitud de los sismos registrados en Per\u00fa desde 1960 hasta la actualidad. Permite a los usuarios visualizar patrones de actividad s\u00edsmica y explorar informaci\u00f3n detallada de cada evento.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
         "columns": "FECHA_UTC (para el ordenamiento temporal de los sismos), HORA_UTC (para la visualizaci\u00f3n precisa del momento del evento), LATITUD (para la ubicaci\u00f3n geogr\u00e1fica en el mapa), LONGITUD (para la ubicaci\u00f3n geogr\u00e1fica en el mapa), MAGNITUD (para el tama\u00f1o del marcador en el mapa, indicando la intensidad del sismo).",
-        "type": "fa-map-marker"
+        "type": "fa-map-marker",
+        "complement_idea": "Mapa Interactivo de Sismos puede complementarse con informaci\u00f3n sobre refugios, planes de evacuaci\u00f3n y primeros auxilios en caso de un sismo.",
+        "impact": "El proyecto tendr\u00eda un alto impacto social al brindar informaci\u00f3n accesible sobre la actividad s\u00edsmica, empoderando a las comunidades para tomar medidas preventivas y prepararse ante posibles terremotos.",
+        "scalability": "La plataforma es escalable. Se pueden incorporar datos de otras regiones s\u00edsmicas en Per\u00fa o incluso a nivel regional, convirti\u00e9ndose en una herramienta valiosa para Am\u00e9rica Latina.",
+        "viability": "Es un proyecto viable tecnol\u00f3gicamente gracias al uso de herramientas open-source y la colaboraci\u00f3n con instituciones como el IGP. La sostenibilidad se puede asegurar mediante alianzas con ONGs, gobiernos locales y empresas interesadas en la seguridad s\u00edsmica."
     },
     {
         "title": "Predicci\u00f3n de Probabilidad S\u00edsmica",
         "description": "Utilizando datos hist\u00f3ricos de sismos y machine learning, se puede desarrollar un modelo que prediga la probabilidad de ocurrencia de sismos en diferentes regiones de Per\u00fa.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
         "columns": "FECHA_UTC (para analizar tendencias temporales), LATITUD (para delimitar zonas geogr\u00e1ficas), LONGITUD (para delimitar zonas geogr\u00e1ficas), MAGNITUD (para evaluar la intensidad de eventos previos y ajustar el modelo). ",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de 'Predicci\u00f3n de Probabilidad S\u00edsmica' es excelente.  Propone un sistema que utiliza datos s\u00edsmicos hist\u00f3ricos, an\u00e1lisis geoespacial y aprendizaje autom\u00e1tico para predecir la probabilidad de terremotos en diferentes regiones de Per\u00fa. Adem\u00e1s de la probabilidad, tambi\u00e9n predice la magnitud y profundidad de los terremotos, lo que permite una preparaci\u00f3n m\u00e1s dirigida.",
+        "impact": "El impacto potencial es enorme. Podr\u00eda salvar vidas al proporcionar advertencias tempranas a trav\u00e9s de una aplicaci\u00f3n amigable para el usuario, permiti\u00e9ndoles tomar medidas de seguridad. Tambi\u00e9n podr\u00eda ayudar a las autoridades a planificar mejor la respuesta a los desastres y a tomar decisiones informadas sobre infraestructura.",
+        "scalability": "El enfoque escalable en fases, comenzando en una regi\u00f3n de alto riesgo antes de extenderse a nivel nacional, es estrat\u00e9gico. Permite refinar el modelo y abordar posibles desaf\u00edos antes de una implementaci\u00f3n m\u00e1s amplia. La naturaleza adaptable del sistema tambi\u00e9n abre posibilidades para su aplicaci\u00f3n en otros pa\u00edses con alto riesgo s\u00edsmico.",
+        "viability": "La viabilidad t\u00e9cnica parece alta, dado que existen datos hist\u00f3ricos de terremotos disponibles y t\u00e9cnicas de aprendizaje autom\u00e1tico avanzadas para procesarlos. Se requiere un equipo de expertos en an\u00e1lisis de datos, georreferenciaci\u00f3n y aprendizaje autom\u00e1tico, as\u00ed como recursos computacionales adecuados. La colaboraci\u00f3n con instituciones como el IGP y UNI ser\u00eda crucial."
     },
     {
         "title": "Alerta S\u00edsmica Temprana",
         "description": "Un sistema que analiza en tiempo real los datos s\u00edsmicos para detectar se\u00f1ales previas a un terremoto y emitir alertas tempranas a la poblaci\u00f3n.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
         "columns": "FECHA_UTC (para el an\u00e1lisis temporal de eventos), HORA_UTC (para la precisi\u00f3n en las alertas), LATITUD (para identificar la ubicaci\u00f3n del epicentro), LONGITUD (para identificar la ubicaci\u00f3n del epicentro).",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "Implementar 'Alerta S\u00edsmica Temprana' como un sistema abierto que permita la integraci\u00f3n con otras plataformas y tecnolog\u00edas de respuesta a emergencias.",
+        "impact": "El sistema tiene el potencial de salvar vidas al proporcionar tiempo para tomar medidas de seguridad ante terremotos. Tambi\u00e9n puede reducir los da\u00f1os materiales y contribuir a una mayor resiliencia de las comunidades ante desastres naturales.",
+        "scalability": "'Alerta S\u00edsmica Temprana' se puede escalar mediante la colaboraci\u00f3n con instituciones cient\u00edficas, gobiernos locales y regionales, as\u00ed como el uso de tecnolog\u00edas de c\u00f3digo abierto para facilitar su adopci\u00f3n y adaptaci\u00f3n en diferentes contextos.",
+        "viability": "La viabilidad del proyecto depende de asegurar una financiaci\u00f3n sostenible, contar con un equipo multidisciplinario experto en sismolog\u00eda, an\u00e1lisis de datos y desarrollo de software, y establecer alianzas estrat\u00e9gicas con instituciones clave."
     },
     {
         "title": "An\u00e1lisis de Impacto de Sismos",
         "description": "Evaluar los impactos sociales y econ\u00f3micos de los sismos en Per\u00fa. Se puede analizar la relaci\u00f3n entre la magnitud del sismo, la ubicaci\u00f3n y los da\u00f1os causados.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones",
         "columns": "FECHA_UTC (para el an\u00e1lisis temporal de eventos), LATITUD (para identificar zonas afectadas), LONGITUD (para identificar zonas afectadas), MAGNITUD (para correlacionar la intensidad del sismo con los da\u00f1os). ",
-        "type": "fa-building-crash"
+        "type": "fa-building-crash",
+        "complement_idea": "El proyecto \"An\u00e1lisis de Impacto de Sismos\" propone un sistema innovador que combina datos s\u00edsmicos hist\u00f3ricos, indicadores socioecon\u00f3micos y t\u00e9cnicas de aprendizaje autom\u00e1tico para predecir el impacto social y econ\u00f3mico de los terremotos en Per\u00fa. Este enfoque permitir\u00e1 identificar zonas vulnerables, estimar da\u00f1os potenciales y optimizar las estrategias de respuesta ante desastres.",
+        "impact": "El impacto potencial de este proyecto es significativo:  podr\u00eda salvar vidas al mejorar la preparaci\u00f3n ante terremotos, minimizar da\u00f1os a infraestructuras y facilitar una respuesta m\u00e1s efectiva ante emergencias. Adem\u00e1s, el sistema podr\u00eda utilizarse para tomar decisiones informadas sobre planificaci\u00f3n urbana y desarrollo sostenible en zonas de alto riesgo s\u00edsmico.",
+        "scalability": "La escalabilidad del proyecto es alta. El modelo desarrollado se puede adaptar a otras regiones con alto riesgo s\u00edsmico, simplemente ajustando los datos de entrada y los par\u00e1metros del aprendizaje autom\u00e1tico. Esto permite replicar la metodolog\u00eda en diversos contextos globales, contribuyendo a la seguridad global ante desastres naturales.",
+        "viability": "La viabilidad del proyecto es factible. Se basa en datos disponibles p\u00fablicamente y se pueden establecer colaboraciones con instituciones clave como el Instituto Geof\u00edsico del Per\u00fa (IGP) para obtener informaci\u00f3n precisa. La b\u00fasqueda de financiaci\u00f3n a trav\u00e9s de agencias internacionales de ayuda y desarrollo puede asegurar la sostenibilidad del proyecto a largo plazo."
     },
     {
         "title": "Plataforma de Informaci\u00f3n S\u00edsmica",
         "description": "Una plataforma web centralizada que proporciona acceso a informaci\u00f3n detallada sobre sismos en Per\u00fa, incluyendo mapas interactivos, datos hist\u00f3ricos, an\u00e1lisis estad\u00edsticos y alertas.",
         "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, machine learning para identificar patrones, Dashboards",
         "columns": "FECHA_UTC (para el ordenamiento temporal de los datos), HORA_UTC (para la visualizaci\u00f3n precisa del momento del evento), LATITUD (para la ubicaci\u00f3n geogr\u00e1fica), LONGITUD (para la ubicaci\u00f3n geogr\u00e1fica), MAGNITUD (para clasificar la intensidad de los sismos), PROFUNDIDAD (para informaci\u00f3n adicional sobre el evento).",
-        "type": "fa-database"
+        "type": "fa-database",
+        "complement_idea": "Plataforma de Informaci\u00f3n S\u00edsmica es una idea brillante que puede ser complementada con la inclusi\u00f3n de informaci\u00f3n sobre refugios seguros en caso de sismos, rutas de evacuaci\u00f3n y consejos pr\u00e1cticos para prepararse ante un evento s\u00edsmico.",
+        "impact": "La plataforma tendr\u00e1 un alto impacto al brindar acceso a informaci\u00f3n crucial sobre actividad s\u00edsmica a la poblaci\u00f3n peruana, empoder\u00e1ndola para tomar medidas preventivas y responder con mayor seguridad ante terremotos. La accesibilidad de la informaci\u00f3n en diferentes idiomas facilitar\u00e1 su alcance a toda la comunidad.",
+        "scalability": "El uso de un framework de c\u00f3digo abierto permitir\u00e1 que la plataforma sea adaptada a otras regiones con alto riesgo s\u00edsmico, ampliando su impacto global. La posibilidad de incorporar m\u00f3dulos adicionales y funcionalidades nuevas asegura que la plataforma evolucione y se mantenga relevante.",
+        "viability": "La viabilidad t\u00e9cnica de la plataforma es alta gracias al uso de datos p\u00fablicos y herramientas de desarrollo de c\u00f3digo abierto de bajo costo.  Esto permite un desarrollo eficiente y sostenible a largo plazo."
     }
 ]

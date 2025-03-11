@@ -4,34 +4,54 @@
         "description": "Este aplicativo utilizar\u00e1 datos georreferenciados de \u00e1reas naturales protegidas y centros de salud para identificar zonas rurales con acceso limitado. Luego, mediante machine learning, se analizar\u00e1n patrones de movilidad para optimizar rutas de atenci\u00f3n m\u00f3vil.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, machine learning para identificar patrones de movilidad, visualizaci\u00f3n en dashboards interactivos",
         "columns": " latitud_centro_salud (ubicaci\u00f3n geogr\u00e1fica del centro de salud), longitud_centro_salud (ubicaci\u00f3n geogr\u00e1fica del centro de salud), tipo_area_natural (categor\u00eda de \u00e1rea natural protegida), poblacion_rural (cantidad de habitantes en zonas rurales cercanas), distancia_a_centro_salud (distancia en kil\u00f3metros a la ubicaci\u00f3n m\u00e1s cercana de un centro de salud).",
-        "type": "fa-hospital"
+        "type": "fa-hospital",
+        "complement_idea": "El sistema podr\u00eda complementarse con la incorporaci\u00f3n de datos sobre la demanda espec\u00edfica de servicios de salud en las diferentes \u00e1reas rurales. Esto permitir\u00eda optimizar a\u00fan m\u00e1s las rutas de las unidades m\u00f3viles, dirigi\u00e9ndolas a zonas donde hay una mayor necesidad de atenci\u00f3n m\u00e9dica.",
+        "impact": "La soluci\u00f3n tiene un alto impacto potencial al mejorar el acceso a los servicios de salud en zonas rurales remotas. Al optimizar las rutas de las unidades m\u00f3viles, se garantiza que la atenci\u00f3n m\u00e9dica llegue a m\u00e1s personas, mejorando su calidad de vida y reduciendo las desigualdades.",
+        "scalability": "El sistema es escalable y adaptable a diferentes contextos geogr\u00e1ficos. La base de datos puede ser actualizada con informaci\u00f3n de nuevas zonas rurales, y los algoritmos de aprendizaje autom\u00e1tico pueden ajustarse para optimizar rutas en funci\u00f3n de las caracter\u00edsticas espec\u00edficas de cada regi\u00f3n.",
+        "viability": "La soluci\u00f3n es t\u00e9cnicamente viable y econ\u00f3micamente sostenible. El uso de herramientas de c\u00f3digo abierto y la optimizaci\u00f3n de rutas contribuyen a reducir costos. Adem\u00e1s, se pueden explorar modelos de financiaci\u00f3n que involucren a instituciones p\u00fablicas, ONGs y el sector privado."
     },
     {
         "title": "Optimizaci\u00f3n del Transporte P\u00fablico Urbano Inteligente",
         "description": "Se utilizar\u00e1n datos de geolocalizaci\u00f3n de paradas, patrones de viaje y tiempo real de transporte p\u00fablico para optimizar rutas, frecuencias y asignaci\u00f3n de veh\u00edculos. Un sistema de alertas en tiempo real informar\u00e1 a los usuarios sobre retrasos o cambios en las rutas.",
         "technique": "An\u00e1lisis de big data, machine learning predictivo para optimizar rutas y frecuencias, desarrollo de una aplicaci\u00f3n m\u00f3vil con alertas en tiempo real",
         "columns": "id_parada (identificador \u00fanico de cada parada), latitud_parada (ubicaci\u00f3n geogr\u00e1fica de la parada), longitud_parada (ubicaci\u00f3n geogr\u00e1fica de la parada), hora_llegada (hora estimada de llegada del transporte p\u00fablico a la parada), linea_transporte (identificador de la l\u00ednea de transporte p\u00fablico).",
-        "type": "fa-bus"
+        "type": "fa-bus",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Plataforma de Educaci\u00f3n Digital Inclusiva",
         "description": "Esta plataforma facilitar\u00e1 el acceso a recursos educativos digitales para comunidades rurales. Se usar\u00e1n datos demogr\u00e1ficos y de conectividad para identificar \u00e1reas con mayor necesidad y ofrecer cursos adaptados a diferentes niveles educativos.",
         "technique": "Desarrollo web, aprendizaje adaptativo basado en machine learning, mapas interactivos para visualizar la cobertura de internet",
         "columns": "codigo_postal (c\u00f3digo postal del \u00e1rea geogr\u00e1fica), porcentaje_conectividad (porcentaje de hogares con acceso a internet), nivel_educativo (nivel educativo predominante en el \u00e1rea), tipo_recurso (categor\u00eda del recurso educativo, por ejemplo, videos, textos, ejercicios).",
-        "type": "fa-graduation-cap"
+        "type": "fa-graduation-cap",
+        "complement_idea": "La idea de 'Plataforma de Educaci\u00f3n Digital Inclusiva' se complementa con la propuesta de crear 'puntos de acceso digital' en comunidades rurales. Estos puntos, equipados con computadoras y conexi\u00f3n a internet, podr\u00edan servir como centros comunitarios para acceder a la plataforma y recibir apoyo t\u00e9cnico.",
+        "impact": "El impacto de la plataforma ser\u00eda significativo al brindar educaci\u00f3n de calidad a personas que tradicionalmente no tienen acceso a ella. Esto podr\u00eda mejorar las oportunidades econ\u00f3micas, el desarrollo social y la inclusi\u00f3n de estas comunidades.",
+        "scalability": "La plataforma es escalable gracias a su dise\u00f1o modular y el uso de tecnolog\u00edas open-source. Se puede adaptar a diferentes contextos culturales y ling\u00fc\u00edsticos, permiti\u00e9ndola expandirse a otras regiones.",
+        "viability": "La viabilidad econ\u00f3mica se ve fortalecida por la posibilidad de obtener financiaci\u00f3n a trav\u00e9s de subvenciones destinadas a proyectos educativos y de desarrollo social. Adem\u00e1s, la plataforma se basa en tecnolog\u00edas accesibles, lo que reduce los costos de implementaci\u00f3n y mantenimiento."
     },
     {
         "title": "Sistema de Vigilancia Ambiental para \u00c1reas Protegidas",
         "description": "Se implementar\u00e1 un sistema de monitoreo remoto que utiliza datos satelitales y sensores IoT para detectar cambios en la cobertura vegetal, presencia de incendios forestales o actividades ilegales dentro de las \u00e1reas protegidas.",
         "technique": "Procesamiento de im\u00e1genes satelitales, machine learning para identificar patrones an\u00f3malos, alerta temprana mediante notificaciones m\u00f3viles",
         "columns": "fecha_imagen (fecha de captura de la imagen satelital), latitud (coordenadas geogr\u00e1ficas del \u00e1rea analizada), longitud (coordenadas geogr\u00e1ficas del \u00e1rea analizada), tipo_cambio (categor\u00eda del cambio detectado, por ejemplo, deforestaci\u00f3n, incendio), severidad_cambio (nivel de impacto del cambio).",
-        "type": "fa-tree"
+        "type": "fa-tree",
+        "complement_idea": "Sistema de Vigilancia Ambiental para \u00c1reas Protegidas es una soluci\u00f3n innovadora que utiliza im\u00e1genes satelitales y sensores IoT para monitorear \u00e1reas protegidas. La combinaci\u00f3n de an\u00e1lisis de datos, inteligencia artificial y participaci\u00f3n comunitaria permite la detecci\u00f3n temprana de amenazas como deforestaci\u00f3n, incendios y actividades ilegales.",
+        "impact": "Este sistema tiene un impacto significativo al proteger la biodiversidad, mitigar el cambio clim\u00e1tico y promover el desarrollo sostenible en las comunidades locales. Al proporcionar informaci\u00f3n precisa y oportuna sobre las amenazas ambientales, permite a los actores clave tomar decisiones informadas y ejecutar acciones efectivas para proteger los ecosistemas.",
+        "scalability": "Sistema de Vigilancia Ambiental para \u00c1reas Protegidas es escalable gracias a su dise\u00f1o modular y la infraestructura en la nube. Esto significa que se puede adaptar a diferentes tama\u00f1os y tipos de \u00e1reas protegidas, desde peque\u00f1as reservas hasta vastas regiones naturales. Adem\u00e1s, el uso de tecnolog\u00eda satelital permite cubrir grandes extensiones de terreno de forma eficiente.",
+        "viability": "La viabilidad del sistema est\u00e1 respaldada por su enfoque costo-efectivo en la adquisici\u00f3n de datos satelitales a trav\u00e9s de asociaciones o plataformas de c\u00f3digo abierto. Adem\u00e1s, la generaci\u00f3n de datos valiosos sobre las condiciones ambientales puede atraer financiamiento a trav\u00e9s de fondos de conservaci\u00f3n o inversiones de impacto."
     },
     {
         "title": "Plataforma de Gesti\u00f3n de Recursos Naturales Sostenibles",
         "description": "Se desarrollar\u00e1 una plataforma que utiliza datos georreferenciados sobre \u00e1reas protegidas, recursos h\u00eddricos y patrones clim\u00e1ticos para optimizar la gesti\u00f3n sostenible de los recursos naturales. Se incorporar\u00e1n modelos predictivos para evaluar el impacto de diferentes estrategias de manejo.",
         "technique": "An\u00e1lisis espacial, machine learning para modelar escenarios futuros, visualizaci\u00f3n en dashboards interactivos",
         "columns": "id_area_natural (identificador \u00fanico del \u00e1rea protegida), tipo_recurso (categor\u00eda del recurso natural, por ejemplo, agua, suelo, biodiversidad), disponibilidad_recurso (cantidad disponible del recurso), demanda_recurso (cantidad demandada del recurso), proyecci\u00f3n_cambio_clim\u00e1tico (predicci\u00f3n sobre el impacto del cambio clim\u00e1tico en el recurso).",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "La plataforma complementa la gesti\u00f3n tradicional de recursos naturales con un enfoque basado en datos y an\u00e1lisis predictivo. Esto permite tomar decisiones m\u00e1s informadas y proactivas para asegurar la sostenibilidad a largo plazo.",
+        "impact": "La plataforma tendr\u00e1 un impacto positivo significativo en las comunidades locales al mejorar la seguridad alimentaria, la resiliencia clim\u00e1tica y los esfuerzos de conservaci\u00f3n. Al empoderar a las partes interesadas con informaci\u00f3n accesible y herramientas de an\u00e1lisis, se fomentar\u00e1 una gesti\u00f3n m\u00e1s sostenible de los recursos naturales.",
+        "scalability": "La naturaleza de c\u00f3digo abierto y el dise\u00f1o modular de la plataforma garantizan su escalabilidad y adaptabilidad a diversos contextos. Se puede personalizar para satisfacer necesidades espec\u00edficas de diferentes regiones y ecosistemas.",
+        "viability": "El modelo de c\u00f3digo abierto minimiza los costos de desarrollo y mantenimiento. La posibilidad de generar ingresos a trav\u00e9s de m\u00f3dulos personalizados asegura la sostenibilidad econ\u00f3mica a largo plazo."
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Visualizar en tiempo real las rutas y patrones de movimiento de las embarcaciones pesqueras. Esto permite identificar zonas de alta concentraci\u00f3n, analizar posibles \u00e1reas de sobreexplotaci\u00f3n y optimizar la gesti\u00f3n de recursos.",
         "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos (mapas interactivos), filtrado por fecha, r\u00e9gimen, proveedor satelital",
         "columns": "A\u00d1O (filtrado por a\u00f1o), MES (filtrado por mes), ID_anonimizado_TRANSMISION (identificaci\u00f3n \u00fanica de cada transmisi\u00f3n), LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), VEL_NUDOS (visualizaci\u00f3n de la velocidad de las embarcaciones), RUMBO (indicaci\u00f3n de direcci\u00f3n de movimiento), REF_COSTA (mostrar informaci\u00f3n contextual de la zona costera)",
-        "type": "fa-map-marker"
+        "type": "fa-map-marker",
+        "complement_idea": "El proyecto 'Mapa Interactivo de Tr\u00e1fico Pesquero' se complementa con la integraci\u00f3n de un sistema de alertas que notifique a los usuarios sobre posibles \u00e1reas de sobrepesca, cambios en las rutas de migraci\u00f3n de las especies y zonas protegidas. Esto permitir\u00eda una respuesta m\u00e1s r\u00e1pida y efectiva ante situaciones que puedan comprometer la sostenibilidad de los recursos.",
+        "impact": "El impacto potencial del proyecto es significativo. Al optimizar las operaciones de pesca, se puede aumentar la rentabilidad para los pescadores artesanales, mejorando su calidad de vida. Adem\u00e1s, al identificar zonas de sobrepesca, se puede contribuir a la conservaci\u00f3n de los recursos marinos y a la protecci\u00f3n de los ecosistemas. La transparencia que ofrece el mapa tambi\u00e9n puede contribuir a una mejor gobernanza de los oc\u00e9anos.",
+        "scalability": "El proyecto tiene un alto potencial de escalabilidad. El modelo de plataforma abierta permite la participaci\u00f3n de diferentes actores, como investigadores, ONGs y gobiernos, lo que facilita su adaptaci\u00f3n a diferentes contextos y regiones. Adem\u00e1s, la integraci\u00f3n de nuevas tecnolog\u00edas, como la inteligencia artificial para el an\u00e1lisis predictivo, puede expandir a\u00fan m\u00e1s sus funcionalidades.",
+        "viability": "La viabilidad del proyecto depende de la obtenci\u00f3n de financiamiento para cubrir los costos de desarrollo, implementaci\u00f3n y mantenimiento. Sin embargo, las ventajas que ofrece en t\u00e9rminos de sostenibilidad, eficiencia econ\u00f3mica y transparencia hacen que sea una inversi\u00f3n atractiva para diferentes actores, incluyendo organismos internacionales, gobiernos y empresas privadas."
     },
     {
         "title": "Predicci\u00f3n de Zonas de Mayor Captura",
         "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir las zonas donde se espera mayor actividad pesquera, considerando factores como ubicaci\u00f3n, temporada, tipo de embarcaci\u00f3n y patrones hist\u00f3ricos.",
         "technique": "Machine learning (modelos de regresi\u00f3n o clasificaci\u00f3n), an\u00e1lisis de series temporales, mapas de calor",
         "columns": "A\u00d1O (variable temporal), MES (variable temporal), LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), REGIMEN (tipo de pesca puede influir en la captura), PROVEED_SAT (posibles diferencias en la cobertura o precisi\u00f3n de los proveedores)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de \"Predicci\u00f3n de Zonas de Mayor Captura\" puede complementarse con la creaci\u00f3n de una plataforma colaborativa donde los pescadores puedan compartir informaci\u00f3n sobre las capturas y las condiciones del mar, mejorando as\u00ed la precisi\u00f3n del modelo de predicci\u00f3n.",
+        "impact": "Este proyecto tiene un alto impacto social y ambiental. Al optimizar las pr\u00e1cticas de pesca, se puede reducir la sobrepesca, proteger los ecosistemas marinos y mejorar la seguridad alimentaria de las comunidades costeras.",
+        "scalability": "La soluci\u00f3n es escalable ya que el modelo de predicci\u00f3n se puede adaptar a diferentes especies marinas y regiones geogr\u00e1ficas. Adem\u00e1s, se pueden desarrollar aplicaciones m\u00f3viles para facilitar el acceso a la informaci\u00f3n por parte de los pescadores.",
+        "viability": "La viabilidad del proyecto depende de la disponibilidad de datos de calidad, la colaboraci\u00f3n con las comunidades de pescadores y la obtenci\u00f3n de financiaci\u00f3n para su desarrollo e implementaci\u00f3n."
     },
     {
         "title": "An\u00e1lisis de Rutas Optimizadas",
         "description": "Identificar rutas de navegaci\u00f3n m\u00e1s eficientes para las embarcaciones, minimizando tiempo y combustible. Esto puede ayudar a reducir costos operativos y el impacto ambiental.",
         "technique": "An\u00e1lisis de trayectorias, algoritmos de optimizaci\u00f3n de rutas (ej: Dijkstra), visualizaci\u00f3n en mapas",
         "columns": "LATITUD (coordenadas para trazar la ruta), LONGITUD (coordenadas para trazar la ruta), VEL_NUDOS (velocidad puede influir en la ruta \u00f3ptima), RUMBO (direcci\u00f3n de movimiento)",
-        "type": "fa-ship"
+        "type": "fa-ship",
+        "complement_idea": "La idea de 'An\u00e1lisis de Rutas Optimizadas' podr\u00eda complementarse desarrollando un sistema de colaboraci\u00f3n entre buques para compartir informaci\u00f3n sobre condiciones meteorol\u00f3gicas y patrones de tr\u00e1fico en tiempo real, mejorando a\u00fan m\u00e1s la eficiencia y seguridad de las rutas.",
+        "impact": "El impacto potencial de esta soluci\u00f3n es significativo. Al reducir los costos de combustible y las emisiones, se contribuir\u00eda a una industria naviera m\u00e1s sostenible. Adem\u00e1s, la optimizaci\u00f3n de las rutas podr\u00eda aumentar la eficiencia log\u00edstica y reducir los tiempos de entrega.",
+        "scalability": "La escalabilidad de 'An\u00e1lisis de Rutas Optimizadas' parece prometedora. La tecnolog\u00eda subyacente es adaptable a diferentes tipos de embarcaciones y podr\u00eda extenderse a otros sectores de transporte, como el terrestre o a\u00e9reo.",
+        "viability": "La viabilidad de esta soluci\u00f3n depende en gran medida de la capacidad para obtener datos precisos en tiempo real y de integrar el sistema con las tecnolog\u00edas de navegaci\u00f3n existentes. Sin embargo, los beneficios potenciales tanto econ\u00f3micos como ambientales hacen que valga la pena explorar su desarrollo."
     },
     {
         "title": "Monitoreo de Actividad Pesquera Ilegal",
         "description": "Detectar patrones sospechosos de actividad pesquera ilegal, como la pesca en \u00e1reas restringidas o fuera de temporada. Esto puede ayudar a las autoridades a tomar medidas para proteger los recursos marinos.",
         "technique": "An\u00e1lisis de outliers, detecci\u00f3n de anomalias (ej: clustering), visualizaci\u00f3n espacial de alertas",
         "columns": "A\u00d1O (filtrado por a\u00f1o), MES (filtrado por mes), LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), REGIMEN (comparaci\u00f3n con permisos v\u00e1lidos), REF_COSTA (identificaci\u00f3n de \u00e1reas protegidas)",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "Monitoreo de Actividad Pesquera Ilegal utiliza an\u00e1lisis de valores at\u00edpicos y detecci\u00f3n de anomal\u00edas en datos AIS para identificar patrones de pesca sospechosos, como la actividad en zonas restringidas o durante temporadas cerradas. La visualizaci\u00f3n espacial de alertas proporciona a las autoridades informaci\u00f3n en tiempo real para intervenciones dirigidas, protegiendo los ecosistemas marinos.",
+        "impact": "El sistema protege los ecosistemas marinos al prevenir actividades de pesca ilegal, promoviendo pr\u00e1cticas de pesca sostenibles y apoyando la seguridad alimentaria global.",
+        "scalability": "Monitoreo de Actividad Pesquera Ilegal se basa en herramientas de c\u00f3digo abierto e infraestructura en la nube, lo que garantiza una escalabilidad rentable para manejar vol\u00famenes crecientes de datos. Adem\u00e1s, el dise\u00f1o modular permite adaptar el sistema a diferentes regiones y regulaciones.",
+        "viability": "La utilizaci\u00f3n de herramientas de c\u00f3digo abierto reduce los costes de desarrollo y mantenimiento. La automatizaci\u00f3n del proceso de generaci\u00f3n de alertas optimiza la eficiencia y libera recursos humanos para otras tareas. La infraestructura en la nube garantiza una escalabilidad flexible y adaptable a las necesidades cambiantes."
     },
     {
         "title": "Evaluaci\u00f3n del Impacto Ambiental",
         "description": "Analizar el impacto ambiental de la actividad pesquera, considerando factores como la ubicaci\u00f3n de las capturas, la tipolog\u00eda de embarcaciones y la intensidad de pesca. Esto puede ayudar a desarrollar estrategias de gesti\u00f3n sostenible.",
         "technique": "An\u00e1lisis espacial (densidad de puntos), indicadores ambientales (ej: biomasa, biodiversidad), modelos de simulaci\u00f3n",
         "columns": "LATITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), LONGITUD (coordenada para ubicaci\u00f3n geogr\u00e1fica), REGIMEN (tipo de pesca puede tener diferente impacto ambiental), VEL_NUDOS (intensidad de actividad)",
-        "type": "fa-leaf"
+        "type": "fa-leaf",
+        "complement_idea": "El an\u00e1lisis de la huella ambiental de las pr\u00e1cticas pesqueras mediante mapas de densidad de capturas, indicadores ambientales y modelos de simulaci\u00f3n para predecir impactos futuros.",
+        "impact": "Empodera a las comunidades de pesca con datos para pr\u00e1cticas responsables, protege los medios de vida y promueve un futuro sostenible para nuestros oc\u00e9anos.",
+        "scalability": "Al utilizar datos existentes y software de c\u00f3digo abierto, el marco es escalable y adaptable a diferentes regiones y especies. La modularidad del dise\u00f1o permite una f\u00e1cil personalizaci\u00f3n para abordar necesidades espec\u00edficas.",
+        "viability": "-"
     }
 ]

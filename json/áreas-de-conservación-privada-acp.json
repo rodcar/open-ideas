@@ -4,34 +4,54 @@
         "description": "Una plataforma web y m\u00f3vil que conecta a personas en zonas rurales con profesionales de la salud. Se utilizar\u00e1 geolocalizaci\u00f3n para identificar las necesidades de atenci\u00f3n m\u00e9dica m\u00e1s urgentes y conectarlas con recursos disponibles.",
         "technique": "An\u00e1lisis de datos espaciales, geo-referenciaci\u00f3n, machine learning para predecir patrones de demanda, desarrollo web y m\u00f3vil",
         "columns": "Ubicaci\u00f3n (Para geolocalizar a los usuarios), Tipo de servicio necesario (Para clasificar la necesidad m\u00e9dica), Disponibilidad de profesionales (Para identificar recursos cercanos), Distancia (Para calcular la accesibilidad), Idioma (Para facilitar la comunicaci\u00f3n)",
-        "type": "fa-hospital"
+        "type": "fa-hospital",
+        "complement_idea": "La plataforma 'Plataforma de acceso a servicios de salud' es una idea innovadora que utiliza la geolocalizaci\u00f3n y el an\u00e1lisis espacial para conectar a las personas en \u00e1reas rurales con los recursos m\u00e9dicos que necesitan. Esto podr\u00eda complementarse a\u00fan m\u00e1s ofreciendo:",
+        "impact": " La plataforma tiene un impacto significativo al mejorar el acceso a la atenci\u00f3n m\u00e9dica para las poblaciones rurales, mejorando los resultados de salud y reduciendo las disparidades en el acceso a la atenci\u00f3n.",
+        "scalability": "La plataforma es escalable gracias a su dise\u00f1o modular. Se pueden agregar f\u00e1cilmente nuevas funciones, como telemedicina o atenci\u00f3n especializada, a medida que crece la demanda. La naturaleza basada en la web tambi\u00e9n facilita la expansi\u00f3n geogr\u00e1fica.",
+        "viability": "-"
     },
     {
         "title": "Optimizador de rutas de transporte p\u00fablico",
         "description": "Un sistema que utiliza datos en tiempo real sobre el tr\u00e1fico, la demanda y los horarios para optimizar las rutas de autobuses y otros medios de transporte p\u00fablico. Esto permitir\u00e1 reducir tiempos de viaje, mejorar la eficiencia y aumentar la accesibilidad.",
         "technique": "An\u00e1lisis de big data, machine learning para predicci\u00f3n de patrones de movilidad, integraci\u00f3n con sistemas GPS, desarrollo de app m\u00f3vil",
         "columns": "Ubicaci\u00f3n (Para rastrear el movimiento de los veh\u00edculos), Hora (Para ajustar las rutas seg\u00fan la demanda), N\u00famero de pasajeros (Para optimizar la capacidad), Estado del tr\u00e1fico (Para evitar congestiones), Tipo de transporte (Para diferenciar rutas)",
-        "type": "fa-bus"
+        "type": "fa-bus",
+        "complement_idea": "La idea de 'Optimizador de Rutas' es complementaria a los esfuerzos existentes para mejorar el transporte p\u00fablico. Al utilizar la tecnolog\u00eda, busca resolver problemas persistentes como las demoras, la falta de accesibilidad y la ineficiencia.",
+        "impact": "'Optimizador de Rutas' tiene un gran potencial de impacto social. Puede reducir significativamente los tiempos de viaje, mejorar el acceso al transporte para personas con discapacidades o en \u00e1reas remotas, y contribuir a una movilidad m\u00e1s sostenible.",
+        "scalability": "La escalabilidad del proyecto parece viable gracias a la propuesta de implementaci\u00f3n en fases. Empezar en una ciudad permite probar y refinar el sistema antes de extenderlo a otras \u00e1reas, controlando los costes y minimizando los riesgos.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto se basa en tecnolog\u00edas existentes y probadas. Sin embargo, el \u00e9xito depender\u00e1 de la colaboraci\u00f3n con las autoridades de transporte para acceder a datos en tiempo real y de la capacidad de crear una aplicaci\u00f3n accesible y f\u00e1cil de usar para todos los usuarios."
     },
     {
         "title": "Programa de alfabetizaci\u00f3n digital para comunidades rurales",
         "description": "Un programa que utiliza recursos digitales y plataformas online para ense\u00f1ar habilidades digitales b\u00e1sicas a personas en \u00e1reas remotas. Se usar\u00e1n herramientas interactivas, cursos en l\u00ednea y apoyo personalizado.",
         "technique": "Dise\u00f1o instruccional, desarrollo web, an\u00e1lisis de datos de participaci\u00f3n, gamificaci\u00f3n",
         "columns": "Nivel de alfabetizaci\u00f3n digital inicial (Para personalizar el aprendizaje), Acceso a internet (Para identificar \u00e1reas con mayor necesidad), Intereses del usuario (Para adaptar el contenido), Progreso en el aprendizaje (Para monitorear la efectividad del programa),Retroalimentaci\u00f3n (Para mejorar el curso)",
-        "type": "fa-laptop"
+        "type": "fa-laptop",
+        "complement_idea": "El Programa de alfabetizaci\u00f3n digital para comunidades rurales es una iniciativa innovadora que busca empoderar a las comunidades rurales mediante el desarrollo de habilidades digitales esenciales. La idea se complementa con la implementaci\u00f3n de soluciones de acceso offline, como contenido descargable y centros de aprendizaje solares, para superar las barreras de conectividad.",
+        "impact": "El impacto potencial del programa es significativo. Al proporcionar acceso a la informaci\u00f3n, oportunidades educativas y herramientas digitales, el programa puede mejorar la calidad de vida de las personas en las comunidades rurales, promover el desarrollo econ\u00f3mico local y fomentar la inclusi\u00f3n social.",
+        "scalability": "El programa tiene un alto potencial de escalabilidad debido a su dise\u00f1o modular adaptable a diversas necesidades comunitarias. La utilizaci\u00f3n de plataformas online accesibles y la capacitaci\u00f3n de facilitadores locales contribuyen a su sostenibilidad y replicabilidad en diferentes contextos.",
+        "viability": "La viabilidad del programa se ve reforzada por el uso de tecnolog\u00edas de bajo costo, la colaboraci\u00f3n con organizaciones locales y la generaci\u00f3n de un modelo sostenible a trav\u00e9s del empoderamiento comunitario. La combinaci\u00f3n de innovaci\u00f3n tecnol\u00f3gica, enfoque culturalmente relevante y participaci\u00f3n local lo convierte en una iniciativa viable y con gran potencial de \u00e9xito."
     },
     {
         "title": "Sistema de monitoreo ambiental con IA",
         "description": "Una plataforma que utiliza im\u00e1genes satelitales, sensores y machine learning para monitorear la calidad del aire, la deforestaci\u00f3n, los patrones de precipitaci\u00f3n y otros indicadores ambientales.",
         "technique": "An\u00e1lisis de im\u00e1genes satelitales, procesamiento de datos sensoriales, machine learning para detectar patrones y anomal\u00edas, desarrollo de dashboards interactivos",
         "columns": "Ubicaci\u00f3n (Para geolocalizar eventos), Tipo de dato ambiental (Calidad del aire, deforestaci\u00f3n, etc.), Fecha y hora (Para analizar tendencias temporales), Intensidad (Para cuantificar el impacto), Fuente de datos (Sat\u00e9lite, sensor, etc.)",
-        "type": "fa-leaf"
+        "type": "fa-leaf",
+        "complement_idea": "Sistema de monitoreo ambiental con IA es una plataforma innovadora que combina im\u00e1genes satelitales, sensores y aprendizaje autom\u00e1tico para monitorear indicadores ambientales clave como la calidad del aire, la deforestaci\u00f3n y los patrones de precipitaci\u00f3n. Su dise\u00f1o modular y su API abierta permiten la personalizaci\u00f3n e integraci\u00f3n con otras aplicaciones, expandiendo su alcance e impacto.",
+        "impact": "El sistema tiene un alto potencial de impacto social al proporcionar informaci\u00f3n precisa y oportuna sobre el estado del medio ambiente. Esta informaci\u00f3n puede ser utilizada por gobiernos, organizaciones no gubernamentales y comunidades para tomar decisiones informadas y proactivas en relaci\u00f3n a la protecci\u00f3n del medio ambiente, la gesti\u00f3n de recursos naturales y la mitigaci\u00f3n de riesgos ambientales.",
+        "scalability": "Sistema de monitoreo ambiental con IA es altamente escalable gracias a su arquitectura modular y el uso de tecnolog\u00edas en la nube. Esto permite adaptar la plataforma a diferentes contextos geogr\u00e1ficos y tipos de datos ambientales, as\u00ed como aumentar su capacidad de procesamiento de informaci\u00f3n a medida que se necesiten.",
+        "viability": "La viabilidad del sistema depende de factores como la disponibilidad de datos abiertos y de calidad, el desarrollo de modelos de aprendizaje autom\u00e1tico precisos y la capacidad de obtener financiaci\u00f3n para cubrir los costos de desarrollo y mantenimiento. Sin embargo, la creciente demanda de soluciones tecnol\u00f3gicas para la gesti\u00f3n ambiental y la sostenibilidad sugiere que Sistema de monitoreo ambiental con IA tiene un futuro prometedor."
     },
     {
         "title": "Plataforma para la gesti\u00f3n de \u00e1reas naturales protegidas",
         "description": "Una herramienta digital que facilita la administraci\u00f3n de \u00e1reas protegidas, permitiendo el monitoreo de la biodiversidad, la detecci\u00f3n de amenazas y la planificaci\u00f3n de acciones de conservaci\u00f3n.",
         "technique": "An\u00e1lisis espacial, machine learning para identificar patrones en datos biol\u00f3gicos, desarrollo de mapas interactivos, integraci\u00f3n con bases de datos existentes",
         "columns": "Ubicaci\u00f3n (Para mapear las \u00e1reas protegidas), Especies presentes (Para registrar la biodiversidad), Amenazas detectadas (Caza furtiva, incendios, etc.), Medidas de conservaci\u00f3n implementadas (Patrullaje, restauraci\u00f3n, etc.), Estado de conservaci\u00f3n (Para evaluar la efectividad de las acciones)",
-        "type": "fa-tree"
+        "type": "fa-tree",
+        "complement_idea": "La Plataforma para la gesti\u00f3n de \u00e1reas naturales protegidas es una soluci\u00f3n innovadora y viable que combina an\u00e1lisis espacial, aprendizaje autom\u00e1tico y participaci\u00f3n comunitaria para transformar la gesti\u00f3n de \u00e1reas protegidas. ",
+        "impact": "Al predecir amenazas como la caza furtiva y la p\u00e9rdida de h\u00e1bitat, la plataforma permite intervenciones proactivas y protege la biodiversidad. Los mapas interactivos facilitan la toma de decisiones estrat\u00e9gicas y optimizan los esfuerzos de conservaci\u00f3n.",
+        "scalability": "Su dise\u00f1o modular la hace adaptable a diversos ecosistemas y usuarios, ampliando su alcance e impacto. La integraci\u00f3n con iniciativas de ciencia ciudadana aumenta la disponibilidad de datos y enriquece el conocimiento sobre la biodiversidad.",
+        "viability": "El uso de herramientas de c\u00f3digo abierto minimiza los costos de desarrollo y garantiza la sostenibilidad a largo plazo. El empoderamiento de las comunidades locales a trav\u00e9s de la participaci\u00f3n en la recolecci\u00f3n de datos y la toma de decisiones asegura una gesti\u00f3n m\u00e1s efectiva y sostenible de los recursos naturales."
     }
 ]

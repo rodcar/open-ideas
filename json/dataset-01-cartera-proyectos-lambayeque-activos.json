@@ -4,34 +4,54 @@
         "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de los proyectos en Lambayeque, diferenciados por sector (salud, educaci\u00f3n, transporte, etc.). Esto permitir\u00e1 identificar \u00e1reas con mayor o menor inversi\u00f3n en cada sector y detectar posibles desigualdades.",
         "technique": "An\u00e1lisis espacial, cartograf\u00eda, filtrado por sector",
         "columns": "geom (localizaci\u00f3n geogr\u00e1fica), sect_proy (sector del proyecto), nom_proy (nombre del proyecto para etiquetar)",
-        "type": "fa-map"
+        "type": "fa-map",
+        "complement_idea": "El proyecto del \"Mapa de Proyectos por Sector\" es una iniciativa innovadora y valiosa que puede contribuir significativamente al desarrollo de Lambayeque. Para complementarla, se podr\u00edan considerar las siguientes ideas:",
+        "impact": "Este mapa tendr\u00eda un impacto profundo en Lambayeque al promover la transparencia, la rendici\u00f3n de cuentas y la participaci\u00f3n ciudadana en la toma de decisiones. Al visualizar la distribuci\u00f3n de los proyectos por sector, la comunidad podr\u00e1 identificar las \u00e1reas con mayores necesidades y hacer valer sus derechos para un desarrollo m\u00e1s equitativo.",
+        "scalability": "La utilizaci\u00f3n de herramientas de software libre (open-source GIS) garantiza la escalabilidad del proyecto. El mapa puede actualizarse con regularidad para reflejar nuevos proyectos y datos. Adem\u00e1s, su dise\u00f1o modular permite adaptarlo a otras regiones de Per\u00fa, multiplicando su impacto.",
+        "viability": "El proyecto es viable desde el punto de vista t\u00e9cnico y econ\u00f3mico. La disponibilidad de datos gubernamentales sobre proyectos y la utilizaci\u00f3n de herramientas gratuitas hacen que su implementaci\u00f3n sea accesible. Adem\u00e1s, la participaci\u00f3n activa de la comunidad y las autoridades locales ser\u00e1 crucial para asegurar su \u00e9xito a largo plazo."
     },
     {
         "title": "Priorizaci\u00f3n de proyectos por impacto social",
         "description": "Utilizar t\u00e9cnicas de machine learning para analizar la relaci\u00f3n entre las caracter\u00edsticas de los proyectos (tipo, funci\u00f3n, monto) y su posible impacto social. Esto permitir\u00e1 priorizar proyectos con mayor potencial de beneficio para la comunidad.",
         "technique": "Machine Learning, an\u00e1lisis de correlaci\u00f3n, ranking",
         "columns": "tip_proy (tipo de proyecto), func_proy (funci\u00f3n del proyecto), monto_ref (monto de referencia), nivel_gob (nivel de gobierno que administra el proyecto)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Utilizar el aprendizaje autom\u00e1tico para priorizar proyectos por su impacto social es una idea prometedora que puede combinar an\u00e1lisis de datos objetivos con la participaci\u00f3n comunitaria para lograr resultados \u00f3ptimos.",
+        "impact": "El aprendizaje autom\u00e1tico puede identificar correlaciones entre las caracter\u00edsticas de los proyectos y los datos hist\u00f3ricos de impacto social, permitiendo una priorizaci\u00f3n eficiente y basada en el potencial de impacto. Esto puede llevar a la selecci\u00f3n de proyectos de mayor impacto que podr\u00edan pasar desapercibidos mediante m\u00e9todos tradicionales.",
+        "scalability": "La naturaleza escalable del aprendizaje autom\u00e1tico permite analizar grandes conjuntos de datos y priorizar numerosos proyectos de manera eficiente. Los modelos de aprendizaje autom\u00e1tico se pueden adaptar a diferentes contextos y comunidades, ampliando su alcance y aplicabilidad.",
+        "viability": "Si bien el aprendizaje autom\u00e1tico ofrece un gran potencial, es crucial abordar los desaf\u00edos relacionados con la definici\u00f3n de 'impacto' de manera hol\u00edstica (en colaboraci\u00f3n con las comunidades), la mitigaci\u00f3n de sesgos en los datos de entrenamiento y la transparencia en el proceso de toma de decisiones. La implementaci\u00f3n exitosa requiere una combinaci\u00f3n cuidadosa de an\u00e1lisis de datos y conocimiento local."
     },
     {
         "title": "Monitoreo del avance de proyectos",
         "description": "Crear un dashboard interactivo que muestre el estado actual de cada proyecto, incluyendo informaci\u00f3n sobre su progreso, fecha de inicio y finalizaci\u00f3n prevista. Esto permitir\u00e1 a los ciudadanos y autoridades tener una visi\u00f3n transparente del avance de las inversiones.",
         "technique": "Desarrollo web, dashboards interactivos, visualizaci\u00f3n de datos",
         "columns": "id (identificador \u00fanico), nom_proy (nombre del proyecto), nivel_proy (nivel de detalle), mod_proy (modalidad de ejecuci\u00f3n), fecha_inicio (fecha de inicio del proyecto), fecha_fin (fecha de finalizaci\u00f3n prevista)",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "La idea de 'Monitoreo del Avance de Proyectos' es un excelente punto de partida. Se podr\u00eda complementarla con:",
+        "impact": "\u00a1El impacto potencial de este proyecto es enorme! Podr\u00eda:",
+        "scalability": "En t\u00e9rminos de escalabilidad, el proyecto se presenta prometedor. La integraci\u00f3n con sistemas existentes y la posibilidad de ofrecerlo en m\u00faltiples idiomas lo hacen adaptable a distintos contextos.",
+        "viability": "La viabilidad del proyecto parece alta, especialmente considerando el uso de soluciones de c\u00f3digo abierto para desarrollo y visualizaci\u00f3n de datos. Esto permitir\u00eda reducir costos y tiempo de implementaci\u00f3n."
     },
     {
         "title": "Identificaci\u00f3n de \u00e1reas con mayor necesidad de inversi\u00f3n",
         "description": "Analizar la distribuci\u00f3n geogr\u00e1fica de los proyectos junto con indicadores socioecon\u00f3micos para identificar zonas con mayor necesidad de inversi\u00f3n en salud, educaci\u00f3n o infraestructura. Esto permitir\u00e1 tomar decisiones m\u00e1s informadas sobre d\u00f3nde dirigir los recursos.",
         "technique": "An\u00e1lisis espacial, geoestadistica, cruce de datos",
         "columns": "geom (localizaci\u00f3n geogr\u00e1fica), nivel_gob (nivel de gobierno), sect_proy (sector del proyecto), localidad (localidad del proyecto)",
-        "type": "fa-search"
+        "type": "fa-search",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "An\u00e1lisis de la eficiencia en la ejecuci\u00f3n de proyectos",
         "description": "Comparar el tiempo de ejecuci\u00f3n de los proyectos con el inicialmente previsto y analizar los factores que pueden influir en las demoras. Esto permitir\u00e1 identificar buenas pr\u00e1cticas y \u00e1reas de mejora para optimizar la gesti\u00f3n de proyectos.",
         "technique": "An\u00e1lisis temporal, visualizaci\u00f3n de datos, regresi\u00f3n lineal",
         "columns": "id (identificador \u00fanico), nom_proy (nombre del proyecto), fecha_inicio (fecha de inicio), fecha_fin (fecha de finalizaci\u00f3n prevista), mod_proy (modalidad de ejecuci\u00f3n)",
-        "type": "fa-clock"
+        "type": "fa-clock",
+        "complement_idea": "El proyecto \"An\u00e1lisis de la eficiencia en la ejecuci\u00f3n de proyectos\" se puede complementar con la creaci\u00f3n de una comunidad online donde los usuarios puedan compartir sus datos de proyectos, acceder a an\u00e1lisis y herramientas de visualizaci\u00f3n, y colaborar en el desarrollo del software open-source.",
+        "impact": "El impacto potencial de este proyecto es significativo. Al identificar los factores que contribuyen a las demoras en la ejecuci\u00f3n de proyectos, se puede mejorar la planificaci\u00f3n, la gesti\u00f3n de recursos y la comunicaci\u00f3n, lo que lleva a un aumento de la eficiencia y una reducci\u00f3n de costos. Adem\u00e1s, al compartir los datos de forma p\u00fablica y transparente, se fomenta la rendici\u00f3n de cuentas y se empodera a las comunidades para exigir mejoras en la ejecuci\u00f3n de proyectos que afectan sus vidas.",
+        "scalability": "La escalabilidad del proyecto es alta gracias al enfoque basado en datos abiertos y software open-source. La plataforma puede ser adaptada a diferentes contextos y sectores, y la comunidad de usuarios puede contribuir al desarrollo y mejora del sistema. La estandarizaci\u00f3n de la recopilaci\u00f3n de datos facilitar\u00e1 la integraci\u00f3n de proyectos de diferentes organizaciones.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta, ya que se basa en m\u00e9todos estad\u00edsticos y de an\u00e1lisis de datos bien establecidos. El acceso a software open-source y herramientas de visualizaci\u00f3n gratuitas reduce los costos de desarrollo. La participaci\u00f3n de expertos en gesti\u00f3n de proyectos y analistas de datos fortalecer\u00e1 la calidad del an\u00e1lisis y las recomendaciones."
     }
 ]

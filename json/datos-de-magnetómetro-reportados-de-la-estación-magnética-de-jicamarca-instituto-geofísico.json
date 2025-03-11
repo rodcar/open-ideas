@@ -4,34 +4,54 @@
         "description": "Este proyecto utilizar\u00e1 los datos de magnet\u00f3metro para generar mapas interactivos que muestran las variaciones del campo magn\u00e9tico terrestre a lo largo del tiempo. Esto permitir\u00e1 a investigadores y cient\u00edficos estudiar fen\u00f3menos geof\u00edsicos como tormentas geomagn\u00e9ticas, actividad volc\u00e1nica e incluso cambios en la placa tect\u00f3nica.",
         "technique": "An\u00e1lisis espacial (GIS), visualizaci\u00f3n de datos (mapas de calor, gr\u00e1ficos de l\u00ednea)",
         "columns": "FECHA_UTC (tiempo para el an\u00e1lisis temporal), HORA_UTC (precisi\u00f3n temporal para correlaciones), UBIGEO, DEPARTAMENTO, PROVINCIA, DISTRITO (localizaci\u00f3n geogr\u00e1fica para mapeo), D, H, Z, I, F (valores de campo magn\u00e9tico para an\u00e1lisis y visualizaci\u00f3n)",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "El proyecto 'Monitoreo de la Actividad Magn\u00e9tica en el Per\u00fa' puede complementarse integrando datos de sensores s\u00edsmicos y de estaciones meteorol\u00f3gicas para obtener una visi\u00f3n m\u00e1s completa de los fen\u00f3menos geof\u00edsicos. Adem\u00e1s, la creaci\u00f3n de una plataforma web accesible al p\u00fablico permitir\u00eda la participaci\u00f3n ciudadana en la observaci\u00f3n de eventos inusuales.",
+        "impact": "El proyecto tendr\u00e1 un alto impacto social al proporcionar alertas tempranas de eventos geof\u00edsicos peligrosos como terremotos, erupciones volc\u00e1nicas y tormentas geomagn\u00e9ticas. Esto permitir\u00e1 a las autoridades tomar medidas preventivas para proteger vidas y bienes. A nivel cient\u00edfico, el proyecto contribuir\u00e1 a la comprensi\u00f3n de los procesos que ocurren en el interior de la Tierra.",
+        "scalability": "El proyecto es altamente escalable ya que la tecnolog\u00eda utilizada (GIS y an\u00e1lisis de datos) puede aplicarse a otras regiones del mundo. Adem\u00e1s, se pueden integrar nuevos tipos de datos para ampliar el alcance del monitoreo. La creaci\u00f3n de una plataforma web abierta permitir\u00e1 que otros investigadores colaboren en el proyecto.",
+        "viability": "La viabilidad del proyecto es alta debido a la disponibilidad de datos de magnet\u00f3metros y a las herramientas tecnol\u00f3gicas existentes. Adem\u00e1s, hay diversas fuentes de financiaci\u00f3n disponibles, como becas cient\u00edficas, fondos gubernamentales y donaciones privadas. El impacto social del proyecto lo hace atractivo para potenciales inversores."
     },
     {
         "title": "Predicci\u00f3n de Eventos Geomagn\u00e9ticos",
         "description": "Se utilizar\u00e1 machine learning con los datos hist\u00f3ricos del magnet\u00f3metro para entrenar un modelo que pueda predecir eventos geomagn\u00e9ticos como tormentas solares. Esto ser\u00e1 \u00fatil para proteger infraestructuras sensibles a las fluctuaciones magn\u00e9ticas.",
         "technique": "Machine Learning (algoritmos de regresi\u00f3n o clasificaci\u00f3n), an\u00e1lisis de series temporales",
         "columns": "FECHA_UTC, HORA_UTC (para features temporales), D, H, Z, I, F (valores del campo magn\u00e9tico para entrenar el modelo)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El proyecto 'Predicci\u00f3n de Eventos Geomagn\u00e9ticos' utiliza aprendizaje autom\u00e1tico y datos hist\u00f3ricos de magnet\u00f3metros para predecir tormentas geomagn\u00e9ticas, protegiendo infraestructuras vulnerables. Esto se puede complementar con la integraci\u00f3n de datos en tiempo real de otras fuentes, como sat\u00e9lites espaciales, para mejorar la precisi\u00f3n de las predicciones.",
+        "impact": "Este proyecto tendr\u00e1 un impacto significativo al proteger las redes el\u00e9ctricas y de comunicaci\u00f3n de los da\u00f1os causados por las tormentas geomagn\u00e9ticas. Esto evitar\u00e1 interrupciones del servicio, p\u00e9rdidas econ\u00f3micas y riesgos para la seguridad p\u00fablica. Adem\u00e1s, un aplicativo accesible al p\u00fablico informar\u00e1 sobre eventos de clima espacial, promoviendo la preparaci\u00f3n y resiliencia.",
+        "scalability": "El modelo se puede escalar a nivel global mediante la colaboraci\u00f3n con agencias espaciales y organizaciones meteorol\u00f3gicas internacionales. La disponibilidad de datos de magnet\u00f3metros y de sat\u00e9lites en todo el mundo permitir\u00e1 entrenar un modelo m\u00e1s robusto y preciso.",
+        "viability": "-"
     },
     {
         "title": "Estudio de la Influencia Magn\u00e9tica en la Fauna",
         "description": "Investigar si existe correlaci\u00f3n entre las variaciones del campo magn\u00e9tico y los patrones migratorios de animales o su comportamiento reproductivo. ",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos (gr\u00e1ficos de dispersi\u00f3n), modelado ecol\u00f3gico",
         "columns": "FECHA_UTC, HORA_UTC (contextualizaci\u00f3n temporal), D, H, Z, I, F (valores del campo magn\u00e9tico para correlaciones), UBIGEO (localizaci\u00f3n para estudiar patrones espaciales)",
-        "type": "fa-dove"
+        "type": "fa-dove",
+        "complement_idea": "El proyecto 'Estudio de la Influencia Magn\u00e9tica en la Fauna' propone una investigaci\u00f3n innovadora sobre la conexi\u00f3n entre las variaciones del campo magn\u00e9tico terrestre y el comportamiento migratorio/reproductivo de los animales. Esto se lograr\u00e1 mediante el uso de magnet\u00f3metros miniaturizados en animales migratorios, combinados con sistemas de rastreo GPS para recopilar datos en tiempo real sobre sus respuestas a las fluctuaciones magn\u00e9ticas.",
+        "impact": "Este proyecto tiene un alto impacto potencial en la conservaci\u00f3n al proporcionar informaci\u00f3n vital para la protecci\u00f3n de h\u00e1bitats de especies en peligro y la predicci\u00f3n de patrones de migraci\u00f3n. Adem\u00e1s, contribuir\u00e1 significativamente a nuestro entendimiento de la navegaci\u00f3n animal y su evoluci\u00f3n.",
+        "scalability": "La escalabilidad del proyecto es prometedora. Se puede expandir a diferentes especies animales y ubicaciones geogr\u00e1ficas a trav\u00e9s de colaboraciones internacionales. La inclusi\u00f3n de iniciativas de ciencia ciudadana puede fortalecer a\u00fan m\u00e1s la recopilaci\u00f3n de datos y el compromiso comunitario.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta, dada la disponibilidad de tecnolog\u00eda de magnet\u00f3metros miniaturizados y sistemas GPS. En t\u00e9rminos econ\u00f3micos, la b\u00fasqueda de subvenciones de investigaci\u00f3n enfocadas en el comportamiento animal, la ecolog\u00eda o la biolog\u00eda de la conservaci\u00f3n, junto con la colaboraci\u00f3n con universidades, puede minimizar los costos."
     },
     {
         "title": "Aplicaci\u00f3n M\u00f3vil de Informaci\u00f3n Magn\u00e9tica",
         "description": "Desarrollar una aplicaci\u00f3n m\u00f3vil que permita a los usuarios consultar informaci\u00f3n sobre el campo magn\u00e9tico en tiempo real. Esta app podr\u00eda ser \u00fatil para navegantes, exploradores y cualquier persona interesada en la geomagnetismo.",
         "technique": "Desarrollo de aplicaciones m\u00f3viles (Android/iOS), APIs para acceso a datos",
         "columns": "FECHA_UTC, HORA_UTC, D, H, Z, I, F (valores actualizados del campo magn\u00e9tico)",
-        "type": "fa-mobile-screen"
+        "type": "fa-mobile-screen",
+        "complement_idea": "La aplicaci\u00f3n m\u00f3vil 'Aplicaci\u00f3n M\u00f3vil de Informaci\u00f3n Magn\u00e9tica' puede complementarse con funciones adicionales como la grabaci\u00f3n de rutas magn\u00e9ticas para exploradores, la detecci\u00f3n de anomal\u00edas magn\u00e9ticas para investigadores o incluso la integraci\u00f3n con juegos de realidad aumentada que utilicen la informaci\u00f3n del campo magn\u00e9tico.",
+        "impact": "La aplicaci\u00f3n tiene un alto impacto potencial. Puede mejorar la seguridad de navegantes y exploradores, ser una herramienta valiosa para la investigaci\u00f3n geomagn\u00e9tica y promover la educaci\u00f3n cient\u00edfica en un \u00e1rea poco conocida por el p\u00fablico general.",
+        "scalability": "La escalabilidad de la aplicaci\u00f3n es alta gracias a su modelo freemium, que permite llegar a un amplio p\u00fablico. Adem\u00e1s, la integraci\u00f3n con tecnolog\u00edas emergentes como la realidad aumentada (AR) y dispositivos wearables abre nuevas posibilidades de crecimiento y expansi\u00f3n de funcionalidades.",
+        "viability": "La viabilidad t\u00e9cnica de la aplicaci\u00f3n es alta gracias al acceso a datos confiables a trav\u00e9s de APIs como las del USGS. El modelo econ\u00f3mico freemium tambi\u00e9n parece viable, pero requerir\u00e1 un an\u00e1lisis de mercado cuidadoso para determinar el precio adecuado de las funciones premium."
     },
     {
         "title": "Detecci\u00f3n de Anomal\u00edas Magn\u00e9ticas",
         "description": "Analizar los datos del magnet\u00f3metro para identificar patrones an\u00f3malos que puedan indicar la presencia de dep\u00f3sitos minerales, fallas geol\u00f3gicas u otras caracter\u00edsticas geol\u00f3gicas interesantes.",
         "technique": "An\u00e1lisis espacial (GIS), detecci\u00f3n de outliers, visualizaci\u00f3n de mapas",
         "columns": "FECHA_UTC, HORA_UTC (para contexto temporal), D, H, Z, I, F (valores del campo magn\u00e9tico para detectar anomal\u00edas), UBIGEO, DEPARTAMENTO, PROVINCIA, DISTRITO (localizaci\u00f3n para mapeo)",
-        "type": "fa-map-marker"
+        "type": "fa-map-marker",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Visualizar la concentraci\u00f3n de casos de tala ilegal en un mapa interactivo. Esto permitir\u00e1 identificar zonas con mayor riesgo y enfocar esfuerzos de control.",
         "technique": "An\u00e1lisis Geoespacial, Mapa de Calor",
         "columns": "DEPARTAMENTO (Para ubicar el evento), PROVINCIA (Para una ubicaci\u00f3n m\u00e1s precisa), DISTRITO (Para definir la ubicaci\u00f3n exacta), VOLUMEN_ILEGAL (Para determinar la magnitud del riesgo en cada ubicaci\u00f3n). ",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El 'Mapa de Calor de Riesgo de Tala Ilegal' es una idea innovadora que utiliza datos satelitales, an\u00e1lisis geogr\u00e1ficos y aprendizaje autom\u00e1tico para identificar y predecir zonas de tala ilegal. La inclusi\u00f3n de historias de las comunidades afectadas humaniza el problema y fomenta la participaci\u00f3n local.",
+        "impact": "El mapa tendr\u00e1 un alto impacto al empoderar a las comunidades locales para proteger sus bosques, guiar las intervenciones de las autoridades y organizaciones de conservaci\u00f3n hacia las \u00e1reas m\u00e1s necesitadas, y proporcionar informaci\u00f3n valiosa para la formulaci\u00f3n de pol\u00edticas efectivas contra la tala ilegal.",
+        "scalability": "La arquitectura modular del mapa permite adaptarlo a diferentes contextos geogr\u00e1ficos y culturales. El uso de datos abiertos y plataformas de software libre garantiza que la soluci\u00f3n sea sostenible y escalable a nivel mundial.",
+        "viability": "El enfoque en fases, comenzando con una versi\u00f3n b\u00e1sica del mapa y agregando funciones como an\u00e1lisis predictivos posteriormente, asegura la viabilidad t\u00e9cnica y financiera del proyecto. La b\u00fasqueda de financiaci\u00f3n a trav\u00e9s de subvenciones y alianzas con ONGs dedicadas a la conservaci\u00f3n forestal tambi\u00e9n contribuye a su sostenibilidad."
     },
     {
         "title": "An\u00e1lisis de Tendencias en el Comercio Legal de Madera",
         "description": "Identificar patrones y tendencias en el volumen de madera aprobada vs. la madera movilizada, permitiendo detectar posibles irregularidades o desviaciones.",
         "technique": "An\u00e1lisis de Series de Tiempo, Visualizaci\u00f3n de Datos",
         "columns": "FECHA_CORTE (Para definir el periodo de an\u00e1lisis), VOL_APROBADO (Volumen de madera autorizado), VOL_MOVILIZADO (Volumen de madera transportada), TITULAR (Para identificar patrones por empresa). ",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "Esta idea puede complementarse integrando an\u00e1lisis de sentimiento para identificar cambios en la percepci\u00f3n p\u00fablica sobre el comercio legal de madera, an\u00e1lisis de red para mapear relaciones entre actores del sector y modelos predictivos para anticipar futuras demandas y detectar irregularidades.",
+        "impact": "Esta idea tiene un impacto potencial significativo al aumentar la transparencia en el comercio de madera, proteger los ecosistemas y comunidades vulnerables y empoderar a los actores clave para hacer cumplir las regulaciones.",
+        "scalability": "La soluci\u00f3n es escalable gracias a su uso de t\u00e9cnicas de an\u00e1lisis de series temporales y visualizaci\u00f3n de datos bien establecidas. La informaci\u00f3n necesaria es generalmente accesible, lo que facilita la implementaci\u00f3n en diferentes contextos.",
+        "viability": "Esta idea es viable debido a su enfoque pr\u00e1ctico y costo-efectivo. Utiliza datos disponibles y t\u00e9cnicas probadas, lo que la convierte en una soluci\u00f3n factible para abordar el problema del comercio ilegal de madera."
     },
     {
         "title": "Predicci\u00f3n de Riesgo de Tala Ilegal",
         "description": "Utilizar modelos de Machine Learning para predecir la probabilidad de tala ilegal en base a variables como ubicaci\u00f3n, tipo de madera y historial del titular.",
         "technique": "Machine Learning (Algoritmos de Clasificaci\u00f3n), Modelado Predictivo",
         "columns": "DEPARTAMENTO (Caracter\u00edstica geogr\u00e1fica), PROVINCIA (Caracter\u00edstica geogr\u00e1fica), DISTRITO (Caracter\u00edstica geogr\u00e1fica), TIPO_PMF (Tipo de plan de manejo forestal), TITULAR (Historial del titular), VOLUMEN_ILEGAL (Variable objetivo para entrenamiento). ",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Esta idea propone un sistema de predicci\u00f3n de tala ilegal utilizando aprendizaje autom\u00e1tico. El modelo, entrenado con datos de ubicaci\u00f3n, tipo de madera y propiedad de la tierra, identifica \u00e1reas de alto riesgo antes de que ocurra la actividad ilegal.",
+        "impact": "El impacto social es significativo: el sistema empodera a las comunidades locales a trav\u00e9s de sistemas de alerta temprana, patrullas apoyadas y acceso a ayuda legal. Esto promueve la protecci\u00f3n de los bosques y la justicia social.",
+        "scalability": "La soluci\u00f3n es escalable gracias a su implementaci\u00f3n en la nube, lo que permite adaptarla a diferentes regiones y ecosistemas. La disponibilidad de datos p\u00fablicos facilita el proceso.",
+        "viability": "T\u00e9cnicamente viable dado el uso de algoritmos de clasificaci\u00f3n probados (Random Forest, Gradient Boosting) y la accesibilidad de los datos. La combinaci\u00f3n con CNNs para analizar im\u00e1genes satelitales aumenta la precisi\u00f3n del modelo."
     },
     {
         "title": "Comparaci\u00f3n de Eficiencia entre Modalidades de Aprovechamiento",
         "description": "Analizar la relaci\u00f3n entre diferentes modalidades de aprovechamiento forestal y la incidencia de tala ilegal, buscando identificar las m\u00e1s sostenibles.",
         "technique": "An\u00e1lisis Comparativo, Tablas Din\u00e1micas",
         "columns": "MODALIDAD_APROVECHAMIENTO (Variable a comparar), VOLUMEN_ILEGAL (Indicador de impacto), AREA_POA (Tama\u00f1o del \u00e1rea de aprovechamiento). ",
-        "type": "fa-table"
+        "type": "fa-table",
+        "complement_idea": "La idea de 'Comparaci\u00f3n de Eficiencia entre Modalidades de Aprovechamiento' es s\u00f3lida y completa. Propone una metodolog\u00eda clara para analizar la eficiencia de diferentes m\u00e9todos de explotaci\u00f3n forestal y su relaci\u00f3n con la actividad ilegal.",
+        "impact": "El impacto potencial de este proyecto es significativo. Al identificar las modalidades m\u00e1s eficientes y menos propensas a la actividad ilegal, se puede promover la adopci\u00f3n de pr\u00e1cticas forestales sostenibles y reducir la deforestaci\u00f3n.",
+        "scalability": "La propuesta utiliza datos de acceso p\u00fablico y una metodolog\u00eda adaptable a diferentes contextos. Esto facilita su implementaci\u00f3n en diversas regiones y permite un an\u00e1lisis comparativo a gran escala.",
+        "viability": "El proyecto es viable t\u00e9cnicamente, ya que utiliza herramientas de an\u00e1lisis de datos accesibles y m\u00e9todos estad\u00edsticos probados. Su enfoque pr\u00e1ctico y orientado a la toma de decisiones lo hace atractivo para actores clave como gobiernos, empresas forestales y organizaciones ambientalistas."
     },
     {
         "title": "Sistema de Alerta Temprana para Tala Ilegal",
         "description": "Desarrollar un sistema que detecte patrones sospechosos en tiempo real y genere alertas a las autoridades competentes.",
         "technique": "Procesamiento de Datos en Tiempo Real, An\u00e1lisis de Anomal\u00edas",
         "columns": "FECHA_SUPERVISION (Para determinar la temporalidad), ARBOLES_SUPERVISADOS (Cantidad de \u00e1rboles revisados), ARBOLES_INEXISTENTES (Indicador de posible tala ilegal), VOLUMEN_ILEGAL (Volumen detectado ilegalmente). ",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "El sistema 'Sistema de Alerta Temprana para Tala Ilegal' puede complementarse con la implementaci\u00f3n de drones aut\u00f3nomos que confirmen las alertas generadas por el an\u00e1lisis de datos. Esto permitir\u00eda una verificaci\u00f3n visual en tiempo real y una mayor precisi\u00f3n en la detecci\u00f3n de actividades ilegales.",
+        "impact": "Este sistema tendr\u00e1 un impacto significativo al reducir la tala ilegal, proteger los ecosistemas forestales, empoderar a las comunidades locales y promover pr\u00e1cticas de manejo forestal sostenible. Adem\u00e1s, contribuir\u00e1 a mitigar el cambio clim\u00e1tico al preservar los sumideros de carbono que representan los bosques.",
+        "scalability": "La arquitectura en la nube del sistema permite su escalabilidad a nivel global. Se puede adaptar a diferentes tipos de bosque y regiones geogr\u00e1ficas mediante la integraci\u00f3n de datos locales y la personalizaci\u00f3n de los algoritmos de detecci\u00f3n.",
+        "viability": "La viabilidad econ\u00f3mica del sistema se basa en el uso de herramientas de c\u00f3digo abierto, la computaci\u00f3n en la nube y la colaboraci\u00f3n con organizaciones sin fines de lucro y entidades gubernamentales. Esto asegura un costo accesible y sostenible a largo plazo."
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Analizar las tendencias hist\u00f3ricas de precipitaci\u00f3n y temperatura para identificar patrones estacionales, eventos extremos y posibles impactos del cambio clim\u00e1tico.",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos con mapas interactivos, series de tiempo.",
         "columns": "FECHA_REGISTRO (para identificar tendencias a lo largo del tiempo), PRECIPITACION (para analizar patrones de lluvia), TEMPERATURA_PROMEDIO (para evaluar cambios en la temperatura media), DEPARTAMENTO, PROVINCIA, DISTRITO (para georreferenciar los datos y visualizar patrones regionales), UBIGEO (para un an\u00e1lisis m\u00e1s preciso por ubicaci\u00f3n).",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El an\u00e1lisis de patrones clim\u00e1ticos hist\u00f3ricos utilizando aprendizaje autom\u00e1tico para generar previsiones, combinado con visualizaciones interactivas accesibles a trav\u00e9s de plataformas como Leaflet, ofrece un enfoque completo y valioso.",
+        "impact": "Esta iniciativa puede tener un impacto significativo al proporcionar informaci\u00f3n crucial a agricultores, equipos de respuesta ante desastres y responsables pol\u00edticos para tomar decisiones informadas sobre la adaptaci\u00f3n al cambio clim\u00e1tico.",
+        "scalability": "El uso de conjuntos de datos de c\u00f3digo abierto y t\u00e9cnicas estad\u00edsticas probadas permite escalar el proyecto f\u00e1cilmente. La integraci\u00f3n de datos en tiempo real de estaciones meteorol\u00f3gicas puede mejorar a\u00fan m\u00e1s su precisi\u00f3n y utilidad.",
+        "viability": "La combinaci\u00f3n de herramientas de c\u00f3digo abierto, m\u00e9todos estad\u00edsticos establecidos e infraestructura basada en la nube minimiza los costos, lo que hace que este proyecto sea financieramente viable."
     },
     {
         "title": "Sistema de alerta temprana para eventos hidrol\u00f3gicos",
         "description": "Desarrollar un sistema que utilice datos hist\u00f3ricos de precipitaci\u00f3n y temperatura para predecir posibles eventos de inundaci\u00f3n, sequ\u00eda u otros fen\u00f3menos hidrol\u00f3gicos.",
         "technique": "Modelado estad\u00edstico, machine learning (algoritmos de predicci\u00f3n), mapas interactivos con alertas.",
         "columns": "PRECIPITACION (variable clave para la predicci\u00f3n de eventos hidrol\u00f3gicos), TEMPERATURA_PROMEDIO (influye en la evaporaci\u00f3n y disponibilidad de agua), FECHA_REGISTRO (para identificar patrones temporales), DEPARTAMENTO, PROVINCIA, DISTRITO (para delimitar \u00e1reas de riesgo).",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "El Sistema de Alerta Temprana para Eventos Hidrol\u00f3gicos es una soluci\u00f3n prometedora que utiliza modelado estad\u00edstico y aprendizaje autom\u00e1tico sobre datos hist\u00f3ricos del clima para predecir con precisi\u00f3n eventos como inundaciones y sequ\u00edas. Su escalabilidad a diferentes climas a trav\u00e9s de algoritmos adaptables y la integraci\u00f3n de datos en tiempo real garantiza una aplicabilidad amplia.",
+        "impact": "El sistema prioriza el impacto comunitario (25% de peso) al ofrecer interfaces multiling\u00fces, alertas SMS para usuarios con poca tecnolog\u00eda y informaci\u00f3n accionable sobre medidas de preparaci\u00f3n. Esto lo convierte en una herramienta poderosa para construir comunidades resilientes.",
+        "scalability": "Su adaptabilidad a diferentes climas a trav\u00e9s de la selecci\u00f3n de algoritmos y la integraci\u00f3n de datos en tiempo real permite su implementaci\u00f3n en diversas regiones del mundo.",
+        "viability": "-"
     },
     {
         "title": "Evaluaci\u00f3n del impacto ambiental",
         "description": "Analizar c\u00f3mo los cambios en la precipitaci\u00f3n y temperatura pueden afectar a los ecosistemas locales, considerando factores como disponibilidad de agua para la flora y fauna.",
         "technique": "An\u00e1lisis espacial, modelado ecol\u00f3gico, mapas de vulnerabilidad.",
         "columns": "PRECIPITACION (influye en la disponibilidad de agua), TEMPERATURA_PROMEDIO, TEMPERATURA_MINIMA, TEMPERATURA_MAXIMA (afectan a las especies y sus ciclos vitales), DEPARTAMENTO, PROVINCIA, DISTRITO (para delimitar \u00e1reas de estudio).",
-        "type": "fa-leaf"
+        "type": "fa-leaf",
+        "complement_idea": "La idea de \"Evaluaci\u00f3n del impacto ambiental\" se complementa con la integraci\u00f3n de herramientas de visualizaci\u00f3n interactivas para comunicar los resultados a la comunidad. Esto permitir\u00eda que las personas comprendan mejor el impacto del cambio clim\u00e1tico en su entorno local y participen activamente en la b\u00fasqueda de soluciones.",
+        "impact": "\"Evaluaci\u00f3n del impacto ambiental\" tendr\u00e1 un impacto significativo al proporcionar informaci\u00f3n clave sobre la vulnerabilidad de los recursos h\u00eddricos, la necesidad de adaptaci\u00f3n agr\u00edcola y la preparaci\u00f3n para eventos clim\u00e1ticos extremos.  Esto permitir\u00e1 a la comunidad tomar decisiones informadas para mitigar los riesgos y construir resiliencia ante el cambio clim\u00e1tico.",
+        "scalability": "La metodolog\u00eda utilizada en \"Evaluaci\u00f3n del impacto ambiental\" es escalable y adaptable a diferentes regiones con diversos ecosistemas. Esto permite replicar el proyecto en otras comunidades, expandiendo su alcance y beneficios.",
+        "viability": "\"Evaluaci\u00f3n del impacto ambiental\" es viable t\u00e9cnicamente al utilizar software de c\u00f3digo abierto y establecer colaboraciones estrat\u00e9gicas para acceder a la experiencia en modelado ecol\u00f3gico. La viabilidad econ\u00f3mica depende de una asignaci\u00f3n eficiente de recursos dentro del presupuesto asignado, priorizando las tareas con mayor impacto."
     },
     {
         "title": "Plataforma de informaci\u00f3n clim\u00e1tica para la agricultura",
         "description": "Desarrollar una plataforma web o m\u00f3vil que proporcione informaci\u00f3n sobre las condiciones clim\u00e1ticas locales (precipitaci\u00f3n, temperatura) a los agricultores para ayudarles a tomar mejores decisiones.",
         "technique": "Desarrollo web/mobile, API de datos meteorol\u00f3gicos, visualizaci\u00f3n de datos intuitiva.",
         "columns": "FECHA_REGISTRO (mostrar datos actualizados), PRECIPITACION (informaci\u00f3n crucial para la agricultura), TEMPERATURA_PROMEDIO, TEMPERATURA_MINIMA, TEMPERATURA_MAXIMA (influyen en el desarrollo de los cultivos), DEPARTAMENTO, PROVINCIA, DISTRITO (para proporcionar informaci\u00f3n espec\u00edfica por regi\u00f3n).",
-        "type": "fa-seedling"
+        "type": "fa-seedling",
+        "complement_idea": "La plataforma puede complementar la informaci\u00f3n clim\u00e1tica con datos sobre precios de mercado, variedades de cultivos ideales para la regi\u00f3n y mejores pr\u00e1cticas agr\u00edcolas.",
+        "impact": "El impacto social ser\u00e1 significativo al empoderar a los agricultores con informaci\u00f3n crucial para tomar decisiones m\u00e1s informadas, mejorando rendimientos, reduciendo p\u00e9rdidas por eventos clim\u00e1ticos extremos y aumentando sus ingresos.",
+        "scalability": "La plataforma es altamente escalable. Su dise\u00f1o modular permite agregar nuevas funcionalidades (predicciones, an\u00e1lisis de suelos, etc.) y adaptarla a diferentes regiones y cultivos. Adem\u00e1s, puede integrarse con otras plataformas existentes para ampliar su alcance.",
+        "viability": "La viabilidad econ\u00f3mica depende de un modelo de negocio sostenible. Se recomienda combinar un modelo freemium con alianzas estrat\u00e9gicas con organizaciones gubernamentales, ONG's o empresas del sector agr\u00edcola."
     },
     {
         "title": "An\u00e1lisis de la variabilidad clim\u00e1tica a largo plazo",
         "description": "Estudiar c\u00f3mo la precipitaci\u00f3n y temperatura han cambiado en las \u00faltimas d\u00e9cadas para identificar tendencias de calentamiento global o cambios en los patrones de lluvia.",
         "technique": "An\u00e1lisis estad\u00edstico, series de tiempo, visualizaci\u00f3n de datos con gr\u00e1ficos.",
         "columns": "FECHA_REGISTRO (clave para el an\u00e1lisis temporal), PRECIPITACION, TEMPERATURA_PROMEDIO (variables a estudiar), DEPARTAMENTO, PROVINCIA, DISTRITO (para analizar las variaciones regionales).",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "El an\u00e1lisis de la variabilidad clim\u00e1tica a largo plazo es una idea poderosa que puede ser complementada con el estudio de otros indicadores clim\u00e1ticos como la humedad, los patrones de viento y la humedad del suelo. Adem\u00e1s, incorporar datos socioecon\u00f3micos regionales puede ayudar a comprender mejor las vulnerabilidades y las necesidades espec\u00edficas de adaptaci\u00f3n.",
+        "impact": "Este proyecto tiene un impacto significativo al proporcionar informaci\u00f3n crucial sobre los cambios a largo plazo en el clima. Esto permitir\u00e1 a las comunidades tomar decisiones m\u00e1s informadas para adaptarse a los desaf\u00edos del cambio clim\u00e1tico, como ajustar las pr\u00e1cticas agr\u00edcolas, prepararse para eventos clim\u00e1ticos extremos y abogar por pol\u00edticas de mitigaci\u00f3n del cambio clim\u00e1tico.",
+        "scalability": "El proyecto es altamente escalable debido a su enfoque modular. Se puede ampliar f\u00e1cilmente a nuevas regiones geogr\u00e1ficas e incorporar datos clim\u00e1ticos adicionales seg\u00fan sea necesario. El uso de modelos de aprendizaje autom\u00e1tico para predecir escenarios futuros tambi\u00e9n facilita la adaptaci\u00f3n y el desarrollo a largo plazo.",
+        "viability": "-"
     }
 ]

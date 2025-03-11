@@ -4,34 +4,54 @@
         "description": "Visualizar patrones de visita a las \u00c1reas Naturales Protegidas. Identificar los sectores tur\u00edsticos m\u00e1s populares y analizar la distribuci\u00f3n de visitantes seg\u00fan procedencia, edad y duraci\u00f3n de estad\u00eda.",
         "technique": "An\u00e1lisis geoespacial, mapas interactivos",
         "columns": "ANP (Identificar la ubicaci\u00f3n geogr\u00e1fica del ANP), SECTOR (Determinar los sectores de mayor inter\u00e9s tur\u00edstico), DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (Geolocalizar y agrupar visitantes por regi\u00f3n), PROCEDENCIA (Analizar el origen de los turistas: nacional, internacional o local), EDAD (Identificar grupos demogr\u00e1ficos espec\u00edficos), FECHA (Identificar tendencias temporales en la visitation) , VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Cuantificar el flujo tur\u00edstico por duraci\u00f3n de estad\u00eda)",
-        "type": "fa-map"
+        "type": "fa-map",
+        "complement_idea": "El proyecto \"Mapeo de Flujo Tur\u00edstico\" propone una soluci\u00f3n innovadora y viable para el desarrollo tur\u00edstico sostenible en \u00e1reas protegidas. A trav\u00e9s del an\u00e1lisis geoespacial y mapas interactivos, visualiza patrones de visitantes, identifica sectores populares y analiza datos demogr\u00e1ficos (origen, edad, duraci\u00f3n de la estancia). Esto permite una asignaci\u00f3n eficiente de recursos, esfuerzos de conservaci\u00f3n en zonas de alto tr\u00e1fico y experiencias personalizadas para los visitantes.",
+        "impact": "El impacto social del proyecto es significativo. Fomenta el crecimiento econ\u00f3mico local, la protecci\u00f3n del medio ambiente y la participaci\u00f3n de las comunidades. La integraci\u00f3n de gamificaci\u00f3n y realidad aumentada mejora la experiencia del usuario y contribuye a la innovaci\u00f3n.",
+        "scalability": "La escalabilidad del proyecto es alta. Puede adaptarse a sitios culturales y centros urbanos, ampliando su alcance e impacto.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta, ya que se basa en herramientas de an\u00e1lisis geoespacial y plataformas de mapas interactivos existentes. La efectividad en costos puede maximizarse mediante la adquisici\u00f3n eficiente de datos y una implementaci\u00f3n escalonada."
     },
     {
         "title": "Predicci\u00f3n de Demanda Tur\u00edstica",
         "description": "Utilizar modelos de aprendizaje autom\u00e1tico para predecir la demanda tur\u00edstica futura en diferentes \u00c1reas Naturales Protegidas, seg\u00fan variables como fecha, procedencia y duraci\u00f3n de estad\u00eda.",
         "technique": "An\u00e1lisis predictivo, machine learning (regresi\u00f3n, series de tiempo)",
         "columns": "ANP (Identificar el \u00e1rea natural protegida), SECTOR (Considerar la popularidad del sector tur\u00edstico), DEPARTAMENTO, PROVINCIA, DISTRITO (Analizar patrones regionales), FECHA (Factor temporal clave para la predicci\u00f3n), PROCEDENCIA, EDAD (Variables demogr\u00e1ficas que pueden influir en la demanda), VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Datos hist\u00f3ricos de visitas para entrenar el modelo)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de \"Predicci\u00f3n de Demanda Tur\u00edstica\" se puede complementar integrando datos en tiempo real, como previsiones meteorol\u00f3gicas y eventos locales, para mejorar la precisi\u00f3n de las predicciones. Adem\u00e1s, la creaci\u00f3n de una plataforma web o aplicaci\u00f3n m\u00f3vil que permita a los usuarios consultar la informaci\u00f3n sobre la demanda tur\u00edstica, accesibilidad y servicios disponibles en las \u00e1reas protegidas podr\u00eda enriquecer la experiencia del visitante.",
+        "impact": "La implementaci\u00f3n de \"Predicci\u00f3n de Demanda Tur\u00edstica\" tendr\u00eda un impacto positivo significativo en las \u00e1reas protegidas. Al optimizar la asignaci\u00f3n de recursos, se reducir\u00eda el impacto ambiental del turismo y se proteger\u00edan los ecosistemas fr\u00e1giles. Adem\u00e1s, la previsi\u00f3n de la demanda tur\u00edstica permitir\u00eda a las comunidades locales aprovechar mejor las oportunidades econ\u00f3micas generadas por el turismo sostenible.",
+        "scalability": "La soluci\u00f3n \"Predicci\u00f3n de Demanda Tur\u00edstica\" es escalable y adaptable a diferentes \u00e1reas protegidas.  El modelo se puede ajustar a las caracter\u00edsticas espec\u00edficas de cada regi\u00f3n, considerando variables como la temporada alta/baja, los eventos locales y la accesibilidad.  La plataforma tecnol\u00f3gica podr\u00eda ser implementada en diversas plataformas y dispositivos, facilitando su acceso a usuarios de todo tipo.",
+        "viability": "La viabilidad de \"Predicci\u00f3n de Demanda Tur\u00edstica\" depende de varios factores, como la calidad de los datos hist\u00f3ricos disponibles, la disponibilidad de recursos para el desarrollo y la implementaci\u00f3n del modelo, y el apoyo de las autoridades locales y las comunidades. Si se gestionan estos aspectos con eficacia, la soluci\u00f3n tiene un alto potencial de \u00e9xito."
     },
     {
         "title": "Segmentaci\u00f3n de Visitantes",
         "description": "Agrupar a los visitantes en diferentes segmentos seg\u00fan sus preferencias y patrones de viaje, permitiendo estrategias de marketing personalizadas.",
         "technique": "An\u00e1lisis de cluster, machine learning",
         "columns": "ANP (Contexto geogr\u00e1fico de la visita), SECTOR (Intereses del visitante), PROCEDENCIA (Origen del turista), EDAD (Grupo demogr\u00e1fico), VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Duraci\u00f3n de estad\u00eda como indicador de preferencias)",
-        "type": "fa-users"
+        "type": "fa-users",
+        "complement_idea": "La idea de 'Segmentaci\u00f3n de Visitantes' utilizando an\u00e1lisis de clusters y aprendizaje autom\u00e1tico para personalizar la experiencia tur\u00edstica es innovadora y prometedora. Se complementa con el uso de un enfoque iterativo, comenzando con un proyecto piloto en un segmento espec\u00edfico de visitantes.",
+        "impact": "Este sistema tiene el potencial de impactar positivamente al sector tur\u00edstico al aumentar el compromiso, las conversiones y los ingresos. Tambi\u00e9n puede contribuir a la sostenibilidad del turismo al promover experiencias m\u00e1s personalizadas y respetuosas con el entorno.",
+        "scalability": "La escalabilidad de 'Segmentaci\u00f3n de Visitantes' depende en gran medida de la infraestructura de datos disponible y la capacidad para mantener y actualizar los algoritmos de aprendizaje autom\u00e1tico. Un enfoque modular, comenzando con un proyecto piloto, permite evaluar la viabilidad y la escalabilidad antes de una implementaci\u00f3n completa.",
+        "viability": "La viabilidad de 'Segmentaci\u00f3n de Visitantes' depende de factores como el costo de implementaci\u00f3n, el retorno de la inversi\u00f3n y la aceptaci\u00f3n por parte de los operadores tur\u00edsticos. Un an\u00e1lisis de costos-beneficios detallado es esencial para evaluar su viabilidad a largo plazo."
     },
     {
         "title": "Impacto Econ\u00f3mico del Turismo",
         "description": "Estimar el impacto econ\u00f3mico generado por el turismo en las diferentes regiones, considerando la cantidad de visitantes, duraci\u00f3n de estancia y gastos promedio.",
         "technique": "An\u00e1lisis econ\u00f3mico, modelado financiero",
         "columns": "ANP (Ubicaci\u00f3n geogr\u00e1fica para analizar impactos regionales), DEPARTAMENTO, PROVINCIA, DISTRITO (Niveles geogr\u00e1ficos para an\u00e1lisis detallados), VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30 (Cantidad de visitantes por duraci\u00f3n de estad\u00eda)",
-        "type": "fa-money-bill"
+        "type": "fa-money-bill",
+        "complement_idea": "El proyecto 'Impacto Econ\u00f3mico del Turismo' utilizar\u00e1 un enfoque combinado de an\u00e1lisis econ\u00f3mico y modelado financiero para estimar el impacto del turismo en diferentes regiones. Esto incluye la recopilaci\u00f3n de datos de visitantes, el c\u00e1lculo del impacto directo y la creaci\u00f3n de un modelo financiero din\u00e1mico que rastrea los gastos tur\u00edsticos a trav\u00e9s de empresas locales, proveedores y sectores indirectos.",
+        "impact": "El proyecto tendr\u00e1 un impacto significativo al proporcionar una comprensi\u00f3n clara y cuantificable de c\u00f3mo el turismo beneficia a las regiones. Los datos generados ayudar\u00e1n a los tomadores de decisiones a formular pol\u00edticas tur\u00edsticas m\u00e1s efectivas, promover el desarrollo sostenible y maximizar los beneficios econ\u00f3micos para las comunidades locales.",
+        "scalability": "El modelo desarrollado es escalable y adaptable a diferentes regiones ajustando los patrones de gastos regionales y los factores de ponderaci\u00f3n para industrias espec\u00edficas. Esto permite una evaluaci\u00f3n exhaustiva del impacto del turismo en diversos contextos.",
+        "viability": "El proyecto es viable debido a la disponibilidad de datos de visitantes a trav\u00e9s de organismos tur\u00edsticos, as\u00ed como a la existencia de m\u00e9todos estad\u00edsticos y modelos financieros probados para analizar el impacto econ\u00f3mico del turismo. La colaboraci\u00f3n con actores clave, como las empresas tur\u00edsticas y las comunidades locales, fortalecer\u00e1 a\u00fan m\u00e1s la viabilidad del proyecto."
     },
     {
         "title": "Dashboard Interactivo de Turismo",
         "description": "Crear un dashboard interactivo que permita visualizar informaci\u00f3n clave sobre el turismo en las \u00c1reas Naturales Protegidas, incluyendo mapas, gr\u00e1ficos y tablas din\u00e1micas.",
         "technique": "Desarrollo de dashboards (Power BI, Tableau), visualizaci\u00f3n de datos",
         "columns": "Todas las columnas del dataset (ANP, SECTOR, DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO, PROCEDENCIA, EDAD, FECHA, VISITAS_E1, VISITAS_E2A3, VISITAS_E3A30) para una visualizaci\u00f3n completa",
-        "type": "fa-desktop"
+        "type": "fa-desktop",
+        "complement_idea": "Esta idea se complementa con la incorporaci\u00f3n de visualizaciones 3D y elementos de juego para crear una experiencia inmersiva para los usuarios, adem\u00e1s de incluir el apoyo a m\u00faltiples idiomas y plataformas para compartir historias, empoderando a las comunidades locales.",
+        "impact": "El impacto potencial de esta idea es significativo. Permite a las comunidades locales acceder a datos sobre visitantes para desarrollar oportunidades econ\u00f3micas, mientras que los turistas disfrutan de itinerarios personalizados y una mayor conexi\u00f3n con el entorno natural. Tambi\u00e9n fomenta el turismo sostenible al proporcionar informaci\u00f3n valiosa sobre la conservaci\u00f3n del medio ambiente.",
+        "scalability": "La escalabilidad de esta idea es alta gracias a su dise\u00f1o modular. El uso de API abiertas permite la integraci\u00f3n de datos de diversas fuentes, lo que facilita la expansi\u00f3n geogr\u00e1fica y la inclusi\u00f3n de nuevos tipos de datos. Adem\u00e1s, el soporte para m\u00faltiples idiomas ampl\u00eda su alcance a audiencias globales.",
+        "viability": "La viabilidad t\u00e9cnica de esta idea es alta, ya que se puede desarrollar utilizando plataformas de software existentes como Power BI o Tableau. Los costos de desarrollo y mantenimiento son moderados y la rentabilidad potencial a trav\u00e9s del aumento del turismo, una mejor gesti\u00f3n de los parques y decisiones de conservaci\u00f3n basadas en datos, la hacen financieramente viable."
     }
 ]

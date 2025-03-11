@@ -4,34 +4,54 @@
         "description": "Este dashboard mostrar\u00e1 la distribuci\u00f3n geogr\u00e1fica de los gastos de vi\u00e1ticos y pasajes del SENACE, categorizados por tipo de ruta (Terrestre, A\u00e9rea, Fluvial). Permitir\u00e1 identificar rutas con mayor gasto y patrones en la asignaci\u00f3n de recursos.",
         "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos",
         "columns": "TIPO_RUTA (para categorizar los viajes), COSTO_PASAJES (para calcular el costo por tipo de ruta), RUTA (para ubicaci\u00f3n geogr\u00e1fica), NOMBRES_ANOMINIZADOS (opcional, para identificar patrones de viaje de ciertos servidores)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El Mapa de Gastos por Tipo de Ruta es una excelente idea que puede ser completada con la inclusi\u00f3n de informaci\u00f3n adicional como el n\u00famero de viajes por ruta,  la duraci\u00f3n promedio de los viajes y los motivos de viaje. Esto permitir\u00eda un an\u00e1lisis m\u00e1s profundo y estrat\u00e9gico.",
+        "impact": "Este proyecto tendr\u00e1 un gran impacto al permitir a SENACE optimizar sus recursos, reducir costos y mejorar la transparencia en su gesti\u00f3n. Adem\u00e1s, la publicaci\u00f3n de datos abiertos permitir\u00e1 a la sociedad civil participar en el monitoreo de gastos p\u00fablicos y promover la rendici\u00f3n de cuentas.",
+        "scalability": "El Mapa de Gastos por Tipo de Ruta puede ser escalado a otras entidades p\u00fablicas que gestionan viajes y vi\u00e1ticos, convirti\u00e9ndose en una herramienta \u00fatil para la optimizaci\u00f3n de recursos a nivel nacional.",
+        "viability": "La viabilidad del proyecto depende de la disponibilidad de datos limpios y georeferenciados. Se recomienda realizar un an\u00e1lisis de costo-beneficio para determinar si la inversi\u00f3n en desarrollo tecnol\u00f3gico y personal especializado es justificable."
     },
     {
         "title": "An\u00e1lisis de Costos por \u00c1rea",
         "description": "Este an\u00e1lisis permitir\u00e1 comparar los gastos en vi\u00e1ticos y pasajes entre diferentes \u00e1reas u oficinas del SENACE. Se pueden identificar \u00e1reas con mayor inversi\u00f3n en viajes y analizar si esta inversi\u00f3n se justifica.",
         "technique": "An\u00e1lisis estad\u00edstico, visualizaci\u00f3n de datos",
         "columns": "AREA (para agrupar los viajes por \u00e1rea), COSTO_PASAJES (para calcular el gasto total por \u00e1rea), VIATICOS (para analizar la proporci\u00f3n de vi\u00e1ticos respecto al costo total)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El an\u00e1lisis de costos por \u00e1rea, utilizando modelos de regresi\u00f3n estad\u00edstica y herramientas de visualizaci\u00f3n de datos como Tableau o Power BI, es una soluci\u00f3n prometedora para optimizar los gastos de viaje de SENACE. ",
+        "impact": "Esta soluci\u00f3n permitir\u00e1 a SENACE reducir significativamente sus costos de viaje al identificar \u00e1reas de gasto excesivo y proponer alternativas m\u00e1s eficientes. Adem\u00e1s, la transparencia que genera el an\u00e1lisis de datos fortalecer\u00e1 la confianza p\u00fablica en la gesti\u00f3n responsable de los recursos.",
+        "scalability": "El marco de este an\u00e1lisis puede aplicarse no solo a SENACE sino tambi\u00e9n a otras agencias gubernamentales. Adem\u00e1s, se puede extender para realizar an\u00e1lisis por proyecto dentro de SENACE, maximizando su utilidad.",
+        "viability": "La alta viabilidad t\u00e9cnica y econ\u00f3mica de esta soluci\u00f3n la convierte en una inversi\u00f3n estrat\u00e9gica para SENACE. Los ahorros en los presupuestos de viaje justificar\u00e1n la inversi\u00f3n inicial en el an\u00e1lisis y las herramientas, generando beneficios a largo plazo."
     },
     {
         "title": "Predicci\u00f3n de Costos de Viaje",
         "description": "Utilizando Machine Learning, este modelo podr\u00e1 predecir el costo total de un viaje futuro basado en variables como tipo de ruta, duraci\u00f3n del viaje y \u00e1rea de origen. Permite optimizar la planificaci\u00f3n presupuestaria.",
         "technique": "Machine learning (regresi\u00f3n), an\u00e1lisis predictivo",
         "columns": "TIPO_RUTA (variable predictora), DURACION (variable predictora), AREA (variable predictora), COSTO_PASAJES (variable a predecir)",
-        "type": "fa-robot"
+        "type": "fa-robot",
+        "complement_idea": "La idea de 'Predicci\u00f3n de Costos de Viaje' es s\u00f3lida y se puede complementar con funciones adicionales como:",
+        "impact": "\u00a1El impacto social de 'Predicci\u00f3n de Costos de Viaje' es significativo! Al democratizar la planificaci\u00f3n de viajes, facilita el acceso a experiencias enriquecedoras para personas con presupuestos limitados.",
+        "scalability": "La escalabilidad del proyecto es alta. Se puede implementar en diferentes mercados geogr\u00e1ficos mediante modelos regionales y adaptarse a diversas necesidades de viaje gracias a funciones de personalizaci\u00f3n.",
+        "viability": "'Predicci\u00f3n de Costos de Viaje' es una idea viable gracias a la disponibilidad de datos hist\u00f3ricos de viajes y la utilizaci\u00f3n de t\u00e9cnicas de aprendizaje autom\u00e1tico probadas. La necesidad de actualizar continuamente el modelo debido a la volatilidad de los precios se puede superar con un sistema automatizado de retraining."
     },
     {
         "title": "Identificaci\u00f3n de Posibles Irregularidades",
         "description": "Este an\u00e1lisis buscar\u00e1 patrones inusuales en los datos, como viajes muy costosos para distancias cortas o frecuencias de viaje altas para un servidor. Puede ayudar a detectar posibles casos de corrupci\u00f3n.",
         "technique": "An\u00e1lisis de outliers, visualizaci\u00f3n de datos",
         "columns": "COSTO_PASAJES (para identificar costos at\u00edpicos), DURACION (para relacionar duraci\u00f3n con costo), RUTA (para analizar distancias recorridas), NOMBRES_ANOMINIZADOS (para identificar patrones en viajes de servidores espec\u00edficos)",
-        "type": "fa-shield-check"
+        "type": "fa-shield-check",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Optimizaci\u00f3n de Rutas",
         "description": "Este dashboard mostrar\u00e1 las rutas m\u00e1s utilizadas por el SENACE y permitir\u00e1 compararlas con alternativas m\u00e1s eficientes en t\u00e9rminos de tiempo o costo. Se puede utilizar para optimizar la planificaci\u00f3n de viajes.",
         "technique": "An\u00e1lisis geoespacial, optimizaci\u00f3n de rutas",
         "columns": "RUTA (para identificar rutas frecuentes), TIPO_RUTA (para analizar el tipo de transporte utilizado), COSTO_PASAJES (para comparar costos entre rutas alternativas), DURACION (para comparar tiempos de viaje)",
-        "type": "fa-route"
+        "type": "fa-route",
+        "complement_idea": "La idea de 'Optimizaci\u00f3n de Rutas' se puede complementar con la incorporaci\u00f3n de un sistema de aprendizaje autom\u00e1tico que pueda predecir patrones de tr\u00e1fico y ajustar las rutas en tiempo real para una mayor eficiencia.",
+        "impact": "'Optimizaci\u00f3n de Rutas' tendr\u00e1 un gran impacto en SENACE al reducir costos, mejorar la velocidad de entrega y aumentar la capacidad. Tambi\u00e9n puede tener un impacto social positivo al mejorar la eficiencia del transporte p\u00fablico y apoyar la respuesta a desastres.'",
+        "scalability": "La soluci\u00f3n es altamente escalable, ya que su n\u00facleo tecnol\u00f3gico se puede adaptar para optimizar rutas en otros sectores como el transporte p\u00fablico y la respuesta a desastres. La creaci\u00f3n de una API abierta permitir\u00e1 que otros desarrolladores aprovechen los datos de rutas optimizadas de SENACE.",
+        "viability": "-"
     }
 ]

@@ -4,34 +4,54 @@
         "description": "Crear un mapa interactivo que muestre la concentraci\u00f3n de ozono (O3) en el tiempo. Esto permitir\u00e1 a los usuarios visualizar c\u00f3mo var\u00eda la calidad del aire en diferentes ubicaciones y momentos.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n con mapas interactivos",
         "columns": "FECHA (para filtrar por fecha), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), O3 (concentraci\u00f3n de ozono)",
-        "type": "fa-map"
+        "type": "fa-map",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Predicci\u00f3n del \u00edndice UV m\u00e1ximo",
         "description": "Desarrollar un modelo de machine learning que prediga el \u00edndice UV m\u00e1ximo diario en funci\u00f3n de factores como la fecha, hora y ubicaci\u00f3n geogr\u00e1fica. Esto permitir\u00e1 a las personas tomar medidas para protegerse de la radiaci\u00f3n solar.",
         "technique": "Machine Learning (Regresi\u00f3n), an\u00e1lisis temporal",
         "columns": "FECHA (para entrenar el modelo), HORA (variable importante para predecir UV), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), UV_MAX (valor objetivo para el entrenamiento)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de 'Predicci\u00f3n del \u00cdndice UV M\u00e1ximo' utilizando regresi\u00f3n de aprendizaje autom\u00e1tico para predecir el \u00edndice UV m\u00e1ximo diario es excelente. Se puede complementar a\u00fan m\u00e1s con las siguientes ideas:",
+        "impact": "Este proyecto tiene un impacto significativo al empoderar a los individuos para protegerse de los da\u00f1os solares. Tambi\u00e9n puede informar campa\u00f1as de salud p\u00fablica, la planificaci\u00f3n urbana y recomendaciones personalizadas de atenci\u00f3n m\u00e9dica.",
+        "scalability": "La soluci\u00f3n es altamente escalable gracias al uso de modelos de regresi\u00f3n y plataformas de computaci\u00f3n en la nube que permiten un f\u00e1cil despliegue y acceso.",
+        "viability": "'Predicci\u00f3n del \u00cdndice UV M\u00e1ximo' es econ\u00f3micamente viable a trav\u00e9s de licencias del modelo a aplicaciones meteorol\u00f3gicas, marcas de productos solares para el cuidado de la piel y organizaciones de salud. "
     },
     {
         "title": "An\u00e1lisis de patrones de precipitaci\u00f3n",
         "description": "Analizar los datos hist\u00f3ricos de precipitaci\u00f3n para identificar patrones y tendencias. Esto puede ayudar a comprender mejor los patrones clim\u00e1ticos locales y predecir posibles eventos de sequ\u00eda o inundaciones.",
         "technique": "An\u00e1lisis temporal, detecci\u00f3n de patrones",
         "columns": "FECHA (para an\u00e1lisis temporal), PP (precipitaci\u00f3n diaria), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica)",
-        "type": "fa-cloud-rain"
+        "type": "fa-cloud-rain",
+        "complement_idea": "El an\u00e1lisis de patrones de precipitaci\u00f3n puede complementarse con datos de temperatura, humedad y otros factores clim\u00e1ticos para crear modelos predictivos m\u00e1s precisos.",
+        "impact": "Este an\u00e1lisis tendr\u00e1 un impacto significativo en la agricultura, permitiendo a los agricultores optimizar sus pr\u00e1cticas de siembra y cosecha. Tambi\u00e9n beneficiar\u00e1 a los gestores del agua al permitirles anticiparse a las sequ\u00edas y optimizar la distribuci\u00f3n de recursos h\u00eddricos. Adem\u00e1s, la predicci\u00f3n temprana de inundaciones salvar\u00e1 vidas y reducir\u00e1 los da\u00f1os a las infraestructuras.",
+        "scalability": "Este an\u00e1lisis es escalable y se puede aplicar a diferentes regiones geogr\u00e1ficas. La creaci\u00f3n de un banco de datos global de patrones de precipitaci\u00f3n permitir\u00eda a investigadores y tomadores de decisiones en todo el mundo acceder a informaci\u00f3n valiosa para enfrentar los desaf\u00edos del cambio clim\u00e1tico.",
+        "viability": "-"
     },
     {
         "title": "Comparaci\u00f3n de la calidad del aire entre \u00e1reas",
         "description": "Crear un tablero interactivo que compare los niveles de ozono y otros indicadores de calidad del aire entre diferentes departamentos, provincias o distritos. Esto permitir\u00e1 identificar zonas con mayor riesgo de contaminaci\u00f3n.",
         "technique": "An\u00e1lisis comparativo, visualizaci\u00f3n de datos con dashboards",
         "columns": "DEPARTAMENTO (para agrupar), PROVINCIA (para agrupar), DISTRITO (para agrupar), FECHA (para filtrar por fecha), O3 (concentraci\u00f3n de ozono), UV_MAX (\u00edndice UV m\u00e1ximo)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Una plataforma interactiva que compare la calidad del aire en diferentes regiones, mostrando no solo el ozono, sino tambi\u00e9n otros contaminantes relevantes. Adem\u00e1s de las visualizaciones, se podr\u00edan integrar herramientas para identificar las causas de la contaminaci\u00f3n y proponer soluciones personalizadas a nivel individual y comunitario.",
+        "impact": "Al brindar informaci\u00f3n accesible sobre la calidad del aire, esta plataforma puede empoderar a las comunidades para tomar acciones concretas que mejoren su salud y bienestar. Facilitar\u00e1 la toma de decisiones informadas tanto a nivel individual como colectivo, promoviendo un entorno m\u00e1s saludable y sostenible.",
+        "scalability": "La plataforma se puede escalar f\u00e1cilmente a nuevas regiones gracias al uso de APIs p\u00fablicas de datos de calidad del aire. Se pueden agregar nuevos contaminantes, indicadores de salud y recursos locales para personalizar la experiencia de usuario en diferentes contextos.",
+        "viability": "El desarrollo de la plataforma es viable desde un punto de vista econ\u00f3mico gracias al uso de herramientas de c\u00f3digo abierto y APIs gratuitas. Su modelo puede ser sostenible a trav\u00e9s de alianzas con organizaciones ambientales, gobiernos locales o empresas comprometidas con la salud ambiental."
     },
     {
         "title": "Sistema de alerta temprana para eventos clim\u00e1ticos extremos",
         "description": "Desarrollar un sistema que utilice datos hist\u00f3ricos de precipitaci\u00f3n y otros indicadores meteorol\u00f3gicos para predecir eventos clim\u00e1ticos extremos, como inundaciones o sequ\u00edas. El sistema podr\u00eda enviar alertas a la poblaci\u00f3n afectada.",
         "technique": "Machine learning (clasificaci\u00f3n), an\u00e1lisis predictivo, sistemas de alerta",
         "columns": "FECHA (para entrenar el modelo), PP (precipitaci\u00f3n diaria), LATITUD (ubicaci\u00f3n geogr\u00e1fica), LONGITUD (ubicaci\u00f3n geogr\u00e1fica), O3 (indicador potencial de patrones clim\u00e1ticos)",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     }
 ]

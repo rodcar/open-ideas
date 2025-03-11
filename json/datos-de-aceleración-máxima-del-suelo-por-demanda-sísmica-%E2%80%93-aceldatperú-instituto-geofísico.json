@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Mapa de Intensidad S\u00edsmica",
+        "description": "Crear un mapa interactivo que muestre la intensidad de los sismos en diferentes ubicaciones. Esto permitir\u00e1 visualizar las zonas m\u00e1s propensas a terremotos y ayudar a tomar medidas preventivas.",
+        "technique": "An\u00e1lisis, geo-referenciaci\u00f3n, visualizaci\u00f3n de mapas",
+        "columns": "FECHA_EVENTO (Para filtrar por eventos), HORA_EVENTO (Para filtrar por eventos), UBIGEO (Para ubicar la estaci\u00f3n en el mapa), LAT_ESTACION (Coordenada geogr\u00e1fica para ubicaci\u00f3n en el mapa), LON_ESTACION (Coordenada geogr\u00e1fica para ubicaci\u00f3n en el mapa), ACEL_MAX_VERTICAL (Para determinar la intensidad del sismo en cada punto), ",
+        "type": "fa-map-location",
+        "complement_idea": "El 'Mapa de Intensidad S\u00edsmica' combina datos s\u00edsmicos en tiempo real de IRIS y GFZ con registros hist\u00f3ricos del USGS y EMSC. Esto permite una visualizaci\u00f3n interactiva de la intensidad s\u00edsmica a trav\u00e9s de mapas, utilizando gradientes de color y variaciones de tama\u00f1o para comunicar claramente los niveles de riesgo.",
+        "impact": "Este mapa empodera a individuos, comunidades y tomadores de decisiones para comprender mejor los riesgos s\u00edsmicos. Permite tomar medidas preventivas como la planificaci\u00f3n de rutas de evacuaci\u00f3n, el refuerzo de estructuras y la preparaci\u00f3n de kits de emergencia. En \u00faltima instancia, 'Mapa de Intensidad S\u00edsmica' puede contribuir a salvar vidas y reducir da\u00f1os en caso de un terremoto.",
+        "scalability": "El dise\u00f1o modular del mapa permite futuras integraciones con nuevos datos (como informaci\u00f3n sobre tipos de suelo o vulnerabilidad de infraestructuras) y funcionalidades adicionales, como alertas tempranas o simulaciones de escenarios s\u00edsmicos. Esto garantiza que el mapa siga siendo relevante y \u00fatil a largo plazo.",
+        "viability": "La viabilidad del proyecto se basa en la utilizaci\u00f3n de datos abiertos y herramientas de c\u00f3digo abierto, lo que reduce los costos de desarrollo. Adem\u00e1s, la plataforma web puede ser alojada en servidores en la nube, asegurando escalabilidad y disponibilidad global."
+    },
+    {
+        "title": "Predicci\u00f3n de Sismos",
+        "description": "Utilizar modelos de machine learning para analizar patrones hist\u00f3ricos en los datos de aceleraci\u00f3n y intentar predecir la ocurrencia y magnitud de futuros sismos.",
+        "technique": "Machine Learning, an\u00e1lisis predictivo, visualizaci\u00f3n temporal",
+        "columns": "FECHA_EVENTO (Variable temporal), HORA_EVENTO (Variable temporal), ACEL_MAX_VERTICAL (Valor a predecir), ACEL_MAX_NORTE-SUR (Dato relevante para el modelo), ACEL_MAX_ESTE-OESTE (Dato relevante para el modelo), UBIGEO (Para contextualizar la predicci\u00f3n)",
+        "type": "fa-chart-line",
+        "complement_idea": "Predicci\u00f3n de Sismos utiliza aprendizaje autom\u00e1tico para analizar datos hist\u00f3ricos de aceleraci\u00f3n s\u00edsmica y predecir eventos s\u00edsmicos. Los modelos RNN o LSTM se emplean para identificar patrones en los datos. La integraci\u00f3n de conjuntos de datos diversos, como niveles de agua subterr\u00e1nea y comportamiento animal, puede mejorar la precisi\u00f3n predictiva.",
+        "impact": "Este proyecto tiene un impacto social significativo al proporcionar alertas tempranas que pueden salvar vidas y permitir la toma de medidas preventivas. Las visualizaciones amigables para el usuario empoderan a las comunidades para prepararse ante los eventos s\u00edsmicos.",
+        "scalability": "El sistema se puede escalar mediante la colaboraci\u00f3n con instituciones cient\u00edficas, la integraci\u00f3n de datos de sensores s\u00edsmicos en tiempo real y la expansi\u00f3n a diferentes regiones con riesgo s\u00edsmico.",
+        "viability": "Aunque predecir terremotos con certeza absoluta es un desaf\u00edo, el proyecto es viable gracias al uso de t\u00e9cnicas de aprendizaje autom\u00e1tico probadas, la disponibilidad de datos hist\u00f3ricos y el potencial para reducir da\u00f1os y salvar vidas."
+    },
+    {
+        "title": "Sistema de Alerta Temprana",
+        "description": "Desarrollar un sistema que, al detectar patrones de alta aceleraci\u00f3n, emita alertas tempranas a la poblaci\u00f3n en las zonas de riesgo.",
+        "technique": "An\u00e1lisis en tiempo real, procesamiento de datos, integraci\u00f3n con sistemas de alerta",
+        "columns": "FECHA_EVENTO (Para identificar eventos recientes), HORA_EVENTO (Para identificar eventos recientes), ACEL_MAX_VERTICAL (Para determinar si se supera un umbral cr\u00edtico), UBIGEO (Para determinar la zona afectada)",
+        "type": "fa-bell",
+        "complement_idea": "Sistema de Alerta Temprana complementa la preparaci\u00f3n para desastres al brindar alertas tempranas basadas en datos de aceleraci\u00f3n, permitiendo una respuesta m\u00e1s r\u00e1pida y efectiva.",
+        "impact": "El impacto de Sistema de Alerta Temprana es significativo. Puede salvar vidas, reducir lesiones y minimizar da\u00f1os a la propiedad al proporcionar tiempo crucial para evacuar y tomar medidas de seguridad.",
+        "scalability": "Sistema de Alerta Temprana es escalable gracias a su dise\u00f1o modular basado en una red de sensores de bajo costo. Esto permite expandir el sistema a nuevas \u00e1reas y adaptarse a diferentes tipos de desastres.",
+        "viability": "La viabilidad de Sistema de Alerta Temprana es alta debido a su enfoque en tecnolog\u00edas de bajo costo, como los sensores aceler\u00f3metros y el aprendizaje autom\u00e1tico de c\u00f3digo abierto. Esta combinaci\u00f3n hace que el sistema sea econ\u00f3micamente viable y sostenible."
+    },
+    {
+        "title": "An\u00e1lisis de Riesgo S\u00edsmico",
+        "description": "Evaluar el riesgo s\u00edsmico en diferentes zonas, considerando la frecuencia e intensidad de los sismos hist\u00f3ricos. Esta informaci\u00f3n puede ser utilizada para planificar infraestructuras m\u00e1s resistentes.",
+        "technique": "Geoestad\u00edstica, an\u00e1lisis espacial, visualizaci\u00f3n de mapas de calor",
+        "columns": "UBIGEO (Para ubicar las estaciones), ACEL_MAX_VERTICAL (Para cuantificar la intensidad), LAT_ESTACION (Coordenada geogr\u00e1fica), LON_ESTACION (Coordenada geogr\u00e1fica)",
+        "type": "fa-chart-area",
+        "complement_idea": "Para complementar la idea, se podr\u00eda integrar un sistema de alerta temprana que utilice datos en tiempo real para predecir terremotos inminentes. Esto permitir\u00eda a las comunidades tomar medidas inmediatas para protegerse.",
+        "impact": "El an\u00e1lisis de riesgo s\u00edsmico tiene un alto impacto al permitir la planificaci\u00f3n de infraestructuras m\u00e1s resistentes, la preparaci\u00f3n de la poblaci\u00f3n ante desastres y la reducci\u00f3n de p\u00e9rdidas humanas y materiales.",
+        "scalability": "La metodolog\u00eda es escalable a diferentes regiones del mundo gracias a su base en datos hist\u00f3ricos y su adaptabilidad a diversos contextos geogr\u00e1ficos. Adem\u00e1s, se puede replicar para analizar otros tipos de riesgos naturales.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto est\u00e1 asegurada por el uso de t\u00e9cnicas geoestad\u00edsticas y an\u00e1lisis espacial probadas. Se requiere un equipo t\u00e9cnico capacitado y acceso a datos confiables. La inversi\u00f3n en este tipo de proyectos tiene un alto retorno social."
+    },
+    {
+        "title": "Base de Datos Abierta",
+        "description": "Crear una plataforma online accesible al p\u00fablico que permita consultar y descargar los datos de aceleraci\u00f3n. Esto fomentar\u00e1 la investigaci\u00f3n cient\u00edfica y el desarrollo de nuevas aplicaciones.",
+        "technique": "Dise\u00f1o de base de datos, API REST, visualizaci\u00f3n de datos",
+        "columns": "Todas las columnas (Para proporcionar acceso completo a los datos)",
+        "type": "fa-database",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
+    }
+]

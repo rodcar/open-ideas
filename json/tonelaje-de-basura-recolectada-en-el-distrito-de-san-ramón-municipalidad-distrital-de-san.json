@@ -4,34 +4,54 @@
         "description": "Este an\u00e1lisis permitir\u00e1 identificar patrones en la recolecci\u00f3n de residuos, evaluar la eficiencia de las rutas y optimizar el uso de los veh\u00edculos.  Tambi\u00e9n se puede usar para determinar \u00e1reas con mayor volumen de residuos y planificar estrategias de gesti\u00f3n m\u00e1s efectivas.",
         "technique": "An\u00e1lisis geoespacial, visualizaci\u00f3n de datos",
         "columns": "FECHA_CORTE (Para analizar tendencias en el tiempo), UBIGEO (Para identificar zonas geogr\u00e1ficas con mayor volumen de residuos), Veh\u00edculo de transporte que dispone los residuos (Para evaluar la eficiencia de cada veh\u00edculo), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para optimizar las rutas de recolecci\u00f3n), Cantidad de residuos dispuestos (toneladas) (Para cuantificar el volumen de residuos por zona y fecha)",
-        "type": "fa-map-location"
+        "type": "fa-map-location",
+        "complement_idea": "El sistema \"Monitoreo de la Eficiencia en la Recolecci\u00f3n de Residuos\" combina el rastreo GPS en tiempo real de los veh\u00edculos de recolecci\u00f3n con sensores IoT en los contenedores para monitorear los niveles de llenado.  Utiliza an\u00e1lisis geoespacial para identificar puntos calientes de alta densidad de residuos, permitiendo la optimizaci\u00f3n din\u00e1mica de rutas. Los mapas interactivos muestran patrones de recolecci\u00f3n, contenedores desbordados y \u00e1reas problem\u00e1ticas, lo que empodera tanto a los ciudadanos como a los responsables pol\u00edticos con informaci\u00f3n accionable.",
+        "impact": "El impacto del sistema es significativo. Mejora la salud p\u00fablica mediante la eliminaci\u00f3n oportuna de residuos, reduce los costos operativos (combustible, mano de obra) y minimiza el impacto ambiental. Tambi\u00e9n facilita la toma de decisiones basada en datos para intervenciones dirigidas como campa\u00f1as de reciclaje o mejoras en infraestructura.",
+        "scalability": "El sistema es altamente escalable. Puede implementarse en diferentes tama\u00f1os de ciudades y adaptarse a las necesidades espec\u00edficas de cada comunidad. La tecnolog\u00eda utilizada (GPS, IoT, an\u00e1lisis geoespacial) es accesible y se puede integrar con sistemas existentes.",
+        "viability": "La viabilidad del sistema es alta. La tecnolog\u00eda necesaria ya est\u00e1 disponible y su implementaci\u00f3n es factible. Adem\u00e1s, los beneficios en t\u00e9rminos de eficiencia, salud p\u00fablica y sostenibilidad ambiental justifican la inversi\u00f3n inicial."
     },
     {
         "title": "Sistema de Alerta para la Gesti\u00f3n de Residuos",
         "description": "Este sistema utilizar\u00e1 datos hist\u00f3ricos de recolecci\u00f3n para predecir picos en la generaci\u00f3n de residuos. Esto permitir\u00e1 a la Municipalidad Distrital de San Ram\u00f3n tomar medidas preventivas, como aumentar la frecuencia de recolecci\u00f3n o asignar m\u00e1s recursos a zonas espec\u00edficas.",
         "technique": "An\u00e1lisis predictivo (Machine Learning)",
         "columns": "FECHA_CORTE (Variable temporal para el modelo predictivo), UBIGEO (Para identificar patrones geogr\u00e1ficos en la generaci\u00f3n de residuos), Cantidad de residuos dispuestos (toneladas) (Dato objetivo para la predicci\u00f3n), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para considerar la influencia de d\u00edas festivos o eventos especiales)",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "El sistema 'Sistema de Alerta para la Gesti\u00f3n de Residuos' puede complementarse con la integraci\u00f3n de contenedores inteligentes con sensores de nivel de llenado para obtener datos en tiempo real y mejorar a\u00fan m\u00e1s la precisi\u00f3n de las predicciones. Adem\u00e1s, el desarrollo de una aplicaci\u00f3n m\u00f3vil para la comunidad podr\u00eda fomentar pr\u00e1cticas de eliminaci\u00f3n de residuos responsables a trav\u00e9s de la gamificaci\u00f3n y los incentivos.",
+        "impact": "El sistema tendr\u00eda un impacto positivo significativo en San Ram\u00f3n al mejorar la higiene p\u00fablica al reducir los contenedores de basura desbordantes. Tambi\u00e9n aumentar\u00eda la eficiencia operativa al optimizar las rutas de recogida, lo que resultar\u00eda en ahorros de combustible y tiempo. Adem\u00e1s, al minimizar la cantidad de residuos que llegan a los vertederos, el sistema contribuir\u00eda a reducir el impacto ambiental.",
+        "scalability": "El modelo 'Sistema de Alerta' es escalable a otras ciudades o municipios. La adaptabilidad del sistema radica en su capacidad para ajustar los par\u00e1metros en funci\u00f3n de las caracter\u00edsticas espec\u00edficas de cada localidad, como la densidad de poblaci\u00f3n, los h\u00e1bitos de generaci\u00f3n de residuos y las variaciones estacionales.",
+        "viability": "La viabilidad del proyecto depender\u00e1 de la calidad de los datos hist\u00f3ricos disponibles, as\u00ed como de la realizaci\u00f3n de un an\u00e1lisis costo-beneficio. Es importante considerar los costos de desarrollo, implementaci\u00f3n y mantenimiento del sistema, junto con los ahorros potenciales en costos operativos y los beneficios ambientales. La exploraci\u00f3n de oportunidades de financiaci\u00f3n a trav\u00e9s de subvenciones o colaboraciones p\u00fablico-privadas podr\u00eda ser crucial para garantizar la sostenibilidad del proyecto."
     },
     {
         "title": "Comparaci\u00f3n del Rendimiento de los Veh\u00edculos",
         "description": "Analizar la eficiencia de cada veh\u00edculo en funci\u00f3n del volumen de residuos recolectados, la distancia recorrida y el tiempo empleado. Esto permitir\u00e1 identificar veh\u00edculos con bajo rendimiento y optimizar su uso.",
         "technique": "An\u00e1lisis estad\u00edstico comparativo",
         "columns": "Veh\u00edculo de transporte que dispone los residuos (Para identificar cada veh\u00edculo), Cantidad de residuos dispuestos (toneladas) (Para evaluar la capacidad de carga), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para considerar variaciones en la distancia recorrida por d\u00eda)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "\u00a1Comparaci\u00f3n del Rendimiento de los Veh\u00edculos! es una idea brillante que utiliza an\u00e1lisis estad\u00edstico comparativo para optimizar la eficiencia de las rutas de recogida de basura. \u00a1Imaginen identificar veh\u00edculos con bajo rendimiento y poder enfocar intervenciones como mantenimiento, optimizaci\u00f3n de rutas o formaci\u00f3n a los conductores!",
+        "impact": "Este enfoque puede tener un impacto significativo en la reducci\u00f3n de costos, emisiones y tiempo de servicio. \u00a1Una gesti\u00f3n m\u00e1s eficiente de la basura beneficia al medio ambiente y a la comunidad!",
+        "scalability": "\u00a1Es una soluci\u00f3n escalable! Se puede implementar en diferentes ciudades y contextos, adapt\u00e1ndose a las necesidades espec\u00edficas de cada lugar.",
+        "viability": "\u00a1Altamente viable! Utiliza datos existentes y m\u00e9todos estad\u00edsticos comprobados. \u00a1Un proyecto con gran potencial de \u00e9xito!"
     },
     {
         "title": "Optimizaci\u00f3n de las Rutas de Recolecci\u00f3n",
         "description": "Utilizar datos geogr\u00e1ficos y de recolecci\u00f3n para dise\u00f1ar rutas m\u00e1s eficientes, minimizando distancias y tiempo de viaje. Esto reducir\u00e1 costos y mejorar\u00e1 la puntualidad del servicio.",
         "technique": "Algoritmos de optimizaci\u00f3n de rutas (ej. algoritmo de Dijkstra)",
         "columns": "UBIGEO (Para determinar la ubicaci\u00f3n geogr\u00e1fica de los puntos de recolecci\u00f3n), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para considerar la frecuencia de recolecci\u00f3n en cada zona)",
-        "type": "fa-truck"
+        "type": "fa-truck",
+        "complement_idea": "Para complementar esta idea, se podr\u00eda considerar la implementaci\u00f3n de un sistema de geolocalizaci\u00f3n en tiempo real para los contenedores de basura. Esto permitir\u00eda ajustar las rutas de forma a\u00fan m\u00e1s eficiente y optimizar el proceso de recogida.",
+        "impact": "Esta idea tiene un gran impacto social al mejorar la eficiencia de la recogida de basura, lo que reduce la contaminaci\u00f3n y mejora la calidad de vida de las personas. Tambi\u00e9n tiene un impacto econ\u00f3mico al reducir los costos de operaci\u00f3n para las empresas de gesti\u00f3n de residuos.",
+        "scalability": "Esta idea es altamente escalable, ya que el modelo de optimizaci\u00f3n de rutas puede aplicarse a otras \u00e1reas como la log\u00edstica de entregas, transporte p\u00fablico y servicios de emergencia. Su versatilidad permite adaptarlo a diferentes contextos y necesidades.",
+        "viability": "La viabilidad t\u00e9cnica de esta idea es alta, ya que existen algoritmos de optimizaci\u00f3n de rutas probados y herramientas de software disponibles para su implementaci\u00f3n. Adem\u00e1s, el uso de datos geogr\u00e1ficos existentes y la integraci\u00f3n con sistemas de GPS hacen que la puesta en marcha sea factible."
     },
     {
         "title": "Mapa Interactivo de Puntos de Recolecci\u00f3n",
         "description": "Desarrollar un mapa interactivo que muestre la ubicaci\u00f3n de los puntos de recolecci\u00f3n, la frecuencia de servicio y el volumen de residuos generado en cada zona. Esto permitir\u00e1 a la ciudadan\u00eda acceder informaci\u00f3n transparente sobre el servicio de recolecci\u00f3n.",
         "technique": "Visualizaci\u00f3n web (ej. Leaflet o Google Maps API)",
         "columns": "UBIGEO (Para ubicar los puntos de recolecci\u00f3n en el mapa), Cantidad de residuos dispuestos (toneladas) (Para mostrar el volumen de residuos por zona), D\u00eda en el que realiza la disposici\u00f3n de residuos s\u00f3lidos (dd/mm/aa) (Para indicar la frecuencia de servicio)",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "El mapa interactivo 'Mapa Interactivo de Puntos de Recolecci\u00f3n' puede complementarse con la implementaci\u00f3n de un sistema de notificaciones por SMS o correo electr\u00f3nico para recordar a los usuarios sobre las fechas de recolecci\u00f3n. Adem\u00e1s, se podr\u00eda incorporar un m\u00f3dulo para reportar problemas relacionados con la recolecci\u00f3n de residuos, como contenedores llenos o puntos de recolecci\u00f3n inaccesibles.",
+        "impact": "El proyecto tendr\u00e1 un impacto positivo en la comunidad al mejorar la transparencia y la participaci\u00f3n ciudadana en la gesti\u00f3n de residuos. La visualizaci\u00f3n clara de los datos de servicio fomentar\u00e1 la responsabilidad individual y colectiva, contribuyendo a un sistema de recolecci\u00f3n m\u00e1s eficiente y sostenible.",
+        "scalability": "La plataforma se basa en tecnolog\u00eda abierta, lo que facilita su escalabilidad a otras ciudades o regiones. Adem\u00e1s, la posibilidad de integrar nuevas funcionalidades como la diferenciaci\u00f3n de tipos de residuos y el env\u00edo de notificaciones personalizadas permitir\u00e1 adaptarla a las necesidades cambiantes de la comunidad.",
+        "viability": "El uso de una plataforma de c\u00f3digo abierto como Leaflet reduce los costos de desarrollo inicial. La colaboraci\u00f3n con los departamentos de saneamiento para asegurar la actualizaci\u00f3n constante de los datos es fundamental para la viabilidad del proyecto a largo plazo."
     }
 ]

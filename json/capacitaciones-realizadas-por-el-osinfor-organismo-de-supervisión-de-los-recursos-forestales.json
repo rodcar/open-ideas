@@ -4,34 +4,54 @@
         "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de las capacitaciones realizadas por el OSINFOR, identificando zonas con mayor y menor cobertura. Esto permitir\u00e1 optimizar la planificaci\u00f3n de futuras capacitaciones.",
         "technique": "An\u00e1lisis geoespacial, mapas interactivos",
         "columns": "UBIGEO (para geolocalizaci\u00f3n), DEPARTAMENTO (para an\u00e1lisis regional), PROVINCIA (para an\u00e1lisis provincial), DISTRITO (para an\u00e1lisis local), TIPO_CAPACITACION (para categorizar las capacitaciones), NRO_PARTICIPANTES (para visualizar la intensidad de la cobertura)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El mapa interactivo de acceso a capacitaciones de OSINFOR puede complementarse con herramientas adicionales que permitan a los usuarios filtrar la informaci\u00f3n por tipo de capacitaci\u00f3n, fecha y ubicaci\u00f3n espec\u00edfica. Tambi\u00e9n se podr\u00eda incluir un sistema de retroalimentaci\u00f3n para que los usuarios puedan reportar errores o sugerir nuevas ubicaciones para futuras capacitaciones.",
+        "impact": "Este proyecto tendr\u00e1 un impacto positivo al promover la equidad en el acceso a las oportunidades de capacitaci\u00f3n. Al visualizar las \u00e1reas con menor cobertura, OSINFOR podr\u00e1 dirigir sus recursos a donde m\u00e1s se necesiten, beneficiando a las comunidades que tradicionalmente han tenido menos acceso a este tipo de programas.",
+        "scalability": "La soluci\u00f3n es altamente escalable gracias al uso de herramientas de software libre y a un dise\u00f1o modular. Se puede replicar en otras organizaciones o instituciones que buscan optimizar la distribuci\u00f3n de recursos y servicios en diferentes \u00e1reas geogr\u00e1ficas.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto depende principalmente de la disponibilidad de datos precisos sobre las ubicaciones de las capacitaciones previas. Si estos datos son accesibles y confiables, el desarrollo del mapa interactivo ser\u00e1 factible con un presupuesto razonable."
     },
     {
         "title": "An\u00e1lisis de tendencias en tem\u00e1ticas de capacitaci\u00f3n",
         "description": "Identificar las tem\u00e1ticas de capacitaci\u00f3n m\u00e1s demandadas por regi\u00f3n y grupo poblacional, utilizando machine learning para detectar patrones. Esto permitir\u00e1 al OSINFOR adaptar sus programas a las necesidades reales.",
         "technique": "An\u00e1lisis de texto, machine learning, visualizaci\u00f3n de datos",
         "columns": "TEMAS_TRATADOS_CAPACITACION (para el an\u00e1lisis textual), DEPARTAMENTO (para analizar tendencias regionales), GRUPO_PUBLICO (para identificar patrones por grupo poblacional)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El an\u00e1lisis de tendencias en tem\u00e1ticas de capacitaci\u00f3n utilizando an\u00e1lisis de texto y aprendizaje autom\u00e1tico es una idea innovadora que complementa la misi\u00f3n de OSINFOR al permitirle anticiparse a las necesidades de formaci\u00f3n del futuro. Esto se logra mediante la identificaci\u00f3n de patrones en datos como foros online y ofertas de trabajo, lo que permite a OSINFOR dise\u00f1ar programas m\u00e1s relevantes y dirigidos a grupos espec\u00edficos.",
+        "impact": "La idea tiene un alto impacto potencial al promover la inclusi\u00f3n social al adaptar los programas de formaci\u00f3n a las necesidades de comunidades subrepresentadas. Adem\u00e1s, al anticiparse a las demandas futuras del mercado laboral, se contribuye a mejorar la empleabilidad y el desarrollo econ\u00f3mico.",
+        "scalability": "La soluci\u00f3n es escalable debido a que el modelo de aprendizaje autom\u00e1tico puede adaptarse a diferentes regiones y contextos. Adem\u00e1s, al utilizar datos p\u00fablicos y colaborar con organizaciones locales, se puede ampliar el alcance del an\u00e1lisis y alcanzar un mayor n\u00famero de beneficiarios.",
+        "viability": "La viabilidad t\u00e9cnica se basa en la disponibilidad de herramientas de an\u00e1lisis de texto y aprendizaje autom\u00e1tico que ya existen en el mercado. La viabilidad econ\u00f3mica se ve favorecida por la optimizaci\u00f3n de recursos al enfocar los programas de formaci\u00f3n donde hay mayor demanda, reduciendo as\u00ed costos innecesarios."
     },
     {
         "title": "Evaluaci\u00f3n del impacto de las capacitaciones",
         "description": "Medir el impacto de las capacitaciones en los participantes, utilizando encuestas y an\u00e1lisis de datos. Esto permitir\u00e1 al OSINFOR evaluar la efectividad de sus programas.",
         "technique": "An\u00e1lisis de encuestas, estad\u00edstica descriptiva",
         "columns": "CODIGO_CAPACITACION (para identificar las capacitaciones a evaluar), PARTICIPANTES (para obtener datos individuales), GRUPO_PUBLICO (para segmentar el an\u00e1lisis), TITULO_HABILITANTE (para analizar el progreso profesional)",
-        "type": "fa-check-square"
+        "type": "fa-check-square",
+        "complement_idea": "La idea de evaluar el impacto del entrenamiento a trav\u00e9s de encuestas y estad\u00edsticas descriptivas es s\u00f3lida y pr\u00e1ctica. Se puede complementar con la recolecci\u00f3n de datos cualitativos (como grupos focales o entrevistas) para obtener una comprensi\u00f3n m\u00e1s profunda del impacto del entrenamiento en los participantes.",
+        "impact": "El uso de encuestas permite cuantificar el conocimiento adquirido, el desarrollo de habilidades y los cambios de actitud. Esto ayuda a demostrar claramente el impacto del entrenamiento en la comunidad.",
+        "scalability": "Este m\u00e9todo es f\u00e1cilmente escalable para diferentes programas de entrenamiento. Los modelos de encuestas pueden ser adaptables y las estad\u00edsticas descriptivas son f\u00e1ciles de comunicar a los interesados.",
+        "viability": "Las encuestas son una herramienta de bajo costo y f\u00e1cil de implementar, lo que la hace t\u00e9cnicamente viable dentro de las limitaciones de recursos."
     },
     {
         "title": "Plataforma de acceso a informaci\u00f3n sobre capacitaciones",
         "description": "Desarrollar una plataforma web donde se publique informaci\u00f3n detallada sobre las capacitaciones del OSINFOR, incluyendo calendarios, temarios y materiales de apoyo. Esto facilitar\u00e1 el acceso a la informaci\u00f3n para los interesados.",
         "technique": "Desarrollo web, bases de datos relacionales",
         "columns": "TODO (todas las columnas son relevantes para construir una base de datos completa)",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "La plataforma 'Plataforma de Acceso a Informaci\u00f3n sobre Capacitaciones' es una idea brillante que llena un vac\u00edo crucial en el acceso a la informaci\u00f3n sobre programas de capacitaci\u00f3n. La propuesta de utilizar plataformas open-source como Moodle o WordPress con plugins LMS es inteligente, ya que reduce costos y tiempo de desarrollo. Adem\u00e1s, la inclusi\u00f3n de caracter\u00edsticas innovadoras como el mapa interactivo de cursos y el foro 'Preg\u00fantale al experto' potenciar\u00e1n el compromiso de los usuarios y fomentar\u00e1n una comunidad de aprendizaje.",
+        "impact": "Esta plataforma tendr\u00e1 un impacto significativo en la sociedad peruana al democratizar el acceso a informaci\u00f3n sobre capacitaci\u00f3n. Empoderar\u00e1 a individuos, fortalecer\u00e1 el impacto de OSINFOR y posicionar\u00e1 a Per\u00fa como l\u00edder en desarrollo de habilidades accesible.",
+        "scalability": "La escalabilidad de la plataforma es s\u00f3lida gracias a su dise\u00f1o modular que permite la incorporaci\u00f3n de nuevos idiomas, la personalizaci\u00f3n del aprendizaje y la integraci\u00f3n con plataformas de empleo. Esto garantiza su adaptaci\u00f3n a las necesidades futuras y su crecimiento sostenible.",
+        "viability": "Desde un punto de vista t\u00e9cnico y econ\u00f3mico, la plataforma es altamente viable. El uso de tecnolog\u00edas open-source y la minimizaci\u00f3n de la personalizaci\u00f3n contribuyen a una ejecuci\u00f3n eficiente dentro de los recursos disponibles de OSINFOR."
     },
     {
         "title": "Identificaci\u00f3n de patrones en la participaci\u00f3n",
         "description": "Analizar los datos demogr\u00e1ficos de los participantes para identificar patrones en la participaci\u00f3n en las capacitaciones. Esto permitir\u00e1 al OSINFOR desarrollar estrategias para llegar a grupos con menor acceso.",
         "technique": "An\u00e1lisis estad\u00edstico, machine learning para clusterizaci\u00f3n",
         "columns": "DEPARTAMENTO (para analizar patrones regionales), PROVINCIA (para an\u00e1lisis provincial), DISTRITO (para an\u00e1lisis local), GENERO (para identificar brechas de g\u00e9nero), GRUPO_PUBLICO (para identificar patrones por grupo poblacional), EDAD (para analizar la distribuci\u00f3n etaria)",
-        "type": "fa-users"
+        "type": "fa-users",
+        "complement_idea": "La idea de 'Identificaci\u00f3n de Patrones en la Participaci\u00f3n' es un enfoque inteligente y estrat\u00e9gico para lograr un acceso equitativo a los programas de formaci\u00f3n de OSINFOR. Esta t\u00e9cnica complementa perfectamente la misi\u00f3n social de la organizaci\u00f3n al utilizar datos demogr\u00e1ficos y an\u00e1lisis de aprendizaje autom\u00e1tico para identificar grupos subrepresentados que enfrentan barreras para participar.",
+        "impact": "El impacto potencial de esta idea es significativo. Al revelar patrones ocultos en los datos demogr\u00e1ficos, OSINFOR puede desarrollar estrategias de intervenci\u00f3n dirigidas que aborden las necesidades espec\u00edficas de diferentes grupos. Esto incluye la creaci\u00f3n de contenido localizado, la oferta de formatos accesibles y la colaboraci\u00f3n con organizaciones comunitarias para llegar a poblaciones marginadas. En \u00faltima instancia, este enfoque conducir\u00e1 a una mayor participaci\u00f3n e inclusi\u00f3n, maximizando el impacto social de los programas de OSINFOR.",
+        "scalability": "La escalabilidad de esta soluci\u00f3n es alta gracias al uso de herramientas de c\u00f3digo abierto y a la implementaci\u00f3n de procesos estandarizados de recopilaci\u00f3n de datos. Esto permitir\u00e1 a OSINFOR aplicar el an\u00e1lisis de patrones de participaci\u00f3n a un volumen creciente de informaci\u00f3n y a diferentes contextos geogr\u00e1ficos sin incurrir en costos prohibitivos.",
+        "viability": "La viabilidad t\u00e9cnica de 'Identificaci\u00f3n de Patrones en la Participaci\u00f3n' es factible. Se requiere acceso a datos hist\u00f3ricos, experiencia en an\u00e1lisis estad\u00edstico y el uso de herramientas de aprendizaje autom\u00e1tico de c\u00f3digo abierto. Estas son capacidades que OSINFOR puede adquirir o subcontratar con relativa facilidad. Adem\u00e1s, la naturaleza iterativa del an\u00e1lisis permite una adaptaci\u00f3n constante a las necesidades cambiantes de la comunidad, garantizando la sostenibilidad de la soluci\u00f3n."
     }
 ]

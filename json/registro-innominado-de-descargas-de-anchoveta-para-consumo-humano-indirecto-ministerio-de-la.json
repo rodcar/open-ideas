@@ -4,34 +4,54 @@
         "description": "Este mapa mostrar\u00e1 la ubicaci\u00f3n geogr\u00e1fica de los puertos donde se realiza el desembarque de anchoveta, visualizando la densidad de descarga por zona. Permite identificar zonas de mayor actividad pesquera.",
         "technique": "Geo-referenciaci\u00f3n, an\u00e1lisis espacial, mapas de calor",
         "columns": "PUERTO (para geolocalizar los puntos de descarga), LOCALIDAD (para contextualizar el puerto), TMDESCARGADA (para determinar la densidad de descarga por puerto), ZONA (para analizar patrones regionales)",
-        "type": "fa-map-marker"
+        "type": "fa-map-marker",
+        "complement_idea": "La idea del mapa de distribuci\u00f3n y densidad de la descarga de anchoveta puede ser complementada con un sistema de alerta temprana para cambios en la disponibilidad de peces, basado en datos hist\u00f3ricos y patrones clim\u00e1ticos.",
+        "impact": "El mapa tendr\u00eda un impacto significativo al optimizar las rutas de pesca, aumentar la eficiencia y los ingresos de los pescadores, y promover pr\u00e1cticas de pesca sostenibles mediante la identificaci\u00f3n de zonas de alta densidad de pesca.",
+        "scalability": "La soluci\u00f3n es escalable ya que el marco puede adaptarse a otras especies de peces y aplicarse en diferentes \u00e1reas geogr\u00e1ficas. La integraci\u00f3n de datos en tiempo real y modelos predictivos aumentar\u00eda su valor y longevidad.",
+        "viability": "T\u00e9cnicamente, la idea es viable debido al uso de datos existentes sobre puntos de descarga y software GIS de c\u00f3digo abierto. La colaboraci\u00f3n con organizaciones pesqueras y el gobierno ser\u00eda crucial para asegurar la precisi\u00f3n de los datos y la adopci\u00f3n del mapa por parte de los usuarios finales."
     },
     {
         "title": "An\u00e1lisis Temporal de la Descarga de Anchoveta",
         "description": "Este an\u00e1lisis mostrar\u00e1 la evoluci\u00f3n de la descarga de anchoveta a trav\u00e9s del tiempo, por trimestre y temporada. Permite identificar tendencias y patrones estacionales.",
         "technique": "An\u00e1lisis de series de tiempo, gr\u00e1ficos de l\u00ednea",
         "columns": "ANIO (para agrupar datos por a\u00f1o), TRIMESTRE (para analizar patrones trimestrales), TEMPORADA (para identificar variaciones por temporada), TMDESCARGADA (variable principal para el an\u00e1lisis temporal)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Identificaci\u00f3n de Zonas de Mayor Riesgo de Sobreexplotaci\u00f3n",
         "description": "Utilizando t\u00e9cnicas de machine learning, se pueden identificar zonas donde la descarga de anchoveta sea excesiva, lo que puede indicar un riesgo de sobreexplotaci\u00f3n.",
         "technique": "Machine Learning (regresi\u00f3n lineal o modelos de series de tiempo), an\u00e1lisis espacial",
         "columns": "ZONA (para analizar patrones regionales), TMDESCARGADA (variable clave para determinar la intensidad de la descarga), FECHA_DESCARGA (para identificar periodos cr\u00edticos), LOCALIDAD (para contextualizar las zonas)",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "La idea de utilizar el aprendizaje autom\u00e1tico para identificar zonas de sobrepesca bas\u00e1ndose en datos de descarga es prometedora y se puede complementar con otras estrategias, como:",
+        "impact": "El proyecto tiene un alto impacto potencial al:",
+        "scalability": "La escalabilidad del proyecto es alta debido a que:",
+        "viability": "La viabilidad t\u00e9cnica del proyecto depende de:"
     },
     {
         "title": "Comparaci\u00f3n del Rendimiento de Embarcaciones por Tipo de Casco",
         "description": "Analizar la eficiencia de descarga seg\u00fan el tipo de casco de la embarcaci\u00f3n (madera, acero naval o no especificado). Esto puede ayudar a optimizar las pr\u00e1cticas de pesca.",
         "technique": "An\u00e1lisis estad\u00edstico descriptivo, gr\u00e1ficos de barras",
         "columns": "CASCO (variable categ\u00f3rica para clasificar las embarcaciones), TMDESCARGADA (variable cuantitativa para comparar la eficiencia), REGIMEN (opcional, para analizar posibles diferencias por tipo de permiso)",
-        "type": "fa-ship"
+        "type": "fa-ship",
+        "complement_idea": "El proyecto se centrar\u00e1 en comparar la eficiencia de descarga de diferentes tipos de cascos (madera, acero y otros) utilizados en barcos de pesca. Utilizaremos estad\u00edsticas descriptivas para cuantificar la eficiencia de descarga y presentaremos los resultados en gr\u00e1ficas de barras claras para facilitar su comprensi\u00f3n por parte de los pescadores.",
+        "impact": "Este proyecto tendr\u00e1 un alto impacto en las comunidades de pesca al permitirles tomar decisiones informadas sobre la selecci\u00f3n del casco, lo que resultar\u00e1 en ahorros de costos (combustible) y un mayor valor de captura (menos desperdicio debido a una descarga m\u00e1s r\u00e1pida).",
+        "scalability": "La metodolog\u00eda utilizada para analizar la eficiencia de descarga puede aplicarse f\u00e1cilmente a otras industrias que utilizan barcos, como el turismo o el transporte de carga.",
+        "viability": "El proyecto es t\u00e9cnicamente viable, ya que los datos sobre la eficiencia de descarga se pueden obtener mediante encuestas o colaboraciones con organizaciones de pesca. La presentaci\u00f3n de resultados en gr\u00e1ficas de barras facilita su comprensi\u00f3n y uso por parte de los pescadores."
     },
     {
         "title": "Dashboard Interactivo de Monitoreo de la Pesquer\u00eda de Anchoveta",
         "description": "Crear un dashboard interactivo que permita visualizar los datos clave de la descarga de anchoveta. Esto facilita el acceso a la informaci\u00f3n y permite realizar an\u00e1lisis exploratorios.",
         "technique": "Desarrollo web, herramientas de visualizaci\u00f3n de datos (Tableau, Power BI)",
         "columns": "Todas las columnas del dataset son relevantes para alimentar un dashboard interactivo que permita explorar los datos desde diferentes perspectivas",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "El Dashboard Interactivo de Monitoreo de la Pesquer\u00eda de la Anchoveta puede complementarse con la integraci\u00f3n de datos meteorol\u00f3gicos en tiempo real para predecir las mejores condiciones de pesca. Adem\u00e1s, se podr\u00eda implementar un sistema de alertas para informar a los pescadores sobre cambios repentinos en la distribuci\u00f3n de las anchovetas.",
+        "impact": "El impacto del Dashboard es significativo, ya que empodera a los pescadores con informaci\u00f3n crucial para optimizar sus capturas y promover la pesca sostenible. La transparencia que ofrece el acceso p\u00fablico a los datos fomenta la confianza entre los consumidores y puede aumentar el valor de mercado de la anchoveta capturada de forma responsable.",
+        "scalability": "El Dashboard es altamente escalable gracias a su arquitectura basada en herramientas de c\u00f3digo abierto como Grafana. Esto permite la adaptaci\u00f3n a otras pesquer\u00edas simplemente cambiando la fuente de datos, ampliando su alcance e impacto.",
+        "viability": "La viabilidad del proyecto se basa en el uso de tecnolog\u00edas de bajo costo y en la generaci\u00f3n de beneficios tanto para los pescadores como para el medio ambiente. El acceso a informaci\u00f3n precisa permite optimizar la pesca, reducir el desperdicio y asegurar la sostenibilidad de la poblaci\u00f3n de anchovetas."
     }
 ]

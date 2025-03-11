@@ -4,34 +4,54 @@
         "description": "Este an\u00e1lisis busca determinar los sectores que contribuyen m\u00e1s a las emisiones de gases de efecto invernadero (GEI) en el Per\u00fa. Esto permitir\u00e1 enfocar esfuerzos de mitigaci\u00f3n en \u00e1reas clave.",
         "technique": "An\u00e1lisis estad\u00edstico por sector, visualizaci\u00f3n de datos con gr\u00e1ficos de barras",
         "columns": "ANIO (Filtrar por a\u00f1o espec\u00edfico), SECTOR (Agrupar emisiones por sector), EMISIONES_GEI_GGCO2EQ (Sumar las emisiones GEI para cada sector)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "La propuesta de identificar los sectores que m\u00e1s contribuyen a las emisiones de GEI en Per\u00fa mediante an\u00e1lisis estad\u00edstico de datos p\u00fablicos, combinada con la visualizaci\u00f3n interactiva y la colaboraci\u00f3n con universidades u ONG locales, ofrece una soluci\u00f3n integral y escalable para impulsar acciones clim\u00e1ticas efectivas.",
+        "impact": "El impacto de esta iniciativa se reflejar\u00e1 en una mejor comprensi\u00f3n de los principales impulsores de las emisiones en Per\u00fa, lo que permitir\u00e1 enfocar esfuerzos de mitigaci\u00f3n en \u00e1reas clave. La transparencia a trav\u00e9s del tablero interactivo empoderar\u00e1 a las partes interesadas y fomentar\u00e1 la participaci\u00f3n ciudadana en la lucha contra el cambio clim\u00e1tico.",
+        "scalability": "El uso de datos p\u00fablicos y la creaci\u00f3n de un tablero online aseguran la escalabilidad y sostenibilidad a largo plazo del proyecto. Adem\u00e1s, la colaboraci\u00f3n con instituciones locales garantiza una mayor adopci\u00f3n y pertinencia de los resultados en el contexto peruano.",
+        "viability": "La viabilidad se basa en la accesibilidad de los datos, la utilizaci\u00f3n de herramientas de an\u00e1lisis y visualizaci\u00f3n existentes y la participaci\u00f3n activa de socios locales. Estos factores minimizan costos y riesgos, haciendo del proyecto una propuesta viable y sostenible."
     },
     {
         "title": "An\u00e1lisis de tendencias de emisi\u00f3n de GEI por fuente",
         "description": "Este an\u00e1lisis examinar\u00e1 la evoluci\u00f3n de las emisiones de GEI a lo largo del tiempo, permitiendo identificar fuentes que han aumentado o disminuido sus emisiones y as\u00ed enfocar estrategias de intervenci\u00f3n.",
         "technique": "An\u00e1lisis de series temporales, visualizaci\u00f3n con gr\u00e1ficos de l\u00edneas",
         "columns": "FECHA_CORTE (Ordenar cronol\u00f3gicamente), FUENTE_DE_EMISION (Agrupar por fuente), EMISIONES_GEI_GGCO2EQ (Mostrar la evoluci\u00f3n de las emisiones para cada fuente)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "Este an\u00e1lisis permite profundizar en las fuentes de emisi\u00f3n, identificando \u00e1reas donde se necesitan acciones espec\u00edficas para reducir el impacto ambiental. Se puede complementar con estudios de caso, modelos predictivos y an\u00e1lisis de costo-beneficio para fortalecer las estrategias de mitigaci\u00f3n.",
+        "impact": "Al identificar las fuentes de emisi\u00f3n m\u00e1s problem\u00e1ticas, este an\u00e1lisis permite enfocar los esfuerzos de reducci\u00f3n de emisiones de manera eficiente. Esto puede traducirse en mejoras tangibles en la calidad del aire, la salud p\u00fablica y la mitigaci\u00f3n del cambio clim\u00e1tico.",
+        "scalability": "La metodolog\u00eda empleada se basa en datos p\u00fablicos y t\u00e9cnicas de an\u00e1lisis estad\u00edstico accesibles, lo que facilita su aplicaci\u00f3n a diferentes contextos geogr\u00e1ficos y sectores industriales. El an\u00e1lisis puede ser adaptado y ampliado para incluir nuevas fuentes de datos y variables relevantes.",
+        "viability": "El uso de datos abiertos y herramientas de an\u00e1lisis gratuitas reduce significativamente los costos de implementaci\u00f3n. Adem\u00e1s, los resultados obtenidos pueden utilizarse para atraer inversiones en proyectos de eficiencia energ\u00e9tica, energ\u00edas renovables y otras soluciones que generen beneficios econ\u00f3micos a largo plazo."
     },
     {
         "title": "Mapa de Calor de Emisiones GEI por Regi\u00f3n",
         "description": "Visualizar geogr\u00e1ficamente la distribuci\u00f3n de las emisiones de GEI en el Per\u00fa. Esto permite identificar regiones con mayor impacto ambiental y guiar estrategias de desarrollo sostenible regional.",
         "technique": "Geo-referenciaci\u00f3n de datos, mapa de calor con intensidad de color representando niveles de emisi\u00f3n",
         "columns": "ANIO (Filtrar por a\u00f1o espec\u00edfico), SECTOR (Agrupar por sector para an\u00e1lisis m\u00e1s detallado), EMISIONES_GEI_GGCO2EQ (Usar como indicador de intensidad en el mapa)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Predicci\u00f3n de Emisiones Futuras con Machine Learning",
         "description": "Utilizar modelos de machine learning para predecir las emisiones futuras de GEI en base a las tendencias hist\u00f3ricas. Esto permitir\u00e1 anticipar escenarios y tomar medidas preventivas.",
         "technique": "Machine learning (regresi\u00f3n lineal, ARIMA o redes neuronales), an\u00e1lisis predictivo",
         "columns": "FECHA_CORTE (Variable independiente), ANIO (Variable independiente), EMISIONES_GEI_GGCO2EQ (Variable dependiente)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El proyecto 'Predicci\u00f3n de Emisiones Futuras con Machine Learning' puede ser complementado mediante la integraci\u00f3n de datos geogr\u00e1ficos y socioecon\u00f3micos. Esto permitir\u00eda identificar \u00e1reas de mayor riesgo y desarrollar estrategias de mitigaci\u00f3n m\u00e1s focalizadas.",
+        "impact": "Este proyecto tiene un alto impacto potencial, ya que contribuir\u00eda a la lucha contra el cambio clim\u00e1tico al permitir una planificaci\u00f3n proactiva y estrat\u00e9gica para reducir las emisiones de gases de efecto invernadero. Adem\u00e1s, podr\u00eda impulsar la toma de decisiones informadas en materia de pol\u00edticas ambientales.",
+        "scalability": "La soluci\u00f3n propuesta es escalable gracias a la naturaleza adaptable del aprendizaje autom\u00e1tico. Los modelos pueden ser entrenados con datos de diferentes regiones y pa\u00edses, lo que permite su aplicaci\u00f3n global.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto depende principalmente del acceso a datos hist\u00f3ricos de calidad sobre emisiones. La viabilidad econ\u00f3mica se puede asegurar explorando opciones de c\u00f3digo abierto para herramientas y plataformas de aprendizaje autom\u00e1tico, as\u00ed como buscando alianzas con instituciones u organizaciones que puedan aportar recursos o financiaci\u00f3n."
     },
     {
         "title": "Dashboard Interactivo de Seguimiento de Emisiones",
         "description": "Crear un dashboard interactivo que permita visualizar y analizar los datos de emisiones GEI de forma intuitiva. Esto facilita el acceso a la informaci\u00f3n y la toma de decisiones.",
         "technique": "Desarrollo de Dashboard (Power BI, Tableau), selecci\u00f3n de KPIs relevantes ",
         "columns": "Todas las columnas del dataset (utilizar filtros, gr\u00e1ficos interactivos para explorar los datos)",
-        "type": "fa-desktop"
+        "type": "fa-desktop",
+        "complement_idea": "El proyecto se beneficia de la incorporaci\u00f3n de ideas de todos los actores. La propuesta inicial se puede complementar con:",
+        "impact": "Alto impacto potencial. El tablero interactivo de emisiones mejorar\u00e1 la transparencia, facilitar\u00e1 la toma de decisiones basada en datos y podr\u00eda impulsar reducciones de emisiones.",
+        "scalability": "Alta escalabilidad.  El dise\u00f1o modular permite futuras expansiones y adaptaciones a diferentes audiencias (equipos internos, comunidades, responsables pol\u00edticos).",
+        "viability": "Factible t\u00e9cnicamente. Las herramientas existentes como Power BI o Tableau facilitan el desarrollo. Los desaf\u00edos se centran en la estandarizaci\u00f3n de datos de diversas fuentes y en el mantenimiento continuo, que requerir\u00e1 recursos dedicados."
     }
 ]

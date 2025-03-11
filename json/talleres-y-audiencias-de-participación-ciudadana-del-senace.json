@@ -4,34 +4,54 @@
         "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de los eventos de participaci\u00f3n ciudadana (talleres y audiencias) del SENACE. Esto permite identificar zonas con mayor o menor actividad, as\u00ed como \u00e1reas donde se requiere fortalecer la participaci\u00f3n.",
         "technique": "An\u00e1lisis Geoespacial, Visualizaci\u00f3n de datos en mapas",
         "columns": "LUGAR (ubicaci\u00f3n geogr\u00e1fica para geo-referenciar), DEPARTAMENTO (filtrar por departamento), TIPO_EVENTO (diferenciar talleres de audiencias), FECHA (analizar patrones temporales)",
-        "type": "fa-map-marker"
+        "type": "fa-map-marker",
+        "complement_idea": "El proyecto 'Mapa de Participaci\u00f3n Ciudadana' puede complementarse con la inclusi\u00f3n de datos sociodemogr\u00e1ficos de las zonas para analizar por qu\u00e9 existen disparidades en la participaci\u00f3n. Tambi\u00e9n se podr\u00eda integrar un sistema de notificaciones que avise a los ciudadanos sobre eventos cercanos a su ubicaci\u00f3n.",
+        "impact": "Este mapa tendr\u00e1 un impacto positivo al promover la transparencia y la rendici\u00f3n de cuentas de SENACE. Al visualizar la distribuci\u00f3n geogr\u00e1fica de los eventos, se podr\u00e1n identificar zonas con menor participaci\u00f3n y dise\u00f1ar estrategias espec\u00edficas para llegar a estas comunidades. La herramienta tambi\u00e9n empodera a los ciudadanos al proporcionarles informaci\u00f3n sobre las oportunidades de participaci\u00f3n ciudadana.",
+        "scalability": "'Mapa de Participaci\u00f3n Ciudadana' es escalable porque su dise\u00f1o modular permite la incorporaci\u00f3n de nuevas funcionalidades y la adaptaci\u00f3n a diferentes contextos.  Se puede replicar el modelo en otras instituciones p\u00fablicas para promover la participaci\u00f3n ciudadana a nivel nacional.",
+        "viability": "La viabilidad del proyecto se basa en el uso de herramientas de c\u00f3digo abierto como QGIS, lo que reduce los costos de desarrollo. Adem\u00e1s, la colaboraci\u00f3n con organizaciones comunitarias y la promoci\u00f3n activa del mapa entre los ciudadanos asegurar\u00edan su adopci\u00f3n y sostenibilidad a largo plazo."
     },
     {
         "title": "An\u00e1lisis de Tendencias en Temas Ambientales",
         "description": "Identificar los temas ambientales que generan mayor inter\u00e9s y participaci\u00f3n ciudadana a trav\u00e9s del an\u00e1lisis del contenido de los proyectos presentados en los eventos.",
         "technique": "Miner\u00eda de Texto, An\u00e1lisis de frecuencia de palabras clave",
         "columns": "PROYECTO (texto descriptivo del proyecto), SUBSECTOR (categorizar por \u00e1reas tem\u00e1ticas)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El proyecto 'An\u00e1lisis de Tendencias en Temas Ambientales' utiliza an\u00e1lisis de texto para identificar temas ambientales emergentes y el nivel de compromiso comunitario a partir de presentaciones de proyectos ambientales. Esto puede complementarse con: \n* **An\u00e1lisis geogr\u00e1fico:** Mapear la ubicaci\u00f3n de los proyectos para identificar patrones regionales.\n* **Integraci\u00f3n de datos externos:** Combinar los datos del an\u00e1lisis de texto con informaci\u00f3n demogr\u00e1fica, econ\u00f3mica o ambiental para obtener una visi\u00f3n m\u00e1s completa.\n* **Visualizaciones interactivas:** Crear dashboards que permitan a los usuarios explorar los datos y descubrir insights de forma intuitiva.",
+        "impact": "El impacto potencial de este proyecto es significativo. Puede ayudar a: \n* **Guiar la toma de decisiones:** Proporcionar informaci\u00f3n valiosa para que las organizaciones y los gobiernos desarrollen pol\u00edticas y programas m\u00e1s efectivos.\n* **Empoderar a las comunidades:** Dar voz a las preocupaciones de la comunidad y promover su participaci\u00f3n en la b\u00fasqueda de soluciones ambientales.\n* **Fomentar la innovaci\u00f3n:** Identificar nuevas \u00e1reas de oportunidad para proyectos ambientales innovadores.",
+        "scalability": "El proyecto se basa en t\u00e9cnicas de an\u00e1lisis de texto que pueden automatizarse. La utilizaci\u00f3n de herramientas de c\u00f3digo abierto y APIs facilita la escalabilidad, permitiendo procesar grandes vol\u00famenes de datos de forma eficiente. Adem\u00e1s, el desarrollo de una plataforma web con dashboards interactivos permitir\u00e1 el acceso y la visualizaci\u00f3n de los datos a un p\u00fablico m\u00e1s amplio.",
+        "viability": "La viabilidad del proyecto es alta debido a: \n* **Disponibilidad de datos:** Las presentaciones de proyectos ambientales suelen ser informaci\u00f3n p\u00fablica accesible.\n* **Herramientas tecnol\u00f3gicas accesibles:** El uso de herramientas de an\u00e1lisis de texto de c\u00f3digo abierto reduce los costos de desarrollo.\n* **Potencial de colaboraci\u00f3n:** Se puede fomentar la colaboraci\u00f3n con organizaciones y expertos en el campo ambiental para enriquecer el an\u00e1lisis y maximizar su impacto."
     },
     {
         "title": "Evaluaci\u00f3n del Impacto de las Actividades",
         "description": "Medir el impacto de los eventos de participaci\u00f3n ciudadana en la toma de decisiones y en la mejora de proyectos ambientales. Esto puede realizarse a trav\u00e9s de encuestas o an\u00e1lisis de cambios en los proyectos.",
         "technique": "Encuestas, An\u00e1lisis comparativo antes/despu\u00e9s de los eventos",
         "columns": "PROYECTO (identificar proyecto espec\u00edfico), NUMERO_ASISTENTES (evaluar alcance), NUMERO_PREGUNTAS (indicador de participaci\u00f3n activa), ESTADO (analizar si se aprobaron cambios)",
-        "type": "fa-poll"
+        "type": "fa-poll",
+        "complement_idea": "Para complementar la idea de \u201cEvaluaci\u00f3n del Impacto de las Actividades\u201d, se propone integrar elementos innovadores que aumenten su impacto, escalabilidad y viabilidad.",
+        "impact": "La propuesta busca demostrar el impacto directo de la participaci\u00f3n ciudadana en la mejora de proyectos ambientales. Se lograr\u00e1 a trav\u00e9s de una evaluaci\u00f3n que combine m\u00e9todos tradicionales como encuestas y an\u00e1lisis comparativo con enfoques creativos como encuestas gamificadas, mapas participativos y la integraci\u00f3n de historias personales. Esto permitir\u00e1 visualizar de manera tangible los beneficios generados por la participaci\u00f3n ciudadana.",
+        "scalability": "La idea se puede adaptar a diferentes contextos y proyectos gracias al uso de herramientas abiertas y metodolog\u00edas flexibles. Se propone desarrollar un marco adaptable que permita su implementaci\u00f3n en diversos entornos, garantizando su escalabilidad y replicabilidad.",
+        "viability": "-"
     },
     {
         "title": "Predicci\u00f3n de Asistencia a Eventos",
         "description": "Utilizar datos hist\u00f3ricos sobre asistencia, tipo de evento, ubicaci\u00f3n y otros factores para predecir la participaci\u00f3n en eventos futuros. Esto puede ayudar a planificar mejor los recursos.",
         "technique": "Machine Learning (modelos de regresi\u00f3n), An\u00e1lisis de series temporales",
         "columns": "TIPO_EVENTO (categorizar eventos), LUGAR (ubicaci\u00f3n geogr\u00e1fica), FECHA (factor temporal), NUMERO_ASISTENTES (variable objetivo)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El sistema \"Predicci\u00f3n de Asistencia a Eventos\" utiliza el aprendizaje autom\u00e1tico y el an\u00e1lisis de series temporales para predecir la asistencia futura a los eventos bas\u00e1ndose en datos hist\u00f3ricos. Esto permite optimizar la asignaci\u00f3n de recursos, minimizar el desperdicio y aumentar la rentabilidad mediante la fijaci\u00f3n din\u00e1mica de precios.",
+        "impact": "Este sistema tiene un impacto social positivo al empoderar a los organizadores, especialmente a los m\u00e1s peque\u00f1os, para planificar eventos m\u00e1s efectivos que satisfagan mejor las necesidades y preferencias de la comunidad. Adem\u00e1s, contribuye a la sostenibilidad al reducir el desperdicio de recursos.",
+        "scalability": "El sistema es altamente escalable y adaptable gracias al uso de herramientas de c\u00f3digo abierto y a una infraestructura en la nube. Esto permite su implementaci\u00f3n en eventos de diversos tipos y tama\u00f1os, adapt\u00e1ndose a diferentes contextos.",
+        "viability": "La viabilidad econ\u00f3mica del sistema es fuerte debido a los ahorros de costes que genera al minimizar el desperdicio y al potencial aumento de ingresos gracias a la fijaci\u00f3n din\u00e1mica de precios. El uso de herramientas de c\u00f3digo abierto y una infraestructura en la nube tambi\u00e9n contribuye a reducir los costos de desarrollo y despliegue."
     },
     {
         "title": "Dashboard Interactivo de Transparencia",
         "description": "Crear un dashboard online que permita a la ciudadan\u00eda consultar informaci\u00f3n sobre eventos, proyectos y decisiones ambientales. Esto promueve la transparencia y la participaci\u00f3n ciudadana.",
         "technique": "Desarrollo web con herramientas de visualizaci\u00f3n (Tableau, PowerBI), API para acceder a datos",
         "columns": "Todas las columnas del dataset (permitir filtros por tipo de evento, departamento, fecha, etc.)",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "El proyecto de \"Dashboard Interactivo de Transparencia\" se puede complementar con la incorporaci\u00f3n de herramientas de an\u00e1lisis predictivo para ayudar a los ciudadanos a comprender mejor las tendencias ambientales y tomar decisiones informadas. Tambi\u00e9n se podr\u00edan integrar mecanismos de retroalimentaci\u00f3n para que los ciudadanos puedan compartir sus preocupaciones y sugerencias.",
+        "impact": "El impacto potencial de este proyecto es significativo, ya que promover\u00eda la transparencia, la participaci\u00f3n ciudadana y la toma de decisiones m\u00e1s informadas en materia ambiental. Esto podr\u00eda llevar a una mayor responsabilidad por parte de las autoridades y a un mayor compromiso de la ciudadan\u00eda con la protecci\u00f3n del medio ambiente.",
+        "scalability": "La escalabilidad del proyecto parece prometedora, ya que se basa en una plataforma online accesible desde cualquier dispositivo. La modularidad del dise\u00f1o permitir\u00eda agregar nuevas funcionalidades y tipos de datos en el futuro, adapt\u00e1ndose a las necesidades cambiantes de la comunidad.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta gracias al uso de herramientas de c\u00f3digo abierto como Tableau o PowerBI. Un enfoque por fases minimizar\u00eda los costos iniciales y permitir\u00eda ajustar el desarrollo seg\u00fan las necesidades de los usuarios. La cuantificaci\u00f3n del retorno de la inversi\u00f3n a trav\u00e9s del aumento de la participaci\u00f3n ciudadana y la mejora en la toma de decisiones ser\u00e1 clave para asegurar su sostenibilidad."
     }
 ]

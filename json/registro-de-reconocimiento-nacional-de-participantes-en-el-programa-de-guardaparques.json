@@ -4,34 +4,54 @@
         "description": "Este proyecto busca visualizar la distribuci\u00f3n espacial de los guardaparques voluntarios en el Per\u00fa. Se utilizar\u00e1 informaci\u00f3n del UBIGEO, DEPARTAMENTO, PROVINCIA y DISTRITO para crear un mapa interactivo que muestre la concentraci\u00f3n de voluntarios en diferentes \u00e1reas.",
         "technique": "An\u00e1lisis geoespacial con software GIS como QGIS o ArcGIS",
         "columns": "UBIGEO (identificar ubicaci\u00f3n geogr\u00e1fica), DEPARTAMENTO (categorizaci\u00f3n por departamento), PROVINCIA (categorizaci\u00f3n por provincia), DISTRITO (categorizaci\u00f3n por distrito), ANP (visualizar la distribuci\u00f3n en diferentes \u00c1reas Naturales Protegidas)",
-        "type": "fa-map-marker-alt"
+        "type": "fa-map-marker-alt",
+        "complement_idea": "El proyecto de mapear los voluntarios de conservaci\u00f3n en Per\u00fa utilizando QGIS y datos UBIGEO es una idea s\u00f3lida. Para complementarla, se podr\u00edan considerar las siguientes mejoras:\n* **Integraci\u00f3n con plataformas de voluntariado:** Conectar el mapa con plataformas de voluntariado existentes permitir\u00eda a los interesados encontrar oportunidades espec\u00edficas seg\u00fan su ubicaci\u00f3n y habilidades.\n* **Visualizaci\u00f3n de necesidades:** Mostrar en el mapa \u00e1reas con mayor necesidad de voluntarios o proyectos espec\u00edficos que requieran cierto tipo de experiencia.\n* **Sistema de retroalimentaci\u00f3n:** Incluir un mecanismo para que los voluntarios puedan calificar su experiencia y dejar comentarios, lo que mejorar\u00eda la calidad de la informaci\u00f3n y la experiencia del usuario.",
+        "impact": "El proyecto tendr\u00eda un impacto positivo en la conservaci\u00f3n de Per\u00fa al optimizar la asignaci\u00f3n de recursos humanos. La visualizaci\u00f3n de la distribuci\u00f3n de voluntarios permitir\u00eda identificar \u00e1reas con mayor necesidad y facilitar la coordinaci\u00f3n entre organizaciones.\nAdem\u00e1s, el mapa podr\u00eda inspirar a m\u00e1s personas a participar en actividades de conservaci\u00f3n, contribuyendo a la protecci\u00f3n de la biodiversidad peruana.",
+        "scalability": "El proyecto es escalable ya que la metodolog\u00eda se puede aplicar a otras regiones o pa\u00edses.  La utilizaci\u00f3n de software de c\u00f3digo abierto como QGIS garantiza la accesibilidad y la sostenibilidad del proyecto a largo plazo.\nAdem\u00e1s, la posibilidad de incorporar datos de crowdsourcing permitir\u00e1 mantener la informaci\u00f3n actualizada y relevante.",
+        "viability": "La viabilidad del proyecto es alta debido al uso de datos UBIGEO que son de acceso p\u00fablico. La utilizaci\u00f3n de QGIS como software GIS reduce los costos de licencia.\nSin embargo, se requiere inversi\u00f3n en tiempo y recursos para la limpieza de datos, el dise\u00f1o del mapa y su desarrollo web."
     },
     {
         "title": "An\u00e1lisis de patrones de participaci\u00f3n en el Programa",
         "description": "Se analizar\u00e1n variables como  ANIO_CONV, SEXO, PERIODO para identificar tendencias y patrones en la participaci\u00f3n de los guardaparques voluntarios. \u00bfHay mayor participaci\u00f3n en ciertos a\u00f1os? \u00bfExiste diferencia en la duraci\u00f3n del voluntariado seg\u00fan el sexo?",
         "technique": "An\u00e1lisis estad\u00edstico descriptivo con herramientas como R o Python",
         "columns": "ANIO_CONV (identificar tendencias a lo largo del tiempo), SEXO (analizar diferencias entre hombres y mujeres), PERIODO (evaluar la duraci\u00f3n del voluntariado), UUID (contar el n\u00famero de participantes \u00fanicos)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El an\u00e1lisis de patrones de participaci\u00f3n de voluntarios guardabosques utilizando variables como ANIO_CONV (a\u00f1o de participaci\u00f3n), SEXO (sexo) y PERIODO (duraci\u00f3n) permitir\u00e1 comprender mejor las tendencias de participaci\u00f3n. Esto puede ayudar a optimizar estrategias de reclutamiento, asignaci\u00f3n de recursos y garantizar la inclusi\u00f3n.",
+        "impact": "El impacto potencial incluye un aumento en la participaci\u00f3n de voluntarios, una mayor retenci\u00f3n de voluntarios existentes y un programa de guardabosques m\u00e1s eficiente y eficaz.",
+        "scalability": "Este an\u00e1lisis es escalable ya que se puede aplicar a conjuntos de datos de diferentes tama\u00f1os. Adem\u00e1s, las herramientas como R o Python permiten automatizar el proceso de an\u00e1lisis.",
+        "viability": "El an\u00e1lisis es viable en t\u00e9rminos de costo y tiempo, ya que utiliza m\u00e9todos estad\u00edsticos descriptivos bien establecidos y herramientas de software de c\u00f3digo abierto."
     },
     {
         "title": "Identificaci\u00f3n de \u00c1reas con Mayor Necesidad de Voluntarios",
         "description": "Se utilizar\u00e1 informaci\u00f3n sobre la ubicaci\u00f3n geogr\u00e1fica (UBIGEO, DEPARTAMENTO, PROVINCIA) y el n\u00famero de participantes por \u00e1rea para identificar las zonas donde existe mayor necesidad de apoyo. Esto puede ayudar a orientar esfuerzos de reclutamiento.",
         "technique": "An\u00e1lisis geoespacial con software GIS como QGIS o ArcGIS",
         "columns": "UBIGEO (identificar ubicaci\u00f3n geogr\u00e1fica precisa), DEPARTAMENTO (categorizaci\u00f3n por departamento), PROVINCIA (categorizaci\u00f3n por provincia), DISTRITO (categorizaci\u00f3n por distrito), UUID (contar el n\u00famero de voluntarios en cada \u00e1rea)",
-        "type": "fa-exclamation-triangle"
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "El proyecto 'Identificaci\u00f3n de \u00c1reas con Mayor Necesidad de Voluntarios' propone un sistema que utiliza datos geogr\u00e1ficos (UBIGEO, DEPARTAMENTO, PROVINCIA) y n\u00fameros de participaci\u00f3n voluntaria para identificar \u00e1reas con mayor necesidad. Esto permite una asignaci\u00f3n de recursos m\u00e1s eficiente y orientada al impacto.",
+        "impact": "El impacto social de este proyecto es significativo. Al enfocar los esfuerzos de reclutamiento en las \u00e1reas donde se necesita m\u00e1s ayuda, se maximiza el beneficio para las comunidades.  Esto puede traducirse en un mayor acceso a servicios esenciales, una mejor calidad de vida y un mayor empoderamiento comunitario.",
+        "scalability": "El uso del software de c\u00f3digo abierto QGIS asegura la escalabilidad y adaptabilidad del proyecto. La metodolog\u00eda puede ser replicada en diferentes contextos geogr\u00e1ficos y adaptada a las necesidades espec\u00edficas de diversas organizaciones.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto es alta, dado que se basa en datos disponibles y herramientas de an\u00e1lisis espacial accesibles. Sin embargo, es crucial asegurar la disponibilidad de los datos necesarios y contar con personal capacitado en el uso de QGIS. Una fase piloto puede ayudar a validar la metodolog\u00eda y ajustar los par\u00e1metros antes de una implementaci\u00f3n a mayor escala."
     },
     {
         "title": "Dashboard interactivo para visualizar informaci\u00f3n del Programa",
         "description": "Se desarrollar\u00e1 un dashboard interactivo que permita a los usuarios explorar datos del programa de forma intuitiva. Los usuarios podr\u00e1n filtrar por variables como ANP, departamento, periodo de voluntariado, etc. para obtener informaci\u00f3n espec\u00edfica.",
         "technique": "Desarrollo web con herramientas como R Shiny o Tableau",
         "columns": "Todas las columnas (permitir filtros y visualizaciones personalizadas)",
-        "type": "fa-window-maximize"
+        "type": "fa-window-maximize",
+        "complement_idea": "Esta idea puede ser complementada con la integraci\u00f3n de mapas interactivos para visualizar la distribuci\u00f3n geogr\u00e1fica de los voluntarios y el impacto del programa en diferentes regiones.",
+        "impact": "El tablero interactivo tendr\u00e1 un gran impacto al aumentar la transparencia, empoderar a los usuarios con informaci\u00f3n clave sobre el programa y facilitar la toma de decisiones informadas por parte de los administradores.",
+        "scalability": "La soluci\u00f3n se puede escalar f\u00e1cilmente utilizando herramientas como R Shiny o Tableau. Adem\u00e1s, se puede integrar con APIs para acceder a datos externos y ampliar sus funcionalidades.",
+        "viability": "El proyecto es t\u00e9cnicamente viable, ya que utiliza tecnolog\u00edas de desarrollo web accesibles. La selecci\u00f3n cuidadosa de las funcionalidades prioritarias y la preparaci\u00f3n eficiente de los datos garantizan su viabilidad dentro del presupuesto."
     },
     {
         "title": "Predicci\u00f3n de la duraci\u00f3n del voluntariado",
         "description": "Se utilizar\u00e1 machine learning para desarrollar un modelo que prediga la duraci\u00f3n del periodo de voluntariado (PERIODO) en base a variables como SEXO, ANIO_CONV, CATEGORIA del \u00e1rea protegida. Esto puede ayudar a optimizar la planificaci\u00f3n del programa.",
         "technique": "Modelado predictivo con t\u00e9cnicas de machine learning",
         "columns": "SEXO (variable predictora), ANIO_CONV (variable predictora), CATEGORIA (variable predictora), PERIODO (variable objetivo)",
-        "type": "fa-robot"
+        "type": "fa-robot",
+        "complement_idea": "La idea de 'Predicci\u00f3n de la duraci\u00f3n del voluntariado' usando machine learning para predecir PERIODO basado en SEXO, ANIO_CONV y CATEGORIA es innovadora y puede aportar mejoras significativas a los programas de voluntarios. Sin embargo, se deben considerar aspectos como la mitigaci\u00f3n de sesgos en los datos, la interpretabilidad del modelo y la viabilidad econ\u00f3mica.",
+        "impact": "El impacto potencial es positivo: optimizaci\u00f3n de recursos, mayor eficiencia de los programas y reducci\u00f3n de interrupciones. Esto podr\u00eda traducirse en un mayor impacto social para las comunidades beneficiarias.",
+        "scalability": "La escalabilidad depende de la disponibilidad de datos de calidad y representativos, as\u00ed como de la capacidad para integrar el modelo en los sistemas existentes de gesti\u00f3n de voluntarios. La selecci\u00f3n de algoritmos transparentes facilitar\u00e1 la adopci\u00f3n y comprensi\u00f3n del modelo.",
+        "viability": "La viabilidad econ\u00f3mica depender\u00e1 del coste de desarrollo e implementaci\u00f3n del modelo en comparaci\u00f3n con los beneficios obtenidos en t\u00e9rminos de eficiencia y optimizaci\u00f3n de recursos. Un an\u00e1lisis detallado de costes y beneficios ser\u00e1 crucial para determinar la viabilidad a largo plazo."
     }
 ]

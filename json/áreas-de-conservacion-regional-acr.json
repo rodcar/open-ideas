@@ -4,34 +4,54 @@
         "description": "Este sistema utilizar\u00e1 datos de las \u00c1reas Naturales Protegidas (ANP) para identificar zonas con mayor riesgo de degradaci\u00f3n ambiental. Permite a los guardaparques priorizar sus esfuerzos y tomar medidas preventivas.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, machine learning para identificar patrones de deforestaci\u00f3n o actividad humana inusual, Dashboards interactivos",
         "columns": "ID_ANP (identificador \u00fanico del \u00e1rea protegida), Coordenadas geogr\u00e1ficas (ubicaci\u00f3n precisa), Tipo de ecosistema (clasificaci\u00f3n del h\u00e1bitat), \u00cdndice de biodiversidad (medida de riqueza de especies), Actividad humana detectada (presencia de tala ilegal, miner\u00eda, etc.), Fecha (momento en que se registr\u00f3 la actividad).",
-        "type": "fa-leaf"
+        "type": "fa-leaf",
+        "complement_idea": "El Sistema de monitoreo para \u00e1reas protegidas es una idea brillante que puede ser a\u00fan m\u00e1s efectiva con la integraci\u00f3n de datos de ciencia ciudadana, vigilancia con drones y tecnolog\u00eda blockchain para un registro seguro y transparente de las actividades.",
+        "impact": "Este sistema tendr\u00e1 un alto impacto al permitir a los guardaparques identificar y abordar las amenazas a tiempo, previniendo la deforestaci\u00f3n y protegiendo la biodiversidad. La transparencia que ofrece tambi\u00e9n fomentar\u00e1 la participaci\u00f3n de la comunidad y fortalecer\u00e1 la gesti\u00f3n ambiental.",
+        "scalability": "El uso de herramientas de c\u00f3digo abierto y modelos de aprendizaje autom\u00e1tico adaptables hace que este sistema sea f\u00e1cilmente escalable a diferentes \u00e1reas protegidas, independientemente de su tama\u00f1o o ubicaci\u00f3n.",
+        "viability": "La viabilidad econ\u00f3mica del sistema es alta gracias al uso de recursos libres y a la prevenci\u00f3n de da\u00f1os ambientales a largo plazo. Adem\u00e1s, el impacto positivo en la conservaci\u00f3n puede atraer financiamiento de organizaciones que apoyan la protecci\u00f3n del medio ambiente."
     },
     {
         "title": "Plataforma de acceso a servicios de salud m\u00f3viles",
         "description": "Una plataforma m\u00f3vil que conecta a las personas en zonas rurales con profesionales de salud a trav\u00e9s de videoconferencias y permite el seguimiento remoto de pacientes.",
         "technique": "Desarrollo web/app m\u00f3vil, telemedicina, integraci\u00f3n con sistemas de informaci\u00f3n de salud, geolocalizaci\u00f3n para identificar \u00e1reas con mayor necesidad.",
         "columns": "ID_Paciente (identificador \u00fanico), Ubicaci\u00f3n geogr\u00e1fica (coordenadas del paciente), Historial m\u00e9dico (informaci\u00f3n relevante sobre la salud del paciente), Especialidad m\u00e9dica requerida (tipo de consulta necesaria), Fecha y hora de la consulta (programaci\u00f3n de la teleconsulta).",
-        "type": "fa-stethoscope"
+        "type": "fa-stethoscope",
+        "complement_idea": "La idea de una plataforma m\u00f3vil que conecta a pacientes en \u00e1reas rurales con profesionales de la salud a trav\u00e9s de telemedicina es excelente. Se puede complementar ofreciendo recursos educativos sobre salud, recordatorios para tomar medicamentos y seguimiento del progreso del paciente.",
+        "impact": "Este proyecto tendr\u00eda un gran impacto social al mejorar el acceso a la atenci\u00f3n m\u00e9dica de calidad en comunidades remotas, reduciendo las disparidades de salud y promoviendo una mejor calidad de vida para los residentes rurales.",
+        "scalability": "La plataforma es escalable gracias a su arquitectura en la nube y dise\u00f1o modular. Se puede expandir a nuevas regiones geogr\u00e1ficas, incorporar m\u00e1s especialidades m\u00e9dicas y adaptarse a diferentes idiomas y necesidades culturales.",
+        "viability": "La viabilidad econ\u00f3mica se basa en modelos de suscripci\u00f3n, colaboraciones con instituciones de salud y b\u00fasqueda de fondos de organizaciones internacionales dedicadas a mejorar la salud global. La clave est\u00e1 en asegurar un precio accesible para los usuarios finales."
     },
     {
         "title": "Optimizaci\u00f3n de rutas de transporte p\u00fablico inteligente",
         "description": "Un sistema que analiza datos de tr\u00e1fico en tiempo real para optimizar las rutas de los autobuses y reducir tiempos de espera, mejorando la eficiencia y accesibilidad del transporte p\u00fablico.",
         "technique": "An\u00e1lisis de big data, machine learning para predecir patrones de flujo de pasajeros, geolocalizaci\u00f3n de buses en tiempo real, mapas interactivos.",
         "columns": "ID_Ruta (identificador \u00fanico de la ruta), Hora de partida (momento en que sale el bus), Ubicaci\u00f3n actual del bus (coordenadas GPS), Cantidad de pasajeros a bordo (datos en tiempo real), Demanda prevista (estimaci\u00f3n basada en patrones hist\u00f3ricos).",
-        "type": "fa-bus"
+        "type": "fa-bus",
+        "complement_idea": "El sistema 'Optimizaci\u00f3n de rutas de transporte p\u00fablico inteligente' es una idea innovadora que utiliza el poder del Big Data y el Machine Learning para transformar el transporte p\u00fablico. Su enfoque en la optimizaci\u00f3n din\u00e1mica de rutas, la planificaci\u00f3n personalizada de viajes con asistentes de IA y la integraci\u00f3n con plataformas de compartir coches promete mejorar la eficiencia, la accesibilidad y la experiencia general del usuario.",
+        "impact": "El impacto potencial de esta soluci\u00f3n es significativo. Al reducir los tiempos de espera y expandir el servicio a \u00e1reas subatendidas, puede contribuir a una mayor equidad en el acceso al transporte p\u00fablico. Adem\u00e1s, la optimizaci\u00f3n de rutas puede conducir a una reducci\u00f3n de emisiones de carbono y congesti\u00f3n del tr\u00e1fico, promoviendo un sistema de transporte m\u00e1s sostenible.",
+        "scalability": "La escalabilidad de 'Optimizaci\u00f3n de rutas de transporte p\u00fablico inteligente' parece prometedora. El sistema se basa en tecnolog\u00edas probadas que pueden replicarse en diferentes ciudades y adaptarse a otros modos de transporte, como trenes o tranv\u00edas. Incluso puede extenderse a otros sectores log\u00edsticos.",
+        "viability": "Si bien la idea es innovadora y tiene un gran potencial, la viabilidad t\u00e9cnica requiere una evaluaci\u00f3n cuidadosa. Se necesita una infraestructura de datos robusta, acceso a expertos en Machine Learning y una implementaci\u00f3n por fases para mitigar los riesgos. Adem\u00e1s, es crucial garantizar pr\u00e1cticas \u00e9ticas de recopilaci\u00f3n de datos y la participaci\u00f3n comunitaria para construir confianza y asegurar resultados equitativos."
     },
     {
         "title": "Programa de alfabetizaci\u00f3n digital para comunidades rurales",
         "description": "Un programa que utiliza plataformas online y recursos educativos digitales para ense\u00f1ar habilidades tecnol\u00f3gicas b\u00e1sicas a personas en \u00e1reas rurales, promoviendo la inclusi\u00f3n digital.",
         "technique": "Desarrollo web/app m\u00f3vil, dise\u00f1o instruccional basado en el aprendizaje activo, creaci\u00f3n de contenido educativo adaptado a diferentes niveles, seguimiento del progreso.",
         "columns": "ID_Usuario (identificador \u00fanico), Nivel educativo (formaci\u00f3n previa del usuario), Habilidades digitales (conocimientos previos en tecnolog\u00eda), M\u00f3dulos completados (progreso en el programa), Calificaci\u00f3n obtenida (evaluaci\u00f3n del aprendizaje).",
-        "type": "fa-computer"
+        "type": "fa-computer",
+        "complement_idea": "Esta idea se puede complementar con la creaci\u00f3n de una red de mentores 'Innovadores Tecnol\u00f3gicos Rurales' que desarrollen contenido local y brinden apoyo a la comunidad.",
+        "impact": "El impacto potencial de esta idea es significativo. Brindar acceso a habilidades digitales a las comunidades rurales puede empoderarlas, mejorar sus oportunidades econ\u00f3micas y promover la participaci\u00f3n social.",
+        "scalability": "La idea presenta un alto potencial de escalabilidad gracias a su dise\u00f1o modular, enfoque en el contenido localizable y el uso de plataformas de c\u00f3digo abierto.",
+        "viability": "La viabilidad t\u00e9cnica y econ\u00f3mica de esta idea es s\u00f3lida. El uso de tecnolog\u00edas web/app accesibles y la participaci\u00f3n comunitaria ayudan a minimizar los costos y asegurar la sostenibilidad a largo plazo."
     },
     {
         "title": "Sistema de monitoreo ambiental con IA",
         "description": "Un sistema que utiliza sensores, im\u00e1genes satelitales y machine learning para monitorear la calidad del aire, el agua y la biodiversidad en tiempo real, detectando posibles amenazas ambientales.",
         "technique": "Internet de las cosas (IoT), procesamiento de im\u00e1genes, an\u00e1lisis predictivo con machine learning, mapas interactivos para visualizar datos ambientales.",
         "columns": "Ubicaci\u00f3n geogr\u00e1fica (coordenadas del sensor/\u00e1rea monitoreada), Tipo de dato (calidad del aire, temperatura del agua, presencia de especies), Valor medido (lectura obtenida por el sensor/an\u00e1lisis de imagen), Fecha y hora de la medici\u00f3n (momento en que se registr\u00f3 el dato).",
-        "type": "fa-globe"
+        "type": "fa-globe",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     }
 ]

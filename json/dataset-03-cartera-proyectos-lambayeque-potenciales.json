@@ -4,34 +4,54 @@
         "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de proyectos de acuerdo a su sector, permitiendo identificar \u00e1reas con mayor o menor inversi\u00f3n en salud, educaci\u00f3n, transporte, etc. Esto facilita la evaluaci\u00f3n de la equidad en la asignaci\u00f3n de recursos.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, filtrado por sector, visualizaci\u00f3n en mapa interactivo",
         "columns": "geom (geolocalizaci\u00f3n del proyecto), sect_proy (sector al que pertenece el proyecto), nombdist (nombre del distrito), nombprov (nombre de la provincia), nombdep (nombre del departamento)",
-        "type": "fa-map-marked"
+        "type": "fa-map-marked",
+        "complement_idea": "El mapa interactivo \"Mapa Interactivo de Proyectos por Sector\" es una herramienta poderosa para promover la transparencia y la equidad en la asignaci\u00f3n de recursos. Al visualizar la distribuci\u00f3n de proyectos a trav\u00e9s de diferentes sectores, como salud, educaci\u00f3n y transporte, el mapa permite identificar \u00e1reas con distintos niveles de inversi\u00f3n. Esta informaci\u00f3n puede empoderar a las comunidades para abogar por \u00e1reas subfinanciadas y facilitar que los responsables pol\u00edticos tomen decisiones informadas sobre la asignaci\u00f3n de recursos.",
+        "impact": "El impacto potencial de este proyecto es significativo. Al proporcionar una visi\u00f3n clara de c\u00f3mo se distribuyen los recursos, el mapa puede contribuir a reducir las desigualdades y promover un desarrollo m\u00e1s equitativo. La accesibilidad del mapa para ciudadanos y responsables pol\u00edticos puede fomentar la participaci\u00f3n c\u00edvica y la rendici\u00f3n de cuentas.",
+        "scalability": "La viabilidad a largo plazo del proyecto est\u00e1 reforzada por su dise\u00f1o modular. Esto permite futuras expansiones, como la incorporaci\u00f3n de modelos predictivos o la inclusi\u00f3n de comentarios de los ciudadanos. Adem\u00e1s, el uso de est\u00e1ndares abiertos de datos garantiza la interoperabilidad con diferentes conjuntos de datos y facilita la adaptaci\u00f3n a diversos contextos.",
+        "viability": "La viabilidad t\u00e9cnica del proyecto se basa en el uso de herramientas de GIS de c\u00f3digo abierto como QGIS. Esta opci\u00f3n reduce los costes de desarrollo y mantenimiento. La implementaci\u00f3n por fases permite gestionar eficientemente los recursos y minimizar riesgos. Adem\u00e1s, la colaboraci\u00f3n con organizaciones gubernamentales y de la sociedad civil puede facilitar el acceso a datos fiables y promover la adopci\u00f3n del mapa."
     },
     {
         "title": "Identificaci\u00f3n de Zonas con Menor Acceso a Servicios",
         "description": "Analizar la ubicaci\u00f3n de proyectos en relaci\u00f3n a indicadores socioecon\u00f3micos como pobreza, analfabestismo, acceso a agua potable y saneamiento. Esto permite identificar zonas con mayor necesidad de inversi\u00f3n en servicios b\u00e1sicos.",
         "technique": "An\u00e1lisis espacial, geo-referenciaci\u00f3n, cruce de datos con informaci\u00f3n socioecon\u00f3mica, agrupamiento por zonas",
         "columns": "geom (geolocalizaci\u00f3n del proyecto), ubicho (ubicaci\u00f3n geogr\u00e1fica), func_proy (funci\u00f3n del proyecto), nivel_gob (nivel de gobierno), monto_ref (monto de referencia)",
-        "type": "fa-crosshairs"
+        "type": "fa-crosshairs",
+        "complement_idea": "La idea de 'Identificaci\u00f3n de Zonas con Menor Acceso a Servicios' es altamente complementaria, ya que propone una soluci\u00f3n integral para la asignaci\u00f3n equitativa de recursos y la maximizaci\u00f3n del impacto social. Al combinar an\u00e1lisis espacial con indicadores socioecon\u00f3micos, permite identificar las comunidades m\u00e1s vulnerables y garantizar que los recursos lleguen donde se necesitan m\u00e1s.",
+        "impact": "Esta soluci\u00f3n tiene un alto potencial de impacto social al mejorar el acceso a servicios b\u00e1sicos esenciales como agua potable y saneamiento para las poblaciones m\u00e1s necesitadas. La identificaci\u00f3n precisa de zonas con mayor carencia permitir\u00e1 intervenciones dirigidas que aborden directamente las necesidades espec\u00edficas de cada comunidad.",
+        "scalability": "La escalabilidad de la soluci\u00f3n es un punto fuerte, ya que la metodolog\u00eda propuesta puede adaptarse a diferentes regiones y tipos de servicios gracias al uso de herramientas de c\u00f3digo abierto y a un enfoque estandarizado. Esto facilita su implementaci\u00f3n en diversos contextos y permite ampliar su alcance para beneficiar a un mayor n\u00famero de personas.",
+        "viability": "La viabilidad de la soluci\u00f3n tambi\u00e9n es alta, ya que se basa en datos disponibles y tecnolog\u00edas accesibles. La utilizaci\u00f3n de herramientas de c\u00f3digo abierto minimiza los costos de implementaci\u00f3n, lo que la hace sostenible a largo plazo. Adem\u00e1s, el enfoque de intervenci\u00f3n dirigida optimiza la utilizaci\u00f3n de recursos, garantizando un mayor retorno de la inversi\u00f3n."
     },
     {
         "title": "Priorizaci\u00f3n de Proyectos seg\u00fan Impacto Social",
         "description": "Desarrollar un modelo de machine learning que prediga el impacto social de cada proyecto en funci\u00f3n de su sector, ubicaci\u00f3n y monto. Esto permite priorizar proyectos con mayor potencial de mejorar la calidad de vida de la poblaci\u00f3n.",
         "technique": "Machine Learning, an\u00e1lisis predictivo, cruce de datos con indicadores de desarrollo social",
         "columns": "nom_proy (nombre del proyecto), sect_proy (sector), func_proy (funci\u00f3n), ubicho (ubicaci\u00f3n geogr\u00e1fica), monto_ref (monto de referencia)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Implementar un sistema de retroalimentaci\u00f3n continua para ajustar el modelo y garantizar su precisi\u00f3n. Integrar indicadores de impacto social espec\u00edficos a diferentes contextos culturales y regiones.",
+        "impact": "El proyecto tiene un alto impacto potencial al optimizar la asignaci\u00f3n de recursos, permitiendo que las organizaciones sin fines de lucro dirijan sus esfuerzos a los proyectos con mayor probabilidad de \u00e9xito social. Esto puede traducirse en mejoras tangibles en \u00e1reas como la educaci\u00f3n, la salud, la pobreza y el desarrollo econ\u00f3mico.",
+        "scalability": "La soluci\u00f3n es escalable porque se basa en un modelo de aprendizaje autom\u00e1tico que puede adaptarse a diferentes contextos geogr\u00e1ficos y tipos de proyectos. La capacidad de integrar datos locales permite personalizar el an\u00e1lisis y garantizar su relevancia para diversas comunidades.",
+        "viability": "La viabilidad del proyecto es alta, ya que la tecnolog\u00eda necesaria est\u00e1 disponible y existen datos hist\u00f3ricos sobre proyectos sociales que se pueden utilizar para entrenar el modelo. Sin embargo, se requiere un equipo multidisciplinario con experiencia en aprendizaje autom\u00e1tico, an\u00e1lisis de datos y trabajo social para desarrollar y implementar la soluci\u00f3n de manera efectiva."
     },
     {
         "title": "Monitoreo y Seguimiento de Proyectos",
         "description": "Crear un dashboard que muestre el estado de avance de cada proyecto, su presupuesto asignado, fechas clave y responsables. Esto permite un control m\u00e1s eficiente de la ejecuci\u00f3n de proyectos y la detecci\u00f3n temprana de posibles retrasos o problemas.",
         "technique": "Desarrollo de dashboards interactivos, visualizaci\u00f3n de datos en tiempo real",
         "columns": "id (identificador \u00fanico), cod_proy (c\u00f3digo del proyecto), nom_proy (nombre del proyecto), mod_proy (modalidad de ejecuci\u00f3n), monto_ref (monto de referencia), nivel_gob (nivel de gobierno)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El sistema 'Monitoreo y Seguimiento de Proyectos' se complementa con la integraci\u00f3n de herramientas de comunicaci\u00f3n colaborativas, permitiendo a los equipos de proyecto interactuar, compartir informaci\u00f3n y resolver problemas en tiempo real.",
+        "impact": "Este sistema tendr\u00e1 un impacto significativo al aumentar la transparencia en la gesti\u00f3n de proyectos, mejorando la eficiencia en la asignaci\u00f3n de recursos y reduciendo los tiempos de ejecuci\u00f3n. La visualizaci\u00f3n clara de datos clave permitir\u00e1 una toma de decisiones m\u00e1s informada y estrat\u00e9gica.",
+        "scalability": "La arquitectura modular del sistema permite su adaptaci\u00f3n a diferentes tipos de proyectos y organizaciones. Su compatibilidad con m\u00faltiples idiomas lo convierte en una herramienta escalable a nivel global, pudiendo utilizarse en diversos contextos culturales.",
+        "viability": "'Monitoreo y Seguimiento de Proyectos' es econ\u00f3micamente viable debido al uso de tecnolog\u00edas de software existentes y la posibilidad de desarrollarlo internamente. Los beneficios en t\u00e9rminos de ahorro de costes y mejora de la eficiencia se traducen en un retorno de inversi\u00f3n positivo."
     },
     {
         "title": "An\u00e1lisis de la Distribuci\u00f3n Presupuestaria por Distrito",
         "description": "Generar informes que muestren la distribuci\u00f3n del presupuesto asignado a proyectos en cada distrito. Esto permite identificar posibles inequidades en la asignaci\u00f3n de recursos y tomar decisiones para garantizar una distribuci\u00f3n m\u00e1s equitativa.",
         "technique": "An\u00e1lisis estad\u00edstico, agrupamiento por distrito, visualizaci\u00f3n en gr\u00e1ficos",
         "columns": "nombdist (nombre del distrito), monto_ref (monto de referencia), sect_proy (sector del proyecto)",
-        "type": "fa-money-bill-alt"
+        "type": "fa-money-bill-alt",
+        "complement_idea": "El proyecto 'An\u00e1lisis de la Distribuci\u00f3n Presupuestaria por Distrito' podr\u00eda complementarse con an\u00e1lisis predictivos que utilicen datos hist\u00f3ricos para prever futuras necesidades presupuestarias. Tambi\u00e9n se podr\u00edan incorporar indicadores socioecon\u00f3micos a los an\u00e1lisis para identificar \u00e1reas con mayor necesidad de inversi\u00f3n.",
+        "impact": "Este proyecto tiene un alto impacto social al promover la transparencia y la equidad en la asignaci\u00f3n de recursos p\u00fablicos. Al revelar posibles disparidades, puede empoderar a las comunidades para exigir una distribuci\u00f3n m\u00e1s justa del presupuesto, mejorando as\u00ed la calidad de vida de los ciudadanos.",
+        "scalability": "La escalabilidad del proyecto es alta gracias a su enfoque basado en datos abiertos y la utilizaci\u00f3n de herramientas de an\u00e1lisis accesibles. La creaci\u00f3n de una plataforma online abierta permitir\u00eda que otras instituciones y municipios puedan replicar el modelo y realizar sus propios an\u00e1lisis de presupuesto.",
+        "viability": "La viabilidad del proyecto es alta, dado que se basa en metodolog\u00edas estad\u00edsticas probadas y en herramientas de visualizaci\u00f3n de datos ampliamente disponibles.  Adem\u00e1s, la participaci\u00f3n activa de la comunidad a trav\u00e9s de talleres y procesos de consulta p\u00fablica fortalecer\u00eda la aceptaci\u00f3n y el \u00e9xito del proyecto."
     }
 ]

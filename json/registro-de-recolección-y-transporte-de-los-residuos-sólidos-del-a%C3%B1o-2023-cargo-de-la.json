@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Mapa Interactivo de Recolecci\u00f3n de Residuos",
+        "description": "Visualizar la distribuci\u00f3n geogr\u00e1fica de la recolecci\u00f3n de residuos s\u00f3lidos en el distrito. Permite identificar zonas con mayor acumulaci\u00f3n y optimizar rutas de recolecci\u00f3n.",
+        "technique": "An\u00e1lisis geoespacial, cartograf\u00eda interactiva (Leaflet, GeoPandas)",
+        "columns": "DISTRITO (Para ubicar geogr\u00e1ficamente cada punto de recolecci\u00f3n), UBIGEO (Especificar la ubicaci\u00f3n precisa dentro del distrito), TOTAL (Mostrar cantidad de residuos recolectados en cada ubicaci\u00f3n), DIA_RECORRIDO (Determinar patrones de recolecci\u00f3n en d\u00edas espec\u00edficos),  ",
+        "type": "fa-map",
+        "complement_idea": "Mapa Interactivo de Recolecci\u00f3n de Residuos es una soluci\u00f3n innovadora que combina la visualizaci\u00f3n geospacial con la participaci\u00f3n ciudadana para optimizar la gesti\u00f3n de residuos en nuestra comunidad. ",
+        "impact": "Este proyecto tendr\u00e1 un impacto significativo al mejorar la limpieza y el saneamiento del distrito, aumentar la eficiencia de la recolecci\u00f3n de residuos y promover pr\u00e1cticas sostenibles entre los residentes.",
+        "scalability": "Gracias a su dise\u00f1o modular y el uso de tecnolog\u00edas de c\u00f3digo abierto, Mapa Interactivo de Recolecci\u00f3n de Residuos puede ser adaptado y escalado a otras comunidades con necesidades similares. ",
+        "viability": "La viabilidad econ\u00f3mica del proyecto est\u00e1 respaldada por la utilizaci\u00f3n de herramientas gratuitas y abiertas, y existe potencial para obtener financiaci\u00f3n a trav\u00e9s de subvenciones de sostenibilidad y alianzas estrat\u00e9gicas con empresas de gesti\u00f3n de residuos."
+    },
+    {
+        "title": "Predicci\u00f3n de Necesidades de Recolecci\u00f3n",
+        "description": "Utilizar machine learning para predecir la cantidad de residuos que se generar\u00e1n en diferentes zonas del distrito, permitiendo planificar de forma eficiente la recolecci\u00f3n.",
+        "technique": "Machine Learning (Regresi\u00f3n lineal, \u00c1rbol de decisi\u00f3n), An\u00e1lisis temporal de series",
+        "columns": "FECHA_CORTE (Para an\u00e1lisis hist\u00f3rico de datos de recolecci\u00f3n), TOTAL (Cantidad de residuos recolectados por d\u00eda), DIA_SEMANA (Identificar patrones seg\u00fan d\u00edas de la semana), DISTRITO (Segmentar predicciones por zona), ",
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de 'Predicci\u00f3n de Necesidades de Recolecci\u00f3n' es complementaria porque utiliza tecnolog\u00edas avanzadas como aprendizaje autom\u00e1tico y visi\u00f3n artificial para optimizar la gesti\u00f3n de residuos. Esto va m\u00e1s all\u00e1 de soluciones tradicionales y aborda el problema desde una perspectiva innovadora y sostenible.",
+        "impact": "El impacto potencial de esta iniciativa es significativo. Al optimizar las rutas de recolecci\u00f3n, se pueden reducir los costos operativos, mejorar la eficiencia del servicio y minimizar el impacto ambiental. Adem\u00e1s, la mayor frecuencia de recolecci\u00f3n contribuir\u00e1 a un ambiente m\u00e1s limpio y saludable para la comunidad.",
+        "scalability": "La soluci\u00f3n presenta una gran escalabilidad. Una vez implementado con \u00e9xito en un distrito, el modelo puede ser adaptado a otras \u00e1reas de la ciudad o incluso a otras ciudades con ajustes m\u00ednimos. La incorporaci\u00f3n de datos en tiempo real a trav\u00e9s de sensores en los contenedores de basura permite que el sistema evolucione y se ajuste a las necesidades cambiantes.",
+        "viability": "La viabilidad t\u00e9cnica de 'Predicci\u00f3n de Necesidades de Recolecci\u00f3n' es alta gracias a la disponibilidad de tecnolog\u00edas de aprendizaje autom\u00e1tico y visi\u00f3n artificial. Sin embargo, se requiere una inversi\u00f3n inicial en infraestructura tecnol\u00f3gica (sensores, software) y en la capacitaci\u00f3n del personal. La recolecci\u00f3n de datos precisos y confiables tambi\u00e9n es crucial para el \u00e9xito de la iniciativa."
+    },
+    {
+        "title": "An\u00e1lisis de Eficiencia de Rutas",
+        "description": "Evaluar la eficiencia de las rutas de recolecci\u00f3n actuales, identificando posibles mejoras para optimizar tiempo y recursos.",
+        "technique": "Optimizaci\u00f3n de rutas (Algoritmo de Dijkstra o similar), An\u00e1lisis espacial",
+        "columns": "DIA_RECORRIDO (Secuenciar puntos de recolecci\u00f3n por d\u00eda), DISTRITO (Definir \u00e1rea de cobertura por ruta), TOTAL (Calcular carga por punto y optimizar distribuci\u00f3n), UBIGEO (Utilizar coordenadas geogr\u00e1ficas para calcular distancias)",
+        "type": "fa-truck",
+        "complement_idea": "El an\u00e1lisis de rutas optimizadas como Dijkstra's, junto con herramientas de an\u00e1lisis espacial (GIS), permite identificar ineficiencias en las rutas actuales de recolecci\u00f3n de residuos y proponer alternativas m\u00e1s eficientes. Este enfoque considera factores como distancia, tiempo, restricciones, patrones de tr\u00e1fico y densidad de puntos de recolecci\u00f3n.",
+        "impact": "La optimizaci\u00f3n de rutas resultar\u00eda en una reducci\u00f3n de costos operativos debido a un menor consumo de combustible y desgaste de veh\u00edculos. Adem\u00e1s, se disminuir\u00eda el impacto ambiental mediante la reducci\u00f3n de emisiones y se mejorar\u00eda la calidad del servicio para la comunidad con recogidas m\u00e1s eficientes y oportunas.",
+        "scalability": "Esta soluci\u00f3n es escalable y adaptable a diferentes entornos geogr\u00e1ficos. Se pueden ajustar los par\u00e1metros del algoritmo para reflejar las condiciones espec\u00edficas de cada \u00e1rea y, al incorporar datos en tiempo real, se puede lograr una optimizaci\u00f3n din\u00e1mica que responde a cambios imprevistos en el tr\u00e1fico o la disponibilidad de puntos de recolecci\u00f3n.",
+        "viability": "La viabilidad t\u00e9cnica de esta soluci\u00f3n es alta, ya que se basa en algoritmos y herramientas ampliamente disponibles. La implementaci\u00f3n requerir\u00eda una inversi\u00f3n inicial en software y capacitaci\u00f3n, pero los beneficios econ\u00f3micos y ambientales a largo plazo justificar\u00edan la inversi\u00f3n."
+    },
+    {
+        "title": "Comparativo de Recolecci\u00f3n entre Distritos",
+        "description": "Generar reportes comparativos sobre la cantidad de residuos recolectados en diferentes distritos, permitiendo identificar mejores pr\u00e1cticas y \u00e1reas de mejora.",
+        "technique": "An\u00e1lisis estad\u00edstico (Media, desviaci\u00f3n est\u00e1ndar, gr\u00e1ficos de barras)",
+        "columns": "DISTRITO (Para agrupar datos por distrito), TOTAL (Cantidad de residuos recolectados), FECHA_CORTE (Analizar tendencias en el tiempo) ",
+        "type": "fa-chart-bar",
+        "complement_idea": "Esta idea puede expandirse al incluir visualizaciones interactivas de datos, la gamificaci\u00f3n para aumentar la participaci\u00f3n ciudadana y la integraci\u00f3n con plataformas de gesti\u00f3n de residuos existentes.",
+        "impact": "Esta idea tendr\u00e1 un impacto positivo en las comunidades al mejorar la eficiencia de la recolecci\u00f3n de residuos, promover la transparencia y la rendici\u00f3n de cuentas, y empoderar a los ciudadanos para que participen activamente en la gesti\u00f3n de residuos.",
+        "scalability": "La soluci\u00f3n es escalable a otras ciudades y regiones, ya que el m\u00e9todo de an\u00e1lisis comparativo se puede adaptar f\u00e1cilmente a diferentes contextos. Adem\u00e1s, la inclusi\u00f3n de datos espec\u00edficos por tipo de residuo (pl\u00e1stico, org\u00e1nico) permite un an\u00e1lisis m\u00e1s preciso y orientado a las necesidades locales.",
+        "viability": "Esta idea es t\u00e9cnicamente viable utilizando herramientas de c\u00f3digo abierto para el an\u00e1lisis estad\u00edstico y automatizando la generaci\u00f3n de informes. La viabilidad econ\u00f3mica se ve reforzada por el bajo costo de implementaci\u00f3n gracias al uso de software libre. Sin embargo, es crucial establecer colaboraciones con departamentos de saneamiento y explorar iniciativas de ciencia ciudadana para garantizar el acceso a datos confiables y completos."
+    },
+    {
+        "title": "Sistema de Alerta Temprana para Acumulaci\u00f3n de Residuos",
+        "description": "Desarrollar un sistema que genere alertas cuando se detecte una acumulaci\u00f3n inusual de residuos en una zona espec\u00edfica, permitiendo una respuesta r\u00e1pida por parte de las autoridades.",
+        "technique": "An\u00e1lisis de datos en tiempo real (Streaming data), Sistemas de alerta (Emails, SMS)",
+        "columns": "UBIGEO (Ubicar con precisi\u00f3n la zona de acumulaci\u00f3n), TOTAL (Cantidad de residuos detectados), DIA_RECORRIDO (Identificar patrones de acumulaci\u00f3n), FECHA_CORTE (Analizar tendencias en el tiempo) ",
+        "type": "fa-exclamation-triangle",
+        "complement_idea": "El sistema 'Sistema de Alerta Temprana para Acumulaci\u00f3n de Residuos' puede complementarse con la incorporaci\u00f3n de inteligencia artificial para un an\u00e1lisis m\u00e1s preciso de los datos y la predicci\u00f3n de patrones de acumulaci\u00f3n de residuos. Adem\u00e1s, se pueden integrar sistemas de geolocalizaci\u00f3n para optimizar las rutas de recolecci\u00f3n.",
+        "impact": "El sistema tendr\u00e1 un impacto positivo en la salud p\u00fablica al reducir la exposici\u00f3n a residuos acumulados, mejorando la calidad del aire y minimizando el riesgo de enfermedades transmitidas por vectores. Tambi\u00e9n contribuir\u00e1 a una ciudad m\u00e1s limpia y sostenible, fomentando una mayor conciencia ciudadana sobre la gesti\u00f3n de residuos.",
+        "scalability": "La arquitectura basada en la nube permite escalar el sistema f\u00e1cilmente a medida que se ampl\u00eda la cobertura geogr\u00e1fica. La integraci\u00f3n con APIs facilita la conexi\u00f3n con otros sistemas de gesti\u00f3n de residuos existentes, optimizando los procesos y reduciendo la redundancia.",
+        "viability": "La viabilidad del sistema depende de factores como la disponibilidad de sensores confiables, la infraestructura de telecomunicaciones adecuada y el compromiso de las autoridades locales para implementar y mantener el sistema. Un estudio de costo-beneficio detallado puede ayudar a evaluar la rentabilidad del proyecto."
+    }
+]

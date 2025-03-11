@@ -4,34 +4,54 @@
         "description": "Este an\u00e1lisis permite visualizar los ingresos generados en cada \u00c1rea Natural Protegida (ANP), identificar las ANP con mayor y menor recaudaci\u00f3n, y analizar tendencias a lo largo del tiempo. Esto puede ayudar a optimizar la gesti\u00f3n de recursos y a tomar decisiones informadas sobre inversiones en conservaci\u00f3n.",
         "technique": "An\u00e1lisis por grupo, visualizaci\u00f3n de datos (gr\u00e1ficos de barras, mapas de calor), an\u00e1lisis de tendencias",
         "columns": "ANP (agrupar los datos por ANP), FECHA_CORTE (filtrar datos por periodo de tiempo), IMPORTE_TOTAL (sumar para obtener la recaudaci\u00f3n total por ANP)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El an\u00e1lisis de la recaudaci\u00f3n por \u00c1rea Natural Protegida (ANP) propone visualizar los datos financieros de cada \u00e1rea para identificar patrones y tendencias. Esto permite a los responsables tomar decisiones m\u00e1s informadas sobre d\u00f3nde destinar recursos, maximizando el impacto de las iniciativas de conservaci\u00f3n.",
+        "impact": "Este an\u00e1lisis tiene un alto impacto potencial. Al identificar ANPs subfinanciadas o con mayor necesidad, se pueden dirigir recursos de manera estrat\u00e9gica, mejorando la protecci\u00f3n de ecosistemas vitales y la biodiversidad. La transparencia que ofrece el an\u00e1lisis tambi\u00e9n fomenta la confianza entre las comunidades locales y los gestores de conservaci\u00f3n.",
+        "scalability": "El an\u00e1lisis es escalable a otras regiones y contextos.  La metodolog\u00eda puede ser adaptada para evaluar diferentes tipos de \u00e1reas protegidas y fuentes de financiamiento. Adem\u00e1s, el uso de herramientas de visualizaci\u00f3n open-source facilita su replicaci\u00f3n y adaptaci\u00f3n por parte de otras organizaciones.",
+        "viability": "La viabilidad del proyecto es alta. La mayor\u00eda de las ANPs recopilan datos financieros, lo que facilita la implementaci\u00f3n del an\u00e1lisis. El uso de herramientas de visualizaci\u00f3n open-source reduce los costos y aumenta la accesibilidad.  Adem\u00e1s, el impacto potencial en la conservaci\u00f3n justifica la inversi\u00f3n."
     },
     {
         "title": "Identificaci\u00f3n de patrones en los tipos de documentos de venta",
         "description": "Este an\u00e1lisis busca identificar si existen patrones en los tipos de documentos de venta (facturas, boletas, etc.) utilizados para recaudar fondos. Esto puede revelar informaci\u00f3n sobre el tipo de visitantes que frecuentan cada ANP y sus h\u00e1bitos de consumo.",
         "technique": "An\u00e1lisis de frecuencia, tablas de contingencia, visualizaci\u00f3n de datos",
         "columns": "TIPO_DOC_VTA (analizar la frecuencia de cada tipo), ANP (comparar patrones entre diferentes ANP)",
-        "type": "fa-list"
+        "type": "fa-list",
+        "complement_idea": "Esta idea puede expandirse mediante el uso de t\u00e9cnicas de an\u00e1lisis m\u00e1s avanzadas como gr\u00e1ficos de red para identificar patrones de compra entre diferentes tipos de visitantes, detecci\u00f3n de anomal\u00edas para encontrar comportamientos inusuales de compra y an\u00e1lisis de series de tiempo para comprender c\u00f3mo los patrones de compra cambian a lo largo del tiempo.",
+        "impact": "Esta idea puede tener un impacto significativo al permitir a las \u00e1reas protegidas adaptar sus esfuerzos de conservaci\u00f3n a las necesidades espec\u00edficas de diferentes grupos de visitantes, mejorar la accesibilidad de las \u00e1reas protegidas para personas con menos recursos y apoyar a las comunidades locales mediante la promoci\u00f3n de negocios locales.",
+        "scalability": "La idea es escalable porque las t\u00e9cnicas de an\u00e1lisis propuestas son relativamente simples y pueden aplicarse a grandes conjuntos de datos. Adem\u00e1s, el uso de soluciones basadas en la nube puede facilitar el procesamiento y almacenamiento de los datos.",
+        "viability": "Esta idea es viable t\u00e9cnicamente y econ\u00f3micamente, ya que los datos necesarios probablemente est\u00e9n disponibles y el an\u00e1lisis se puede realizar utilizando software de c\u00f3digo abierto con un coste relativamente bajo. Adem\u00e1s, los resultados del an\u00e1lisis pueden proporcionar informaci\u00f3n valiosa para la toma de decisiones."
     },
     {
         "title": "Mapa interactivo de la recaudaci\u00f3n por ubicaci\u00f3n",
         "description": "Este mapa permite visualizar la distribuci\u00f3n geogr\u00e1fica de la recaudaci\u00f3n, mostrando la ubicaci\u00f3n de cada ANP y el monto total recaudado. Esto puede ayudar a identificar zonas con mayor potencial de ingresos y a planificar estrategias de desarrollo tur\u00edstico sostenible.",
         "technique": "Geo-referenciaci\u00f3n, mapas interactivos, visualizaci\u00f3n de datos",
         "columns": "ANP (ubicaci\u00f3n geogr\u00e1fica), IMPORTE_TOTAL (tama\u00f1o del marcador en el mapa)",
-        "type": "fa-map"
+        "type": "fa-map",
+        "complement_idea": "El mapa interactivo de ingresos es una idea innovadora que utiliza la visualizaci\u00f3n geogr\u00e1fica para mostrar la distribuci\u00f3n de los ingresos generados por los parques nacionales. Esta herramienta puede complementar estrategias de desarrollo tur\u00edstico sostenible al identificar zonas de alto rendimiento y \u00e1reas que requieren mayor atenci\u00f3n.",
+        "impact": "La soluci\u00f3n tiene un alto impacto potencial al proporcionar informaci\u00f3n crucial para la toma de decisiones en el \u00e1mbito del turismo sostenible. Permite a las autoridades identificar zonas de alto rendimiento para enfocar inversiones y recursos, as\u00ed como \u00e1reas que necesitan apoyo adicional. Adem\u00e1s, la transparencia de la informaci\u00f3n puede contribuir a fortalecer la confianza entre las comunidades locales y los responsables del turismo.",
+        "scalability": "La soluci\u00f3n es altamente escalable. El uso de herramientas de c\u00f3digo abierto permite un desarrollo inicial eficiente y adaptable a futuras necesidades. La incorporaci\u00f3n de datos hist\u00f3ricos, an\u00e1lisis comparativos con otras \u00e1reas protegidas y traducciones multiling\u00fces ampl\u00edan su alcance y utilidad.",
+        "viability": "La viabilidad t\u00e9cnica se ve respaldada por el uso de herramientas de c\u00f3digo abierto de bajo costo. La fase de prototipado permitir\u00e1 validar la disponibilidad de datos y ajustar la soluci\u00f3n a las necesidades espec\u00edficas. El enfoque incremental reduce riesgos y asegura una implementaci\u00f3n efectiva dentro del presupuesto."
     },
     {
         "title": "Predicci\u00f3n de la recaudaci\u00f3n futura mediante machine learning",
         "description": "Utilizando datos hist\u00f3ricos de recaudaci\u00f3n, este modelo puede predecir los ingresos futuros para cada ANP. Esto permite a las autoridades planificar mejor los presupuestos y tomar decisiones proactivas sobre la gesti\u00f3n de recursos.",
         "technique": "Machine Learning (regresi\u00f3n lineal, modelos ARIMA), an\u00e1lisis predictivo",
         "columns": "FECHA_CORTE (variable temporal), IMPORTE_TOTAL (variable a predecir)",
-        "type": "fa-rocket"
+        "type": "fa-rocket",
+        "complement_idea": "El an\u00e1lisis sugiere complementar la idea inicial de predicci\u00f3n de ingresos futuros con modelos h\u00edbridos que combinen m\u00e9todos estad\u00edsticos tradicionales como la regresi\u00f3n lineal o ARIMA, con t\u00e9cnicas de aprendizaje autom\u00e1tico m\u00e1s avanzadas. Esto permitir\u00eda obtener mayor precisi\u00f3n en las predicciones y adaptar el modelo a diferentes contextos.",
+        "impact": "La propuesta tendr\u00eda un impacto significativo en la comunidad al permitir a las ANPs optimizar la asignaci\u00f3n de recursos, mejorando as\u00ed la calidad de los servicios p\u00fablicos y respondiendo de manera m\u00e1s efectiva a las necesidades de la poblaci\u00f3n. La transparencia en el proceso de predicci\u00f3n tambi\u00e9n fortalecer\u00eda la confianza de la comunidad.",
+        "scalability": "La soluci\u00f3n es escalable gracias a su dise\u00f1o modular, lo que permite integrarla en diferentes ANPs sin importar su tama\u00f1o o ubicaci\u00f3n. Adem\u00e1s, la utilizaci\u00f3n de herramientas open-source y soluciones en la nube facilita la implementaci\u00f3n y reduce los costos.",
+        "viability": "T\u00e9cnicamente, la idea es viable ya que se basa en m\u00e9todos de an\u00e1lisis estad\u00edstico bien establecidos y existen herramientas accesibles para su desarrollo e implementaci\u00f3n. La clave reside en contar con datos hist\u00f3ricos confiables y un equipo t\u00e9cnico capacitado para manejar los modelos predictivos."
     },
     {
         "title": "Dashboard interactivo de monitoreo de la recaudaci\u00f3n",
         "description": "Un dashboard interactivo permite visualizar la informaci\u00f3n clave sobre la recaudaci\u00f3n en tiempo real. Se pueden incluir gr\u00e1ficos, mapas y tablas que muestran la evoluci\u00f3n de los ingresos, los patrones de consumo y otros indicadores relevantes.",
         "technique": "Desarrollo de dashboards, visualizaci\u00f3n de datos (Power BI, Tableau), conexi\u00f3n a base de datos",
         "columns": "Todas las columnas del dataset (utilizar filtros y selectores para visualizar informaci\u00f3n espec\u00edfica)",
-        "type": "fa-dashboard"
+        "type": "fa-dashboard",
+        "complement_idea": "El tablero interactivo de monitoreo de ingresos fiscales es una soluci\u00f3n innovadora que combina an\u00e1lisis en tiempo real con aprendizaje autom\u00e1tico para optimizar la recaudaci\u00f3n de impuestos y fomentar la participaci\u00f3n ciudadana.",
+        "impact": "Este proyecto tendr\u00e1 un impacto significativo al mejorar la eficiencia de la recaudaci\u00f3n de impuestos, aumentar los ingresos p\u00fablicos y promover la transparencia y la responsabilidad del gobierno. La accesibilidad p\u00fablica empodera a los ciudadanos, permiti\u00e9ndoles comprender mejor el sistema fiscal y participar en su mejora.",
+        "scalability": "El tablero es altamente escalable y adaptable, capaz de manejar vol\u00famenes de datos crecientes, usuarios diversos y variaciones locales en las estructuras fiscales. Esto asegura su relevancia a largo plazo y la capacidad de adaptarse a las necesidades cambiantes.",
+        "viability": "La viabilidad del proyecto es alta debido al uso de herramientas existentes como Power BI/Tableau, lo que garantiza un desarrollo rentable. Adem\u00e1s, el potencial para generar ahorros significativos y aumentar los ingresos fiscales a trav\u00e9s de una gesti\u00f3n m\u00e1s eficiente de los impuestos lo convierte en una inversi\u00f3n atractiva."
     }
 ]

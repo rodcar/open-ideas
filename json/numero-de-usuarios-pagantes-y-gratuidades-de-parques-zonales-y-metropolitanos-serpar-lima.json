@@ -4,34 +4,54 @@
         "description": "Este an\u00e1lisis se enfoca en determinar c\u00f3mo se distribuyen los usuarios en diferentes parques a lo largo del tiempo. La informaci\u00f3n obtenida puede servir para optimizar la asignaci\u00f3n de recursos, identificar patrones de uso y planificar estrategias de mejora.",
         "technique": "An\u00e1lisis estad\u00edstico descriptivo, visualizaci\u00f3n de datos con gr\u00e1ficos de barras y mapas de calor",
         "columns": "PARQUE ZONAL Y METROPOLITANO (identificaci\u00f3n del parque a analizar), A\u00d1O (filtrado por a\u00f1o), PERIODO (agrupaci\u00f3n por mes), USUARIO PAGANTE MAYOR DE 13 A 59 A\u00d1OS, USUARIO PAGANTE MENOR DE 5 A 12 A\u00d1OS, GRATUIDAD MENORES DE 0 A 4 A\u00d1OS, GRATUIDAD ADULTO MAYOR (uso de estas columnas para calcular el total de usuarios por parque y periodo), TOTAL (verificaci\u00f3n de la suma)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "Analizar la distribuci\u00f3n de usuarios en parques zonales y metropolitanos mediante t\u00e9cnicas de estad\u00edstica descriptiva y visualizaci\u00f3n de datos.",
+        "impact": "Este enfoque permitir\u00e1 optimizar la asignaci\u00f3n de recursos, informar los horarios de mantenimiento y guiar mejoras dirigidas para mejorar la experiencia del parque para todos. Adem\u00e1s, al identificar zonas de mayor afluencia, se pueden tomar medidas para garantizar la seguridad y accesibilidad de todos los usuarios.",
+        "scalability": "El uso de herramientas de visualizaci\u00f3n accesibles y el aprovechamiento de datos disponibles hacen que este an\u00e1lisis sea escalable a otros parques y contextos. La creaci\u00f3n de una plataforma de c\u00f3digo abierto podr\u00eda facilitar a\u00fan m\u00e1s la adopci\u00f3n por parte de otras organizaciones.",
+        "viability": "La viabilidad de este an\u00e1lisis reside en su sencillez y accesibilidad. Las t\u00e9cnicas estad\u00edsticas descriptivas son f\u00e1ciles de implementar, y las herramientas de visualizaci\u00f3n de datos est\u00e1n ampliamente disponibles. El uso de datos existentes reduce la necesidad de recopilar nueva informaci\u00f3n, lo que hace que el proyecto sea m\u00e1s econ\u00f3mico."
     },
     {
         "title": "Identificaci\u00f3n de patrones estacionales en la afluencia a los parques",
         "description": "Este an\u00e1lisis busca detectar si existen variaciones significativas en la cantidad de visitantes seg\u00fan la \u00e9poca del a\u00f1o. La informaci\u00f3n puede ser \u00fatil para planificar eventos, ajustar horarios de atenci\u00f3n y optimizar recursos.",
         "technique": "An\u00e1lisis de series temporales, gr\u00e1ficos de l\u00ednea",
         "columns": "A\u00d1O (filtrado por a\u00f1o), PERIODO (agrupaci\u00f3n por mes), TOTAL (suma total de usuarios por mes)",
-        "type": "fa-line-chart"
+        "type": "fa-line-chart",
+        "complement_idea": "El an\u00e1lisis de patrones de visitas estacionales utilizando an\u00e1lisis de series de tiempo es una t\u00e9cnica poderosa para optimizar la gesti\u00f3n del parque y mejorar la experiencia del visitante. Implica trazar datos hist\u00f3ricos de asistencia contra el tiempo y aplicar m\u00e9todos estad\u00edsticos para aislar las tendencias estacionales.",
+        "impact": "Los conocimientos obtenidos son invaluables para: optimizar la plantilla ajustando los niveles de personal al volumen previsto de visitantes, planificar eventos programando actividades durante per\u00edodos de alta asistencia para maximizar el impacto y asignar recursos asegurando el uso eficiente de los recursos del parque en funci\u00f3n de la demanda estacional. Esto no solo mejora la eficiencia operativa, sino que tambi\u00e9n crea una experiencia m\u00e1s agradable y accesible para todos los visitantes.",
+        "scalability": "El m\u00e9todo de series de tiempo puede aplicarse a otras ubicaciones con datos de visitantes (museos, zool\u00f3gicos), lo que lo convierte en una herramienta vers\u00e1til para optimizar las operaciones en diversos entornos.",
+        "viability": "Dado que est\u00e1n disponibles datos hist\u00f3ricos de asistencia y herramientas anal\u00edticas (R, Python), esta t\u00e9cnica es pr\u00e1ctica para implementar. Ofrece ahorros de costes tangibles y oportunidades de generaci\u00f3n de ingresos."
     },
     {
         "title": "Comparaci\u00f3n de la afluencia entre parques zonales y metropolitanos",
         "description": "Este an\u00e1lisis permite evaluar si existen diferencias significativas en la cantidad de visitantes entre tipos de parques. Los resultados pueden ayudar a comprender las preferencias del p\u00fablico, identificar \u00e1reas de oportunidad para mejorar la oferta de servicios y optimizar la inversi\u00f3n.",
         "technique": "An\u00e1lisis estad\u00edstico comparativo, gr\u00e1ficos de barras agrupadas",
         "columns": "PARQUE ZONAL Y METROPOLITANO (clasificaci\u00f3n por tipo de parque), A\u00d1O (filtrado por a\u00f1o), PERIODO (agrupaci\u00f3n por mes), TOTAL (suma total de usuarios por parque)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "El an\u00e1lisis comparativo de asistencia entre parques zonales y metropolitanos proporciona informaci\u00f3n valiosa para comprender las preferencias de la comunidad y optimizar los recursos de los parques.",
+        "impact": "Este an\u00e1lisis permite identificar \u00e1reas que requieren mejoras espec\u00edficas en funci\u00f3n de las necesidades de los visitantes. Adem\u00e1s, facilita una asignaci\u00f3n eficiente de recursos, priorizando inversiones en parques con mayor demanda y garantizando un acceso equitativo a espacios verdes de calidad para todos los miembros de la comunidad.",
+        "scalability": "El enfoque estad\u00edstico utilizado es escalable y puede adaptarse a diferentes contextos. Se puede aplicar a otros tipos de an\u00e1lisis relacionados con el uso de los parques, como la evaluaci\u00f3n de la satisfacci\u00f3n de los visitantes o la identificaci\u00f3n de patrones de uso espec\u00edficos.",
+        "viability": "La metodolog\u00eda propuesta es viable y eficiente en t\u00e9rminos de recursos. El an\u00e1lisis de datos existentes (datos de asistencia diarios/semanales) minimiza los costos de recopilaci\u00f3n de datos, y las herramientas estad\u00edsticas est\u00e1ndar son accesibles y f\u00e1ciles de implementar."
     },
     {
         "title": "An\u00e1lisis de la composici\u00f3n demogr\u00e1fica de los visitantes",
         "description": "Este an\u00e1lisis examina la distribuci\u00f3n de usuarios seg\u00fan su edad y condici\u00f3n de pago. La informaci\u00f3n puede ser valiosa para adaptar las actividades y servicios a las necesidades del p\u00fablico objetivo.",
         "technique": "Gr\u00e1ficos circulares, tablas de frecuencia",
         "columns": "USUARIO PAGANTE MAYOR DE 13 A 59 A\u00d1OS, USUARIO PAGANTE MENOR DE 5 A 12 A\u00d1OS, GRATUIDAD MENORES DE 0 A 4 A\u00d1OS, GRATUIDAD ADULTO MAYOR (uso de estas columnas para calcular porcentajes)",
-        "type": "fa-chart-pie"
+        "type": "fa-chart-pie",
+        "complement_idea": "El an\u00e1lisis de la composici\u00f3n demogr\u00e1fica de los visitantes, visualizando la distribuci\u00f3n por edad y estado de pago mediante gr\u00e1ficos circulares y tablas de frecuencias, permite personalizar las experiencias, promover la inclusi\u00f3n y optimizar la retenci\u00f3n.",
+        "impact": "Este an\u00e1lisis permitir\u00e1 ofrecer experiencias m\u00e1s relevantes para cada grupo demogr\u00e1fico, mejorando la satisfacci\u00f3n de los visitantes y fomentando un sentido de comunidad. Tambi\u00e9n ayudar\u00e1 a identificar grupos subrepresentados y crear programas espec\u00edficos para ellos.",
+        "scalability": "La metodolog\u00eda propuesta es escalable ya que permite analizar datos en tiempo real y segmentar la informaci\u00f3n seg\u00fan diferentes criterios. Adem\u00e1s, la creaci\u00f3n de dashboards interactivos facilita la visualizaci\u00f3n y comprensi\u00f3n de los datos por parte de distintos usuarios.",
+        "viability": "La viabilidad del proyecto depende de la implementaci\u00f3n de m\u00e9todos de recolecci\u00f3n de datos no intrusivos para los visitantes y del desarrollo de herramientas de an\u00e1lisis accesibles y f\u00e1ciles de usar. Es importante asegurar que el proceso sea eficiente y proporcione informaci\u00f3n \u00fatil para la toma de decisiones."
     },
     {
         "title": "Predicci\u00f3n de la afluencia futura a los parques",
         "description": "Utilizando modelos de machine learning, este an\u00e1lisis busca predecir el n\u00famero de visitantes a los parques en per\u00edodos futuros. Los resultados pueden ser usados para optimizar la planificaci\u00f3n de recursos y personal.",
         "technique": "Modelado predictivo (regresi\u00f3n lineal, redes neuronales), series temporales",
         "columns": "A\u00d1O (variable independiente), PERIODO (variable independiente), TOTAL (variable dependiente)",
-        "type": "fa-calendar-alt"
+        "type": "fa-calendar-alt",
+        "complement_idea": "Esta idea puede ampliarse integrando predicciones en un modelo de precios din\u00e1micos, personalizando experiencias para visitantes individuales y optimizando las operaciones del parque con datos en tiempo real.",
+        "impact": "Esta soluci\u00f3n tiene un impacto positivo directo en la comunidad al optimizar la asignaci\u00f3n de personal, recursos y experiencias de los visitantes, lo que conduce a visitas m\u00e1s seguras y agradables al parque.",
+        "scalability": "El enfoque escalable comienza con modelos de regresi\u00f3n lineal y avanza hacia redes neuronales m\u00e1s complejas a medida que los datos se acumulan. La infraestructura en la nube asegura un entrenamiento y una implementaci\u00f3n de modelos escalables.",
+        "viability": "Esta idea es t\u00e9cnicamente viable, ya que aprovecha los datos hist\u00f3ricos sobre visitas, clima, festivos y potencialmente el sentimiento de las redes sociales para construir modelos predictivos precisos."
     }
 ]

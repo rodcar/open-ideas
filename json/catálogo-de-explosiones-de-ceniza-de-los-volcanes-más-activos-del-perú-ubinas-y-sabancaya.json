@@ -4,34 +4,54 @@
         "description": "Visualizar la frecuencia y ubicaci\u00f3n de las explosiones volc\u00e1nicas en un mapa interactivo. Esto permite identificar zonas de mayor riesgo y patrones en la actividad volc\u00e1nica.",
         "technique": "An\u00e1lisis geoespacial, mapas de calor, visualizaci\u00f3n de datos.",
         "columns": "UBIGEO (para geolocalizaci\u00f3n), FECHA_UTC (para analizar patrones temporales), VOLCAN (para diferenciar explosiones por volc\u00e1n).",
-        "type": "fa-map-marked"
+        "type": "fa-map-marked",
+        "complement_idea": "La idea de 'Mapa de Calor de Explosiones Volcanicas' puede complementarse incluyendo informaci\u00f3n adicional como la altura de las erupciones, el tipo de material expulsado y los patrones de vientos predominantes para una mejor comprensi\u00f3n del riesgo.",
+        "impact": "El impacto de este proyecto ser\u00e1 significativo al empoderar a las comunidades con informaci\u00f3n vital sobre el riesgo volc\u00e1nico. Esto permitir\u00e1 tomar decisiones informadas sobre seguridad, planificaci\u00f3n urbana y respuesta ante desastres. Adem\u00e1s, fomentar\u00e1 la colaboraci\u00f3n entre cient\u00edficos, gobiernos y ciudadanos para una gesti\u00f3n m\u00e1s eficaz del riesgo.",
+        "scalability": "La soluci\u00f3n es altamente escalable. Se puede adaptar a otras zonas volc\u00e1nicas del mundo utilizando datos espec\u00edficos de cada regi\u00f3n. Tambi\u00e9n se puede integrar con otros sistemas de alerta temprana y plataformas de informaci\u00f3n geogr\u00e1fica para un impacto a\u00fan mayor.",
+        "viability": "El uso de herramientas de software de c\u00f3digo abierto como QGIS hace que el proyecto sea financieramente viable. La colaboraci\u00f3n con instituciones de investigaci\u00f3n y la participaci\u00f3n ciudadana pueden asegurar la actualizaci\u00f3n constante de los datos, garantizando la sostenibilidad a largo plazo."
     },
     {
         "title": "Predicci\u00f3n de la Altura de Columnas Eruptivas",
         "description": "Desarrollar un modelo de aprendizaje autom\u00e1tico que prediga la altura de las columnas eruptivas futuras con base en datos hist\u00f3ricos de explosiones. Esto puede ayudar a evaluar el impacto potencial de futuras erupciones.",
         "technique": "Aprendizaje autom\u00e1tico (regresi\u00f3n), an\u00e1lisis de series temporales.",
         "columns": "FECHA_UTC (para patrones temporales), HORA_UTC (para patrones horarios), ALTURA (variable objetivo para predecir), VOLCAN (posible factor influyente).",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "La idea de utilizar aprendizaje autom\u00e1tico para predecir la altura de las columnas de erupci\u00f3n volc\u00e1nica es prometedora. Se puede complementar con el desarrollo de un sistema de alerta temprana que utilice estas predicciones para notificar a las poblaciones en riesgo y activar planes de evacuaci\u00f3n.",
+        "impact": "Este proyecto tendr\u00eda un alto impacto al mejorar la seguridad de las comunidades que viven cerca de volcanes activos. Predicciones m\u00e1s precisas permitir\u00edan tomar decisiones m\u00e1s informadas sobre la evacuaci\u00f3n, minimizando las p\u00e9rdidas humanas y econ\u00f3micas.",
+        "scalability": "La soluci\u00f3n es escalable ya que el modelo se puede adaptar a diferentes volcanes incorporando caracter\u00edsticas espec\u00edficas de cada uno. Adem\u00e1s, se puede implementar en diferentes regiones del mundo donde existen riesgos volc\u00e1nicos.",
+        "viability": "La viabilidad del proyecto depende de la disponibilidad de datos hist\u00f3ricos de erupciones con mediciones precisas de la altura de las columnas. Se requerir\u00e1 una estrecha colaboraci\u00f3n con vulcan\u00f3logos para acceder a estos datos y validar los resultados del modelo."
     },
     {
         "title": "Sistema de Alertas Tempranas para Zonas Vulnerables",
         "description": "Crear un sistema que emita alertas basadas en la direcci\u00f3n y altura de las columnas de ceniza, notificando a las comunidades potencialmente afectadas. ",
         "technique": "An\u00e1lisis de datos en tiempo real, sistemas de alerta temprana, geolocalizaci\u00f3n.",
         "columns": "FECHA_UTC (para determinar el momento del evento), HORA_UTC (para precisi\u00f3n temporal), ALTURA (para evaluar la magnitud de la erupci\u00f3n), DIRECCION (para predecir \u00e1reas afectadas).",
-        "type": "fa-bell"
+        "type": "fa-bell",
+        "complement_idea": "El sistema 'Sistema de Alertas Tempranas para Zonas Vulnerables' es una idea innovadora que complementa las medidas existentes de respuesta a erupciones volc\u00e1nicas. Su enfoque en la precisi\u00f3n de los datos en tiempo real, la entrega dirigida de alertas y la accesibilidad a trav\u00e9s de m\u00faltiples canales lo convierten en una herramienta poderosa para proteger a las comunidades vulnerables.",
+        "impact": "El impacto potencial de este sistema es significativo. Al proporcionar advertencias oportunas sobre la ca\u00edda de ceniza volc\u00e1nica, puede reducir dr\u00e1sticamente los riesgos para la salud humana, minimizar los da\u00f1os a la propiedad y mitigar las interrupciones econ\u00f3micas causadas por las erupciones.",
+        "scalability": "La arquitectura modular y de c\u00f3digo abierto del sistema lo hace altamente escalable. Se puede adaptar a diferentes tipos de volcanes y entornos geogr\u00e1ficos, y se puede implementar en diversas regiones del mundo donde existe el riesgo de erupciones volc\u00e1nicas.",
+        "viability": "La viabilidad t\u00e9cnica del sistema es alta. El uso de sensores existentes, datos de sat\u00e9lites y tecnolog\u00eda m\u00f3vil ampliamente disponible lo hace factible desde un punto de vista t\u00e9cnico. Adem\u00e1s, el enfoque en soluciones de bajo costo a trav\u00e9s del c\u00f3digo abierto aumenta su sostenibilidad."
     },
     {
         "title": "An\u00e1lisis de Patrones en la Actividad Volc\u00e1nica",
         "description": "Identificar patrones y tendencias en la actividad volc\u00e1nica a trav\u00e9s del an\u00e1lisis estad\u00edstico de los datos hist\u00f3ricos. Esto puede ayudar a comprender mejor el comportamiento de los volcanes y predecir futuras erupciones.",
         "technique": "An\u00e1lisis estad\u00edstico, series temporales, visualizaci\u00f3n de datos.",
         "columns": "FECHA_UTC (para identificar patrones temporales), HORA_UTC (para analizar la hora del d\u00eda de las explosiones), ALTURA (para evaluar la intensidad de las erupciones), VOLCAN (para comparar el comportamiento de diferentes volcanes).",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "La idea de 'An\u00e1lisis de Patrones en la Actividad Volc\u00e1nica' se basa en el uso de an\u00e1lisis estad\u00edsticos avanzados, como el an\u00e1lisis de series de tiempo y el aprendizaje autom\u00e1tico, para identificar patrones y tendencias en datos hist\u00f3ricos de actividad volc\u00e1nica. Esto podr\u00eda llevar a predicciones de erupciones m\u00e1s precisas.",
+        "impact": "El impacto potencial de esta idea es significativo, ya que las predicciones de erupciones m\u00e1s precisas pueden salvar vidas, minimizar los da\u00f1os econ\u00f3micos y permitir que las comunidades se preparen de manera m\u00e1s efectiva para los peligros volc\u00e1nicos.",
+        "scalability": "La escalabilidad de la idea es alta debido a la adaptabilidad de los modelos estad\u00edsticos y al potencial para la colaboraci\u00f3n global de datos. Los modelos pueden ajustarse a diferentes tipos de volcanes y estilos de erupci\u00f3n, y la integraci\u00f3n de datos de m\u00faltiples fuentes puede mejorar a\u00fan m\u00e1s la precisi\u00f3n de las predicciones.",
+        "viability": "La viabilidad de la idea depende en gran medida de la disponibilidad de datos de alta calidad y de la experiencia en modelado estad\u00edstico. Asegurar el financiamiento a trav\u00e9s de subvenciones de investigaci\u00f3n enfocadas en la predicci\u00f3n de desastres ser\u00e1 crucial para el \u00e9xito del proyecto."
     },
     {
         "title": "Simulaci\u00f3n de la Dispersi\u00f3n de Ceniza",
         "description": "Utilizar modelos de dispersi\u00f3n atmosf\u00e9rica para simular c\u00f3mo se propagar\u00e1 la ceniza volc\u00e1nica en funci\u00f3n de las condiciones meteorol\u00f3gicas. Esto puede ayudar a evaluar el impacto potencial en infraestructuras y salud p\u00fablica.",
         "technique": "Modelado matem\u00e1tico, simulaci\u00f3n num\u00e9rica.",
         "columns": "FECHA_UTC (para contexto temporal), HORA_UTC (para precisi\u00f3n horaria), ALTURA (para determinar la altura inicial de la pluma), DIRECCION (para definir la direcci\u00f3n inicial de la pluma).",
-        "type": "fa-cloud"
+        "type": "fa-cloud",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     }
 ]

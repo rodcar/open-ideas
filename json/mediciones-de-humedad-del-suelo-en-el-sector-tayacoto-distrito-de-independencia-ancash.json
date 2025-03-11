@@ -4,34 +4,54 @@
         "description": "Visualizar la evoluci\u00f3n de la humedad del suelo a diferentes profundidades (20, 60 y 100 cm) en el tiempo. Identificar patrones de sequ\u00eda o exceso de humedad.",
         "technique": "An\u00e1lisis temporal de series, mapas de calor, geo-referenciaci\u00f3n",
         "columns": "FECHA_REGISTRO (eje X para graficos de serie temporal), HUMEDAD_SUELO_PROMEDIO_20 (valor para gr\u00e1fica a 20 cm), HUMEDAD_SUELO_PROMEDIO_60 (valor para gr\u00e1fica a 60 cm), HUMEDAD_SUELO_PROMEDIO_100 (valor para gr\u00e1fica a 100 cm), DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (para geo-referenciar los datos y crear mapas de calor)",
-        "type": "fa-chart-line"
+        "type": "fa-chart-line",
+        "complement_idea": "El proyecto \u201cMonitoreo de Humedad del Suelo en Tayacoto\u201d podr\u00eda complementarse con la creaci\u00f3n de un sistema de alerta temprana para eventos de sequ\u00eda o exceso de humedad, basado en los datos recolectados por los sensores. Esta alerta podr\u00eda llegar a los agricultores a trav\u00e9s de mensajes SMS o una aplicaci\u00f3n m\u00f3vil.",
+        "impact": "Este proyecto tendr\u00e1 un gran impacto positivo en la comunidad de Tayacoto al aumentar los rendimientos de los cultivos, optimizar el uso del agua y mejorar la seguridad alimentaria.",
+        "scalability": "El proyecto es escalable gracias a su enfoque basado en datos abiertos. Los datos recopilados por los sensores podr\u00edan compartirse con otras comunidades agr\u00edcolas, permiti\u00e9ndoles implementar soluciones similares. Adem\u00e1s, una aplicaci\u00f3n m\u00f3vil podr\u00eda facilitar el acceso a la informaci\u00f3n para un mayor n\u00famero de agricultores.",
+        "viability": "La viabilidad del proyecto se ve reforzada por el uso de tecnolog\u00edas probadas como el an\u00e1lisis de series temporales, los mapas de calor y la geolocalizaci\u00f3n. La integraci\u00f3n con previsiones meteorol\u00f3gicas a\u00f1adir\u00e1 valor adicional al sistema."
     },
     {
         "title": "Comparaci\u00f3n de Humedad del Suelo en Diferentes Zonas",
         "description": "Analizar las diferencias en la humedad del suelo entre diferentes \u00e1reas dentro del distrito de Independencia. Determinar si hay zonas m\u00e1s propensas a la sequ\u00eda o al exceso de agua.",
         "technique": "An\u00e1lisis espacial, mapas de contorno, agrupamiento",
         "columns": "HUMEDAD_SUELO_PROMEDIO_20 (valor para mapa de contorno), HUMEDAD_SUELO_PROMEDIO_60 (valor para mapa de contorno), HUMEDAD_SUELO_PROMEDIO_100 (valor para mapa de contorno), DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (para geo-referenciar los datos)",
-        "type": "fa-map-marked"
+        "type": "fa-map-marked",
+        "complement_idea": "El proyecto \"Comparaci\u00f3n de Humedad del Suelo en Diferentes Zonas\" propone una soluci\u00f3n integral y escalable para abordar los desaf\u00edos de gesti\u00f3n del agua en Independencia. La combinaci\u00f3n de sensores de humedad del suelo asequibles con im\u00e1genes satelitales gratuitas permite crear mapas detallados que revelan zonas vulnerables a la sequ\u00eda o inundaciones.",
+        "impact": "El impacto de este proyecto es significativo, ya que empodera a la comunidad para tomar decisiones informadas sobre el manejo del agua. Los mapas de humedad del suelo permiten optimizar el riego, mejorar la planificaci\u00f3n de drenaje y fortalecer la seguridad alimentaria, protegiendo al mismo tiempo la infraestructura local.",
+        "scalability": "La escalabilidad del proyecto es alta debido a su enfoque basado en datos abiertos y software de c\u00f3digo abierto (QGIS). La metodolog\u00eda puede replicarse en otras regiones con desaf\u00edos similares de gesti\u00f3n del agua, adapt\u00e1ndose a diferentes contextos locales.",
+        "viability": "La viabilidad econ\u00f3mica del proyecto es fuerte gracias al uso de sensores de bajo costo y la eliminaci\u00f3n de costos de licencias de software. Adem\u00e1s, la participaci\u00f3n comunitaria en la recolecci\u00f3n de datos facilita la implementaci\u00f3n y reduce los costos operativos."
     },
     {
         "title": "Predicci\u00f3n de Humedad del Suelo",
         "description": "Utilizar modelos de machine learning para predecir la humedad del suelo en el futuro. Esto puede ayudar a los agricultores a tomar decisiones informadas sobre riego.",
         "technique": "Machine Learning, Regresi\u00f3n lineal o redes neuronales",
         "columns": "FECHA_REGISTRO (variable independiente), HUMEDAD_SUELO_PROMEDIO_20 (variable dependiente), HUMEDAD_SUELO_PROMEDIO_60 (variable dependiente), HUMEDAD_SUELO_PROMEDIO_100 (variable dependiente)",
-        "type": "fa-chart-bar"
+        "type": "fa-chart-bar",
+        "complement_idea": "-",
+        "impact": "-",
+        "scalability": "-",
+        "viability": "-"
     },
     {
         "title": "Dashboard Interactivo de Humedad del Suelo",
         "description": "Desarrollar un dashboard interactivo que permita a los usuarios explorar los datos de humedad del suelo. El dashboard puede incluir mapas, gr\u00e1ficos y tablas.",
         "technique": "Desarrollo web, herramientas de visualizaci\u00f3n (Tableau, Power BI)",
         "columns": "FECHA_REGISTRO, HUMEDAD_SUELO_PROMEDIO_20, HUMEDAD_SUELO_PROMEDIO_60, HUMEDAD_SUELO_PROMEDIO_100, DEPARTAMENTO, PROVINCIA, DISTRITO, UBIGEO (todas las columnas ser\u00e1n utilizadas para filtros y visualizaci\u00f3n)",
-        "type": "fa-laptop"
+        "type": "fa-laptop",
+        "complement_idea": "El tablero interactivo de humedad del suelo se puede complementar con la incorporaci\u00f3n de datos meteorol\u00f3gicos, informaci\u00f3n sobre tipos de suelo y cultivos, as\u00ed como recomendaciones personalizadas para el riego y la gesti\u00f3n de cultivos.",
+        "impact": "Esta iniciativa tiene un alto impacto social al proporcionar a los agricultores informaci\u00f3n vital para optimizar el riego, lo que lleva a un mejor rendimiento de los cultivos, una mayor eficiencia del agua y una reducci\u00f3n de costos. Tambi\u00e9n puede ayudar a los planificadores urbanos a tomar decisiones informadas sobre la gesti\u00f3n del agua y el desarrollo urbano sostenible. Los investigadores pueden utilizar este tablero para estudiar los patrones de humedad del suelo, los efectos del cambio clim\u00e1tico y desarrollar mejores pr\u00e1cticas agr\u00edcolas.",
+        "scalability": "El dise\u00f1o de c\u00f3digo abierto del tablero permite que se ampl\u00ede f\u00e1cilmente a nuevas regiones y tipos de datos. Adem\u00e1s, la interfaz web accesible garantiza que el tablero pueda utilizarse en dispositivos m\u00f3viles y ordenadores, aumentando su accesibilidad para una gama m\u00e1s amplia de usuarios.",
+        "viability": "La viabilidad t\u00e9cnica de este proyecto es alta gracias al uso de herramientas de visualizaci\u00f3n existentes como Tableau o Power BI. Sin embargo, se necesita asegurar un acceso equitativo a los datos y a la plataforma, as\u00ed como desarrollar un modelo de financiaci\u00f3n sostenible para garantizar el mantenimiento a largo plazo del tablero."
     },
     {
         "title": "An\u00e1lisis de la Relaci\u00f3n entre Humedad del Suelo y Otros Factores",
         "description": "Investigar si existe una relaci\u00f3n entre la humedad del suelo y otros factores ambientales, como la temperatura o la precipitaci\u00f3n. Esto puede ayudar a comprender mejor los patrones de humedad del suelo.",
         "technique": "An\u00e1lisis estad\u00edstico, correlaci\u00f3n, regresi\u00f3n",
         "columns": "FECHA_REGISTRO (variable independiente), HUMEDAD_SUELO_PROMEDIO_20, HUMEDAD_SUELO_PROMEDIO_60, HUMEDAD_SUELO_PROMEDIO_100 (variables dependientes). Se requerir\u00e1 informaci\u00f3n adicional sobre temperatura y precipitaci\u00f3n.",
-        "type": "fa-flask"
+        "type": "fa-flask",
+        "complement_idea": "Esta idea se puede complementar integrando biosensores de humedad, como l\u00edquenes o hongos especializados, para obtener datos en tiempo real y m\u00e1s detallados. Tambi\u00e9n se puede utilizar el aprendizaje autom\u00e1tico para entrenar algoritmos que predijen la humedad del suelo en funci\u00f3n de datos hist\u00f3ricos.",
+        "impact": "Esta idea tiene un gran impacto potencial, ya que permite optimizar los horarios de riego, lo que lleva a un ahorro de agua y un aumento de los rendimientos agr\u00edcolas. Adem\u00e1s, puede ayudar a predecir las sequ\u00edas, permitiendo a las comunidades tomar medidas preventivas para mitigar sus efectos. Finalmente, esta investigaci\u00f3n contribuye a una mayor comprensi\u00f3n de la din\u00e1mica del agua en los ecosistemas, lo que es fundamental para la conservaci\u00f3n.",
+        "scalability": "Esta idea es escalable porque se basa en modelos estad\u00edsticos que se pueden aplicar a diferentes regiones geogr\u00e1ficas. Adem\u00e1s, la integraci\u00f3n de datos satelitales puede ampliar la cobertura espacial del an\u00e1lisis.",
+        "viability": "Esta idea es viable t\u00e9cnicamente ya que los datos meteorol\u00f3gicos hist\u00f3ricos est\u00e1n disponibles p\u00fablicamente y se pueden analizar con software estad\u00edstico est\u00e1ndar. Tambi\u00e9n es financieramente viable, ya que el costo de implementaci\u00f3n es relativamente bajo."
     }
 ]
